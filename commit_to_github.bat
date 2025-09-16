@@ -2,6 +2,14 @@
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
+REM Check for restart flag to prevent infinite loops
+if /i "%~1"=="--restarted" (
+    shift
+    set "script_restarted=true"
+) else (
+    set "script_restarted=false"
+)
+
 REM Check for auto-monitor argument
 if /i "%~1"=="--auto" (
     set "auto_mode=true"
@@ -16,10 +24,11 @@ if /i "%~1"=="--auto" (
     echo Current directory: %CD%
     echo.
 )
-
+echo GitHub Auto-Monitor Script
 call :check_git_installed
 call :setup_repository
 call :show_repository_status
+call :pull_latest_changes
 call :reset_git_state
 call :setup_lfs
 call :check_file_sizes
@@ -61,20 +70,21 @@ if errorlevel 1 (
             git push -u origin !current_branch!
         )
     )
+
+    if errorlevel 1 (
+        echo.
+        echo Push failed! Check the error messages above.
+        echo Press any key to exit...
+        pause >nul
+        goto :eof
+    )
+
+    echo.
+    powershell -Command "Write-Host 'Commit completed successfully!' -ForegroundColor Green"
 ) else (
     echo No changes to commit.
 )
 
-if errorlevel 1 (
-    echo.
-    echo Push failed! Check the error messages above.
-    echo Press any key to exit...
-    pause >nul
-    goto :eof
-)
-
-echo.
-powershell -Command "Write-Host 'Commit completed successfully!' -ForegroundColor Green"
 echo Press any key to exit...
 pause >nul
 exit /b
@@ -289,5 +299,44 @@ if "!need_remote!"=="true" (
     git remote add origin "!repo_url!"
     echo Remote origin added successfully.
     echo.
+)
+goto :eof
+
+:pull_latest_changes
+git config --get remote.origin.url >nul 2>&1
+if not errorlevel 1 (
+    for /f "tokens=*" %%a in ('git branch --show-current') do set current_branch=%%a
+    git fetch origin >nul 2>&1
+
+    REM Check if there are changes to pull
+    git diff HEAD origin/!current_branch! --quiet >nul 2>&1
+    if errorlevel 1 (
+        REM Check if this script will be updated
+        git diff HEAD origin/!current_branch! --name-only | findstr /C:"commit_to_github.bat" >nul 2>&1
+        set script_updated=!errorlevel!
+
+        echo.
+        powershell -Command "Write-Host 'Remote changes detected - pulling updates:' -ForegroundColor Yellow"
+        git pull origin !current_branch! --no-edit --allow-unrelated-histories --stat
+        echo.
+        powershell -Command "Write-Host '  [OK] Remote changes synchronized' -ForegroundColor Green"
+
+        REM If script was updated, restart with new version (but only if not already restarted)
+        if !script_updated! equ 0 (
+            if "!script_restarted!"=="false" (
+                echo.
+                powershell -Command "Write-Host 'Script updated! Restarting with new version...' -ForegroundColor Cyan"
+                echo.
+                start "" "%~dpnx0" --restarted %*
+                exit
+            ) else (
+                powershell -Command "Write-Host '  [OK] Script restarted with latest version' -ForegroundColor Green"
+            )
+        )
+    ) else (
+        powershell -Command "Write-Host '  [OK] Already up to date with remote' -ForegroundColor Green"
+    )
+) else (
+    echo No remote origin configured. Skipping pull.
 )
 goto :eof
