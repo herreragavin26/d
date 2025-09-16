@@ -1,0 +1,7 @@
+#List of items to remove from players when they first join the server.
+#Format: modid:itemname (e.g., 'minecraft:book' or 'alexsmobs:animal_dictionary')
+#Players can still craft these items, they just won't spawn with them.
+itemsToRemove = ["alexsmobs:animal_dictionary", "patchouli:guide_book", "vtubruhlotrmobs:bookfornoobmodlotr"]
+#Enable debug logging for item removal
+enableDebugLogging = true
+

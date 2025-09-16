@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "1B66560D726EDFA1"
+	icon: {
+		Count: 1
+		id: "minecraft:potion"
+		tag: {
+			Potion: "minecraft:water"
+		}
+	}
+	id: "1386DFE40084027C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:sand"
+			id: "1210A2F9F65915AD"
+			rewards: [
+				{
+					id: "6C8B468CC05537BD"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "0ACDC980C9A58EFF"
+					item: "examplemod:heart_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Needed for the desert heat."
+			tasks: [
+				{
+					id: "242067CAB6E62962"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DA81F55D1766BCB"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F913D397FB7663"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "575DD778B0B4912D"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Desert Gear"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:ice"
+			id: "65DB1D06406AE523"
+			rewards: [
+				{
+					id: "6FCB479AB09FBAC8"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "6623AC2DEF8C56BA"
+					item: "examplemod:heart_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Needed for the cold climates."
+			tasks: [
+				{
+					id: "3B82DA17A7DCDF94"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "048B2ABE1632425A"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454909771FBEAD30"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77266971997DE31C"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Snow Gear"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "36EE207B3E47984E"
+			tasks: [{
+				id: "29E309A5716C1030"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Hyper/hypothermic resistant gear"]
+	title: "Temperature"
+}

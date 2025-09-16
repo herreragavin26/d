@@ -1,0 +1,19 @@
+#List of items to remove from players when they first join the server.
+#Format: modid:itemname (e.g., 'minecraft:book' or 'alexsmobs:animal_dictionary')
+#Players can still craft these items, they just won't spawn with them.
+itemsToRemove = ["alexsmobs:animal_dictionary", "patchouli:guide_book", "vtubruhlotrmobs:bookfornoobmodlotr"]
+#Enable debug logging for item removal
+enableDebugLogging = true
+#Send debug messages to player chat (useful for testing)
+enableChatDebug = true
+#Ignore NBT data when matching items (removes items regardless of enchantments, tags, etc.)
+#Set to true to remove items like patchouli:guide_book even if they have custom NBT data
+ignoreNbtData = true
+#Remove ALL book-type items regardless of mod (catches any guidebooks that might be missed)
+#WARNING: This will remove ALL books including minecraft:book, minecraft:written_book, etc.
+removeAllBooks = true
+#NUCLEAR OPTION: Clear the ENTIRE inventory on first spawn
+#This will remove EVERYTHING from the player's inventory when they first join
+#Use this if specific item removal isn't working
+clearEntireInventory = true
+

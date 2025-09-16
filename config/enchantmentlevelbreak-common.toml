@@ -1,0 +1,12 @@
+#Use roman numerals for enchantment levels instead of arabic numbers
+useRomanNumerals = true
+#Allow applying any enchantment book to any item in anvil
+allowAnyEnchantment = false
+#Allow vanilla enchantment level stacking in anvil (e.g. 4+4=5, same level +1)
+allowVanillaLevelStacking = true
+#Allow unlimited enchantment level stacking in anvil (e.g. 4+4=8 instead of vanilla's 4+4=5)
+allowLevelStacking = false
+#Maximum level for enchantments (range: 255-2147483647)
+#Range: > 255
+maxEnchantmentLevel = 2147483647
+

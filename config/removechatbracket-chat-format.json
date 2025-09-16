@@ -1,0 +1,14 @@
+{
+  "chat.type.text": "%s %s",
+  "chat.type.text.narrate": "%s says %s",
+  "chat.type.team.text": "%s %s %s",
+  "chat.type.team.sent": "-\u003e %s %s %s",
+  "chat.type.announce": "[%s] %s",
+  "chat.type.emote": "* %s %s",
+  "_comment.chat.type.text": "Normal chat format",
+  "_comment.chat.type.narrate": "Narrate chat format",
+  "_comment.chat.team.text": "Team chat format for receiving",
+  "_comment.chat.team.sent": "Team chat format for sending",
+  "_comment.chat.announce": "/say command chat format",
+  "_comment.chat.emote": "Emote format"
+}

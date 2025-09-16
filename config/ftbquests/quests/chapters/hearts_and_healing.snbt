@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hearts_and_healing"
+	group: "1B66560D726EDFA1"
+	icon: "examplemod:heart_crystal"
+	id: "23DB2A32479A9211"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14F70B7B8A1AB3A0"]
+			description: ["&aYou can farm heart shards from spawners and mobs."]
+			icon: "examplemod:heart_shard"
+			id: "2F2F5EC489A97874"
+			rewards: [
+				{
+					id: "4BA3CFA8883B5E52"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "74E9F8F2CBEF283A"
+					item: "examplemod:heart_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Combine 9 heart shards to create a heart crystal for permanent health boost."
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "4DC674065E0F207C"
+				title: "Zombie"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Heart Shards"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F2F5EC489A97874"]
+			icon: "examplemod:heart_crystal"
+			id: "41F83E98D081BDAE"
+			rewards: [
+				{
+					id: "636AAB9AEF873673"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "09D09C5EB8898964"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 30 cave spiders for a permanent health boost."
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "spartanweaponry:cave_spider_head"
+				id: "5BAF40865F0BD57E"
+				title: "Cave Spider"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Heart Crystal"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: ["&4Each part of your body can now be damaged. Head, left arm, left leg, left foot, body, right arm, right leg, right foot all have their own hp bar. Each having 2 hearts besides the body (3 hearts). You can increase your health by obtaining hearts shards to turn into heart crystals."]
+			id: "14F70B7B8A1AB3A0"
+			rewards: [{
+				id: "24E832F3B6D8AFAA"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Heals the wounds."
+			tasks: [{
+				id: "21C6B5CB31308E9F"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14F70B7B8A1AB3A0"]
+			id: "6C14CA784258FAA3"
+			rewards: [{
+				id: "5CC773ED81589929"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Campfires are uncraftable but if found they provide a health regen buff."
+			tasks: [{
+				id: "7D5987880D7C6834"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14F70B7B8A1AB3A0"]
+			id: "4A4EEBF81A65692F"
+			rewards: [{
+				id: "68DEB6D785BC5D60"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "For the slightly deep cuts."
+			tasks: [{
+				id: "753B97E6D6D7C950"
+				item: "firstaid:bandage"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Head and torso will cause instant death"]
+	title: "Health System"
+}

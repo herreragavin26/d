@@ -1,0 +1,103 @@
+{
+  "autoGenerate": true,
+  "NaturallyCharged": true,
+  "NaturallyChargedNeedRain": true,
+  "ChargedChange": 0.05,
+  "damageMul": {},
+  "damageAdd": {
+    "minecraft:enderman": 4.0
+  },
+  "armorMul": {},
+  "armorAdd": {
+    "minecraft:illusioner": 4.0,
+    "minecraft:zombie": 4.0,
+    "minecraft:drowned": 4.0,
+    "minecraft:zombie_villager": 4.0,
+    "minecraft:husk": 4.0,
+    "antiquebeasts:draugr_scourge": 4.0
+  },
+  "toughnessMul": {},
+  "toughnessAdd": {},
+  "knockbackMul": {},
+  "knockbackAdd": {
+    "minecraft:ravager": 1.5
+  },
+  "knockbackResistanceMul": {},
+  "knockbackResistanceAdd": {
+    "minecraft:cave_spider": 0.3,
+    "minecraft:zombified_piglin": 0.3,
+    "minecraft:witch": 0.5
+  },
+  "followRangeMul": {
+    "antiquebeasts:dwemer_spider_guardian": 0.5,
+    "antiquebeasts:dwemer_spider": 0.5,
+    "antiquebeasts:skeleton_warrior_head": 0.5
+  },
+  "followRangeAdd": {
+    "minecraft:pillager": 12.0,
+    "minecraft:giant": 16.0,
+    "minecraft:vindicator": 12.0,
+    "minecraft:evoker": 12.0,
+    "minecraft:ender_dragon": 16.0,
+    "antiquebeasts:draugr_overlord": 16.0,
+    "antiquebeasts:draugr_wight": 16.0,
+    "antiquebeasts:draugr_archer": 16.0,
+    "aftershock:american_dirt_dragon": 16.0
+  },
+  "healthMul": {
+    "antiquebeasts:dwemer_centurion": 0.5,
+    "antiquebeasts:skeleton_warrior": 0.5,
+    "aftershock:american_blaster": 0.5
+  },
+  "healthAdd": {
+    "minecraft:piglin": 7.0,
+    "minecraft:spider": 6.0,
+    "minecraft:wither": 7.0,
+    "minecraft:slime": 6.0,
+    "antiquebeasts:draugr": 7.0,
+    "aftershock:american_shreiker": 7.0,
+    "aftershock:american_graboid": 7.0
+  },
+  "moveSpeedMul": {},
+  "moveSpeedAdd": {
+    "minecraft:skeleton": 0.1,
+    "minecraft:stray": 0.1,
+    "minecraft:bogged": 0.1
+  },
+  "flyingSpeedMul": {},
+  "flyingSpeedAdd": {},
+  "spawnReinforcementsMul": {},
+  "spawnReinforcementsAdd": {},
+  "immunityLightning": [
+    "minecraft:slime",
+    "minecraft:spider"
+  ],
+  "randomAttribute": [
+    "followRangeAdd",
+    "healthAdd",
+    "armorAdd",
+    "followRangeMul",
+    "healthMul",
+    "knockbackResistanceAdd"
+  ],
+  "banMobs": [
+    "minecraft:endermite",
+    "minecraft:phantom",
+    "minecraft:ghast",
+    "minecraft:elder_guardian",
+    "minecraft:magma_cube",
+    "minecraft:blaze",
+    "minecraft:hoglin",
+    "minecraft:wither_skeleton",
+    "minecraft:shulker",
+    "minecraft:silverfish",
+    "minecraft:vex",
+    "minecraft:warden",
+    "minecraft:guardian",
+    "minecraft:creeper",
+    "minecraft:piglin_brute",
+    "minecraft:zoglin",
+    "minecraft:breeze",
+    "minecraft:creaking"
+  ]
+}

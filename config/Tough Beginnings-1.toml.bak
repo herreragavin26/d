@@ -1,0 +1,5 @@
+
+[General]
+	#Enable/Disable unlocking the ability to break logs/stone with your hands after initially completing the mod
+	"Unlock Punching" = true
+

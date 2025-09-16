@@ -1,0 +1,7 @@
+[worldgen]
+overworld_biomes = true
+overworld_region_weight = 2
+nether_biomes = true
+nether_region_weight = 2
+end_biomes = true
+end_region_weight = 2

@@ -1,0 +1,323 @@
+{
+	"katherine": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 20.0,
+		"attack": 5.0
+	},
+	"archer": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 32.0,
+		"attack": 1.6,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"armored_zombie": {
+		"spawn": true,
+		"spawn_rate": 15,
+		"life": 20.0,
+		"attack": 7.0
+	},
+	"bigboss": {
+		"spawn": false,
+		"spawn_rate": 1,
+		"life": 400.0,
+		"attack": 9.0
+	},
+	"black_bear": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 20.0,
+		"attack": 6.0
+	},
+	"blue_spider": {
+		"spawn": true,
+		"spawn_rate": 20,
+		"life": 24.0,
+		"attack": 6.0
+	},
+	"boar": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 16.0
+	},
+	"boss_skeleton": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 60.0
+	},
+	"boss_zombie": {
+		"spawn": true,
+		"spawn_rate": 1,
+		"life": 400.0,
+		"attack": 10.0
+	},
+	"bowman": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 32.0,
+		"attack": 1.6,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"brown_bear": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 30.0,
+		"attack": 6.0
+	},
+	"cookie_creeper": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 24.0
+	},
+	"dirty_boar": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 10.0
+	},
+	"dwarf": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 70.0,
+		"attack": 7.0,
+		"can_join_raid": "SURFACE_ONLY",
+		"underground_only": false
+	},
+	"ender_knight": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 48.0,
+		"attack": 8.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"ender": {
+		"spawn": true,
+		"spawn_rate": 8,
+		"life": 46.0,
+		"attack": 9.0
+	},
+	"ender_zombie": {
+		"spawn": true,
+		"spawn_rate": 8,
+		"life": 20.0,
+		"attack": 5.0
+	},
+	"fiora": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 30.0,
+		"attack": 5.0
+	},
+	"frost_blaze": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 26.0,
+		"attack": 7.0
+	},
+	"frost_creeper": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 18.0
+	},
+	"golden_chicken": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 4.0
+	},
+	"honey_slime": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 4.0,
+		"attack": 1.0
+	},
+	"ice_golem": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 52.0,
+		"attack": 14.0
+	},
+	"illusioner": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 16.0,
+		"attack": 1.6,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"lava_golem": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 48.0,
+		"attack": 14.0
+	},
+	"lord_of_darkness": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 72.0,
+		"attack": 7.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"lost_skeleton": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 20.0,
+		"attack": 5.0
+	},
+	"metal_golem": {
+		"enabled": true,
+		"life": 160.0,
+		"attack": 16.0
+	},
+	"nether_skeleton": {
+		"spawn": true,
+		"spawn_rate": 6,
+		"life": 28.0
+	},
+	"nether_wolf": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 20.0,
+		"attack": 6.0
+	},
+	"overgrown_skeleton": {
+		"spawn": true,
+		"spawn_rate": 15,
+		"life": 26.0
+	},
+	"pigman": {
+		"spawn": true,
+		"spawn_rate": 10,
+		"life": 24.0,
+		"attack": 7.0
+	},
+	"pillager_boss": {
+		"enabled": true,
+		"life": 300.0,
+		"attack": 12.0,
+		"can_join_raid": "SURFACE_ONLY",
+		"wither_attack_cooldown": 60,
+		"wither_attack_cooldown_hard": 45
+	},
+	"purple_spider": {
+		"spawn": true,
+		"spawn_rate": 15,
+		"life": 26.0,
+		"attack": 5.0
+	},
+	"soul_creeper": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 25.0
+	},
+	"fast_zombie": {
+		"spawn": true,
+		"spawn_rate": 30,
+		"life": 15.0,
+		"attack": 4.0
+	},
+	"spider_mage": {
+		"spawn": true,
+		"spawn_rate": 6,
+		"life": 32.0,
+		"attack": 7.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"iron_steve": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 32.0,
+		"attack": 9.0
+	},
+	"stone_golem": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 64.0,
+		"attack": 14.0
+	},
+	"tank_zombie": {
+		"spawn": true,
+		"spawn_rate": 30,
+		"life": 56.0,
+		"attack": 9.0
+	},
+	"templar": {
+		"spawn": true,
+		"spawn_rate": 2,
+		"life": 34.0,
+		"attack": 7.0
+	},
+	"tiny_spider": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 1.0,
+		"attack": 0.0
+	},
+	"warrior": {
+		"spawn": true,
+		"spawn_rate": 3,
+		"life": 48.0,
+		"attack": 6.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"wild_boar": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 12.0
+	},
+	"withender": {
+		"enabled": true,
+		"life": 400.0
+	},
+	"wither_blaze": {
+		"spawn": true,
+		"spawn_rate": 6,
+		"life": 26.0,
+		"attack": 8.0
+	},
+	"zombie_mage": {
+		"spawn": true,
+		"spawn_rate": 5,
+		"life": 28.0,
+		"attack": 7.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"charles": {
+		"life": 120.0,
+		"attack": 10.0,
+		"can_join_raid": "SURFACE_ONLY",
+		"slowdown_attack_cooldown": 180,
+		"vex_summon_cooldown": 200
+	},
+	"william": {
+		"life": 60.0,
+		"attack": 8.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"andriu": {
+		"life": 60.0,
+		"attack": 8.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"knight": {
+		"life": 26.0,
+		"attack": 6.0,
+		"can_join_raid": "SURFACE_ONLY"
+	},
+	"spirit_of_death": {
+		"life": 16.0,
+		"attack": 5.0
+	},
+	"baby_ravager": {
+		"life": 40.0,
+		"attack": 10.0,
+		"spawn_count": 12
+	},
+	"toad": {
+		"spawn": false,
+		"spawn_rate": 8,
+		"life": 10.0
+	},
+	// Be carefull with this setting! Multiplicator must be > 0!
+	"life_multiplier": 1.0,
+	// Be carefull with this setting! Multiplicator must be > 0!
+	"damage_multiplier": 1.0
+}

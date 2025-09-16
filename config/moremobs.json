@@ -1,0 +1,8 @@
+{
+  "enable_heads": "WORLD",
+  "enable_head_drops": "WORLD",
+  "enable_additional_loot": "WORLD",
+  "enable_additional_valuable_loot": "WORLD",
+  "enable_upside_down_spiders": "WORLD",
+  "enable_let_undead_mobs_burn_in_daylight": "WORLD"
+}

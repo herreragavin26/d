@@ -1,0 +1,65 @@
+#語言(英語,繁體中文,簡體中文,巴西葡萄牙語,韓語)
+#Language (English,Chinese_TW,Chinese_CN,Portuguese_BR,Korean_KR)
+Language: English
+
+#是否啟用自動定時清理
+#Whether to enable automatic scheduled cleaning
+AutoClear: false
+
+#多久執行自動清理
+#How often to perform automatic cleanup
+AutoClearDelay: 600
+
+#向控制台發送清理訊息
+#Send a cleanup message to the console
+ConsoleMessage: true
+
+#向玩家發送清理訊息
+#Send a cleanup message to the player
+PlayerMessage: true
+
+#是否清除有自訂名稱的生物
+#Whether to clear mobs with custom names
+ClearHasCustomName: true
+
+#寵物相關設定
+#Pet related settings
+Pet:
+  #是否清理
+  #whether to clean up
+  Clear: false
+
+#魔物相關設定
+#Monster related settings
+Mob:
+  #是否清理
+  #whether to clean up
+  Clear: true
+  #將名單由忽略改為清理
+  #Change the list from ignore to cleanup
+  BlackListToWhiteList: false
+  #超過指定數量就清除
+  #Clear when the specified amount is exceeded
+  GreaterAmount: 200
+  #距離玩家多少範圍外的才刪除
+  #How far away from the player will it be deleted
+  AwayFormPlayer: 30
+
+#物品相關設定
+#item related settings
+Item:
+  #是否清理
+  #whether to clean up
+  Clear: true
+  #將名單由忽略改為清理
+  #Change the list from ignore to cleanup
+  BlackListToWhiteList: false
+  #超過指定數量就清除
+  #Clear when the specified amount is exceeded
+  GreaterAmount: 200
+  #距離玩家多少範圍外的才刪除
+  #How far away from the player will it be deleted
+  AwayFormPlayer: 1
+
+
+

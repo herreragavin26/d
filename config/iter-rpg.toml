@@ -1,0 +1,48 @@
+
+["World generation"]
+	#Enables abyss quartz generation
+	"Abyss quartz" = true
+	#Enables vase generation
+	"Ancient vases" = true
+	#Enables spider egg generation
+	"Spider eggs" = true
+	#Enables the generation of simple un-themed dungeons
+	"Generic dungeons" = true
+	#Enables the generation of Arthropod Catacombs
+	"Arthropod catacombs" = true
+	#Enables the generation of goblin camps
+	"Goblin Camps" = true
+	#Enables the generation of Sorrow Spires
+	"Sorrow Spire" = true
+	#Enables the generation of Monoliths
+	Monolith = true
+	#Enables the generation of elemental shrines
+	"Elemental shrines" = true
+	Geodites = true
+
+["Mob spawns"]
+	#Enables the spawning of elementals
+	Elementals = true
+	#Enables the spawning of giant spiders
+	"Giant Spiders" = true
+	#Enables the spawning of bloateds
+	Bloateds = true
+	#Enables the spawning of unbound souls
+	Ghosts = true
+	#Enables the spawning of axebeaks
+	Axebeaks = true
+
+[Features]
+	#Unidentified spell drop frequency multiplier. Set to 0 to disable.
+	"Spell drop" = 1.0
+	#Coin drop frequency multiplier. Set to 0 to disable.
+	"Coin drop" = 1.0
+	#Geode drop frequency multiplier. Set to 0 to disable.
+	"Geode drop" = 1.0
+	#Flawless gems drop frequency multiplier. Set to 0 to disable.
+	"Flawless gems" = 1.0
+	#Ticks for a geodrill to mine a geodite
+	"Geodrill time" = 12000.0
+	#Ticks for a goblin spawner to attempt to respawn goblins
+	"Goblin spawner time" = 12000.0
+

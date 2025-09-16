@@ -1,0 +1,8 @@
+
+#Settings
+[general]
+	#Changes the Zombie Dwarf model to a standard zombie model.
+	# Default: false
+	# Note: This don't change his collision box
+	oldZombieDwarfModel = false
+

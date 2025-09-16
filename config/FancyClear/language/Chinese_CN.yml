@@ -1,0 +1,15 @@
+Header: '§a[FancyClear] '
+Command:
+  Reload: '重新读取设定档。'
+  Kill: '执行删除实体指令。'
+  SaveID: '将实体名称保存到entity-id-list.yml。'
+  TPS: 'TPS:{tps}'
+Clear:
+  30: '§f30 §a秒后开始清理实体。'
+  10: '§f10 §a秒后开始清理实体。'
+  5: '§f5 §a秒后开始清理实体。'
+  4: '§f4 §a秒后开始清理实体。'
+  3: '§f3 §a秒后开始清理实体。'
+  2: '§f2 §a秒后开始清理实体。'
+  1: '§f1 §a秒后开始清理实体。'
+  remove: '清除掉 §f{mob} §a个生物和 §f{item} §a个物品。'

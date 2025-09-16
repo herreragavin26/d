@@ -1,0 +1,13 @@
+
+[Hardnesses]
+	#Range: 5.0 ~ 50.0
+	Peaceful = 5.0
+	#Range: 5.0 ~ 50.0
+	Easy = 9.0
+	#Range: 5.0 ~ 50.0
+	Medium = 22.5
+	#Range: 5.0 ~ 50.0
+	Hard = 30.0
+	#Range: 5.0 ~ 50.0
+	Hardcore = 50.0
+

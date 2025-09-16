@@ -1,0 +1,14 @@
+{
+  "text.icl.config.updated": "Config value %s changed to %s",
+  "text.icl.notification": "Items on the ground will be removed in %d seconds",
+  "text.icl.readme": "§l§nCommands§r\n\nThe main command provided by ICL is §a/icl§r, which has several subcommands:\n\n- §a/icl forceclean§r: Immediately clears all items on the ground.\n- §a/icl reload§r: Reloads the ICL.\n- §a/icl config set \u003ckey\u003e \u003cvalue\u003e§r: Changes a configuration value. To see current configuration value, use /icl config set \u003ckey\u003e.\n- §a/icl cancel [seconds]§r: Cancels the next clear. If a number of seconds is provided, the next clear will be scheduled after that many seconds.\n\n§l§nConfiguration§r\n\nConfiguration values can be changed using the §a/icl config set§r command. Here are some of the configurable values:\n\n- §aDelay§r: The delay (in seconds) between automatic item clears.\n- §aNotificationDelay§r: The delay (in seconds) before a clear when a notification will be sent.\n- §aNotificationStart§r: The time (in seconds) when notifications start being sent before a clear.\n- §aNotificationTimes§r: The number of notifications to send before a clear.\n- §aCountdownStart§r: The time (in seconds) when the countdown starts before a clear.\n- §adoNotificationCountdown§r: Whether to show a countdown before a clear.\n- §adoNotificationSound§r: Whether to play a sound when a notification is sent.\n- §adoLastNotificationSound§r: Whether to play a sound when a last notification is sent.\n- §aNotificationSound§r: The sound to play when a notification is sent.\n- §aLastNotificationSound§r: The sound to play when a last notification is sent.\n- §aNotificationLang§r: The language for notifications.\n- §aNotificationColor§r: The color for notifications.\n- §aRequireOp§r: Whether to require OP to use ICL commands(except /icl, /icl cancel).\n- §aRequireOpCancel§r: Whether to require OP to cancel a clear.\n- §apreserveNoDespawnItems§r: Whether to preserve items that are set to never despawn.\n- §apreserveNoPickupItems§r: Whether to preserve items that are set to never be picked up.",
+  "text.icl.clear.finish": "Items cleared: %d",
+  "text.icl.clear": "Clearing items",
+  "text.icl.cancel.button": "[Cancel]",
+  "text.icl.config.current": "Current value of %s: %s (Default: %s)",
+  "text.icl.countdown": "Clearing items in %d",
+  "text.icl.cancel.message": "Item clear cancelled",
+  "text.icl.reload.fail": "Failed to reload ICL",
+  "text.icl.reload": "ICL reloaded",
+  "text.icl.forceclear": "Forced clearing of items"
+}

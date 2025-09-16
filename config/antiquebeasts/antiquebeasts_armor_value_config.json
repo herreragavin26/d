@@ -1,0 +1,50 @@
+{
+  "valkyrieArmor": [
+    4,
+    6,
+    8,
+    4
+  ],
+  "ironPlateArmor": [
+    3,
+    5,
+    6,
+    2
+  ],
+  "goldPlateArmor": [
+    3,
+    5,
+    6,
+    3
+  ],
+  "diamondPlateArmor": [
+    4,
+    6,
+    8,
+    4
+  ],
+  "netheritePlateArmor": [
+    5,
+    7,
+    9,
+    5
+  ],
+  "ironScaleArmor": [
+    3,
+    5,
+    6,
+    2
+  ],
+  "goldScaleArmor": [
+    3,
+    5,
+    6,
+    3
+  ],
+  "diamondScaleArmor": [
+    4,
+    6,
+    8,
+    4
+  ]
+}

@@ -1,0 +1,19 @@
+#Disable wool drops to force the player to get shears.
+disableWoolDrops = false
+#Reset all skills to 1 when a player dies.
+deathSkillReset = false
+#Starting cost of upgrading to level 2, in levels.
+#Range: 0 ~ 10
+startingCost = 2
+#Amount of levels added to the cost with each upgrade (use 0 for constant cost).
+#Range: 0 ~ 10
+costIncrease = 1
+#Maximum level each skill can be upgraded to.
+#Range: 2 ~ 100
+maximumLevel = 32
+#List of substitutions to perform in names in skill lock lists.
+#Useful if you're using a resource pack to change the names of skills, this config doesn't affect gameplay, just accepted values in other configs so it's easier to think about
+#Format: key=value
+#Valid values: attack, defense, mining, gathering, farming, building, agility, magic
+skillAliases = ["defense=defense"]
+

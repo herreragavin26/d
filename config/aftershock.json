@@ -1,0 +1,17 @@
+{
+  "shotgun_damage": 25.0,
+  "americandirtdevil_health": 12.0,
+  "americandirtdevil_exp": 2,
+  "americandirtdevil_damage": 3,
+  "americandirtdevil_ram_damage": 8,
+  "americangraboid_health": 80.0,
+  "americangraboid_armor": 5,
+  "americangraboid_exp": 10,
+  "americangraboid_damage": 6,
+  "americanshreiker_health": 20.0,
+  "americanshreiker_exp": 4,
+  "americanshreiker_damage": 6,
+  "americanblaster_health": 40.0,
+  "americanblaster_exp": 8,
+  "americanblaster_damage": 8
+}

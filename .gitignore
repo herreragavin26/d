@@ -1,0 +1,29 @@
+# Ignore everything by default
+*
+
+# Only allow these specific directories
+!config/
+!config/**
+!global_packs/
+!global_packs/**
+!scripts/
+!scripts/**
+!datapacks/
+!datapacks/**
+!resourcepacks/
+!resourcepacks/**
+!mods/
+!mods/**
+
+# Allow the commit script
+!commit_to_github.bat
+!.gitignore
+mods/L_Enders_Cataclysm-3.16.jar
+
+mods/ba_bt-1.20.1-3.0.0-beta2.jar
+
+mods/minecolonies-1.20.1-1.1.976.jar
+
+mods/soulslike-weaponry-1.2.4-1.20.1-forge.jar
+
+resourcepacks/Hyper_Realistic_Sky_[v3.2].zip

@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beggining_or"
+	group: "1B66560D726EDFA1"
+	icon: "minecraft:flint"
+	id: "06D4ADC6C8B1D464"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3969EFCF00F8FA46"]
+			id: "51C1C96903CA1272"
+			rewards: [{
+				id: "67971D24C73524EA"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Gather flint shards by smashing flint onto stone. Gather sticks by breaking leaves."
+			tasks: [
+				{
+					id: "57BBB565CC150BE0"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "74F7DFF0BABDCDFA"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+				{
+					id: "5663F1CC08C33CE7"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Flint and Sticks"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51C1C96903CA1272"]
+			description: [""]
+			id: "2F0B2B7FB9935493"
+			rewards: [{
+				id: "349CCC83244876C2"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine flint shard and a stick to create flint knife."
+			tasks: [{
+				id: "0340CE3601BDB543"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F0B2B7FB9935493"]
+			id: "77EB18D313E33721"
+			rewards: [{
+				id: "54FCBC48F93A52AF"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine three plant fiber to create string."
+			tasks: [
+				{
+					count: 3L
+					id: "3E2D3507FA0AB5C6"
+					item: { Count: 3, id: "notreepunching:plant_fiber" }
+					type: "item"
+				}
+				{
+					id: "58BEE1F12CD2A94C"
+					item: "notreepunching:plant_string"
+					type: "item"
+				}
+			]
+			title: "Plant Fiber and String"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: ["Following this questline will show you the &abasics&f of the modpack. Keep in mind &4stone/wood tools are disabled&f, you will be using flint tools until you find iron ore and craft iron tools."]
+			id: "3969EFCF00F8FA46"
+			rewards: [{
+				id: "0FA2FB8C9F5B2FDF"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Read below!"
+			tasks: [{
+				id: "76542B4867F427D1"
+				title: "The Beginning?"
+				type: "checkmark"
+			}]
+			title: "Start Here!"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77EB18D313E33721"]
+			description: ["There are no wood/stone tools. Flint tools will be your main tools until you find iron. (You can mine iron with flint tools)"]
+			id: "6BEB3EE8C47F5F91"
+			rewards: [{
+				id: "10946A311E3AEF5B"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine a stick, flint shard, and string to create flint axe."
+			tasks: [{
+				id: "46A1821A1F0B6E60"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BEB3EE8C47F5F91"]
+			description: ["There are no wood/stone tools. Flint tools will be your main tools until you find iron. (You can mine iron with flint tools)"]
+			id: "62A44237F652D802"
+			rewards: [{
+				id: "7E6BCC5A86E2EC75"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine four flint shards, two sticks and ones string to craft flint pickaxe."
+			tasks: [{
+				id: "495994F3B798A58B"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62A44237F652D802"]
+			description: ["There are no wood/stone tools. Flint tools will be your main tools until you find iron. (You can mine iron with flint tools)"]
+			id: "551659304A2485C3"
+			rewards: [{
+				id: "7AC3B15ADA2CAA98"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine three flint shard, one stick, and one string to craft flint shovel."
+			tasks: [{
+				id: "7741FD7BA4A520E5"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["551659304A2485C3"]
+			description: ["There are no wood/stone tools. Flint tools will be your main tools until you find iron. (You can mine iron with flint tools)"]
+			id: "7E1F725153B40BB6"
+			rewards: [{
+				id: "3F72253F0F3C71BF"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine two flint shards, two sticks, and one string to craft flint hoe."
+			tasks: [{
+				id: "32F414AB0EDA457B"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E1F725153B40BB6"]
+			description: ["There are no wood/stone tools. Flint tools will be your main tools until you find iron. (You can mine iron with flint tools)"]
+			id: "0BFB292C67D7AD2D"
+			rewards: [{
+				id: "3A276FB26C8295EA"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Combine four flint shards and three sticks to craft macuahuitl. Atleast it's better than the wooden club..."
+			tasks: [{
+				id: "34805A258AE63D6E"
+				item: {
+					Count: 1
+					id: "notreepunching:macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BEB3EE8C47F5F91"]
+			description: ["You cannot use a stone axe to turn logs into planks. Anything besides stone/wood works."]
+			id: "7FD26A7FC889172C"
+			rewards: [{
+				id: "6D66F76EDF3D61D6"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Turn the logs into planks by placing the flint axe above the logs inside the 2x2 crafting area."
+			tasks: [
+				{
+					id: "71AD431040922235"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "19761F0CF7B56B36"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			title: "Logs and Planks"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FD26A7FC889172C"]
+			id: "3703F22B2FE20D87"
+			rewards: [{
+				id: "30F047C68D09385B"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "These will be handy."
+			tasks: [
+				{
+					id: "34E8FFF095AA97F8"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "3CAA62AFFFCDDE45"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Crafting Table and Furnace"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3703F22B2FE20D87"]
+			description: ["&bQuench your thirst!&1"]
+			id: "0F882423CDB23B98"
+			rewards: [{
+				id: "4EBCEA436282412E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Fill the empty bottle with water then cook in a furnace to purify."
+			tasks: [
+				{
+					count: 3L
+					id: "71A13A9C6BEACD97"
+					item: { Count: 3, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "53E580DD8C5CC4C6"
+					item: { Count: 3, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					id: "4B5F899CDFC3AD3D"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "0947ECE744C85620"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "305228A1988CDBEF"
+					item: "legendarysurvivaloverhaul:purified_water_bottle"
+					type: "item"
+				}
+			]
+			title: "Drinking Water"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F882423CDB23B98"]
+			id: "4AE62B05F08A1B34"
+			rewards: [{
+				id: "75ECBC8742BB4136"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Better than glass bottles."
+			tasks: [{
+				id: "6D44E8C53853F3D2"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BEB3EE8C47F5F91"]
+			id: "24C4DC8C65FF9503"
+			rewards: [{
+				id: "789F43149F744DA6"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Needed."
+			tasks: [{
+				id: "111063405725CDC9"
+				item: {
+					Count: 1
+					id: "spartanshields:wooden_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C4DC8C65FF9503"]
+			id: "0B0795FE2ED4CED3"
+			rewards: [{
+				id: "40CF05423DCBC7B4"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Slightly stronger than the Macua."
+			tasks: [{
+				id: "0A56C042B8B328CE"
+				item: {
+					Count: 1
+					id: "spartanweaponry:wooden_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Recommended for beginners"]
+	title: "The Beginning?"
+}

@@ -1,0 +1,16 @@
+
+[performance]
+	#Force use of shared executor for all async tasks, regardless of CPU count
+	forceSharedExecutor = false
+
+[storms]
+	#Enable random debris spawning during storms
+	enableStormDebris = true
+	#Maximum number of storm debris items allowed per chunk
+	#Range: > 0
+	maxStormDebrisPerChunk = 30
+	#Automatically repair tornado-damaged glass after 5 minutes of no new damage
+	autoRepairGlass = true
+	#Enable glass damage when a tornado passes over it
+	damageGlassOnTornado = true
+

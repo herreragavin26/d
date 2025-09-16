@@ -1,0 +1,123 @@
+
+[compat]
+	#Enable compat registrations for 'ad_astra'
+	ad_astra = true
+	#Enable compat registrations for 'apotheosis'
+	apotheosis = true
+	#Enable compat registrations for 'ae2'
+	ae2 = true
+	#Enable compat registrations for 'ars_nouveau'
+	ars_nouveau = true
+	#Enable compat registrations for 'biomesoplenty'
+	biomesoplenty = true
+	#Enable compat registrations for 'bloodmagic'
+	bloodmagic = true
+	#Enable compat registrations for 'blue_skies'
+	blue_skies = true
+	#Enable compat registrations for 'born_in_chaos_v1'
+	born_in_chaos_v1 = true
+	#Enable compat registrations for 'bosses_of_mass_destruction'
+	bosses_of_mass_destruction = true
+	#Enable compat registrations for 'botania'
+	botania = true
+	#Enable compat registrations for 'the_bumblezone'
+	the_bumblezone = true
+	#Enable compat registrations for 'bygonenether'
+	bygonenether = true
+	#Enable compat registrations for 'conjurer_illager'
+	conjurer_illager = true
+	#Enable compat registrations for 'cyclic'
+	cyclic = true
+	#Enable compat registrations for 'deeperdarker'
+	deeperdarker = true
+	#Enable compat registrations for 'draconicevolution'
+	draconicevolution = true
+	#Enable compat registrations for 'ecologics'
+	ecologics = true
+	#Enable compat registrations for 'enderio'
+	enderio = true
+	#Enable compat registrations for 'enigmaticlegacy'
+	enigmaticlegacy = true
+	#Enable compat registrations for 'enlightened_end'
+	enlightened_end = true
+	#Enable compat registrations for 'evilcraft'
+	evilcraft = true
+	#Enable compat registrations for 'bigreactors'
+	bigreactors = true
+	#Enable compat registrations for 'forbidden_arcanus'
+	forbidden_arcanus = true
+	#Enable compat registrations for 'friendsandfoes'
+	friendsandfoes = true
+	#Enable compat registrations for 'graveyard'
+	graveyard = true
+	#Enable compat registrations for 'hexerei'
+	hexerei = true
+	#Enable compat registrations for 'irons_spellbooks'
+	irons_spellbooks = true
+	#Enable compat registrations for 'legendarycreatures'
+	legendarycreatures = true
+	#Enable compat registrations for 'malum'
+	malum = true
+	#Enable compat registrations for 'mekanism'
+	mekanism = true
+	#Enable compat registrations for 'midnight'
+	midnight = true
+	#Enable compat registrations for 'mowziesmobs'
+	mowziesmobs = true
+	#Enable compat registrations for 'mutantmonsters'
+	mutantmonsters = true
+	#Enable compat registrations for 'mysticalagriculture'
+	mysticalagriculture = true
+	#Enable compat registrations for 'naturalist'
+	naturalist = true
+	#Enable compat registrations for 'naturesaura'
+	naturesaura = true
+	#Enable compat registrations for 'nourished_nether'
+	nourished_nether = true
+	#Enable compat registrations for 'occultism'
+	occultism = true
+	#Enable compat registrations for 'biomeswevegone'
+	biomeswevegone = true
+	#Enable compat registrations for 'outer_end'
+	outer_end = true
+	#Enable compat registrations for 'rats'
+	rats = true
+	#Enable compat registrations for 'refinedstorage'
+	refinedstorage = true
+	#Enable compat registrations for 'regions_unexplored'
+	regions_unexplored = true
+	#Enable compat registrations for 'stalwart_dungeons'
+	stalwart_dungeons = true
+	#Enable compat registrations for 'supplementaries'
+	supplementaries = true
+	#Enable compat registrations for 'toughasnails'
+	toughasnails = true
+	#Enable compat registrations for 'tropicraft'
+	tropicraft = true
+	#Enable compat registrations for 'yungscavebiomes'
+	yungscavebiomes = true
+	#Enable compat registrations for 'palegarden'
+	palegarden = true
+
+[features]
+	#Expose Void Delight
+	void_delight = true
+	#Expose Bamboo Delight
+	bamboo_delight = true
+	#Expose Coral Delight
+	coral_delight = true
+	#Expose Caves Delight
+	caves_delight = true
+	#Expose Boss Delight
+	boss_delight = true
+	#Expose Flower Delight
+	flower_delight = true
+	#Expose Nature Delight
+	nature_delight = true
+	#Expose Sweet Delight
+	sweet_delight = true
+	#Expose Vegetables Delight
+	vegetables_delight = true
+	#Expose Ingredients Delight
+	ingredients_delight = true
+

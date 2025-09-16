@@ -1,0 +1,4 @@
+
+[BlockBlocker]
+	BlockedBlocks = ["vtubruhlotrmobs:vquesttable", "world:leavesoak", "world:oak", "unusualprehistory:sludge"]
+

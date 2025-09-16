@@ -1,0 +1,64 @@
+// ==========================================================
+// Bandits Mod Configuration File
+// ==========================================================
+// This file contains all configurable options for the Bandits mod.
+// Edit the values below to customize your gameplay experience.
+// Note: Comments in this file (lines starting with //) will be removed
+// when the file is reloaded, but your settings will be preserved.
+
+{
+    // Controls whether the Bandits mod is active or completely disabled.
+  // When set to false, no bandit attacks will occur in the game.
+  // Default value: true
+  "enableMod": true,
+    // Sets the minimum number of in-game days between bandit attacks.
+  // Lower values will make attacks more frequent.
+  // Must be less than or equal to maxDays.
+  // Default value: 5
+  "minDays": 5,
+    // Sets the maximum number of in-game days between bandit attacks.
+  // Higher values will make attacks less frequent.
+  // Must be greater than or equal to minDays.
+  // Default value: 15
+  "maxDays": 15,
+    // Sets the minimum number of bandits that will spawn during an attack.
+  // Lower values create easier attacks with fewer enemies.
+  // Must be less than or equal to maxBandits.
+  // Default value: 5
+  "minBandits": 5,
+    // Sets the maximum number of bandits that will spawn during an attack.
+  // Higher values create more difficult attacks with more enemies.
+  // Must be greater than or equal to minBandits.
+  // Default value: 10
+  "maxBandits": 10,
+    // Sets the minimum distance (in blocks) from the player that bandits can spawn.
+  // Lower values allow bandits to spawn closer to the player.
+  // Must be less than maxDistance.
+  // Default value: 64
+  "minDistance": 64,
+    // Sets the maximum distance (in blocks) from the player that bandits can spawn.
+  // Higher values allow bandits to spawn farther from the player.
+  // Must be greater than minDistance.
+  // Default value: 96
+  "maxDistance": 96,
+    // Sets the earliest time of day (in ticks, 0-24000) when bandits can attack.
+  // The Minecraft day is 24000 ticks long. Some reference points:
+  // 0 = dawn, 6000 = noon, 12000 = dusk, 18000 = midnight
+  // Default value: 13000 (early evening)
+  "minTime": 13000,
+    // Sets the latest time of day (in ticks, 0-24000) when bandits can attack.
+  // The Minecraft day is 24000 ticks long. Some reference points:
+  // 0 = dawn, 6000 = noon, 12000 = dusk, 18000 = midnight
+  // Default value: 23000 (late night)
+  "maxTime": 23000,
+    // Sets the movement speed multiplier for bandits.
+  // 1.0 is normal mob speed. Values above 1.0 make bandits faster, below 1.0 make them slower.
+  // This affects how quickly bandits can chase and attack players.
+  // Default value: 0.35
+  "banditSpeed": 0.35,
+    // Sets the maximum range (in blocks) at which bandits can detect players.
+  // Higher values make bandits notice players from further away.
+  // This affects how close you need to be before bandits will become aggressive.
+  // Default value: 96
+  "maxDetectionRange": 96
+}

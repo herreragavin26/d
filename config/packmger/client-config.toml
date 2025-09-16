@@ -1,0 +1,36 @@
+
+#To sit it properly, visit the mod wiki website for more information:
+#https://github.com/ixDarkLorD/ModpackManager/wiki
+[Manifest]
+	#Modpack Title | Syntax: ${version}, ${mcversion}, ${gamestate}
+	title = "PENIS"
+	#Modpack Version
+	version = "v0.0.1"
+	#Modpack Identifier
+	identifier = "PENIS"
+	project_id_or_url = "https://pastebin.com/raw/XzCsX7u8"
+
+[Features]
+	#Set it to false, To disable the Window Title Changer
+	window_title_changer = true
+	#If the Modpack has Sodium/Rubidium mod installed, Set it to true!
+	#To prevent crashing from happening by disabling the gamestate syntax
+	#This option will be needless if the Window Title Changer feature is disabled!
+	safe_title_changer = false
+	#CFU Button(Checking for Updates) Behavior
+	is_first_time_pressed = true
+	#Durability Display Visibility and Size
+	durability_display_visibility = true
+	#Range: 0.0 ~ 1.0
+	durability_display_size = 0.5
+
+[General]
+	#Startup Title Visibility and Text
+	startup_title_visibility = true
+	startup_title_text = "Please wait! Starting up..."
+	#Gamestate Visibility Mode | Syntax: ALL, PLAYING_MODE_AND_EXTRA, PLAYING_MODE_AND_PAUSE_SCREEN, ONLY_PLAYING_MODE
+	gamestate_visibility = "ALL"
+	#Startup Loading Visibility and Text
+	loading_screen_gamestate_visibility = true
+	loading_screen_text = "Armored Veil"
+

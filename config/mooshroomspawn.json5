@@ -1,0 +1,5 @@
+{
+	// The chance a cow that has spawned is of the mooshroom variant.
+	// min: 0.0, max: 1.0
+	"chanceCowIsMooshroom": 0.05
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "mob": "world:cyclopss",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "world:cyclopss",
+    "result": "deny"
+  },
+  {
+    "mob": "world:hydra",
+    "biome": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean",
+      "minecraft:cold_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:deep_cold_ocean",
+      "minecraft:deep_frozen_ocean",
+      "minecraft:frozen_ocean"
+    ],
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "world:hydra",
+    "result": "deny"
+  },
+  {
+    "mob": "world:kraken",
+    "biome": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean",
+      "minecraft:cold_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:deep_cold_ocean",
+      "minecraft:deep_frozen_ocean",
+      "minecraft:frozen_ocean"
+    ],
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "world:kraken",
+    "result": "deny"
+  },
+  {
+    "mob": "world:ghostguardian",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "world:ghostguardian",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazhorsgek",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazhorsgek",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucnalet",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucnalet",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucful",
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucful",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:vargi",
+    "minlight": 0,
+    "maxlight": 0,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:vargi",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:varsorkombase",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:varsorkombase",
+    "result": "deny"
+  },
+  {
+    "mob": "mokels_adventure:mana_curator",
+    "result": "default"
+  },
+  {
+    "mob": "mokels_adventure:mana_curator",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:ghoul",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:ghoul",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:vampire",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:vampire",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:feral_pumpkin",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:feral_pumpkin",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:bandit",
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:bandit",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:wild_boar",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:wild_boar",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:great_boar",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:great_boar",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:dripstone_hermit",
+    "biome": [
+      "minecraft:beach",
+      "minecraft:stony_shore",
+      "minecraft:snowy_beach",
+      "terralith:gravel_beach"
+    ],
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:dripstone_hermit",
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:skeleton_lich",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "glorious_creatures:skeleton_lich",
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:wyvern",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mocreatures:wyvern",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:tvarnazgulnazemle",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:tvarnazgulnazemle",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulgek",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulgek",
+    "result": "deny"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulnalosadi",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulnalosadi",
+    "result": "deny"
+  },
+  {
+    "mob": "world:ghoul",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "world:ghoul",
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:bandit_2",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "valarian_conquest:bandit_2",
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:bandit_3",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "valarian_conquest:bandit_3",
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_shaman",
+    "result": "default"
+  },
+  {
+    "mob": "valarian_conquest:orc_shaman",
+    "result": "deny"
+  },
+  {
+    "mob": "mokels_adventure:hatchling",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mokels_adventure:hatchling",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:wasp",
+    "dimension": "minecraft:overworld",
+    "minlight": 8,
+    "maxlight": 15,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:wasp",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:baby_ravager",
+    "dimension": "minecraft:overworld",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:baby_ravager",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:lost_skeleton",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "mobz:lost_skeleton",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:ender_knight",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "mobz:ender_knight",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:dwarf",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "mobz:dwarf",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "dimension": "minecraft:overworld",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:iron_steve",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "mobz:iron_steve",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:templar",
+    "dimension": "minecraft:overworld",
+    "minlight": 8,
+    "maxlight": 15,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:templar",
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:ender_zombie",
+    "dimension": "minecraft:overworld",
+    "minlight": 0,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "mobz:ender_zombie",
+    "result": "deny"
+  },
+  {
+    "mob": "terramity:elite_skeleton",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "terramity:elite_skeleton",
+    "result": "deny"
+  },
+  {
+    "mob": "terramity:virtue",
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  },
+  {
+    "mob": "terramity:virtue",
+    "result": "deny"
+  }
+]

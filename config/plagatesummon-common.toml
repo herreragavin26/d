@@ -1,0 +1,15 @@
+#Turn on debug mode
+debug_mode = true
+#Spawn rate percentage (1–100). Used if spawn_day is 0
+#Range: 1 ~ 100
+spawn_rate = 20
+#Force gate spawn after this in-game day. If set above 0, overrides spawn_rate and guarantees 100% spawn
+#Range: > 0
+spawn_day = 0
+#A list of gates to be spawned with attributes
+#Format: [<gate_id>, <gate_color>, <main_message>, <sub_message>, <gate_name>]
+#<gate_color>: the color for the light beam and text
+#<gate_name>: the name for waypoint's name when the gate is going to spawn
+#<main_message>/<sub_message>: result the prompt message like: <main_message> at: x y z, <sub_message>
+gates = [["gateways:basic/blaze", "#FF8C00", "", "", "Blaze Gate"], ["gateways:basic/enderman", "#800080", "", "", "Enderman Gate"], ["gateways:basic/slime", "#32CD32", "", "", "Slime Gate"], ["gateways:emerald_grove", "#50C878", "", "", "Emerald Grove"], ["gateways:endless/blaze", "#FF8C00", "", "", "Endless Blaze Gate"], ["gateways:hellish_fortress", "#B22222", "", "", "Hellish Fortress"], ["gateways:overworldian_nights", "#1E90FF", "", "", "Overworldian Nights"]]
+

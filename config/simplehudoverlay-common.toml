@@ -1,0 +1,20 @@
+#Should the player coordinates be displayed?
+display_coords = true
+#Should the current biome be displayed?
+display_biome = true
+#Should the current in-game time be displayed?
+display_time = true
+#Display the in-game time in 24 hours.
+time_24h = true
+#Overlay's x offset
+#Range: > 0
+offset_x = 5
+#Overlay's y offset
+#Range: > 0
+offset_y = 150
+#Should the current FPS be displayed?
+display_fps = true
+#Overlay text's color
+#Range: 0 ~ 16777215
+text_color = 14737632
+

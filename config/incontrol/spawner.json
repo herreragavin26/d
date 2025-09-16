@@ -1,0 +1,1317 @@
+[
+  {
+    "mob": "world:cyclopss",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:goblin_2",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:goblin",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:goblin_shaman",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:dragonfly",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:hydra",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:kraken",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:wingseye",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 150,
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:ghostguardian",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazhorsgek",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucnalet",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 6,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:urucful",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:vargi",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:varsorkombase",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mokels_adventure:mana_curator",
+    "persecond": 0.01,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mokels_adventure:hatchling",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 50
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 10,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:ghoul",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:vampire",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:feral_pumpkin",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:bandit",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 70,
+      "maxdist": 100,
+      "maxthis": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:wild_boar",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 1,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:great_boar",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 1,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:dripstone_hermit",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:lost_adventurer",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "glorious_creatures:skeleton_lich",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 4,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "primitive_creatures:villager_10",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:tvarnazgulnazemle",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 80,
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulgek",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "vtubruhlotrmobs:nazgulnalosadi",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:ghoul",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 70,
+      "maxdist": 100,
+      "maxthis": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:bandit_2",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 70,
+      "maxdist": 100,
+      "maxthis": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:bandit_3",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 70,
+      "maxdist": 100,
+      "maxthis": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_raider",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_shaman",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:goblin",
+    "persecond": 0.8,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "world:goblin_2",
+    "persecond": 0.8,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 70,
+      "maxdist": 100,
+      "maxthis": 2,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 100,
+      "maxthis": 15,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:wasp",
+    "persecond": 0.3,
+    "attempts": 1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 50
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 40,
+      "maxdist": 70,
+      "maxthis": 10,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:baby_ravager",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 40
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 40,
+      "maxdist": 70,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:lost_skeleton",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 40,
+      "maxdist": 70,
+      "maxthis": 5,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:ender_knight",
+    "persecond": 0.01,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:dwarf",
+    "persecond": 0.15,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 40,
+      "maxdist": 70,
+      "maxthis": 4,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "persecond": 0.4,
+    "attempts": 1,
+    "amount": {
+      "minimum": 5,
+      "maximum": 7
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 7,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:iron_steve",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:templar",
+    "persecond": 0.08,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "mobz:ender_zombie",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "terramity:elite_skeleton",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 60,
+      "maxthis": 3,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "terramity:virtue",
+    "persecond": 0.0001,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 1,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:big_helmet_anger_bones",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 100
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 60,
+      "maxthis": 4,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:demon_eye",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 6,
+      "groupdistance": 50
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 8,
+      "minheight": "+20",
+      "maxheight": 320,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:crimson_kemera",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 20
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "maxdist": 60,
+      "minheight": "+20",
+      "maxheight": 320,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:man_eater",
+    "persecond": 0.03,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 1,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:giant_worm",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 80,
+      "maxthis": 1,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": "terramity:thunker",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 1,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terramity:gatmancer",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 1,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:drippler",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 3,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  },
+  {
+    "mob": "terra_entity:nymp",
+    "persecond": 0.0005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": "+1",
+      "maxheight": 320,
+      "mindist": 50,
+      "maxdist": 70,
+      "maxthis": 2,
+      "and": {
+        "seesky": true,
+        "mintime": 13000,
+        "maxtime": 23000
+      }
+    }
+  }
+]

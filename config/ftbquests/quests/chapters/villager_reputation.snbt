@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager_reputation"
+	group: "1B66560D726EDFA1"
+	icon: "minecraft:emerald"
+	id: "1AE7C4B090944ADE"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Read this or you could be exiled from all villages!"]
+	title: "Villager Reputation"
+}

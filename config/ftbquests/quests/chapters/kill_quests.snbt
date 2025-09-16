@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "kill_quests"
+	group: "130B73CBAAA75FDA"
+	icon: {
+		Count: 1
+		id: "spartanweaponry:wooden_club"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "00D62DDE2922FCA3"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:zombie_head"
+			id: "116F1A6118CCF1B4"
+			rewards: [
+				{
+					id: "58E4A5849628E923"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "69C6ABF2A5D9A716"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 100 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "63A93C4E6EDC741A"
+				optional_task: true
+				title: "Zombie"
+				type: "kill"
+				value: 100L
+			}]
+			title: "100 Zombies"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "28421938999E803E"
+			rewards: [
+				{
+					id: "2F20FACC7C1AD226"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3E7498EAE732E952"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 100 Skeleton"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "56D798FE6849FA76"
+				title: "100 Skeletons"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "7508DCDD52163B74"
+			rewards: [
+				{
+					id: "5E8CBA513E9096DB"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "580B74F8928F8DB2"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 100 Spiders"
+			tasks: [{
+				entity: "specialmobs:spider"
+				icon: "spartanweaponry:spider_head"
+				id: "7690441539091AF8"
+				title: "100 Spiders"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "78AF9891CBCD1605"
+			rewards: [
+				{
+					id: "516286AF6491A4CD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "71A0B7E8B8D917F0"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 100 Creepers"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "4EA231864CC5EF5B"
+				title: "100 Creepers"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "284050146978F5EA"
+			rewards: [
+				{
+					id: "55BDC7781697DA05"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C701499E92959D8"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 2 The Heavy."
+			tasks: [{
+				entity: "undead_revamp2:theheavy"
+				icon: "undead_revamp2:theheavy_spawn_egg"
+				id: "7125E27109D79BC0"
+				title: "The Heavy"
+				type: "kill"
+				value: 2L
+			}]
+			title: "2 The Heavy"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "6E36355D7A7BC14E"
+			rewards: [
+				{
+					id: "53C586C29E1A96E0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0D3CE86B9BE8AE2B"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 100 Rebel Farlanders."
+			tasks: [{
+				entity: "farlanders:rebel"
+				icon: "farlanders:rebel_spawn_egg"
+				id: "6BF8EE6377405A33"
+				title: "Kill Rebel Farlander"
+				type: "kill"
+				value: 100L
+			}]
+			title: "100 Rebel Farlanders"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "2C9C9BDF796EB97B"
+			rewards: [{
+				id: "18E2CAB8677BF143"
+				item: "examplemod:heart_crystal"
+				type: "item"
+			}]
+			subtitle: "Kill 5 Giant Zombies."
+			tasks: [{
+				entity: "minecraft:giant"
+				icon: "minecraft:zombie_head"
+				id: "4912E729F0464520"
+				title: "5 Giant Zombies"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "64D34EA6CB7931F3"
+			rewards: [
+				{
+					id: "551943047AC1B34F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C55862786A0B2B3"
+					item: "examplemod:heart_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 2 Moon Priest."
+			tasks: [{
+				entity: "threateningly_mobs:moon_priest"
+				icon: "threateningly_mobs:moon_priest_head"
+				id: "7D0701922ED49198"
+				title: "2 Moon Priest"
+				type: "kill"
+				value: 2L
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Kill quests for rewards"]
+	title: "Eliminate"
+}

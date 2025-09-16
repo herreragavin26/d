@@ -1,0 +1,5 @@
+#True if the Custom Main Menu should be enabled
+customMainMenu = true
+#True if skull helmet and ancient helmet should render overlays like vanilla pumpkin
+helmetOverlays = true
+

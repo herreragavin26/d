@@ -1,0 +1,43 @@
+
+[General]
+	#Chance of a weather per tick. 1 in 10000 by default
+	"Weather Chance" = 10000.0
+	#Minimum duration a special weather can have, in ticks (24000 ticks is 1 day)
+	"Min Weather Duration" = 6000.0
+	#Maximum duration a special weather can have, in ticks (24000 ticks is 1 day)
+	"Max Weather Duration" = 24000.0
+
+["Meteor Rain"]
+	#Maximum amount of meteors that can be active at once
+	"Maximum Meteor quantity" = 100.0
+	#Sets the damage of the meteors explosions
+	"Meteor Damage" = 10.0
+	#Determines the amount of seconds that an entity is set on fire for when a meteor hits 
+	"Fire Duration" = 20.0
+
+["Acid Rain"]
+	#How long an entity is poisoned by when under acid rain
+	"Acid Rain Poison Duration" = 100.0
+	#Level of poison that is applied when under poison rain
+	"Acid Rain Poison Amplifier" = 0.0
+
+[Windy]
+	#Sets the strenght at which the wind will push entities on this weather condition. Values too high might render the game impossible, default is 0.04
+	"Wind Strenght" = 0.04
+	#Distance at which to check for blocks to block wind. Numbers too high are not recommended due to performance.
+	"Wind Block Check Distance" = 5.0
+
+["Heat wave"]
+	"Catch on Fire" = 400.0
+	"Additional damage threshold" = 900.0
+
+["Polar Wave"]
+	"Begin Freezing " = 400.0
+	"Additional Damage Threshold" = 900.0
+
+["Harvest Day"]
+	#The value of random tick speed that will be set during the harvest day event
+	"Harvest Day Random Tick Speed" = 6.0
+	#the vanilla tick speed you want to be used when reverting the effects of the harvest day event
+	"Vanilla Tick Speed" = 3.0
+

@@ -1,0 +1,9 @@
+{
+  "balm:wthit": true,
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "waystones:plugin": true
+}

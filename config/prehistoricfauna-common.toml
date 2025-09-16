@@ -1,0 +1,1639 @@
+
+["Djadochta Formation"]
+
+	["Djadochta Formation"."Djadochta Alluvial Plains"]
+		#The spawn rate of Aepyornithomimus in the Djadochta Alluvial Plains biome. Default is 3
+		#Range: 0 ~ 300
+		"Aepyornithomimus Djadochta Alluvial Plains Spawn Rate" = 2
+		#The spawn rate of Byronosaurus in the Djadochta Alluvial Plains biome. Default is 6
+		#Range: 0 ~ 300
+		"Byronosaurus Djadochta Alluvial Plains Spawn Rate" = 6
+		#The spawn rate of Citipati in the Djadochta Alluvial Plains biome. Default is 5
+		#Range: 0 ~ 300
+		"Citipati Djadochta Alluvial Plains Spawn Rate" = 5
+		#The spawn rate of Dermestid Beetles in the Djadochta Alluvial Plains biome. Default is 7
+		#Range: 0 ~ 300
+		"Dermestid Beetle Djadochta Alluvial Plains Spawn Rate" = 7
+		#The spawn rate of Gobiulus in the Djadochta Alluvial Plains biome. Default is 5
+		#Range: 0 ~ 300
+		"Gobiulus Djadochta Alluvial Plains Spawn Rate" = 5
+		#The spawn rate of Goyocephale in the Djadochta Alluvial Plains biome. Default is 4
+		#Range: 0 ~ 300
+		"Goyocephale Djadochta Alluvial Plains Spawn Rate" = 4
+		#The spawn rate of Halszkaraptor in the Djadochta Alluvial Plains biome. Default is 0
+		#Range: 0 ~ 300
+		"Halszkaraptor Djadochta Alluvial Plains Spawn Rate" = 0
+		#The spawn rate of Harenaichthys in the Djadochta Alluvial Plains biome. Default is 0
+		#Range: 0 ~ 300
+		"Harenaichthys Djadochta Alluvial Plains Spawn Rate" = 0
+		#The spawn rate of Kol in the Djadochta Alluvial Plains biome. Default is 8
+		#Range: 0 ~ 300
+		"Kol Djadochta Alluvila Plains Spawn Rate" = 8
+		#The spawn rate of Oviraptor in the Djadochta Alluvial Plains biome. Default is 2
+		#Range: 0 ~ 300
+		"Oviraptor Djadochta Alluvial Plains Spawn Rate" = 2
+		#The spawn rate of Pinacosaurus in the Djadochta Alluvial Plains biome. Default is 5
+		#Range: 0 ~ 300
+		"Pinacosaurus Djadochta Alluvial Plains Spawn Rate" = 5
+		#The spawn rate of Plesiohadros in the Djadochta Alluvial Plains biome. Default is 0
+		#Range: 0 ~ 300
+		"Plesiohadros Djadochta Alluvial Plains Spawn Rate" = 0
+		#The spawn rate of Protoceratops in the Djadochta Alluvial Plains biome. Default is 7
+		#Range: 0 ~ 300
+		"Protoceratops Djadochta Alluvial Plains Spawn Rate" = 7
+		#The spawn rate of Telmasaurus in the Djadochta Alluvial Plains biome. Default is 3
+		#Range: 0 ~ 300
+		"Telmasaurus Djadochta Alluvial Plains Spawn Rate" = 3
+		#The spawn rate of Udanoceratops in the Djadochta Alluvial Plains biome. Default is 5
+		#Range: 0 ~ 300
+		"Udanoceratops Djadochta Alluvial Plains Spawn Rate" = 5
+		#The spawn rate of Velociraptor in the Djadochta Alluvial Plains biome. Default is 6
+		#Range: 0 ~ 300
+		"Velociraptor Djadochta Alluvial Plains Spawn Rate" = 6
+		#The spawn rate of Cave Sentinels in the Djadochta Alluvial Plains biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Djaodochta Alluvial Plains Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Djadochta Alluvial Plains biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Djadochta Alluvial Plains Spawn Rate" = 2
+
+	["Djadochta Formation"."Djadochta Arroyo"]
+		#The spawn rate of Aepyornithomimus in the Djadochta Arroyo biome. Default is 12
+		#Range: 0 ~ 300
+		"Aepyornithomimus Djadochta Arroyo Spawn Rate" = 12
+		#The spawn rate of Byronosaurus in the Djadochta Arroyo biome. Default is 6
+		#Range: 0 ~ 300
+		"Byronosaurus Djadochta Arroyo Spawn Rate" = 6
+		#The spawn rate of Citipati in the Djadochta Arroyo biome. Default is 5
+		#Range: 0 ~ 300
+		"Citipati Djadochta Arroyo Spawn Rate" = 5
+		#The spawn rate of Dermestid Beetles in the Djadochta Arroyo biome. Default is 5
+		#Range: 0 ~ 300
+		"Dermestid Beetle Djadochta Arroyo Spawn Rate" = 5
+		#The spawn rate of Gobiulus in the Djadochta Alluvial Plains biome. Default is 7
+		#Range: 0 ~ 300
+		"Gobiulus Djadochta Arroyo Spawn Rate" = 7
+		#The spawn rate of Goyocephale in the Djadochta Arroyo biome. Default is 8
+		#Range: 0 ~ 300
+		"Goyocephale Djadochta Arroyo Spawn Rate" = 8
+		#The spawn rate of Halszkaraptor in the Djadochta Arroyo biome. Default is 10
+		#Range: 0 ~ 300
+		"Halszkaraptor Djadochta Arroyo Spawn Rate" = 10
+		#The spawn rate of Harenaichthys in the Djadochta Arroyo biome. Default is 5
+		#Range: 0 ~ 0
+		"Harenaichthys Djadochta Arroyo Spawn Rate" = 0
+		#The spawn rate of Kol in the Djadochta Arroyo biome. Default is 4
+		#Range: 0 ~ 300
+		"Kol Djadochta Arroyo Spawn Rate" = 4
+		#The spawn rate of Oviraptor in the Djadochta Arroyo biome. Default is 7
+		#Range: 0 ~ 300
+		"Oviraptor Djadochta Arroyo Spawn Rate" = 7
+		#The spawn rate of Pinacosaurus in the Djadochta Arroyo biome. Default is 7
+		#Range: 0 ~ 300
+		"Pinacosaurus Djadochta Arroyo Spawn Rate" = 7
+		#The spawn rate of Plesiohadros in the Djadochta Arroyo biome. Default is 8
+		#Range: 0 ~ 300
+		"Plesiohadros Djadochta Arroyo Spawn Rate" = 8
+		#The spawn rate of Protoceratops in the Djadochta Arroyo biome. Default is 4
+		#Range: 0 ~ 300
+		"Protoceratops Djadochta Arroyo Spawn Rate" = 4
+		#The spawn rate of Telmasauru in the Djadochta Arroyo biome. Default is 2
+		#Range: 0 ~ 300
+		"Telmasaurus Djadochta Arroyo Spawn Rate" = 2
+		#The spawn rate of Udanoceratops in the Djadochta Arroyo biome. Default is 2
+		#Range: 0 ~ 300
+		"Udanoceratops Djadochta Arroyo Spawn Rate" = 2
+		#The spawn rate of Velociraptor in the Djadochta Arroyo biome. Default is 3
+		#Range: 0 ~ 300
+		"Velociraptor Djadochta Arroyo Spawn Rate" = 3
+		#The spawn rate of Cave Sentinels in the Djadochta Arroyo biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Djaodochta Arroyo Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Djadochta Arroyo biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Djadochta Arroyo Spawn Rate" = 2
+
+	["Djadochta Formation"."Djadochta Dunes"]
+		#The spawn rate of Aepyornithomimus in the Djadochta Dunes biome. Default is 3
+		#Range: 0 ~ 300
+		"Aepyornithomimus Djadochta Dunes Spawn Rate" = 2
+		#The spawn rate of Byronosaurus in the Djadochta Dunes biome. Default is 4
+		#Range: 0 ~ 300
+		"Byronosaurus Djadochta Dunes Spawn Rate" = 4
+		#The spawn rate of Citipati in the Djadochta Dunes biome. Default is 5
+		#Range: 0 ~ 300
+		"Citipati Djadochta Dunes Spawn Rate" = 5
+		#The spawn rate of Dermestid Beetles in the Djadochta Dunes biome. Default is 6
+		#Range: 0 ~ 300
+		"Dermestid Beetle Djadochta Dunes Spawn Rate" = 6
+		#The spawn rate of Gobiulus in the Djadochta Dunes biome. Default is 0
+		#Range: 0 ~ 300
+		"Gobiulus Djadochta Dunes Spawn Rate" = 0
+		#The spawn rate of Goyocephale in the Djadochta Dunes biome. Default is 3
+		#Range: 0 ~ 300
+		"Goyocephale Djadochta Dunes Spawn Rate" = 3
+		#The spawn rate of Halszkaraptor in the Djadochta Dunes biome. Default is 0
+		#Range: 0 ~ 300
+		"Halszkaraptor Djadochta Dunes Spawn Rate" = 0
+		#The spawn rate of Harenaichthys in the Djadochta Dunes biome. Default is 0
+		#Range: 0 ~ 300
+		"Harenaichthys Djadochta Dunes Spawn Rate" = 0
+		#The spawn rate of Kol in the Djadochta Dunes biome. Default is 0
+		#Range: 0 ~ 300
+		"Hol Djadochta Dunes Spawn Rate" = 0
+		#The spawn rate of Oviraptor in the Djadochta Dunes biome. Default is 2
+		#Range: 0 ~ 300
+		"Oviraptor Djadochta Dunes Spawn Rate" = 2
+		#The spawn rate of Pinacosaurus in the Djadochta Dunes biome. Default is 5
+		#Range: 0 ~ 300
+		"Pinacosaurus Djadochta Dunes Spawn Rate" = 5
+		#The spawn rate of Plesiohadros in the Djadochta Dunes biome. Default is 0
+		#Range: 0 ~ 300
+		"Plesiohadros Djadochta Dunes Spawn Rate" = 0
+		#The spawn rate of Protoceratops in the Djadochta Dunes biome. Default is 7
+		#Range: 0 ~ 300
+		"Protoceratops Djadochta Dunes Spawn Rate" = 7
+		#The spawn rate of Telmasaurus in the Djadochta Dunes biome. Default is 3
+		#Range: 0 ~ 300
+		"Telmasaurus Djadochta Dunes Spawn Rate" = 3
+		#The spawn rate of Udanoceratops in the Djadochta Dunes biome. Default is 7
+		#Range: 0 ~ 300
+		"Udanoceratops Djadochta Dunes Spawn Rate" = 7
+		#The spawn rate of Velociraptor in the Djadochta Dunes biome. Default is 6
+		#Range: 0 ~ 300
+		"Velociraptor Djadochta Dunes Spawn Rate" = 6
+		#The spawn rate of Cave Sentinels in the Djadochta Dunes biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Djaodochta Dunes Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Djadochta Dunes biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Djadochta Dunes Spawn Rate" = 2
+
+["Hell Creek Formation"]
+
+	["Hell Creek Formation"."Hell Creek Clearing"]
+		#The spawn rate of Acipenser in the Hell Creek Clearing biome. Default is 4
+		#Range: 0 ~ 300
+		"Acipenser Hell Creek Clearing Spawn Rate" = 4
+		#The spawn rate of Ankylosaurus in the Hell Creek Clearing biome. Default is 1
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek Clearing Spawn Rate" = 1
+		#The spawn rate of Anzu in the Hell Creek Clearing biome. Default is 2
+		#Range: 0 ~ 300
+		"Anzu Hell Creek Clearing Spawn Weeight" = 2
+		#The spawn rate of Basilemys in the Hell Creek Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek Clearing Spawn Rate" = 5
+		#The spawn rate of Brachychampsa in the Hell Creek Clearing biome. Default is 0
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek Clearing Spawn Rate" = 0
+		#The spawn rate of Cephaloleichnites in the Hell Creek Clearing biome. Default is 7
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek Clearing Spawn Rate" = 7
+		#The spawn rate of Cyclurus in the Hell Creek Clearing biome. Default is 7
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek Clearing Spawn Rate" = 7
+		#The spawn rate of Dakotaraptor in the Hell Creek Clearing biome. Default is 2
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek Clearing Spawn Rate" = 2
+		#The spawn rate of Didelphodon in the Hell Creek Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek Clearing Spawn Rate" = 5
+		#The spawn rate of Edmontosaurus in the Hell Creek Clearing biome. Default is 12
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek Clearing Spawn Rate" = 12
+		#The spawn rate of Lepisosteus in the Hell Creek Clearing biome. Default is 11
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek Clearing Spawn Rate" = 11
+		#The spawn rate of Lonchidion in the Hell Creek Clearing biome. Default is 6
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek Clearing Spawn Rate" = 6
+		#The spawn rate of Melvius in the Hell Creek Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Melvius Hell Creek Clearing Spawn Rate" = 5
+		#The spawn rate of Myledaphus in the Hell Creek Clearing biome. Default is 9
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek Clearing Spawn Rate" = 9
+		#The spawn rate of Ornithomimus in the Hell Creek Clearing biome. Default is 12
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek Clearing Spawn Rate" = 12
+		#The spawn rate of Pachycephalosaurus in the Hell Creek Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek Clearing Spawn Rate" = 5
+		#The spawn rate of Palaeosaniwa in the Hell Creek Clearing biome. Default is 2
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek Clearing Spawn Rate" = 2
+		#The spawn rate of Parapsephurus in the Hell Creek Clearing biome. Default is 0
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek Clearing Spawn Rate" = 0
+		#The spawn rate of Thescelosaurus in the Hell Creek Clearing biome. Default is 4
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek Clearing Spawn Rate" = 4
+		#The spawn rate of Triceratops in the Hell Creek Clearing biome. Default is 15
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek Clearing Spawn Rate" = 15
+		#The spawn rate of Tyrannosaurus in the Hell Creek Clearing biome. Default is 9
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek Clearing Spawn Rate" = 9
+		#The spawn rate of Cave Sentinels in the Hell Creek Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek Clearing Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek Clearing biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek Clearing Spawn Rate" = 2
+
+	["Hell Creek Formation"."Hell Creek Bluffs"]
+		#The spawn rate of Acipenser in the Hell Creek Bluffs biome. Default is 2
+		#Range: 0 ~ 300
+		"Acipenser Hell Creek Bluffs Spawn Rate" = 2
+		#The spawn rate of Ankylosaurus in the Hell Creek Bluffs biome. Default is 13
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek Bluffs Spawn Rate" = 13
+		#The spawn rate of Anzu in the Hell Creek Bluffs biome. Default is 6
+		#Range: 0 ~ 300
+		"Anzu Hell Creek Bluffs Spawn Rate" = 6
+		#The spawn rate of Basilemys in the Hell Creek Bluffs biome. Default is 8
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek Bluffs Spawn Rate" = 8
+		#The spawn rate of Brachychampsa in the Hell Creek Bluffs biome. Default is 0
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek Bluffs Spawn Rate" = 0
+		#The spawn rate of Cephaloleichnites in the Hell Creek Bluffs biome. Default is 7
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek Bluffs Spawn Rate" = 7
+		#The spawn rate of Cyclurus in the Hell Creek Bluffs biome. Default is 8
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek Bluffs Spawn Rate" = 8
+		#The spawn rate of Dakotaraptor in the Hell Creek Bluffs biome. Default is 2
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek Bluffs Spawn Rate" = 2
+		#The spawn rate of Didelphodon in the Hell Creek Bluffs biome. Default is 2
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek Bluffs Spawn Rate" = 2
+		#The spawn rate of Edmontosaurus in the Hell Creek Bluffs biome. Default is 12
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek Bluffs Spawn Rate" = 12
+		#The spawn rate of Lepisosteus in the Hell Creek Bluffs biome. Default is 10
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek Bluffs Spawn Rate" = 10
+		#The spawn rate of Lonchidion in the Hell Creek Bluffs biome. Default is 8
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek Bluffs Spawn Rate" = 8
+		#The spawn rate of Melvius in the Hell Creek Bluffs biome. Default is 1
+		#Range: 0 ~ 300
+		"Melvius Hell Creek Bluffs Spawn Rate" = 1
+		#The spawn rate of Myledaphus in the Hell Creek Bluffs biome. Default is 10
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek Bluffs Spawn Rate" = 10
+		#The spawn rate of Ornithomimus in the Hell Creek Bluffs biome. Default is 0
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek Bluffs Spawn Rate" = 0
+		#The spawn rate of Pachycephalosaurus in the Hell Creek Bluffs biome. Default is 0
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek Bluffs Spawn Rate" = 0
+		#The spawn rate of Palaeosaniwa in the Hell Creek Bluffs biome. Default is 1
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek Bluffs Spawn Rate" = 1
+		#The spawn rate of Parapsephurus in the Hell Creek Bluffs biome. Default is 0
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek Bluffs Spawn Rate" = 0
+		#The spawn rate of Thescelosaurus in the Hell Creek Bluffs biome. Default is 5
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek Bluffs Spawn Rate" = 5
+		#The spawn rate of Triceratops in the Hell Creek Bluffs biome. Default is 0
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek Bluffs Spawn Rate" = 0
+		#The spawn rate of Tyrannosaurus in the Hell Creek Bluffs biome. Default is 8
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek Bluffs Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Hell Creek Bluffs biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek Bluffs Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek Bluffs biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek Bluffs Spawn Rate" = 2
+
+	["Hell Creek Formation"."Hell Creek Hardwood Forest"]
+		#The spawn rate of Acipenser in the Hell Creek Hardwood Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Accipenser Hell Creek Hardwood Forest Spawn Rate" = 0
+		#The spawn rate of Ankylosaurus in the Hell Creek Hardwood Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek Hardwood Forest Spawn Rate" = 3
+		#The spawn rate of Anzu in the Hell Creek Hardwood Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Anzu Hell Creek Hardwood Forest Spawn Rate" = 8
+		#The spawn rate of Basilemys in the Hell Creek Hardwood Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek Hardwood Forest Spawn Rate" = 2
+		#The spawn rate of Brachychampsa in the Hell Creek Hardwood Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek Hardwood Forest Spawn Rate" = 0
+		#The spawn rate of Cephaloleichnites in the Hell Creek Hardwood Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek Hardwood Forest Spawn Rate" = 7
+		#The spawn rate of Cyclurus in the Hell Creek Hardwood Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek Hardwood Forest Spawn Rate" = 8
+		#The spawn rate of Dakotaraptor in the Hell Creek Hardwood Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek Hardwood Forest Spawn Rate" = 3
+		#The spawn rate of Didelphodon in the Hell Creek Hardwood Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek Hardwood Forest Spawn Rate" = 4
+		#The spawn rate of Edmontosaurus in the Hell Creek Hardwood Forest biome. Default is 11
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek Hardwood Forest Spawn Rate" = 11
+		#The spawn rate of Lepisosteus in the Hell Creek Hardwood Forest biome. Default is 12
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek Hardwood Forest Spawn Rate" = 12
+		#The spawn rate of Lonchidion in the Hell Creek Hardwood Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek Hardwood Forest Spawn Rate" = 0
+		#The spawn rate of Melvius in the Hell Creek Hardwood Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Melvius Hell Creek Hardwood Forest Spawn Rate" = 3
+		#The spawn rate of Myledaphus in the Hell Creek Hardwood Forest biome. Default is 11
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek Hardwood Forest Spawn Rate" = 11
+		#The spawn rate of Ornithomimus in the Hell Creek Hardwood Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek Hardwood Forest Spawn Rate" = 3
+		#The spawn rate of Pachycephalosaurus in the Hell Creek Hardwood Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek Hardwood Forest Spawn Rate" = 8
+		#The spawn rate of Palaeosaniwa in the Hell Creek Hardwood Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek Hardwood Forest Spawn Rate" = 2
+		#The spawn rate of Parapsephurus in the Hell Creek Hardwood Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek Hardwood Forest Spawn Rate" = 0
+		#The spawn rate of Thescelosaurus in the Hell Creek Hardwood Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek Hardwood Forest Spawn Rate" = 4
+		#The spawn rate of Triceratops in the Hell Creek Hardwood Forest biome. Default is 12
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek Hardwood Forest Spawn Rate" = 12
+		#The spawn rate of Tyrannosaurus in the Hell Creek Hardwood Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek Hardwood Forest Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Hell Creek Hardwood Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek Hardwood Forest Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek Hardwood Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek Hardwood Forest Spawn Rate" = 2
+
+	["Hell Creek Formation"."Hell Creek Redwoods"]
+		#The spawn rate of Acipenser in the Hell Creek Redwoods biome. Default is 0
+		#Range: 0 ~ 300
+		"Acipenser Hell Creek Redwoods Spawn Rate" = 0
+		#The spawn rate of Ankylosaurus in the Hell Creek Redwoods biome. Default is 1
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek Redwoods Spawn Rate" = 1
+		#The spawn rate of Anzu in the Hell Creek Redwoods biome. Default is 4
+		#Range: 0 ~ 300
+		"Anzu Hell Creek Redwoods Spawn Rate" = 4
+		#The spawn rate of Basilemys in the Hell Creek Redwoods biome. Default is 4
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek Redwoods Spawn Rate" = 4
+		#The spawn rate of Brachychampsa in the Hell Creek Redwoods biome. Default is 0
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek Redwoods Spawn Rate" = 0
+		#The spawn rate of Cephaloleichnites in the Hell Creek Redwoods biome. Default is 7
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek Redwoods Spawn Rate" = 7
+		#The spawn rate of Cyclurus in the Hell Creek Redwoods biome. Default is 8
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek Redwoods Spawn Rate" = 8
+		#The spawn rate of Dakotaraptor in the Hell Creek Redwoods biome. Default is 4
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek Redwoods Spawn Rate" = 4
+		#The spawn rate of Didelphodon in the Hell Creek Redwoods biome. Default is 6
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek Redwoods Spawn Rate" = 6
+		#The spawn rate of Edmontosaurus in the Hell Creek Redwoods biome. Default is 6
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek Redwoods Spawn Rate" = 6
+		#The spawn rate of Lepisosteus in the Hell Creek Redwoods biome. Default is 12
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek Redwoods Spawn Rate" = 12
+		#The spawn rate of Lonchidion in the Hell Creek Redwoods biome. Default is 0
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek Redwoods Spawn Rate" = 0
+		#The spawn rate of Melvius in the Hell Creek Redwoods biome. Default is 3
+		#Range: 0 ~ 300
+		"Melvius Hell Creek Redwoods Spawn Rate" = 3
+		#The spawn rate of Myledaphus in the Hell Creek Redwoods biome. Default is 11
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek Redwoods Spawn Rate" = 11
+		#The spawn rate of Ornithomimus in the Hell Creek Redwoods biome. Default is 3
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek Redwoods Spawn Rate" = 3
+		#The spawn rate of Pachycephalosaurus in the Hell Creek Redwoods biome. Default is 10
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek Redwoods Spawn Rate" = 10
+		#The spawn rate of Palaeosaniwa in the Hell Creek Redwoods biome. Default is 4
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek Redwoods Spawn Rate" = 4
+		#The spawn rate of Parapsephurus in the Hell Creek Redwoods biome. Default is 0
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek Redwoods Spawn Rate" = 0
+		#The spawn rate of Thescelosaurus in the Hell Creek Redwoods biome. Default is 11
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek Redwoods Spawn Rate" = 11
+		#The spawn rate of Triceratops in the Hell Creek Redwoods biome. Default is 7
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek Redwoods Spawn Rate" = 7
+		#The spawn rate of Tyrannosaurus in the Hell Creek Redwoods biome. Default is 5
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek Redwoods Spawn Rate" = 5
+		#The spawn rate of Cave Sentinels in the Hell Creek Redwoods biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek Redwoods Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek Redwoods biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek Redwoods Spawn Rate" = 2
+
+	["Hell Creek Formation"."Hell Creek River"]
+		#The spawn rate of Acipenser in the Hell Creek River biome. Default is 6
+		#Range: 0 ~ 300
+		"Acipenser Hell Creek River Spawn Rate" = 6
+		#The spawn rate of Ankylosaurus in the Hell Creek River biome. Default is 0
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek River Spawn Rate" = 0
+		#The spawn rate of Anzu in the Hell Creek River biome. Default is 4
+		#Range: 0 ~ 300
+		"Anzu Hell Creek River Spawn Rate" = 4
+		#The spawn rate of Basilemys in the Hell Creek River biome. Default is 4
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek River Spawn Rate" = 4
+		#The spawn rate of Brachychampsa in the Hell Creek River biome. Default is 3
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek River Spawn Rate" = 3
+		#The spawn rate of Cephaloleichnites in the Hell Creek River biome. Default is 0
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek River Spawn Rate" = 0
+		#The spawn rate of Cyclurus in the Hell Creek River biome. Default is 7
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek River Spawn Rate" = 7
+		#The spawn rate of Dakotaraptor in the Hell Creek River biome. Default is 6
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek River Spawn Rate" = 6
+		#The spawn rate of Didelphodon in the Hell Creek River biome. Default is 5
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek River Spawn Rate" = 5
+		#The spawn rate of Edmontosaurus in the Hell Creek River biome. Default is 10
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek River Spawn Rate" = 10
+		#The spawn rate of Lepisosteus in the Hell Creek River biome. Default is 11
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek River Spawn Rate" = 11
+		#The spawn rate of Lonchidion in the Hell Creek River biome. Default is 6
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek River Spawn Rate" = 6
+		#The spawn rate of Melvius in the Hell Creek River biome. Default is 4
+		#Range: 0 ~ 300
+		"Melvius Hell Creek River Spawn Rate" = 4
+		#The spawn rate of Myledaphus in the Hell Creek River biome. Default is 11
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek River Spawn Rate" = 11
+		#The spawn rate of Ornithomimus in the Hell Creek River biome. Default is 0
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek River Spawn Rate" = 0
+		#The spawn rate of Pachycephalosaurus in the Hell Creek River biome. Default is 2
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek RIver Spawn Rate" = 2
+		#The spawn rate of Palaeosaniwa in the Hell Creek River biome. Default is 1
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek River Spawn Rate" = 1
+		#The spawn rate of Parapsephurus in the Hell Creek River biome. Default is 6
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek River Spawn Rate" = 6
+		#The spawn rate of Thescelosaurus in the Hell Creek River biome. Default is 7
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek River Spawn Rate" = 7
+		#The spawn rate of Triceratops in the Hell Creek River biome. Default is 11
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek River Spawn Rate" = 11
+		#The spawn rate of Tyrannosaurus in the Hell Creek River biome. Default is 8
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek River Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Hell Creek River biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek River Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek River biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek River Spawn Rate" = 2
+
+	["Hell Creek Formation"."Hell Creek Swamp"]
+		#The spawn rate of Acipenser in the Hell Creek Swamp biome. Default is 7
+		#Range: 0 ~ 300
+		"Acipenser Hell Creek Swamp Spawn Rate" = 7
+		#The spawn rate of Ankylosaurus in the Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Ankylosaurus Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Anzu in the Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Anzu Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Basilemys in the Hell Creek Swamp biome. Default is 3
+		#Range: 0 ~ 300
+		"Basilemys Hell Creek Swamp Spawn Rate" = 3
+		#The spawn rate of Brachychampsa in the Hell Creek Swamp biome. Default is 8
+		#Range: 0 ~ 300
+		"Brachychampsa Hell Creek Swamp Spawn Rate" = 8
+		#The spawn rate of Cephaloleichnites in the Hell Creek Swamp biome. Default is 3
+		#Range: 0 ~ 300
+		"Cephaloleichnites Hell Creek Swamp Spawn Rate" = 3
+		#The spawn rate of Cyclurus in the Hell Creek Swamp biome. Default is 4
+		#Range: 0 ~ 300
+		"Cyclurus Hell Creek Swamp Spawn Rate" = 4
+		#The spawn rate of Dakotaraptor in the Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Dakotaraptor Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Didelphodon in the Hell Creek Swamp biome. Default is 8
+		#Range: 0 ~ 300
+		"Didelphodon Hell Creek Swamp Spawn Rate" = 8
+		#The spawn rate of Edmontosaurus in the Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Edmontosaurus Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Lepisosteus in the Hell Creek Swamp biome. Default is 14
+		#Range: 0 ~ 300
+		"Lepisosteus Hell Creek Swamp Spawn Rate" = 14
+		#The spawn rate of Lonchidion in the Hell Creek Swamp biome. Default is 7
+		#Range: 0 ~ 300
+		"Lonchidion Hell Creek Swamp Spawn Rate" = 7
+		#The spawn rate of Melvius in the Hell Creek Swamp biome. Default is 6
+		#Range: 0 ~ 300
+		"Melvius Hell Creek Swamp Spawn Rate" = 6
+		#The spawn rate of Myledaphus in the Hell Creek Swamp biome. Default is 12
+		#Range: 0 ~ 300
+		"Myledaphus Hell Creek Swamp Spawn Rate" = 12
+		#The spawn rate of Ornithomimus in the Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Ornithomimus Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Pachycephalosaurus in the Hell Creek Swamp biome. Default is 2
+		#Range: 0 ~ 300
+		"Pachycephalosaurus Hell Creek Swamp Spawn Rate" = 2
+		#The spawn rate of Palaeosaniwa in th Hell Creek Swamp biome. Default is 0
+		#Range: 0 ~ 300
+		"Palaeosaniwa Hell Creek Swamp Spawn Rate" = 0
+		#The spawn rate of Parapsephurus in the Hell Creek River biome. Default is 4
+		#Range: 0 ~ 300
+		"Parapsephurus Hell Creek River Spawn Rate" = 4
+		#The spawn rate of Thescelosaurus in the Hell Creek Swamp biome. Default is 7
+		#Range: 0 ~ 300
+		"Thescelosaurus Hell Creek Swamp Spawn Rate" = 7
+		#The spawn rate of Triceratops in the Hell Creek Swamp biome. Default is 10
+		#Range: 0 ~ 300
+		"Triceratops Hell Creek Swamp Spawn Rate" = 10
+		#The spawn rate of Tyrannosaurus in the Hell Creek Swamp biome. Default is 8
+		#Range: 0 ~ 300
+		"Tyrannosaurus Hell Creek Swamp Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Hell Creek Swamp biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Hell Creek Swamp Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Hell Creek Swamp biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Hell Creek Swamp Spawn Rate" = 2
+
+["Yixian Formation"]
+
+	["Yixian Formation"."Yixian Forest"]
+		#The spawn rate of Apoclion in the Yixian Forest biome. Default is 6
+		#Range: 0 ~ 300
+		"Apoclion Yixian Forest Spawn Rate" = 6
+		#The spawn rate of Beipiaosaurus in Yixian Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Forest Spawn Rate" = 3
+		#The spawn rate of Changyuraptor in Yixian Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Forest Spawn Rate" = 7
+		#The spawn rate of Cretaraneus in the Yixian Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Forest Spawn Rate" = 3
+		#The spawn rate of Dilong in Yixian Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Dilong Yixian Forest Spawn Rate" = 4
+		#The spawn rate of Dongbeititan in Yixian Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Forest Spawn Rate" = 8
+		#The spawn rate of Incisivosaurus in Yixian Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Forest Spawn Rate" = 4
+		#The spawn rate of Jinzhousaurus in Yixian Forest biome. Default is 10
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Forest Spawn Rate" = 10
+		#The spawn rate of Liaonemobius in Yixian Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Forest Spawn Rate" = 5
+		#The spawn rate of Liaoningosaurus in Yixian Forest biome. Default is 16
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Forest Spawn Rate" = 16
+		#The spawn rate of Protopsephurus in the Yixian Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Forest Spawn Rate" = 5
+		#The spawn rate of Psittacosaurus in Yixian Forest biome. Default is 18
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Forest Spawn Rate" = 18
+		#The spawn rate of Repenomamus in Yixian Forest biome. Default is 13
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Forest Spawn Rate" = 13
+		#The spawn rate of Ruixinia in Yixian Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Forest Spawn Rate" = 7
+		#The spawn rate of Sinamia in the Yixian Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Sinamia Yixian Forest Spawn Rate" = 8
+		#The spawn rate of Sinosauropteryx in Yixian Forest biome. Default is 9
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Forest Spawn Rate" = 12
+		#The spawn rate of Yanosteus in the Yixian Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Forest Spawn Rate" = 7
+		#The spawn rate of Yutyrannus in Yixian Forest biome. Default is 9
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Forest Spawn Rate" = 9
+		#The spawn rate of Zhenyuanlong in Yixian Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Forest Spawn Rate" = 3
+		#The spawn rate of Cave Sentinels in the Yixian Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Forest Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Forest Spawn Rate" = 2
+
+	["Yixian Formation"."Yixian Lakes"]
+		#The spawn rate of Apoclion in the Yixian Lakes biome. Default is 6
+		#Range: 0 ~ 300
+		"Apoclion Yixian Lakes Spawn Rate" = 6
+		#The spawn rate of Beipiaosaurus in Yixian Lakes biome. Default is 3
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Lakes Spawn Rate" = 3
+		#The spawn rate of Changyuraptor in Yixian Lakes biome. Default is 2
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Lakes Spawn Rate" = 2
+		#The spawn rate of Cretaraneus in the Yixian Lakes biome. Default is 3
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Lakes Spawn Rate" = 3
+		#The spawn rate of Dilong in Yixian Lakes biome. Default is 4
+		#Range: 0 ~ 300
+		"Dilong Yixian Lakes Spawn Rate" = 4
+		#The spawn rate of Dongbeititan in Yixian Lakes biome. Default is 14
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Lakes Spawn Rate" = 14
+		#The spawn rate of Incisivosaurus in Yixian Lakes biome. Default is 4
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Lakes Spawn Rate" = 4
+		#The spawn rate of Jinzhousaurus in Yixian Lakes biome. Default is 12
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Lakes Spawn Rate" = 12
+		#The spawn rate of Liaonemobius in Yixian Lakes biome. Default is 5
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Lakes Spawn Rate" = 5
+		#The spawn rate of Liaoningosaurus in Yixian Lakes biome. Default is 9
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Lakes Spawn Rate" = 9
+		#The spawn rate of Protopsephurus in the Yixian Lakes biome. Default is 8
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Lakes Spawn Rate" = 8
+		#The spawn rate of Psittacosaurus in Yixian Lakes biome. Default is 18
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Lakes Spawn Rate" = 18
+		#The spawn rate of Repenomamus in Yixian Lakes biome. Default is 13
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Lakes Spawn Rate" = 13
+		#The spawn rate of Ruixinia in Yixian Lakes biome. Default is 12
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Lakes Spawn Rate" = 12
+		#The spawn rate of Sinamia in the Yixian Lakes biome. Default is 12
+		#Range: 0 ~ 300
+		"Sinamia Yixian Lakes Spawn Rate" = 12
+		#The spawn rate of Sinosauropteryx in Yixian Lakes biome. Default is 9
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Lakes Spawn Rate" = 12
+		#The spawn rate of Yanosteus in the Yixian Lakes biome. Default is 10
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Lakes Spawn Rate" = 10
+		#The spawn rate of Yutyrannus in Yixian Lakes biome. Default is 9
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Lakes Spawn Rate" = 9
+		#The spawn rate of Zhenyuanlong in Yixian Lakes biome. Default is 5
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Lakes Spawn Rate" = 5
+		#The spawn rate of Cave Sentinels in the Yixian Lakes biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Lakes Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Lakes biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Lakes Spawn Rate" = 2
+
+	["Yixian Formation"."Yixian Regrowth"]
+		#The spawn rate of Apoclion in the Yixian Regrowth biome. Default is 12
+		#Range: 0 ~ 300
+		"Apoclion Yixian Regrowth Spawn Rate" = 12
+		#The spawn rate of Beipiaosaurus in Yixian Regrowth biome. Default is 8
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Regrowth Spawn Rate" = 8
+		#The spawn rate of Changyuraptor in Yixian Regrowth biome. Default is 0
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Regrowth Spawn Rate" = 0
+		#The spawn rate of Cretaraneus in the Yixian Regrowth biome. Default is 6
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Lakes Spawn Rate" = 6
+		#The spawn rate of Dilong in Yixian Regrowth biome. Default is 3
+		#Range: 0 ~ 300
+		"Dilong Yixian Regrowth Spawn Rate" = 3
+		#The spawn rate of Dongbeititan in Yixian Regrowth biome. Default is 0
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Regrowth Spawn Rate" = 0
+		#The spawn rate of Incisivosaurus in Yixian Regrowth biome. Default is 6
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Regrowth Spawn Rate" = 6
+		#The spawn rate of Jinzhousaurus in Yixian Regrowth biome. Default is 1
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Regrowth Spawn Rate" = 1
+		#The spawn rate of Liaonemobius in Yixian Regrowth biome. Default is 8
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Regrowth Spawn Rate" = 8
+		#The spawn rate of Liaoningosaurus in Yixian Regrowth biome. Default is 11
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Regrowth Spawn Rate" = 11
+		#The spawn rate of Protopsephurus in the Yixian Regrowth biome. Default is 1
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Regrowth Spawn Rate" = 1
+		#The spawn rate of Psittacosaurus in Yixian Regrowth biome. Default is 9
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Regrowth Spawn Rate" = 9
+		#The spawn rate of Repenomamus in Yixian Regrowth biome. Default is 4
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Regrowth Spawn Rate" = 4
+		#The spawn rate of Ruixinia in Yixian Regrowth biome. Default is 1
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Regrowth Spawn Rate" = 1
+		#The spawn rate of Sinamia in the Yixian Regrowth biome. Default is 4
+		#Range: 0 ~ 300
+		"Sinamia Yixian Regrowth Spawn Rate" = 4
+		#The spawn rate of Sinosauropteryx in Yixian Regrowth biome. Default is 13
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Regrowth Spawn Rate" = 13
+		#The spawn rate of Yanosteus in the Yixian Regrowth biome. Default is 2
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Regrowth Spawn Rate" = 2
+		#The spawn rate of Yutyrannus in Yixian Regrowth biome. Default is 0
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Regrowth Spawn Rate" = 0
+		#The spawn rate of Zhenyuanlong in Yixian Regrowth biome. Default is 0
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Regrowth Spawn Rate" = 0
+		#The spawn rate of Cave Sentinels in the Yixian Regrowth biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Regrowth Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Regrowth biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Regrowth Spawn Rate" = 2
+
+	["Yixian Formation"."Yixian Snowy Forest"]
+		#The spawn rate of Apoclion in the Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Apoclion Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Beipiaosaurus in Yixian Snowy Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Snowy Forest Spawn Rate" = 4
+		#The spawn rate of Changyuraptor in Yixian Snowy Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Snowy Forest Spawn Rate" = 7
+		#The spawn rate of Cretaraneus in the Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Dilong in Yixian Snowy Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Dilong Yixian Snowy Forest Spawn Rate" = 5
+		#The spawn rate of Dongbeititan in Yixian Snowy Forest biome. Default is 6
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Snowy Forest Spawn Rate" = 6
+		#The spawn rate of Incisivosaurus in Yixian Snowy Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Snowy Forest Spawn Rate" = 4
+		#The spawn rate of Jinzhousaurus in Yixian Snowy Forest biome. Default is 9
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Snowy Forest Spawn Rate" = 9
+		#The spawn rate of Liaonemobius in Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Liaoningosaurus in Yixian Snowy Forest biome. Default is 12
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Snowy Forest Spawn Rate" = 12
+		#The spawn rate of Protopsephurus in the Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Psittacosaurus in Yixian Snowy Forest biome. Default is 18
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Snowy Forest Spawn Rate" = 18
+		#The spawn rate of Repenomamus in Yixian Snowy Forest biome. Default is 14
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Snowy Forest Spawn Rate" = 14
+		#The spawn rate of Ruixinia in Yixian Snowy Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Snowy Forest Spawn Rate" = 8
+		#The spawn rate of Sinamia in the Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Sinamia Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Sinosauropteryx in Yixian Snowy Forest biome. Default is 10
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Snowy Forest Spawn Rate" = 10
+		#The spawn rate of Yanosteus in the Yixian Snowy Forest biome. Default is 0
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Snowy Forest Spawn Rate" = 0
+		#The spawn rate of Yutyrannus in Yixian Snowy Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Snowy Forest Spawn Rate" = 7
+		#The spawn rate of Zhenyuanlong in Yixian Snowy Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Snowy Forest Spawn Rate" = 5
+		#The spawn rate of Cave Sentinels in the Yixian Snowy Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Snowy Forest Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Snowy Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Snowy Forest Spawn Rate" = 2
+
+	["Yixian Formation"."Yixian Snowy Mountains"]
+		#The spawn rate of Apoclion in the Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Apoclion Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Beipiaosaurus in Yixian Snowy Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Snowy Mountains Spawn Rate" = 2
+		#The spawn rate of Changyuraptor in Yixian Snowy Mountains biome. Default is 1
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Snowy Mountains Spawn Rate" = 1
+		#The spawn rate of Cretaraneus in the Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Dilong in Yixian Snowy Mountains biome. Default is 3
+		#Range: 0 ~ 300
+		"Dilong Yixian Snowy Mountains Spawn Rate" = 3
+		#The spawn rate of Dongbeititan in Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Incisivosaurus in Yixian Snowy Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Snowy Mountains Spawn Rate" = 2
+		#The spawn rate of Jinzhousaurus in Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate on Liaonemobius in Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Liaoningosaurus in Yixian Snowy Mountains biome. Default is 1
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Snowy Mountains Spawn Rate" = 1
+		#The spawn rate of Protopsephurus in the Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Psittacosaurus in Yixian Snowy Mountains biome. Default is 4
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Snowy Mountains Spawn Rate" = 4
+		#The spawn rate of Repenomamus in Yixian Snowy Mountains biome. Default is 1
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Snowy Mountains Spawn Rate" = 1
+		#The spawn rate of Ruixinia in Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Sinamia in the Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Sinamia Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Sinosauropteryx in Yixian Snowy Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Snowy Mountains Spawn Rate" = 2
+		#The spawn rate of Yanosteus in the Yixian Snowy Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Snowy Mountains Spawn Rate" = 0
+		#The spawn rate of Yutyrannus in Yixian Snowy Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Snowy Mountains Spawn Rate" = 2
+		#The spawn rate of Zhenyuanlong in Yixian Snowy Mountains biome. Default is 1
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Snowy Mountains Spawn Rate" = 1
+		#The spawn rate of Cave Sentinels in the Yixian Snowy Mountains biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Snowy Mountains Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Snowy Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Snowy Mountains Spawn Rate" = 2
+
+	["Yixian Formation"."Yixian Volcano"]
+		#The spawn rate of Apoclion in the Yixian Volcano biome. Default is 3
+		#Range: 0 ~ 300
+		"Apoclion Yixian Volcano Spawn Rate" = 3
+		#The spawn rate of Beipiaosaurus in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Beipiaosaurus Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Changyuraptor in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Changyuraptor Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Cretaraneus in the Yixian Volcano biome. Default is 1
+		#Range: 0 ~ 300
+		"Cretaraneus Yixian Volcano Spawn Rate" = 1
+		#The spawn rate of Dilong in Yixian Volcano biome. Default is 1
+		#Range: 0 ~ 300
+		"Dilong Yixian Volcano Spawn Rate" = 1
+		#The spawn rate of Dongbeititan in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Dongbeititan Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Incisivosaurus in Yixian Volcano biome. Default is 3
+		#Range: 0 ~ 300
+		"Incivosaurus Yixian Volcano Spawn Rate" = 3
+		#The spawn rate of Jinzhousaurus in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Jinzhousaurus Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Liaonemobius in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Liaonemobius Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Liaoningosaurus in Yixian Volcano biome. Default is 5
+		#Range: 0 ~ 300
+		"Liaoningosaurus Yixian Volcano Spawn Rate" = 5
+		#The spawn rate of Protopsephurus in the Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Protopsephurus Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Psittacosaurus in Yixian Volcano biome. Default is 4
+		#Range: 0 ~ 300
+		"Psittacosaurus Yixian Volcano Spawn Rate" = 4
+		#The spawn rate of Repenomamus in Yixian Volcano biome. Default is 2
+		#Range: 0 ~ 300
+		"Repenomamus Yixian Volcano Spawn Rate" = 2
+		#The spawn rate of Ruixinia in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Ruixinia Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Sinamia in the Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Sinamia Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Sinosauropteryx in Yixian Volcano biome. Default is 3
+		#Range: 0 ~ 300
+		"Sinosauropteryx Yixian Volcano Spawn Rate" = 3
+		#The spawn rate of Yanosteus in the Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Yanosteus Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Yutyrannus in Yixian Volcano biome. Default is 1
+		#Range: 0 ~ 300
+		"Yutyrannus Yixian Volcano Spawn Rate" = 1
+		#The spawn rate of Zhenyuanlong in Yixian Volcano biome. Default is 0
+		#Range: 0 ~ 300
+		"Zhenyuanlong Yixian Volcano Spawn Rate" = 0
+		#The spawn rate of Cave Sentinels in the Yixian Volcano biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Yixian Volcano Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Yixian Volcano biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Yixian Volcano Spawn Rate" = 2
+
+["Kayenta Formation"]
+
+	["Kayenta Formation"."Kayenta Canyon"]
+		#The spawn rate of Calsoyasuchus in the Kayenta Canyon biome. Default is 2
+		#Range: 0 ~ 300
+		"Calsoyasuchus Kayenta Canyon Spawn Rate" = 2
+		#The spawn rate of Ceratodus in the Kayenta Canyon biome. Default is 0
+		#Range: 0 ~ 300
+		"Ceratodus Kayenta Canyon Spawn Rate" = 0
+		#The spawn rate of Dilophosaurus in the Kayenta Canyon biome. Default is 5
+		#Range: 0 ~ 300
+		"Dilophosaurus Kayenta Canyon Spawn Rate" = 5
+		#The spawn rate of Kayentatherium in the Kayenta Canyon biome. Default is 1
+		#Range: 0 ~ 300
+		"Kayentatherium Kayenta Canyon Spawn Rate" = 1
+		#The spawn rate of Megapnosaurus in the Kayenta Canyon biome. Default is 8
+		#Range: 1 ~ 300
+		"Megapnosaurus Kayenta Canyon Spawn Rate" = 8
+		#The spawn rate of Potamoceratodus in the Kayenta Canyon biome. Default is 2
+		#Range: 0 ~ 300
+		"Potamoceratodus Kayenta Canyon Spawn Rate" = 2
+		#The spawn rate of Sarahsaurus in the Kayenta Canyon biome. Default is 4
+		#Range: 0 ~ 300
+		"Sarahsaurus Kayenta Canyon Spawn Rate" = 4
+		#The spawn rate of Scelidosaurus in the Kayenta Canyon biome. Default is 10
+		#Range: 0 ~ 300
+		"Scelidosaurus Kayenta Canyon Spawn Rate" = 10
+		#The spawn rate of Scutellosaurus in the Kayenta Canyon biome. Default is 7
+		#Range: 0 ~ 300
+		"Scutellosaurus Kayenta Canyon Spawn Rate" = 7
+		#The spawn rate of Cave Sentinels in the Kayenta Canyon biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Kayenta Canyon Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Kayenta Canyon biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Kayenta Canyon Spawn Rate" = 2
+
+	["Kayenta Formation"."Kayenta Desert"]
+		#The spawn rate of Calsoyasuchus in the Kayenta Desert biome. Default is 1
+		#Range: 0 ~ 300
+		"Calsoyasuchus Kayenta Desert Spawn Rate" = 1
+		#The spawn rate of Ceratodus in the Kayenta Desert biome. Default is 2
+		#Range: 0 ~ 300
+		"Ceratodus Kayenta Desert Spawn Rate" = 2
+		#The spawn rate of Dilophosaurus in the Kayenta Desert biome. Default is 3
+		#Range: 0 ~ 300
+		"Dilophosaurus Kayenta Desert Spawn Rate" = 3
+		#The spawn rate of Kayentatherium in the Kayenta Desert biome. Default is 2
+		#Range: 0 ~ 300
+		"Kayentatherium Kayenta Desert Spawn Rate" = 2
+		#The spawn rate of Megapnosaurus in the Kayenta Desert biome. Default is 5
+		#Range: 1 ~ 300
+		"Megapnosaurus Kayenta Desert Spawn Rate" = 5
+		#The spawn rate of Potamoceratodus in the Kayenta Desert biome. Default is 2
+		#Range: 0 ~ 300
+		"Potamoceratodus Kayenta Desert Spawn Rate" = 2
+		#The spawn rate of Sarahsaurus in the Kayenta Desert biome. Default is 4
+		#Range: 0 ~ 300
+		"Sarahsaurus Kayenta Desert Spawn Rate" = 4
+		#The spawn rate of Scelidosaurus in the Kayenta Desert biome. Default is 4
+		#Range: 0 ~ 300
+		"Scelidosaurus Kayenta Desert Spawn Rate" = 4
+		#The spawn rate of Scutellosaurus in the Kayenta Desert biome. Default is 2
+		#Range: 0 ~ 300
+		"Scutellosaurus Kayenta Desert Spawn Rate" = 2
+		#The spawn rate of Cave Sentinels in the Kayenta Desert biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Kayenta Desert Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Kayenta Desert biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Kayenta Desert Spawn Rate" = 2
+
+	["Kayenta Formation"."Kayenta Dry Forest"]
+		#The spawn rate of Calsoyasuchus in the Kayenta Dry Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Calsoyasuchus Kayenta Dry Forest Spawn Rate" = 5
+		#The spawn rate of Ceratodus in the Kayenta Dry Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Kayenta Dry Forest Spawn Rate" = 3
+		#The spawn rate of Dilophosaurus in the Kayenta Dry Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Dilophosaurus Kayenta Dry Forest Spawn Rate" = 4
+		#The spawn rate of Kayentatherium in the Kayenta Dry Forest biome. Default is 7
+		#Range: 0 ~ 300
+		"Kayentatherium Kayenta Dry Forest Spawn Rate" = 7
+		#The spawn rate of Megapnosaurus in the Kayenta Dry Forest biome. Default is 2
+		#Range: 1 ~ 300
+		"Megapnosaurus Kayenta Dry Forest Spawn Rate" = 2
+		#The spawn rate of Potamoceratodus in the Kayenta Dry Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Potamoceratodus Kayenta Dry Forest Spawn Rate" = 2
+		#The spawn rate of Sarahsaurus in the Kayenta Dry Forest biome. Default is 6
+		#Range: 0 ~ 300
+		"Sarahsaurus Kayenta Dry Forest Spawn Rate" = 6
+		#The spawn rate of Scelidosaurus in the Kayenta Dry Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Scelidosaurus Kayenta Dry Forest Spawn Rate" = 2
+		#The spawn rate of Scutellosaurus in the Kayenta Dry Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Scutellosaurus Kayenta Dry Forest Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Kayenta Dry Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Kayenta Dry Forest Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Kayenta Dry Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Kayenta Dry Forest Spawn Rate" = 2
+
+	["Kayenta Formation"."Kayenta River"]
+		#The spawn rate of Calsoyasuchus in the Kayenta River biome. Default is 3
+		#Range: 0 ~ 300
+		"Calsoyasuchus Kayenta River Spawn Rate" = 3
+		#The spawn rate of Ceratodus in the Kayenta River biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Kayenta River Spawn Rate" = 3
+		#The spawn rate of Dilophosaurus in the Kayenta River biome. Default is 0
+		#Range: 0 ~ 300
+		"Dilophosaurus Kayenta River Spawn Rate" = 0
+		#The spawn rate of Kayentatherium in the Kayenta River biome. Default is 1
+		#Range: 0 ~ 300
+		"Kayentatherium Kayenta River Spawn Rate" = 1
+		#The spawn rate of Megapnosaurus in the Kayenta River biome. Default is 0
+		#Range: 1 ~ 300
+		"Megapnosaurus Kayenta River Spawn Rate" = 1
+		#The spawn rate of Potamoceratodus in the Kayenta River biome. Default is 2
+		#Range: 0 ~ 300
+		"Potamoceratodus Kayenta River Spawn Rate" = 2
+		#The spawn rate of Sarahsaurus in the Kayenta River biome. Default is 0
+		#Range: 0 ~ 300
+		"Sarahsaurus Kayenta River Spawn Rate" = 0
+		#The spawn rate of Scelidosaurus in the Kayenta River biome. Default is 0
+		#Range: 0 ~ 300
+		"Scelidosaurus Kayenta River Spawn Rate" = 0
+		#The spawn rate of Scutellosaurus in the Kayenta River biome. Default is 0
+		#Range: 0 ~ 300
+		"Scutellosaurus Kayenta River Spawn Rate" = 0
+		#The spawn rate of Cave Sentinels in the Kayenta River biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Kayenta River Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Kayenta River biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Kayenta River Spawn Rate" = 2
+
+["Morrison Formation"]
+
+	["Morrison Formation"."Morrison Hills"]
+		#The spawn rate of Allosaurus in the Morrison Hills biome. Default is 3
+		#Range: 0 ~ 300
+		"Allosaurus Morrison Hills Spawn Rate" = 3
+		#The spawn rate of Camarasaurus in the Morrison Hills biome. Default is 2
+		#Range: 0 ~ 300
+		"Camarasaurus Morrison Hills Spawn Rate" = 2
+		#The spawn rate of Ceratodus in the Morrison Hills biome. Default is 1
+		#Range: 0 ~ 300
+		"Ceratodus Morrison Hills Spawn Rate" = 1
+		#The spawn rate of Ceratosaurus in the Morrison Hills biome. Default is 2
+		#Range: 0 ~ 300
+		"Ceratosaurus Morrison Hills Spawn Rate" = 2
+		#The spawn rate of Dermestid Beetles in the Morrison Hills biome. Default is 7
+		#Range: 0 ~ 300
+		"Dermestid Beetle Morrison Hills Spawn Rate" = 7
+		#The spawn rate of Dryosaurus in the Morrison Hills biome. Default is 7
+		#Range: 0 ~ 300
+		"Dryosaurus Morrison Hills Spawn Rate" = 7
+		#The spawn rate of Eilenodon in the Morrison Hills biome. Default is 5
+		#Range: 0 ~ 300
+		"Eilenodon Morrison Hills Spawn Rate" = 8
+		#The spawn rate of Hesperornithoides in the Morrison Hills biome. Default is 4
+		#Range: 0 ~ 300
+		"Hesperornithoides Morrison Hills Spawn Rate" = 7
+		#The spawn rate of Potamoceratodus in the Morrison Hills biome. Default is 3
+		#Range: 0 ~ 300
+		"Potamoceratodus Morrison Hills Spawn Rate" = 3
+		#The spawn rate of Stegosaurus in the Morrison Hills biome. Default is 10
+		#Range: 0 ~ 300
+		"Stegosaurus Morrison Hills Spawn Rate" = 10
+		#The spawn rate of Cave Sentinels in the Morrison Hills biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Morrison Hills Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Morrison Hills biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Morrison Hills Spawn Rate" = 2
+
+	["Morrison Formation"."Morrison Savanna"]
+		#The spawn rate of Allosaurus in the Morrison Savanna biome. Default is 3
+		#Range: 0 ~ 300
+		"Allosaurus Morrison Savanna Spawn Rate" = 3
+		#The spawn rate of Camarasaurus in the Morrison Savanna biome. Default is 2
+		#Range: 0 ~ 300
+		"Camarasaurus Morrison Savanna Spawn Rate" = 2
+		#The spawn rate of Ceratodus in the Morrison Savanna biome. Default is 1
+		#Range: 0 ~ 300
+		"Ceratodus Morrison Savanna Spawn Rate" = 1
+		#The spawn rate of Ceratosaurus in the Morrison Savanna biome. Default is 2
+		#Range: 0 ~ 300
+		"Ceratosaurus Morrison Savanna Spawn Rate" = 2
+		#The spawn rate of Dermestid Beetles in the Morrison Savanna biome. Default is 7
+		#Range: 0 ~ 300
+		"Dermestid Beetle Morrison Savanna Spawn Rate" = 7
+		#The spawn rate of Dryosaurus in the Morrison Savanna biome. Default is 7
+		#Range: 0 ~ 300
+		"Dryosaurus Morrison Savanna Spawn Rate" = 7
+		#The spawn rate of Eilenodon in the Morrison Savanna biome. Default is 5
+		#Range: 0 ~ 300
+		"Eilenodon Morrison Savanna Spawn Rate" = 8
+		#The spawn rate of Hesperornithoides in the Morrison Savanna biome. Default is 4
+		#Range: 0 ~ 300
+		"Hesperornithoides Morrison Savanna Spawn Rate" = 7
+		#The spawn rate of Potamoceratodus in the Morrison Savanna biome. Default is 3
+		#Range: 0 ~ 300
+		"Potamoceratodus Morrison Savanna Spawn Rate" = 3
+		#The spawn rate of Stegosaurus in the Morrison Savanna biome. Default is 10
+		#Range: 0 ~ 300
+		"Stegosaurus Morrison Savanna Spawn Rate" = 10
+		#The spawn rate of Cave Sentinels in the Morrison Savanna biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Morrison Savanna Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Morrison Savanna biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Morrison Savanna Spawn Rate" = 2
+
+["Chinle Formation"]
+
+	["Chinle Formation"."Chinle Flats"]
+		#The spawn rate of Arganodus in the Chinle Flats biome. Default is 4
+		#Range: 0 ~ 300
+		"Arganodus Chinle Flats Spawn Rate" = 3
+		#The spawn rate of Chinlea in the Chinle Flats biome. Default is 4
+		#Range: 0 ~ 300
+		"Chinlea Chinle Flats Spawn Rate" = 4
+		#The spawn rate of Coelophysis in the Chinle Flats biome. Default is 10
+		#Range: 0 ~ 300
+		"Coelophysis Chinle Flats Spawn Rate" = 10
+		#The spawn rate of Desmatosuchus in the Chinle Flats biome. Default is 4
+		#Range: 0 ~ 300
+		"Desmatosuchus Chinle Flats Spawn Rate" = 4
+		#The spawn rate of Lonchidion in the Chinle Flats biome. Default is 1
+		#Range: 0 ~ 300
+		"Lonchidion Chinle Flats Spawn Rate" = 1
+		#The spawn rate of Mooreodontus in the Chinle Flats biome. Default is 1
+		#Range: 0 ~ 300
+		"Mooreodontus Chinle Flats Spawn Rate" = 1
+		#The spawn rate of Placerias in the Chinle Flats biome. Default is 0
+		#Range: 0 ~ 300
+		"Placerias Chinle Flats Spawn Rate" = 0
+		#The spawn rate of Poposaurus in the Chinle Flats biomes. Default is 0
+		#Range: 0 ~ 300
+		"Poposaurus Chinle Flats Spawn Rate" = 0
+		#The spawn rate of Postosuchus in the Chinle Flats biome. Default is 6
+		#Range: 0 ~ 300
+		"Postosuchus Chinle Flats Spawn Rate" = 6
+		#The spawn rate of Saurichthys in the Chinle Flats biome. Default is 2
+		#Range: 0 ~ 300
+		"Saurichthys Chinle Flats Spawn Rate" = 2
+		#The spawn rate of Trilophosaurus in the Chinle Flats biome. Default is 0
+		#Range: 0 ~ 300
+		"Trilophosaurus Chinle Flats Spawn Rate" = 0
+		#The spawn rate of Typothorax in the Chinle Flats biome. Default is 8
+		#Range: 0 ~ 300
+		"Typothorax Chinle Flats Spawn Rate" = 8
+		#The spawn rate of Cave Sentinels in the Chinle Flats biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Chinle Flats Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Chinle Flats biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Chinle Flats Spawn Rate" = 2
+
+	["Chinle Formation"."Chinle River"]
+		#The spawn rate of Arganodus in the Chinle River biome. Default is 4
+		#Range: 0 ~ 300
+		"Arganodus Chinle River Spawn Rate" = 3
+		#The spawn rate of Chinlea in the Chinle River biome. Default is 4
+		#Range: 0 ~ 300
+		"Chinlea Chinle River Spawn Rate" = 4
+		#The spawn rate of Coelophysis in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Coelophysis Chinle River Spawn Rate" = 0
+		#The spawn rate of Desmatosuchus in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Desmatosuchus Chinle River Spawn Rate" = 0
+		#The spawn rate of Lonchidion in the Chinle River biome. Default is 1
+		#Range: 0 ~ 300
+		"Lonchidion Chinle River Spawn Rate" = 1
+		#The spawn rate of Mooreodontus in the Chinle River biome. Default is 1
+		#Range: 0 ~ 300
+		"Mooreodontus Chinle River Spawn Rate" = 1
+		#The spawn rate of Placerias in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Placerias Chinle River Spawn Rate" = 0
+		#The spawn rate of Poposaurus in the Chinle River biomes. Default is 0
+		#Range: 0 ~ 300
+		"Poposaurus Chinle River Spawn Rate" = 0
+		#The spawn rate of Postosuchus in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Postosuchus Chinle River Spawn Rate" = 0
+		#The spawn rate of Saurichthys in the Chinle River biome. Default is 2
+		#Range: 0 ~ 300
+		"Saurichthys Chinle River Spawn Rate" = 2
+		#The spawn rate of Trilophosaurus in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Trilophosaurus Chinle River Spawn Rate" = 0
+		#The spawn rate of Typothorax in the Chinle River biome. Default is 0
+		#Range: 0 ~ 300
+		"Typothorax Chinle River Spawn Rate" = 0
+		#The spawn rate of Cave Sentinels in the Chinle River biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Chinle River Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Chinle River biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Chinle River Spawn Rate" = 2
+
+	["Chinle Formation"."Chinle Swamp"]
+		#The spawn rate of Arganodus in the Chinle Swamp biome. Default is 4
+		#Range: 0 ~ 300
+		"Arganodus Chinle Swamp Spawn Rate" = 4
+		#The spawn rate of Chinlea in the Chinle Swamp biome. Default is 1
+		#Range: 0 ~ 300
+		"Chinlea Chinle Swamp Spawn Rate" = 1
+		#The spawn rate of Coelophysis in the Chinle Swamp biome. Default is 12
+		#Range: 0 ~ 300
+		"Coelophysis Chinle Swamp Spawn Rate" = 12
+		#The spawn rate of Desmatosuchus in the Chinle Swamp biome. Default is 9
+		#Range: 0 ~ 300
+		"Desmatosuchus Chinle Swamp Spawn Rate" = 9
+		#The spawn rate of Lonchidion in the Chinle Swamp biome. Default is 4
+		#Range: 0 ~ 300
+		"Lonchidion Chinle Swamp Spawn Rate" = 4
+		#The spawn rate of Mooreodontus in the Chinle Swamp biome. Default is 3
+		#Range: 0 ~ 300
+		"Mooreodontus Chinle Swamp Spawn Rate" = 3
+		#The spawn rate of Placerias in the Chinle Swamp biome. Default is 6
+		#Range: 0 ~ 300
+		"Placerias Chinle Swamp Spawn Rate" = 6
+		#The spawn rate of Poposaurus in the Chinle Swamp biome. Default is 3
+		#Range: 0 ~ 300
+		"Poposaurus Chinle Swamp Spawn Rate" = 3
+		#The spawn rate of Postosuchus in the Chinle Swamp biome. Default is 5
+		#Range: 0 ~ 300
+		"Postosuchus Chinle Swamp Spawn Rate" = 5
+		#The spawn rate of Saurichthys in the Chinle Swamp biome. Default is 2
+		#Range: 0 ~ 300
+		"Saurichthys Chinle Swamp Spawn Rate" = 2
+		#The spawn rate of Trilophosaurus in the Chinle Swamp biome. Default is 10
+		#Range: 0 ~ 300
+		"Trilophosaurus Chinle Swamp Spawn Rate" = 10
+		#The spawn rate of Typothorax in the Chinle Swamp biome. Default is 7
+		#Range: 0 ~ 300
+		"Typothorax Chinle Swamp Spawn Rate" = 7
+		#The spawn rate of Cave Sentinels in the Chinle Swamp biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Chinle Swamp Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Chinle Swamp biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Chinle Swamp Spawn Rate" = 2
+
+	["Chinle Formation"."Chinle Wooded Mountains"]
+		#The spawn rate of Arganodus in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Arganodus Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Chinlea in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Chinlea Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Coelophysis in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Coelophysis Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Desmatosuchus in the Chinle Wooded Mountains biome. Default is 7
+		#Range: 0 ~ 300
+		"Desmatosuchus Chinle Wooded Mountains Spawn Rate" = 7
+		#The spawn rate of Lonchidion in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Lonchidion Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Mooreodontus in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Mooreodontus Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Placerias in the Chinle Wooded Mountains biome. Default is 11
+		#Range: 0 ~ 300
+		"Placerias Chinle Wooded Mountains Spawn Rate" = 11
+		#The spawn rate of Poposaurus in the Chinle Wooded Mountains biome. Default is 8
+		#Range: 0 ~ 300
+		"Poposaurus Chinle Wooded Mountains Spawn Rate" = 8
+		#The spawn rate of Postosuchus in the Chinle Wooded Mountains biome. Default is 3
+		#Range: 0 ~ 300
+		"Postosuchus Chinle Wooded Mountains Spawn Rate" = 3
+		#The spawn rate of Saurichthys in the Chinle Wooded Mountains biome. Default is 0
+		#Range: 0 ~ 300
+		"Saurichthys Chinle Wooded Mountains Spawn Rate" = 0
+		#The spawn rate of Trilophosaurus in the Chinle Wooded Mountains. Default is 10
+		#Range: 0 ~ 300
+		"Trilophosaurus Chinle Wooded Mountains Spawn Rate" = 10
+		#The spawn rate of Typothorax in the vanilla's spawn rate in the Chinle Wooded Mountains biome. Default is 5
+		#Range: 0 ~ 300
+		"Typothorax Chinle Wooded Mountains Spawn Rate" = 5
+		#The spawn rate of Cave Sentinels in the Chinle Wooded Mountains biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Chinle Wooded Mountains Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Chinle Wooded Mountains biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Chinle Wooded Mountains Spawn Rate" = 2
+
+["Ischigualasto Formation"]
+
+	["Ischigualasto Formation"."Ischigualasto Forest"]
+		#The spawn rate of Ceratodus in the Ischigualasto Forest biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Ischigualasto Forest Spawn Rate" = 3
+		#The spawn rate of Chromogisaurus in the Ischigualasto Forest biome. Default is 10
+		#Range: 0 ~ 300
+		"Chromogisaurus Ischigualasto Forest Spawn Rate" = 10
+		#The spawn rate of Exaeretodon in the Ischigualasto Forest biome. Default is 12
+		#Range: 0 ~ 300
+		"Exaeretodon Ischigualasto Forest Spawn Rate" = 12
+		#The spawn rate of Herrerasaurus in the Ischigualasto Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Herrerasaurus Ischigualasto Forest Spawn Rate" = 8
+		#The spawn rate of Hyperodapedon in the Ischigualasto Forest biome. Default is 15
+		#Range: 0 ~ 300
+		"Hyperodapedon Ischigualasto Forest Spawn Rate" = 15
+		#The spawn rate of Ischigualastia in the Ischigualasto Forest biome. Default is 8
+		#Range: 0 ~ 300
+		"Ischigualastia Ischigualasto Forest Spawn Rate" = 8
+		#The spawn rate of Saurosuchus in the Ischigualasto Forest biome. Default is 4
+		#Range: 0 ~ 300
+		"Saurosuchus Ischigualasto Forest Spawn Rate" = 4
+		#The spawn rate of Sillosuchus in the Ischigualasto Forest biome. Default is 6
+		#Range: 0 ~ 300
+		"Sillosuchus Ischigualasto Forest Spawn Rate" = 6
+		#The spawn rate of Cave Sentinels in the Ischigualasto Forest biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Ischigualasto Forest Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Ischigualasto Forest biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Ischigualasto Forest Spawn Rate" = 2
+
+	["Ischigualasto Formation"."Ischigualasto Clearing"]
+		#The spawn rate of Ceratodus in the Ischigualasto Clearing biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Ischigualasto Clearing Spawn Rate" = 3
+		#The spawn rate of Chromogisaurus in the Ischigualasto Clearing biome. Default is 10
+		#Range: 0 ~ 300
+		"Chromogisaurus Ischigualasto Clearing Spawn Rate" = 10
+		#The spawn rate of Exaeretodon in the Ischigualasto Clearing biome. Default is 12
+		#Range: 0 ~ 300
+		"Exaeretodon Ischigualasto Clearing Spawn Rate" = 12
+		#The spawn rate of Herrerasaurus in the Ischigualasto Clearing biome. Default is 8
+		#Range: 0 ~ 300
+		"Herrerasaurus Ischigualasto Clearing Spawn Rate" = 8
+		#The spawn rate of Hyperodapedon in the Ischigualasto Clearing biome. Default is 15
+		#Range: 0 ~ 300
+		"Hyperodapedon Ischigualasto Clearing Spawn Rate" = 15
+		#The spawn rate of Ischigualastia in the Ischigualasto Clearing biome. Default is 8
+		#Range: 0 ~ 300
+		"Ischigualastia Ischigualasto Clearing Spawn Rate" = 8
+		#The spawn rate of Saurosuchus in the Ischigualasto Clearing biome. Default is 4
+		#Range: 0 ~ 300
+		"Saurosuchus Ischigualasto Clearing Spawn Rate" = 4
+		#The spawn rate of Sillosuchus in the Ischigualasto Clearing biome. Default is 6
+		#Range: 0 ~ 300
+		"Sillosuchus Ischigualasto Clearing Spawn Rate" = 6
+		#The spawn rate of Cave Sentinels in the Ischigualasto Clearing biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Ischigualasto Clearing Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Ischigualasto Clearing biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Ischigualasto Clearing Spawn Rate" = 2
+
+	["Ischigualasto Formation"."Ischigualasto Hills"]
+		#The spawn rate of Ceratodus in the Ischigualasto Hills biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Ischigualasto Hills Spawn Rate" = 3
+		#The spawn rate of Chromogisaurus in the Ischigualasto Hills biome. Default is 10
+		#Range: 0 ~ 300
+		"Chromogisaurus Ischigualasto Hills Spawn Rate" = 10
+		#The spawn rate of Exaeretodon in the Ischigualasto Hills biome. Default is 12
+		#Range: 0 ~ 300
+		"Exaeretodon Ischigualasto Hills Spawn Rate" = 12
+		#The spawn rate of Herrerasaurus in the Ischigualasto Hills biome. Default is 8
+		#Range: 0 ~ 300
+		"Herrerasaurus Ischigualasto Hills Spawn Rate" = 8
+		#The spawn rate of Hyperodapedon in the Ischigualasto Hills biome. Default is 15
+		#Range: 0 ~ 300
+		"Hyperodapedon Ischigualasto Hills Spawn Rate" = 15
+		#The spawn rate of Ischigualastia in the Ischigualasto Hills biome. Default is 8
+		#Range: 0 ~ 300
+		"Ischigualastia Ischigualasto Hills Spawn Rate" = 8
+		#The spawn rate of Sillosuchus in the Ischigualasto Hills biome. Default is 6
+		#Range: 0 ~ 300
+		"Sillosuchus Ischigualasto Hills Spawn Rate" = 6
+		#The spawn rate of Saurosuchus in the Ischigualasto Hills biome. Default is 4
+		#Range: 0 ~ 300
+		"Saurosuchus Ischigualasto Hills Spawn Rate" = 4
+		#The spawn rate of Cave Sentinels in the Ischigualasto Hills biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Ischigualasto Hills Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Ischigualasto Hills biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Ischigualasto Hills Spawn Rate" = 2
+
+	["Ischigualasto Formation"."Ischigualasto River"]
+		#The spawn rate of Ceratodus in the Ischigualasto River biome. Default is 3
+		#Range: 0 ~ 300
+		"Ceratodus Ischigualasto River Spawn Rate" = 3
+		#The spawn rate of Chromogisaurus in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Chromogisaurus Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Exaeretodon in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Exaeretodon Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Herrerasaurus in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Herrerasaurus Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Hyperodapedon in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Hyperodapedon Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Ischigualastia in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Ischigualastia Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Sillosuchus in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Sillosuchus Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Saurosuchus in the Ischigualasto River biome. Default is 0
+		#Range: 0 ~ 300
+		"Saurosuchus Ischigualasto River Spawn Rate" = 0
+		#The spawn rate of Cave Sentinels in the Ischigualasto River biome. Default is 5
+		#Range: 0 ~ 300
+		"Cave Sentinel Ischigualasto River Spawn Rate" = 5
+		#The spawn rate of Land Sentinels in the Ischigualasto River biome. Default is 2
+		#Range: 0 ~ 300
+		"Land Sentinel Ischigualasto River Spawn Rate" = 2
+
+["Henostone Caves"]
+	#The spawn rate of Cave Sentinels in the Henostone Cave biome. Default is 10
+	#Range: 0 ~ 300
+	"Cave Sentinel Henostone Cave Spawn Rate" = 10
+
+["Misc Settings"]
+	#Even I don't know what it does. Default is false
+	"Super Secret Setting" = false
+	#Cretaceous Dimension ID. Default is 9
+	#Range: > -2147483648
+	"Cretaceous Dimension ID" = 9
+	#Jurassic Dimension ID. Default is 8
+	#Range: > -2147483648
+	"Jurassic Dimension ID" = 8
+	#Triassic Dimension ID. Default is 7
+	#Range: > -2147483648
+	"Triassic Dimension ID" = 7
+	#Warning: Messing with the time space continuum may lead to unforseen consequences. Recommended to keep false for servers. Default is false
+	"Space Time Continuum Warping" = false
+	#Toggles whether stones can be broken down using the Geological Hammer. Default is true
+	"Geological Hammer Stone Breaking" = true
+	#Toggles whether players will recieve an Ancient Journal when they first join the world. Default is true
+	"Give Ancient Journal on Start" = true
+
+[Structures]
+	#The closest two Hell Creek Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Hell Creek Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Hell Creek Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Hell Creek Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Morrison Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Morrison Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Morrison Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Morrison Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Ischigualasto Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Ischigualasto Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Ischigualasto Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Ischigualasto Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Djadochta Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Djadochta Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Djadochta Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Djadochta Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Kayenta Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Kayenta Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Kayenta Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Kayenta Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Chinle Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Chinle Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Chinle Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Chinle Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Yixian Ruined Time Traveller's Huts can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Yixian Ruined Time Traveller's Hut Min Distance" = 40
+	#The farthest two Yixian Ruined Time Traveller's Huts can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Yixian Ruined Time Traveller's Hut Max Distance" = 60
+	#The closest two Geologist Camps can spawn from eachother. Keep this value lower than the max. Default is 25
+	#Range: 1 ~ 300
+	"Geologist Camp Min Distance" = 25
+	#The farthest two Geologist Camps can spawn from eachother. Keep this value higher than the min. Default is 50
+	#Range: 1 ~ 300
+	"Geologist Camp Max Distance" = 50
+	#The closest two Time Temples can spawn from eachother. Keep this value lower than the max. Default is 75
+	#Range: 1 ~ 300
+	"Time Temple Min Distance" = 75
+	#The farthest two Time Temples can spawn from eachother. Keep this value higher than the min. Default is 100
+	#Range: 1 ~ 300
+	"Time Temple Max Distance" = 100
+	#The closest two Portal Hubs can spawn from eachother. Keep this value lower than the max. Default is 40
+	#Range: 1 ~ 300
+	"Portal Hub Min Distance" = 40
+	#The farthest two Portal Hubs can spawn from eachother. Keep this value higher than the min. Default is 60
+	#Range: 1 ~ 300
+	"Portal Hub Hut Max Distance" = 60
+
+["World Generation"]
+	#The probability of an ancient stone deposit is made up of the base stone. To find the percentage probability, add the base stone weight with the fossil weight, and then divide the base stone weight by the combined weights. Default is 97
+	#Range: 1 ~ 300
+	"Base Stone Weight" = 97
+	#The probability of an ancient stone deposit is made up of the fossilized stone. To find the percentage probability, add the base stone weight with the fossil weight, and then divide the fossil stone weight by the combined weights. Default is 3
+	#Range: 1 ~ 300
+	"Fossil Weight" = 3
+	#Toggles whether plants and animals represented by blocks that are still alive today can generate in the overworld. Default is true
+	"Extant World Generation" = true
+	#Toggles whether animals that are still alive today can spawn in the overworld. Default is true
+	"Extant Entity Spawns" = true
+
+["AI Config"]
+	#Toggles whether all prehistoric animals sleep or not. Default is true
+	"Sleeping AI" = true
+	#Toggles whether all prehistoric animals are affected by hunger. Default is true
+	"Advanced Hunger AI" = true
+	#Toggles whether entities take damage from being hungry. Default is false
+	"Hunger Damage" = false
+	#Toggles whether entities lay their eggs as blocks naturally when full. Default is true
+	"Natural Egg Laying AI - Blocks" = true
+	#Toggles whether entities lay their eggs as items naturally when full. Default is false
+	"Natural Egg Laying AI - Items" = false
+	#Toggles whether carnivorous entities will attack the player on sight or not, creating a more difficult environment. Default is false
+	"Hostile Carnivores" = false
+	#Toggles whether prehistoric entities sleep randomly, instead of being diurnal, nocturnal, crepuscular, or cathemeral. Default is false
+	"Unscheduled Sleeping" = false
+	#Toggles whether large sauropods can trample smaller animals. Default is true
+	"Sauropod Trampling" = true
+
+[Eggs]
+	#Toggles whether eggs need heat to hatch, and whether they can die without heat. Default is true
+	"Egg Heat Requirement" = true
+

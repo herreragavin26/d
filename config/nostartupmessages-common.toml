@@ -1,0 +1,3 @@
+#A list of messages that if contained in a message will be stopped.
+messages = ["You are using a beta version of Railcraft Reborn", "You are using a development version of Railcraft Reborn", "This game is using an alpha build of Ender IO", "Tough Beginnings", "Under The Moon", "Ice and Fire", "Terramity", "The Undead", "Discover Middle-Earth in Minecraft", "[First Aid] Press H For the tutorial]", "Press H for the tutorial", "Sake's Structures", "Beware the thunder bringing forth demonic arachnid overlords", "Spawnrates are configurable", "You are playing an alpha version of F&A. This release is not stable and you may encounter issues. You can find information on where to report problems on our modrinth or CurseForge pages."]
+

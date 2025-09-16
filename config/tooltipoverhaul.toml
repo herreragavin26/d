@@ -1,0 +1,44 @@
+# Render a 3D preview of tiered items (swords, axes, etc.) on the left side of the tooltip.
+# 
+# Default: true
+TIERED_ITEMS_RENDERER = true
+# Render a 3D preview of armor pieces on the left side of the tooltip.
+# 
+# Default: true
+ARMOR_ITEMS_RENDERER = true
+# Second panel X offset (pixels). Used when a 3D preview is shown. Negative = left, positive = right.
+# 
+# Default: -5
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_X = -5
+# Second panel Y offset (pixels). Used when a 3D preview is shown. Negative = up, positive = down.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_Y = 0
+# Rotation speed multiplier for the tiered item preview in the second panel (1.0 = default).
+# 
+# Default: 1.0
+# Range: -Infinity ~ Infinity
+TIERED_ITEM_PREVIEW_ROTATING_SPEED = 1.0
+# Rotation speed multiplier for the armor preview in the second panel (1.0 = default).
+# 
+# Default: 1.0
+# Range: -Infinity ~ Infinity
+ARMOR_PREVIEW_ROTATING_SPEED = 1.0
+# Default inner overlay style for tooltips. Valid: glint, solid (monochrome), gradient. Default: glint.
+# 
+# Default: glint
+# Range: -Infinity ~ Infinity
+DEFAULT_INNER_OVERLAY_TYPE = "glint"
+# Default tooltip background color in ARGB (0xAARRGGBB). For instance: 0xF0010110.
+# 
+# Default: -268369648
+# Range: -Infinity ~ Infinity
+DEFAULT_BACKGROUND_COLOR = -268369648
+# Override vanilla tooltips even when no ItemStack is present (e.g., JEI category buttons or unsupported stacks). To disable custom
+# tooltips for specific items, edit your custom_frames.json and set disableTooltip=true for those items (or tags).
+# 
+# Default: true
+SHOW_TOOLTIP_WITHOUT_STACK = true
+

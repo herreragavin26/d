@@ -1,0 +1,5 @@
+
+[Configuration]
+	#Duration of totem cooldown, in ticks
+	"Cooldown duration:" = 600.0
+

@@ -1,0 +1,20 @@
+{
+  "Delay": 80,
+  "NotificationDelay": 15,
+  "NotificationStart": 60,
+  "NotificationTimes": 4,
+  "CountdownStart": 5,
+  "doNotificationCountdown": true,
+  "doShowNotification": true,
+  "doNotificationSound": true,
+  "doLastNotificationSound": false,
+  "NotificationSound": "block.note_block.harp",
+  "LastNotificationSound": "block.note_block.harp",
+  "NotificationLang": "en_us",
+  "NotificationColor": "RED",
+  "RequireOp": true,
+  "RequireOpCancel": false,
+  "preserveNoDespawnItems": true,
+  "preserveNoPickupItems": true,
+  "UsePermissionsApi": false
+}

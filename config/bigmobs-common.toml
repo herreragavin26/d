@@ -1,0 +1,35 @@
+
+["Mob Spawning"]
+	#Enable or disable spawning for the Big Zombie
+	bigzombieSpawnEnabled = true
+	#Enable or disable spawning for Colossal Carrot
+	colossalcarrotSpawnEnabled = true
+	#Enable or disable spawning for the Roofer
+	rooferSpawnEnabled = true
+	#Enable or disable spawning for the Goliath Frog
+	goliathSpawnEnabled = true
+	#Enable or disable spawning for the Seagull
+	seagullSpawnEnabled = true
+	#Enable or disable spawning for the Savannari
+	savannariSpawnEnabled = true
+	#Enable or disable spawning for the Shellbite
+	shellbiteSpawnEnabled = true
+	#Enable or disable spawning for the Bord
+	bordSpawnEnabled = true
+	#Enable or disable spawning for the Obelisx
+	obelisxSpawnEnabled = true
+	#Enable or disable spawning for the Gravelett
+	gravelettSpawnEnabled = true
+	#Enable or disable spawning for the Nanamigo
+	nanamigoSpawnEnabled = true
+	#Enable or disable spawning for the Enormous Eggplant
+	enormouseggplantSpawnEnabled = true
+	#Enable or disable spawning for the Walker
+	walkerSpawnEnabled = true
+	#Enable or disable spawning for the Parsnippet
+	punyparsnipSpawnEnabled = true
+	#Enable or disable spawning for the... Endpress? That's not supposed to be here... yet...
+	endpressSpawnEnabled = true
+	#Enable or disable spawning for the Tricky Chest
+	trickychestSpawnEnabled = true
+

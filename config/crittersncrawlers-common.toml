@@ -1,0 +1,38 @@
+
+["Critter Spawning"]
+	"Elk Spawning" = true
+	"Coyote Spawning" = true
+	"Timber Wolf Spawning" = true
+	"White-Tailed Deer Spawning" = true
+	"Cougar Spawning" = true
+	"Wolverine Spawning" = true
+	"Ringtail Spawning" = true
+	"Giant Boar Spawning" = true
+	"Goose Spawning" = true
+	"Black Bear Spawning" = true
+	"Beaver Spawning" = true
+	"Mouse Spawning" = true
+	"Snake Spawning" = true
+	"Rattlesnake Spawning" = true
+	"Pit Viper Spawning" = true
+	"Turkey Spawning" = true
+	"Caribou Spawning" = true
+	"Skunk Spawning" = true
+	"Marmot Spawning" = true
+	"Mule Deer Spawning" = true
+
+["Crawler Spawning"]
+	"Wendigo Spawning" = true
+	"Bewitched Timber Wolf Spawning" = true
+	"Chupacabra Spawning" = true
+	"Squonk Spawning" = true
+	"Howler Spawning" = true
+	"Sasquatch Spawning" = true
+	"Wechuge Spawning" = true
+
+[Other]
+	#How long an Effigy lasts when lighten up. This is measured in seconds.
+	"Effigy Light" = 3000.0
+	#If a player is given a Field Guide when logging into a world for the first time.
+	"Field Guide" = true
+

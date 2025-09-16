@@ -1,0 +1,44 @@
+#Base temperature for hot biomes (°F)
+#Range: -20.0 ~ 120.0
+baseTemperatureHotBiomes = 90.0
+#Base temperature for temperate biomes (°F)
+#Range: -20.0 ~ 120.0
+baseTemperatureTemperateBiomes = 70.0
+#Base temperature for cold biomes (°F)
+#Range: -20.0 ~ 120.0
+baseTemperatureColdBiomes = 30.0
+#Base temperature for frozen biomes (°F)
+#Range: -20.0 ~ 120.0
+baseTemperatureFrozenBiomes = 10.0
+#Temperature reduction at night (°F)
+#Range: -30.0 ~ 0.0
+nightTemperatureModifier = -10.0
+#Temperature reduction during rain (°F)
+#Range: -20.0 ~ 0.0
+rainTemperatureModifier = -5.0
+#Temperature reduction during snow (°F)
+#Range: -30.0 ~ 0.0
+snowTemperatureModifier = -15.0
+#Base thirst depletion rate (ticks between thirst loss)
+#Range: 200 ~ 6000
+baseThirstDepletionRate = 1200
+#Amount of thirst points restored by purified water bottle
+#Range: 1 ~ 20
+purifiedWaterThirstRestoration = 6
+#Show temperature indicator on HUD
+showTemperatureHUD = true
+#Show thirst bar on HUD
+showThirstHUD = true
+#Temperature HUD X position
+#Range: 0 ~ 1000
+temperatureHudX = 10
+#Temperature HUD Y position
+#Range: 0 ~ 1000
+temperatureHudY = 10
+#Temperature change per block above sea level (°F per block)
+#Range: -1.0 ~ 1.0
+altitudeTemperatureModifier = -0.1
+#Sea level Y coordinate for altitude calculations
+#Range: 0 ~ 320
+seaLevel = 63
+

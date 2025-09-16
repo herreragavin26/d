@@ -1,0 +1,11 @@
+
+["Configs for Curios Back Weapon Slot"]
+	#Whetever to show the weapon back slot or not beside the hotbar
+	show_back_weapon = true
+	#Move the weapon back slot (the one that is near the hotbar) along the X axis
+	x_offset = 0
+	#Move the weapon back slot (the one that is near the hotbar) along the Y axis
+	y_offset = 0
+	#Disallow items with designated curio slots to be placed in here
+	disallow_curio_items = true
+

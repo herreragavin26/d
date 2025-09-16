@@ -1,0 +1,19 @@
+{
+  "configVariant": 1,
+  "maxWaveSize": 15,
+  "defaultMobId": "undeadnights:horde_zombie",
+  "extraSpawnInfo": "none",
+  "hordeMobs": [
+    {
+      "mobId": "undeadnights:elite_zombie",
+      "spawnChance": "3",
+      "extraSpawnInfo": "none"
+    },
+    {
+      "mobId": "undeadnights:demolition_zombie",
+      "spawnChance": "6",
+      "extraSpawnInfo": "tnt:5"
+    }
+  ],
+  "internalConfigVersion": 1
+}

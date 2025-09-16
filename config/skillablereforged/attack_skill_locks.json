@@ -1,0 +1,6 @@
+{
+  "attackSkillLocks": {
+    "minecraft:zombie": ["attack:0"],
+    "minecraft:skeleton": ["attack:0"]
+  }
+}

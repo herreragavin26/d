@@ -1,0 +1,143 @@
+{
+	// Use another resource pack for zombie textures? NOTE: Does not work for Brutes.
+	"zombieTextureOverride": false,
+	// Add details for Tissou Zombie Resource Pack? NOTE: Adds realistic zombie textures for Brutes and Cave Zombies only. Install the mod 'Entity Texture Features' for emissive eye textures. For other zombies, install Tissou's pack and set 'Zombie Texture Override' to true.
+	"tissouZombiePackDetails": false,
+	// Use better animations for zombies? Animations similar to Fresh Animations. NOTE: Applies to Brutes, Shriekers, and Crawlers only. For every other zombie, install 'Fresh Animations' resource-pack. If installed, Fresh Animations will override zombie animations.
+	"useBetterAnimations": false,
+	// The range in which a Shrieker Zombie will alert other zombies. Has a min of 1 and a max of 1000
+	"shriekerZombieRange": 225,
+	// Configure spawn properties for each zombie type.
+	"zombieSpawnProperties": [
+		{
+			// The type of zombie.
+			"zombieType": "runner_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 40,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "brute_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 10,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "crawler_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 15,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "crossbow_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 35,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "bow_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 35,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "shrieker_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 3,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "axe_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 15,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "sword_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 15,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "weak_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 10,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "slow_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 7,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "vile_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 40,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "cave_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 30,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		},
+		{
+			// The type of zombie.
+			"zombieType": "leaper_zombie",
+			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
+			"spawnWeight": 10,
+			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
+			"minGroupSize": 4,
+			// Maximum number of zombies in a spawn group. Range: 1 - 1000
+			"maxGroupSize": 4
+		}
+	]
+}
