@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@muuted"
+		"@muuted",
+		"@WhoKnows"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,
