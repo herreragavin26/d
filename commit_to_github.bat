@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
 REM Version tracking
-set "SCRIPT_VERSION=1.5.6"
+set "SCRIPT_VERSION=1.5.7"
 
 REM Check for restart flag to prevent infinite loops
 if /i "%~1"=="--restarted" (
@@ -743,7 +743,7 @@ git rebase --abort >nul 2>&1
 
 REM Clean working directory
 echo Cleaning working directory...
-git clean -fd
+git clean -f -d
 git reset --hard HEAD
 
 REM Switch to target branch and reset
@@ -759,7 +759,7 @@ echo Resetting to origin/!reset_branch!...
 git reset --hard origin/!reset_branch!
 
 REM Clean any remaining untracked files
-git clean -fd
+git clean -f -d
 
 echo.
 powershell -Command "Write-Host 'Hard reset completed successfully!' -ForegroundColor Green"
@@ -768,9 +768,9 @@ echo.
 echo Repository status:
 git status --porcelain
 if errorlevel 1 (
-    echo   No changes - repository is clean
-) else (
     echo   Working directory is clean
+) else (
+    echo   No changes - repository is clean
 )
 
 echo.
