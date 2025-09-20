@@ -1,0 +1,21 @@
+
+["Common Configs"]
+	#Should an animal's gender affect the ability to get bi-products from it?
+	"Genders Affect Bi-Products" = true
+	#Should an animal's gender affect how it breeds?
+	"Genders Affect Breeding" = true
+	#Should animals, like Elk and Direwolves, herd or pack up together?
+	"Animals Herd & Pack Together" = true
+	#Minimum amount of time, in ticks, that an egg-laying animal can lay an unfertilized egg. Default is 12000 ticks, or 10 minutes.
+	"Egg Lay Cooldown" = 12000
+	#Amount of time, in ticks, that you must wait to milk a milk-able animal. Default is 12000 ticks, or 10 minutes
+	"Milking Cooldown" = 12000
+	#Should ME mounts "ground tie", or stop moving around, when saddled & dismounted?
+	"Ground Tie When Dismounted" = true
+	#Maximum amount of Direwolves that can pack up at once.
+	"Max Direwolf Pack Count" = 5
+	#Maximum amount of Fanged Elk that can herd up at once.
+	"Max Fanged Elk Herd Count" = 3
+	#Maximum Griffin speed multiplier. Default is 2.0D.
+	"Max Griffin Flying Speed Multiplier" = 2.0
+

@@ -203,6 +203,8 @@
 		snow_accumulation_height = 1
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
+		#Non Vanilla gamerule: 'ageingSpawners'
+		ageing_spawners = true
 
 #Configs related to difficult changes
 [difficulty]

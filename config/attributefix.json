@@ -1,16 +1,5 @@
 {
   "attributes": {
-    "unionlib:generic.arrow_velocity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -22,6 +11,1568 @@
         "value": 512
       }
     },
+    "cos_mc:is_luxsces": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_kiiwin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "attributeslib:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "cos_mc:is_demetyra": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_sturbi": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_buff_eulopii": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "attributeslib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "cos_mc:ani_heal_beam": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:defensive_burn": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_yenyasha": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "confluence:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "cos_mc:is_beezu": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "ancientcurses:hit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "caverns_and_chasms:weakness_aura": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "legendarysurvivaloverhaul:legs_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "cos_mc:is_kriffin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:weather_changer": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_reverbelle": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:rideable_by_others": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_qurugosk": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "caverns_and_chasms:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
+    "terra_entity:player.whip_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "cos_mc:is_eigion_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "terra_entity:player.sentry_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
+      }
+    },
+    "quality_equipment:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "cos_mc:is_angelic_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_ardor_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:fear": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:defensive_paralyze": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_cimmabu": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_felifaux": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "additionalentityattributes:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "iter_rpg:flat_ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
+      }
+    },
+    "cos_mc:is_mijusuima": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "vminus:magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "cos_mc:is_eulopii": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_diesura": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:all_flying_creatures": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "additionalentityattributes:water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "cos_mc:is_minawii": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "unionlib:generic.arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "terra_entity:player.summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "cos_mc:is_golgaroth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "eeeabsmobs:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "confluence:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "skilltree:evasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 90,
+        "value": 90
+      }
+    },
+    "cos_mc:is_keruku": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "additionalentityattributes:critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "illagerrevolutionmod:soul": {
+      "enabled": false,
+      "min": {
+        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "cos_mc:is_puffwump": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "caverns_and_chasms:slowness_infliction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "cos_mc:creatures_ridden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "vminus:fire_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "celestial_core:arrow_knock": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "spore:toxicity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "caelus:fall_flying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "legendarysurvivaloverhaul:chest_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "iter_rpg:bullet_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100000000,
+        "value": 100000000
+      }
+    },
+    "cos_mc:qurugosk_invisible": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:defensive_poison_2025": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1000000
+      }
+    },
+    "legendarysurvivaloverhaul:permanent_heart": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "celestial_core:regen_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "cos_mc:lux_bartering": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "skilltree:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 90,
+        "value": 90
+      }
+    },
+    "cos_mc:is_adharcaiin": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:horse.jump_strength": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "cos_mc:is_magnacetus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "legendarysurvivaloverhaul:body_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "iter_rpg:stat_dexterity": {
+      "enabled": false,
+      "min": {
+        "default": -10,
+        "value": -10
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
+    "additionalentityattributes:dropped_experience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "dungeonsmobs:magic_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "ancientcurses:magic_amp": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "attributeslib:overheal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "attributeslib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "dungeonsmobs:ranged_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "forge:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 8
+      }
+    },
+    "cos_mc:is_hisolidium": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:explosion_entity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "enhancedai:generic.xray_follow_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 256,
+        "value": 256
+      }
+    },
+    "lodestone:magic_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "cos_mc:is_coniferon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_fellisio": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_nymphasuchus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "attributeslib:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "attributeslib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "myths_of_the_sea:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "spore:laceration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "quality_equipment:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "cos_mc:is_garra_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "unionlib:generic.critical_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "l2damagetracker:damage_absorption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "confluence:pickup_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "cos_mc:is_pero": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "celestial_core:toughness_penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "iter_rpg:base_ether_burnout_threshold": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "terra_entity:player.mark_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "additionalentityattributes:lava_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "confluence:aggro": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "cos_mc:is_brequewk": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 1000000
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "dungeons_and_combat:action_state": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "vminus:mob_detection_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
+      }
+    },
+    "malum:soul_ward_integrity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "cos_mc:is_koryser": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_vaumora": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_rorolo": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "ancientcurses:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "opposing_force:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "puffish_attributes:stamina": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "cos_mc:is_athulyth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "confluence:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "malum:spirit_spoils": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "minecraft:generic.attack_damage": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 1000000
+      }
+    },
+    "attributeslib:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "dawnera:dawnera.max_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "dawnera:dawnera.max_energy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "legendarysurvivaloverhaul:head_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "cos_mc:life_leech_ability_post_oxy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_boreal_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "vminus:fall_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "cos_mc:is_laibonich": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "sns:extra_fall_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
+    "attributeslib:current_hp_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_karakro": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "terra_entity:player.summon_knockback": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
+    "cos_mc:newest_levitate_if_attacked_after_keruku": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "skilltree:blocking": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 90,
+        "value": 90
+      }
+    },
+    "iter_rpg:spell_burnout_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
+      }
+    },
+    "dungeonsmobs:follower_cost_limit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "legendarysurvivaloverhaul:broken_heart": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "attributeslib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "attributeslib:arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "cos_mc:is_undoli": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "attributeslib:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "cos_mc:is_hellion_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_verdant_warden": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "unionlib:generic.arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "attributeslib:ghost_health": {
       "enabled": false,
       "min": {
@@ -31,6 +1582,28 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "confluence:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "cos_mc:is_kavouradis": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.follow_range": {
@@ -55,26 +1628,26 @@
         "value": 1
       }
     },
-    "attributeslib:armor_shred": {
+    "cos_mc:is_shro": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2,
-        "value": 2
+        "default": 1,
+        "value": 1
       }
     },
-    "attributeslib:armor_pierce": {
+    "cos_mc:can_sit": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 1,
+        "value": 1
       }
     },
     "malum:soul_ward_recovery_rate": {
@@ -97,6 +1670,28 @@
       "max": {
         "default": 1000000,
         "value": 1000000
+      }
+    },
+    "cos_mc:is_phyremia": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_aesho": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "undead_revamp2:bossloader": {
@@ -143,37 +1738,15 @@
         "value": 64
       }
     },
-    "ancientcurses:hit_chance": {
+    "cos_mc:is_gorgonichus": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "caverns_and_chasms:weakness_aura": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
-        "value": 30
-      }
-    },
-    "legendarysurvivaloverhaul:legs_resistance": {
-      "enabled": false,
-      "min": {
-        "default": -200,
-        "value": -200
-      },
-      "max": {
-        "default": 100,
-        "value": 100
+        "default": 1,
+        "value": 1
       }
     },
     "forge:entity_reach": {
@@ -209,6 +1782,28 @@
         "value": 20
       }
     },
+    "cos_mc:is_cottol": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_korathos": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "vminus:jump_boost": {
       "enabled": false,
       "min": {
@@ -231,28 +1826,6 @@
         "value": 1024
       }
     },
-    "caverns_and_chasms:lifesteal": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 5
-      }
-    },
-    "terra_entity:player.whip_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
     "additionalentityattributes:bonus_loot_count_rolls": {
       "enabled": false,
       "min": {
@@ -262,6 +1835,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "cos_mc:photovore_photocarni": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additionalentityattributes:lung_capacity": {
@@ -286,26 +1870,15 @@
         "value": 1000000
       }
     },
-    "terra_entity:player.sentry_capacity": {
+    "cos_mc:is_aereis": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 128,
-        "value": 128
-      }
-    },
-    "quality_equipment:projectile_damage": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
+        "default": 1,
+        "value": 1
       }
     },
     "l2damagetracker:fire_damage": {
@@ -341,6 +1914,17 @@
         "value": 1
       }
     },
+    "cos_mc:is_yohsog": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "l2damagetracker:crit_damage": {
       "enabled": false,
       "min": {
@@ -361,6 +1945,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "cos_mc:healers": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -385,17 +1980,6 @@
         "value": 1024
       }
     },
-    "additionalentityattributes:dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "dungeonsmobs:soul_cap": {
       "enabled": false,
       "min": {
@@ -416,28 +2000,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "iter_rpg:flat_ranged_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
-    "vminus:magic_protection": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "l2damagetracker:explosion_damage": {
@@ -462,15 +2024,15 @@
         "value": 1024
       }
     },
-    "additionalentityattributes:water_visibility": {
+    "cos_mc:mounts": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "iter_rpg:spell_cooldown": {
@@ -484,17 +2046,6 @@
         "value": 10000000
       }
     },
-    "unionlib:generic.arrow_damage": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "celestial_core:armor_penetration": {
       "enabled": false,
       "min": {
@@ -504,17 +2055,6 @@
       "max": {
         "default": 1,
         "value": 1
-      }
-    },
-    "terra_entity:player.summon_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
       }
     },
     "forge:block_reach": {
@@ -539,6 +2079,17 @@
         "value": 128
       }
     },
+    "cos_mc:is_ani": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:player.block_break_speed": {
       "enabled": true,
       "min": {
@@ -548,17 +2099,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "eeeabsmobs:crit_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
       }
     },
     "projectile_damage:generic": {
@@ -583,6 +2123,39 @@
         "value": 1024
       }
     },
+    "cos_mc:broodwatcher": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_olatua": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_parugama": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "legendarysurvivaloverhaul:cold_resistance": {
       "enabled": false,
       "min": {
@@ -594,26 +2167,26 @@
         "value": 10000
       }
     },
-    "skilltree:evasion": {
+    "cos_mc:is_kriprik": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 90,
-        "value": 90
+        "default": 1,
+        "value": 1
       }
     },
-    "additionalentityattributes:critical_bonus_damage": {
+    "cos_mc:is_hebitoa": {
       "enabled": false,
       "min": {
-        "default": -1,
-        "value": -1
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "vminus:protection": {
@@ -627,17 +2200,6 @@
         "value": 100
       }
     },
-    "illagerrevolutionmod:soul": {
-      "enabled": false,
-      "min": {
-        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      }
-    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -649,15 +2211,15 @@
         "value": 34
       }
     },
-    "caverns_and_chasms:slowness_infliction": {
+    "cos_mc:is_wixpectro": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 30,
-        "value": 30
+        "default": 1,
+        "value": 1
       }
     },
     "caverns_and_chasms:magic_protection": {
@@ -671,39 +2233,6 @@
         "value": 30
       }
     },
-    "minecraft:generic.flying_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "vminus:fire_protection": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "celestial_core:arrow_knock": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
     "sons_of_sins:cooldown_cap": {
       "enabled": false,
       "min": {
@@ -713,17 +2242,6 @@
       "max": {
         "default": 240,
         "value": 240
-      }
-    },
-    "spore:toxicity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
       }
     },
     "attributeslib:mining_speed": {
@@ -737,17 +2255,6 @@
         "value": 10
       }
     },
-    "caelus:fall_flying": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "dungeonsmobs:life_steal": {
       "enabled": false,
       "min": {
@@ -759,26 +2266,37 @@
         "value": 1024
       }
     },
-    "legendarysurvivaloverhaul:chest_resistance": {
+    "cos_mc:kriprik_attribute": {
       "enabled": false,
       "min": {
-        "default": -200,
-        "value": -200
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 100,
-        "value": 100
+        "default": 1,
+        "value": 1
       }
     },
-    "iter_rpg:bullet_damage": {
+    "cos_mc:puffwump_sleeping": {
       "enabled": false,
       "min": {
-        "default": -100,
-        "value": -100
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 100000000,
-        "value": 100000000
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_idrabark": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "l2damagetracker:magic_damage": {
@@ -792,77 +2310,11 @@
         "value": 1000
       }
     },
-    "minecraft:generic.max_health": {
-      "enabled": true,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1000000
-      }
-    },
-    "legendarysurvivaloverhaul:permanent_heart": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
-    "celestial_core:regen_rate": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
     "vminus:blast_protection": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "skilltree:stealth": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 90,
-        "value": 90
-      }
-    },
-    "minecraft:horse.jump_strength": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
-      }
-    },
-    "legendarysurvivaloverhaul:body_resistance": {
-      "enabled": false,
-      "min": {
-        "default": -200,
-        "value": -200
       },
       "max": {
         "default": 100,
@@ -891,37 +2343,26 @@
         "value": 2048
       }
     },
-    "iter_rpg:stat_dexterity": {
-      "enabled": false,
-      "min": {
-        "default": -10,
-        "value": -10
-      },
-      "max": {
-        "default": 1000000,
-        "value": 1000000
-      }
-    },
-    "additionalentityattributes:dropped_experience": {
+    "cos_mc:slow_mounts": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
-    "dungeonsmobs:magic_damage_multiplier": {
+    "confluence:ranged_velocity": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 10,
+        "value": 10
       }
     },
     "legendarysurvivaloverhaul:thermal_resistance": {
@@ -935,17 +2376,6 @@
         "value": 10000
       }
     },
-    "ancientcurses:magic_amp": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "legendarysurvivaloverhaul:right_arm_resistance": {
       "enabled": false,
       "min": {
@@ -957,15 +2387,37 @@
         "value": 100
       }
     },
-    "attributeslib:overheal": {
+    "cos_mc:is_jotunhel": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 10,
-        "value": 10
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:is_oxytalis": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "cos_mc:new_flying_mounts_keruku_and_forward": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "malum:soul_ward_capacity": {
@@ -979,48 +2431,37 @@
         "value": 2048
       }
     },
-    "attributeslib:healing_received": {
+    "cos_mc:is_ikoran": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 1,
+        "value": 1
       }
     },
-    "dungeonsmobs:ranged_damage_multiplier": {
+    "cos_mc:is_axothan": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
-    "forge:entity_gravity": {
-      "enabled": false,
-      "min": {
-        "default": -8,
-        "value": -8
-      },
-      "max": {
-        "default": 8,
-        "value": 8
-      }
-    },
-    "enhancedai:generic.xray_follow_range": {
+    "cos_mc:is_koipise": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 256,
-        "value": 256
+        "default": 1,
+        "value": 1
       }
     },
     "spore:rejuvenation": {
@@ -1034,17 +2475,6 @@
         "value": 64
       }
     },
-    "lodestone:magic_proficiency": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "minecolonies:mc_mob_damage": {
       "enabled": false,
       "min": {
@@ -1054,28 +2484,6 @@
       "max": {
         "default": 20,
         "value": 20
-      }
-    },
-    "attributeslib:cold_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
-    "attributeslib:experience_gained": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
       }
     },
     "malum:malignant_conversion": {
@@ -1089,40 +2497,7 @@
         "value": 1
       }
     },
-    "myths_of_the_sea:water_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "spore:laceration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
-    "quality_equipment:dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "unionlib:generic.critical_rate": {
+    "cos_mc:is_turgeon": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1133,15 +2508,15 @@
         "value": 1
       }
     },
-    "l2damagetracker:damage_absorption": {
+    "confluence:ranged_damage": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 10000,
-        "value": 10000
+        "default": 10,
+        "value": 10
       }
     },
     "iter_rpg:spellcasting_power": {
@@ -1153,6 +2528,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "cos_mc:is_valkurse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "skilltree:exp_per_minute": {
@@ -1177,6 +2563,17 @@
         "value": 100000000
       }
     },
+    "cos_mc:is_sochuri": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "galosphere:illager_resistance": {
       "enabled": false,
       "min": {
@@ -1186,17 +2583,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "celestial_core:toughness_penetration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "undead_revamp2:returnvauleundead": {
@@ -1210,39 +2596,6 @@
         "value": 3
       }
     },
-    "iter_rpg:base_ether_burnout_threshold": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
-    "terra_entity:player.mark_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "additionalentityattributes:lava_visibility": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "diet:natural_regeneration": {
       "enabled": false,
       "min": {
@@ -1252,6 +2605,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "cos_mc:is_squitico": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:dodge_chance": {
@@ -1265,6 +2629,28 @@
         "value": 1
       }
     },
+    "cos_mc:is_saukyurn": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "confluence:armor_pass": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -1276,17 +2662,6 @@
         "value": 1000
       }
     },
-    "minecraft:generic.attack_knockback": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 1000000
-      }
-    },
     "lodestone:magic_resistance": {
       "enabled": false,
       "min": {
@@ -1296,17 +2671,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "forge:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "skilltree:regeneration": {
@@ -1331,17 +2695,6 @@
         "value": 10000
       }
     },
-    "dungeons_and_combat:action_state": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "dungeonsmobs:artifact_cooldown_multiplier": {
       "enabled": false,
       "min": {
@@ -1362,28 +2715,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "vminus:mob_detection_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 0,
-        "value": 0
-      }
-    },
-    "malum:soul_ward_integrity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
       }
     },
     "l2damagetracker:bow_strength": {
@@ -1408,6 +2739,17 @@
         "value": 10000
       }
     },
+    "cos_mc:is_moonelle": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "malum:reserve_staff_charges": {
       "enabled": false,
       "min": {
@@ -1430,17 +2772,6 @@
         "value": 1
       }
     },
-    "ancientcurses:dodge_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "iter_rpg:stat_wisdom": {
       "enabled": false,
       "min": {
@@ -1450,17 +2781,6 @@
       "max": {
         "default": 1000000,
         "value": 1000000
-      }
-    },
-    "opposing_force:stealth": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "attributeslib:crit_damage": {
@@ -1474,29 +2794,18 @@
         "value": 100
       }
     },
-    "puffish_attributes:stamina": {
+    "cos_mc:is_kiridian": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
-    "forge:nametag_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
-    "additionalentityattributes:water_speed": {
+    "cos_mc:is_doragonix": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1518,15 +2827,15 @@
         "value": 1
       }
     },
-    "malum:spirit_spoils": {
+    "cos_mc:is_gnolrok": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2048,
-        "value": 2048
+        "default": 1,
+        "value": 1
       }
     },
     "vminus:width": {
@@ -1540,28 +2849,6 @@
         "value": 5
       }
     },
-    "minecraft:generic.attack_damage": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 1000000
-      }
-    },
-    "attributeslib:draw_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 4,
-        "value": 4
-      }
-    },
     "legendarysurvivaloverhaul:broken_heart_resilience": {
       "enabled": false,
       "min": {
@@ -1571,17 +2858,6 @@
       "max": {
         "default": 10000,
         "value": 10000
-      }
-    },
-    "dawnera:dawnera.max_hunger": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "vminus:height": {
@@ -1595,15 +2871,15 @@
         "value": 5
       }
     },
-    "dawnera:dawnera.max_energy": {
+    "cos_mc:semi_aquatics_that_dont_walk_on_seafloor": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "legendarysurvivaloverhaul:heat_resistance": {
@@ -1626,17 +2902,6 @@
       "max": {
         "default": 30,
         "value": 1000000
-      }
-    },
-    "legendarysurvivaloverhaul:head_resistance": {
-      "enabled": false,
-      "min": {
-        "default": -200,
-        "value": -200
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "legendarysurvivaloverhaul:cooling_temperature": {
@@ -1694,15 +2959,15 @@
         "value": 64
       }
     },
-    "vminus:fall_protection": {
+    "cos_mc:invisibility_2025": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "legendarysurvivaloverhaul:left_arm_resistance": {
@@ -1738,17 +3003,6 @@
         "value": 1000000
       }
     },
-    "sns:extra_fall_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
     "malum:arcane_resonance": {
       "enabled": false,
       "min": {
@@ -1758,17 +3012,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "attributeslib:current_hp_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "vminus:mining_speed": {
@@ -1782,17 +3025,6 @@
         "value": 100
       }
     },
-    "terra_entity:player.summon_knockback": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 5
-      }
-    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -1802,6 +3034,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "cos_mc:is_nimoona": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "quality_equipment:jump_height": {
@@ -1815,26 +3058,26 @@
         "value": 100
       }
     },
-    "skilltree:blocking": {
+    "cos_mc:swimming_mounts": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 90,
-        "value": 90
+        "default": 1,
+        "value": 1
       }
     },
-    "iter_rpg:spell_burnout_multiplier": {
+    "cos_mc:is_hallucinix": {
       "enabled": false,
       "min": {
-        "default": -1,
-        "value": -1
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 10000000,
-        "value": 10000000
+        "default": 1,
+        "value": 1
       }
     },
     "additionalentityattributes:lava_speed": {
@@ -1848,28 +3091,6 @@
         "value": 1
       }
     },
-    "dungeonsmobs:follower_cost_limit": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "legendarysurvivaloverhaul:broken_heart": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "additionalentityattributes:bonus_rare_loot_rolls": {
       "enabled": false,
       "min": {
@@ -1879,28 +3100,6 @@
       "max": {
         "default": 128,
         "value": 128
-      }
-    },
-    "attributeslib:arrow_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
-    "attributeslib:arrow_velocity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
       }
     },
     "random_crits:critchance": {
@@ -1923,17 +3122,6 @@
       "max": {
         "default": 30,
         "value": 30
-      }
-    },
-    "attributeslib:life_steal": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
       }
     },
     "unionlib:generic.draw_speed": {

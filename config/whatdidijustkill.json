@@ -1,0 +1,19 @@
+{
+	"player": {
+		"first_line": "KILLED",
+		"second_line": "DISTANCE",
+		"theme": "ADVANCEMENT",
+		"show_toast": true,
+		"timeout": 2000
+	},
+	"entity": {
+		"second_line": "ENTITY_TYPE",
+		"theme": "ADVANCEMENT",
+		"excludes": [
+			"minecraft:bat"
+		],
+		"show_toast": "NOT_EXCLUDED",
+		"timeout": 2000,
+		"first_line": "KILLED_DISTANCE"
+	}
+}

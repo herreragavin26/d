@@ -1,0 +1,5 @@
+
+[Client]
+	#Should Direwolf saddles render?
+	"Visible Direwolf Saddles" = true
+

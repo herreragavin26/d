@@ -1,0 +1,39 @@
+
+["Life Crystals"]
+	"Maximum uses per player" = 10.0
+	"Health per crystal" = 2.0
+
+[Generation]
+	"Do generation" = true
+	#Chance of a life crystal failing to generate, use to configure rarity
+	"Failure chance" = 0.8
+
+["Mini Lantern"]
+	#Every 10 ticks, the lamp will attempt the tick chance, then apply a regen effect of the level and duration specified to all players within the radius
+	"Enable regen from Mini Lamp" = true
+	"Regen diameter" = 6.0
+	#Use this to configure the rate of regen gained
+	"Procc chance per random tick" = 0.02
+	"Regen level" = 0.0
+	"Regen duration (in ticks)" = 10.0
+
+["Medium Lantern (ignore this, WIP for future update)"]
+	#Every 10 ticks, the lamp will attempt the tick chance, then apply a regen effect of the level and duration specified to all players within the radius
+	"Enable regen from Mini Lamp" = true
+	"Regen diameter" = 10.0
+	#Use this to configure the rate of regen gained
+	"Procc chance per random tick" = 0.03
+	"Regen level" = 1.0
+	"Regen duration (in ticks)" = 15.0
+
+[Structures]
+	"Do structure generation" = true
+	"Generate heart shrine one" = true
+	"Heart shrine one failure chance" = 0.75
+	"Generate buried stone heart altar" = true
+	"Buried stone heart altar failure chance" = 0.92
+	"Generate buried deepslate heart altar" = true
+	"Buried deepslate heart altar failure chance" = 0.92
+	"Generate heart chamber" = true
+	"Heart chamber failure chance" = 0.7
+

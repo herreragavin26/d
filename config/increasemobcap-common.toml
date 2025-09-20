@@ -1,7 +1,7 @@
 
 ["Mob Caps"]
 	#Mob cap for monsters. Controls the maximum number of zombies, creepers, etc. Default: 70
-	monster = 70
+	monster = 75
 	#Mob cap for creatures. Controls the maximum number of miscellaneous creatures. Default: 10
 	creature = 10
 	#Mob cap for ambient creatures. Controls the maximum number of bats. Default: 15
