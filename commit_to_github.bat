@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
 REM Version tracking
-set "SCRIPT_VERSION=1.5.7"
+set "SCRIPT_VERSION=1.5.8"
 
 REM Check for restart flag to prevent infinite loops
 if /i "%~1"=="--restarted" (
