@@ -216,6 +216,9 @@ if "%~1"=="" (
     set "auto_generated=false"
 )
 
+REM Get current branch name
+for /f "tokens=*" %%a in ('git branch --show-current') do set current_branch=%%a
+
 REM Add all files to staging (excluding those now in .gitignore)
 git add .
 
