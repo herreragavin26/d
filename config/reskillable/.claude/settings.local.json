@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.curseforge.com)",
+      "WebSearch",
+      "Read(//c/Users/Administrator/Desktop/modded server/config/**)",
+      "Read(//c/Users/Administrator/Desktop/modded server/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

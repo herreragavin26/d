@@ -16,7 +16,38 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item"
+    "legendarysurvivaloverhaul:heart_container",
+	"trinketsandbaubles:goblins_ring",
+	"trinketsandbaubles:fairies_ring",
+	"trinketsandbaubles:faelis_ring",
+	"trinketsandbaubles:elves_ring",
+	"trinketsandbaubles:titan_ring",
+	"trinketsandbaubles:dwarves_ring",
+	"trinketsandbaubles:dragons_ring",
+	"legendarysurvivaloverhaul:healing_herbs",
+	"legendarysurvivaloverhaul:morphine",
+	"legendarysurvivaloverhaul:shield_container",
+	"legendarysurvivaloverhaul:medikit",
+	"legendarysurvivaloverhaul:plaster",
+	"legendarysurvivaloverhaul:heart_fragment",
+	"terramity:terramity_guidebook",
+	"patchouli:guide_book",
+	"vtubruhlotrmobs:bookfornoobmodlotr",
+	"spartanweaponry:wooden_weapons",
+	"spartanweaponry:stone_weapons",
+	"terra_entity:leather_whip",
+	"terra_entity:slub_whip",
+	"terra_entity:ruby_whip",
+	"terra_entity:amber_whip",
+	"terra_entity:topaz_whip",
+	"terra_entity:jade_whip",
+	"terra_entity:ruby_whip",
+	"terra_entity:diamond_whip",
+	"terra_entity:sapphire_whip",
+	"terra_entity:amethyst_whip",
+	"terra_entity:swamp_whip",
+	"terra_entity:wooden_yoyo",
+	"terra_entity:tendon_whip"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
@@ -42,7 +73,11 @@
   // Items here will get their recipes disabled
   // Keep in mind this already is applied to blacklisted items
   "only_disable_recipes": [
-    "examplemod:example_item"
+    "minecraft:stone_axe",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_hoe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_sword"
   ],
   // -----------------------------------------------------------
   // If true, the mod will use a hashset to handle the blacklisted items

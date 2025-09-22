@@ -32,6 +32,7 @@ config_enabled = false
   player.soul_stratification_effect = true
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
+  player.vanilla_g_u_i = false
 
 
 # Category: mobs
@@ -79,6 +80,8 @@ config_enabled = false
   spawning.missionary_spawn = true
   spawning.mother_spider_spawn = true
   spawning.phantom_creeper_spawn = true
+  spawning.pot_crab_spawn_chance = 17
+  spawning.pot_crab_spawning = true
   spawning.restless_spirit_spawn = true
   spawning.ser_pumpkinhead_spawn = true
   spawning.skeleton_bomb_spawn = true

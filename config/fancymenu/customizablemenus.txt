@@ -6,3 +6,15 @@ com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+net.bandit.reskillable.client.screen.SkillScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreenV2 {
+}
+
+lain.mods.cos.impl.client.gui.GuiCosArmorInventory {
+}
+

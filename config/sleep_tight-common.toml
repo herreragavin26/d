@@ -27,10 +27,10 @@
 		#Effect to give to players when they wake up
 		#This is a list. Add more entries with syntax [[...]]
 		[[misc.heartstone_mod_integration.effects]]
-			intensity_per_level = 0.0
 			base_duration = 1800
-			duration_per_level = 20.0
+			intensity_per_level = 0.0
 			effect = "minecraft:regeneration"
+			duration_per_level = 20.0
 
 [bedbugs]
 	#Base spawn chance every time you wake up, increases with difficulty
@@ -80,10 +80,10 @@
 
 	#Effects to apply when player wakes up. You can add more entries, this is a list
 	[[sleep_benefits.effects_on_wake_up]]
-		intensity_per_level = 0.075
 		base_duration = 2400
-		duration_per_level = 600.0
+		intensity_per_level = 0.075
 		effect = "sleep_tight:invigorated"
+		duration_per_level = 600.0
 
 [sleep_penalties]
 	apply_to_beds = true

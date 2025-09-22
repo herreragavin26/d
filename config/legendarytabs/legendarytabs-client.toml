@@ -16,17 +16,17 @@
 	# If enabled, show the backpack button for Travelers Backpack mod in the tabs menu.
 	"Travelers Backpack Tab Enabled " = true
 	# If enabled, show the body damage button for Legendarysurvivaloverhaul in the tabs menu.
-	"Body Damage Tab Enabled " = true
+	"Body Damage Tab Enabled " = false
 	# If enabled, show the reskillable button for Rereskillable or Reskillable Reimagined in the tabs menu.
 	"Reskillable Tab Enabled " = true
 	# If enabled, show the ftb quests button in the tabs menu.
 	"FTB Quests Tab Enabled " = true
 	# If enabled, show the map button for Map Atlases mod in the tabs menu.
-	"Map Atlases Tab Enabled " = true
+	"Map Atlases Tab Enabled " = false
 	# If enabled, show the map button for Xaero's Map mod in the tabs menu.
-	"Xaero's Map Tab Enabled " = true
+	"Xaero's Map Tab Enabled " = false
 	# If enabled, show the map button for Journey Map mod in the tabs menu.
-	"Journey Map Tab Enabled " = true
+	"Journey Map Tab Enabled " = false
 	# If enabled, show the ftb teams button in the tabs menu.
 	"FTB Teams Tab Enabled " = true
 	# If enabled, show the diet button in the tabs menu.

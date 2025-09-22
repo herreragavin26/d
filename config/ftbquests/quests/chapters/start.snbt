@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: "02DBE8F9C9CB4867"
+	icon: {
+		Count: 1
+		id: "notreepunching:flint_axe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5C8BD4B0A91993E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Obtain flint by breaking gravel or &acrafting it by filling three slots in the 4x4 crafting grid with three gravel&r. Then smash the flint onto stone to get flint shards."]
+			id: "3994AEF6DE351DC3"
+			rewards: [{
+				description: ""
+				icon: "notreepunching:flint_shard"
+				id: "36F82DA02B57237E"
+				team_reward: false
+				title: "\"Flint Shard\" Completed"
+				type: "toast"
+			}]
+			tasks: [
+				{
+					id: "60F140C03D3D6F17"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "31CBF6303B8AF920"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4007A74CC3D222A0"
+					item: { Count: 3, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			title: "Flint Shard"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3994AEF6DE351DC3"]
+			description: ["&4You cannot craft wood or stone tools&r (may be findable). You'll most likely be using flint tools until iron. If you do find a stone axe you won't be able to do things like chop logs into planks like the flint axe."]
+			id: "507E4B834F2C5A66"
+			rewards: [{
+				description: ""
+				icon: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C9DEE40E26C7C0C"
+				title: "\"No Wood No Stone Yes Flint!\" Completed"
+				type: "toast"
+			}]
+			tasks: [
+				{
+					id: "46E6242915F58575"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_knife"
+						tag: {
+							Damage: 0
+							chance: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "456AEC57243BF4C1"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79E1A318DAFD3EB0"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AEC8C4D10EA1471"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "No Stone No Wood Yes Flint!"
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	title: "Back to the Basics"
+}

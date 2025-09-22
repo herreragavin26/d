@@ -1,31 +1,2217 @@
 {
   "skillLocks": {
-    "minecraft:iron_sword": ["attack:5"],
-    "minecraft:iron_shovel": ["gathering:5"],
-    "minecraft:iron_pickaxe": ["mining:5"],
-    "minecraft:iron_axe": ["gathering:5"],
-    "minecraft:iron_hoe": ["farming:5"],
-    "minecraft:iron_helmet": ["defense:5"],
-    "minecraft:iron_chestplate": ["defense:5"],
-    "minecraft:iron_leggings": ["defense:5"],
-    "minecraft:iron_boots": ["defense:5"],
-    "minecraft:diamond_sword": ["attack:15"],
-    "minecraft:diamond_shovel": ["gathering:15"],
-    "minecraft:diamond_pickaxe": ["mining:15"],
-    "minecraft:diamond_axe": ["gathering:15"],
-    "minecraft:diamond_hoe": ["farming:15"],
-    "minecraft:diamond_helmet": ["defense:15"],
-    "minecraft:diamond_chestplate": ["defense:15"],
-    "minecraft:diamond_leggings": ["defense:15"],
-    "minecraft:diamond_boots": ["defense:15"],
-    "minecraft:netherite_sword": ["attack:30"],
-    "minecraft:netherite_shovel": ["gathering:30"],
-    "minecraft:netherite_pickaxe": ["mining:30"],
-    "minecraft:netherite_axe": ["gathering:30"],
-    "minecraft:netherite_hoe": ["farming:30"],
-    "minecraft:netherite_helmet": ["defense:30"],
-    "minecraft:netherite_chestplate": ["defense:30"],
-    "minecraft:netherite_leggings": ["defense:30"],
-    "minecraft:netherite_boots": ["defense:30"]
+    "minecraft:iron_sword": [
+      "attack:8"
+    ],
+    "minecraft:iron_shovel": [
+      "gathering:8"
+    ],
+    "minecraft:iron_pickaxe": [
+      "mining:8"
+    ],
+    "minecraft:iron_axe": [
+      "gathering:8"
+    ],
+    "minecraft:iron_hoe": [
+      "farming:8"
+    ],
+    "minecraft:iron_helmet": [
+      "defense:8"
+    ],
+    "minecraft:iron_chestplate": [
+      "defense:8"
+    ],
+    "minecraft:iron_leggings": [
+      "defense:8"
+    ],
+    "minecraft:iron_boots": [
+      "defense:8"
+    ],
+    "minecraft:diamond_sword": [
+      "attack:16"
+    ],
+    "minecraft:diamond_shovel": [
+      "gathering:16"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "mining:16"
+    ],
+    "minecraft:diamond_axe": [
+      "gathering:16"
+    ],
+    "minecraft:diamond_hoe": [
+      "farming:16"
+    ],
+    "minecraft:diamond_helmet": [
+      "defense:16"
+    ],
+    "minecraft:diamond_chestplate": [
+      "defense:16"
+    ],
+    "minecraft:diamond_leggings": [
+      "defense:16"
+    ],
+    "minecraft:diamond_boots": [
+      "defense:16"
+    ],
+    "minecraft:netherite_sword": [
+      "attack:32"
+    ],
+    "minecraft:netherite_shovel": [
+      "gathering:32"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "mining:32"
+    ],
+    "minecraft:netherite_axe": [
+      "gathering:32"
+    ],
+    "minecraft:netherite_hoe": [
+      "farming:32"
+    ],
+    "minecraft:netherite_helmet": [
+      "defense:32"
+    ],
+    "minecraft:netherite_chestplate": [
+      "defense:32"
+    ],
+    "minecraft:netherite_leggings": [
+      "defense:32"
+    ],
+    "minecraft:sugar_cane": [
+      "farming:4"
+    ],
+    "minecraft:wheat": [
+      "farming:2"
+    ],
+    "minecraft:potatoes": [
+      "farming:4"
+    ],
+    "minecraft:carrots": [
+      "farming:4"
+    ],
+    "minecraft:enchanting_table": [
+      "building:16",
+      "magic:10"
+    ],
+    "minecraft:brewing_stand": [
+      "building:10",
+      "magic:10"
+    ],
+    "minecraft:anvil": [
+      "building:12"
+    ],
+    "minecraft:netherite_boots": [
+      "defense:32"
+    ],
+    "spartanweaponry:electrum_battleaxe": [
+      "attack:8"
+    ],
+    "spartanweaponry:iron_longbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_battleaxe": [
+      "attack:8"
+    ],
+    "spartanweaponry:lead_warhammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_parrying_dagger": [
+      "attack:16"
+    ],
+    "spartanweaponry:bronze_spear": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_parrying_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_longbow": [
+      "agility:10",
+      "attack:32"
+    ],
+    "spartanweaponry:golden_parrying_dagger": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:steel_parrying_dagger": [
+      "attack:10"
+    ],
+    "spartanweaponry:diamond_longsword": [
+      "attack:16"
+    ],
+    "spartanweaponry:platinum_parrying_dagger": [
+      "attack:20"
+    ],
+    "spartanweaponry:platinum_battle_hammer": [
+      "attack:20"
+    ],
+    "spartanweaponry:invar_parrying_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:steel_katana": [
+      "attack:10"
+    ],
+    "spartanweaponry:netherite_greatsword": [
+      "attack:32"
+    ],
+    "spartanweaponry:copper_saber": [
+      "attack:6"
+    ],
+    "spartanweaponry:silver_katana": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_boomerang": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:constantan_heavy_crossbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:golden_scythe": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:invar_scythe": [
+      "attack:9"
+    ],
+    "spartanweaponry:copper_spear": [
+      "attack:6"
+    ],
+    "spartanweaponry:tin_saber": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_parrying_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:silver_greatsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:steel_longbow": [
+      "agility:10",
+      "attack:5"
+    ],
+    "spartanweaponry:invar_lance": [
+      "attack:9"
+    ],
+    "spartanweaponry:nickel_katana": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_battle_hammer": [
+      "attack:10"
+    ],
+    "spartanweaponry:golden_warhammer": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:constantan_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:diamond_saber": [
+      "attack:16"
+    ],
+    "spartanweaponry:nickel_halberd": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_saber": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_heavy_crossbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:tin_flanged_mace": [
+      "attack:6"
+    ],
+    "spartanweaponry:tin_parrying_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_greatsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:bronze_lance": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_heavy_crossbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_greatsword": [
+      "attack:20"
+    ],
+    "spartanweaponry:copper_battleaxe": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_heavy_crossbow": [
+      "agility:10",
+      "attack:20"
+    ],
+    "spartanweaponry:diamond_halberd": [
+      "attack:16"
+    ],
+    "spartanweaponry:golden_greatsword": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:constantan_flanged_mace": [
+      "attack:9"
+    ],
+    "spartanweaponry:constantan_quarterstaff": [
+      "attack:9"
+    ],
+    "spartanweaponry:lead_halberd": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_scythe": [
+      "attack:9"
+    ],
+    "spartanweaponry:lead_lance": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_longsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:golden_lance": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:steel_pike": [
+      "attack:10"
+    ],
+    "spartanweaponry:tin_scythe": [
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_pike": [
+      "attack:9"
+    ],
+    "spartanweaponry:constantan_longsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:netherite_saber": [
+      "attack:32"
+    ],
+    "spartanweaponry:lead_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_warhammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:silver_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:lead_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:iron_heavy_crossbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_greatsword": [
+      "attack:16"
+    ],
+    "spartanweaponry:electrum_scythe": [
+      "attack:8"
+    ],
+    "spartanweaponry:iron_spear": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_longbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "spartanweaponry:lead_longsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_warhammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_bolt": [
+      "attack:16",
+      "defense:16"
+    ],
+    "spartanweaponry:iron_saber": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_halberd": [
+      "attack:10"
+    ],
+    "spartanweaponry:studded_club": [
+      "attack:10"
+    ],
+    "spartanweaponry:invar_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_scythe": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_katana": [
+      "attack:32"
+    ],
+    "spartanweaponry:netherite_bolt": [
+      "attack:20",
+      "defense:20"
+    ],
+    "spartanweaponry:cestus": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_quarterstaff": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_spear": [
+      "attack:16"
+    ],
+    "spartanweaponry:copper_warhammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:nickel_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_dagger": [
+      "attack:10"
+    ],
+    "spartanweaponry:studded_cestus": [
+      "attack:10"
+    ],
+    "spartanweaponry:platinum_quarterstaff": [
+      "attack:20"
+    ],
+    "spartanweaponry:netherite_quarterstaff": [
+      "attack:32"
+    ],
+    "spartanweaponry:silver_longbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "spartanweaponry:lead_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:aluminum_parrying_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:steel_spear": [
+      "attack:10"
+    ],
+    "spartanweaponry:iron_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:lead_greatsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_quarterstaff": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_flanged_mace": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_longbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:invar_glaive": [
+      "attack:9"
+    ],
+    "spartanweaponry:steel_warhammer": [
+      "attack:10"
+    ],
+    "spartanweaponry:copper_scythe": [
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_rapier": [
+      "attack:9"
+    ],
+    "spartanweaponry:aluminum_scythe": [
+      "attack:9"
+    ],
+    "spartanweaponry:netherite_lance": [
+      "attack:32"
+    ],
+    "spartanweaponry:constantan_parrying_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:copper_flanged_mace": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_saber": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_quarterstaff": [
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_battleaxe": [
+      "attack:20"
+    ],
+    "spartanweaponry:constantan_halberd": [
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_saber": [
+      "attack:20"
+    ],
+    "spartanweaponry:iron_rapier": [
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_flanged_mace": [
+      "attack:20"
+    ],
+    "spartanweaponry:constantan_saber": [
+      "attack:9"
+    ],
+    "spartanweaponry:iron_warhammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:silver_lance": [
+      "attack:6"
+    ],
+    "spartanweaponry:netherite_battleaxe": [
+      "attack:32"
+    ],
+    "spartanweaponry:tin_longbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "spartanweaponry:constantan_battleaxe": [
+      "attack:9"
+    ],
+    "spartanweaponry:leather_heavy_crossbow": [
+      "agility:10",
+      "attack:5"
+    ],
+    "spartanweaponry:copper_battle_hammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:bronze_rapier": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_glaive": [
+      "attack:32"
+    ],
+    "spartanweaponry:diamond_heavy_crossbow": [
+      "agility:10",
+      "attack:16"
+    ],
+    "spartanweaponry:copper_quarterstaff": [
+      "attack:6"
+    ],
+    "spartanweaponry:bronze_flanged_mace": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_rapier": [
+      "attack:9"
+    ],
+    "spartanweaponry:lead_spear": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_quarterstaff": [
+      "attack:10"
+    ],
+    "spartanweaponry:steel_heavy_crossbow": [
+      "agility:10",
+      "attack:5"
+    ],
+    "spartanweaponry:steel_lance": [
+      "attack:10"
+    ],
+    "spartanweaponry:iron_greatsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_halberd": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_halberd": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_flanged_mace": [
+      "attack:16"
+    ],
+    "spartanweaponry:diamond_battleaxe": [
+      "attack:16"
+    ],
+    "spartanweaponry:bronze_katana": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_spear": [
+      "attack:9"
+    ],
+    "spartanweaponry:iron_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:aluminum_halberd": [
+      "attack:9"
+    ],
+    "spartanweaponry:invar_katana": [
+      "attack:9"
+    ],
+    "spartanweaponry:iron_lance": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_greatsword": [
+      "attack:10"
+    ],
+    "spartanweaponry:copper_halberd": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_longsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_lance": [
+      "attack:8"
+    ],
+    "spartanweaponry:golden_throwing_knife": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:steel_flanged_mace": [
+      "attack:10"
+    ],
+    "spartanweaponry:copper_heavy_crossbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "spartanweaponry:copper_longsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:tipped_copper_bolt": [
+      "attack:10",
+      "defense:10"
+    ],
+    "spartanweaponry:lead_quarterstaff": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_saber": [
+      "attack:10"
+    ],
+    "spartanweaponry:lead_flanged_mace": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_greatsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:golden_spear": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:copper_parrying_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:lead_scythe": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_rapier": [
+      "attack:32"
+    ],
+    "spartanweaponry:diamond_quarterstaff": [
+      "attack:16"
+    ],
+    "spartanweaponry:bronze_warhammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:leather_longbow": [
+      "agility:10",
+      "attack:5"
+    ],
+    "spartanweaponry:silver_saber": [
+      "attack:6"
+    ],
+    "spartanweaponry:tipped_netherite_bolt": [
+      "attack:20",
+      "defense:20"
+    ],
+    "spartanweaponry:lead_heavy_crossbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:silver_heavy_crossbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_katana": [
+      "attack:9"
+    ],
+    "spartanweaponry:diamond_longbow": [
+      "agility:10",
+      "attack:16"
+    ],
+    "spartanweaponry:lead_saber": [
+      "attack:8"
+    ],
+    "spartanweaponry:golden_saber": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:iron_longsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_battleaxe": [
+      "attack:10"
+    ],
+    "spartanweaponry:copper_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_greatsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_katana": [
+      "attack:16"
+    ],
+    "spartanweaponry:nickel_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_battle_hammer": [
+      "attack:16"
+    ],
+    "spartanweaponry:aluminum_dagger": [
+      "attack:9"
+    ],
+    "spartanweaponry:bronze_glaive": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_bolt": [
+      "attack:6",
+      "defense:6"
+    ],
+    "spartanweaponry:tin_katana": [
+      "attack:6"
+    ],
+    "spartanweaponry:constantan_lance": [
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_pike": [
+      "attack:20"
+    ],
+    "spartanweaponry:diamond_rapier": [
+      "attack:16"
+    ],
+    "spartanweaponry:bronze_pike": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_flanged_mace": [
+      "attack:9"
+    ],
+    "spartanweaponry:platinum_spear": [
+      "attack:20"
+    ],
+    "spartanweaponry:silver_longsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:silver_spear": [
+      "attack:6"
+    ],
+    "spartanweaponry:silver_flanged_mace": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:tipped_bolt": [
+      "attack:10",
+      "defense:10"
+    ],
+    "spartanweaponry:aluminum_saber": [
+      "attack:9"
+    ],
+    "spartanweaponry:iron_glaive": [
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_warhammer": [
+      "attack:20"
+    ],
+    "spartanweaponry:silver_warhammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:iron_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_longsword": [
+      "attack:20"
+    ],
+    "spartanweaponry:silver_parrying_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:steel_longsword": [
+      "attack:10"
+    ],
+    "spartanweaponry:aluminum_flanged_mace": [
+      "attack:9"
+    ],
+    "spartanweaponry:aluminum_glaive": [
+      "attack:9"
+    ],
+    "spartanweaponry:silver_halberd": [
+      "attack:6"
+    ],
+    "spartanweaponry:diamond_lance": [
+      "attack:16"
+    ],
+    "spartanweaponry:lead_katana": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_glaive": [
+      "attack:6"
+    ],
+    "spartanweaponry:netherite_flanged_mace": [
+      "attack:32"
+    ],
+    "spartanweaponry:silver_scythe": [
+      "attack:6"
+    ],
+    "spartanweaponry:nickel_flanged_mace": [
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_lance": [
+      "attack:20"
+    ],
+    "spartanweaponry:tin_greatsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:tipped_diamond_bolt": [
+      "attack:16",
+      "defense:16"
+    ],
+    "spartanweaponry:invar_halberd": [
+      "attack:9"
+    ],
+    "spartanweaponry:tin_dagger": [
+      "attack:6"
+    ],
+    "spartanweaponry:diamond_dagger": [
+      "attack:16"
+    ],
+    "spartanweaponry:platinum_glaive": [
+      "attack:20"
+    ],
+    "spartanweaponry:golden_heavy_crossbow": [
+      "magic:4",
+      "agility:10",
+      "attack:4"
+    ],
+    "spartanweaponry:aluminum_battleaxe": [
+      "attack:9"
+    ],
+    "spartanweaponry:invar_battleaxe": [
+      "attack:9"
+    ],
+    "spartanweaponry:aluminum_battle_hammer": [
+      "attack:9"
+    ],
+    "spartanweaponry:aluminum_quarterstaff": [
+      "attack:9"
+    ],
+    "spartanweaponry:tin_halberd": [
+      "attack:6"
+    ],
+    "spartanweaponry:iron_scythe": [
+      "attack:8"
+    ],
+    "spartanweaponry:golden_battleaxe": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:invar_saber": [
+      "attack:9"
+    ],
+    "spartanweaponry:golden_longbow": [
+      "magic:4",
+      "agility:10",
+      "attack:4"
+    ],
+    "spartanweaponry:golden_quarterstaff": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:netherite_scythe": [
+      "attack:32"
+    ],
+    "spartanweaponry:silver_quarterstaff": [
+      "attack:6"
+    ],
+    "spartanweaponry:electrum_spear": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_longsword": [
+      "attack:32"
+    ],
+    "spartanweaponry:golden_battle_hammer": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:platinum_longbow": [
+      "agility:10",
+      "attack:20"
+    ],
+    "spartanweaponry:lead_rapier": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_heavy_crossbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:iron_katana": [
+      "attack:8"
+    ],
+    "spartanweaponry:aluminum_spear": [
+      "attack:9"
+    ],
+    "spartanweaponry:silver_battle_hammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:tin_lance": [
+      "attack:6"
+    ],
+    "spartanweaponry:lead_glaive": [
+      "attack:8"
+    ],
+    "spartanweaponry:lead_parrying_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_dagger": [
+      "attack:32"
+    ],
+    "spartanweaponry:steel_scythe": [
+      "attack:10"
+    ],
+    "spartanweaponry:nickel_scythe": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_battleaxe": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_heavy_crossbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:aluminum_warhammer": [
+      "attack:9"
+    ],
+    "spartanweaponry:bronze_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_katana": [
+      "attack:6"
+    ],
+    "spartanweaponry:nickel_spear": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_quarterstaff": [
+      "attack:8"
+    ],
+    "spartanweaponry:invar_greatsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:tin_battle_hammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_flanged_mace": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:constantan_pike": [
+      "attack:9"
+    ],
+    "spartanweaponry:tin_battleaxe": [
+      "attack:6"
+    ],
+    "spartanweaponry:copper_lance": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_longsword": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:netherite_halberd": [
+      "attack:32"
+    ],
+    "spartanweaponry:platinum_halberd": [
+      "attack:20"
+    ],
+    "spartanweaponry:nickel_glaive": [
+      "attack:8"
+    ],
+    "spartanweaponry:aluminum_lance": [
+      "attack:9"
+    ],
+    "spartanweaponry:golden_glaive": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:constantan_katana": [
+      "attack:9"
+    ],
+    "spartanweaponry:golden_pike": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:platinum_katana": [
+      "attack:20"
+    ],
+    "spartanweaponry:tin_quarterstaff": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_dagger": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:iron_flanged_mace": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_battle_hammer": [
+      "attack:9"
+    ],
+    "spartanweaponry:iron_halberd": [
+      "attack:8"
+    ],
+    "spartanweaponry:tin_warhammer": [
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_longbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:netherite_parrying_dagger": [
+      "attack:32"
+    ],
+    "spartanweaponry:spectral_bolt": [
+      "attack:10",
+      "defense:10"
+    ],
+    "spartanweaponry:nickel_saber": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_pike": [
+      "attack:6"
+    ],
+    "spartanweaponry:platinum_rapier": [
+      "attack:20"
+    ],
+    "spartanweaponry:electrum_katana": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_longbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_parrying_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_scythe": [
+      "attack:16"
+    ],
+    "spartanweaponry:copper_rapier": [
+      "attack:6"
+    ],
+    "spartanweaponry:netherite_spear": [
+      "attack:32"
+    ],
+    "spartanweaponry:bronze_greatsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_warhammer": [
+      "attack:9"
+    ],
+    "spartanweaponry:invar_warhammer": [
+      "attack:9"
+    ],
+    "spartanweaponry:nickel_greatsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:silver_pike": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_halberd": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:dynamite": [
+      "attack:8"
+    ],
+    "spartanweaponry:bronze_longbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:iron_quarterstaff": [
+      "attack:8"
+    ],
+    "spartanweaponry:copper_greatsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:netherite_battle_hammer": [
+      "attack:32"
+    ],
+    "spartanweaponry:tin_pike": [
+      "attack:6"
+    ],
+    "spartanweaponry:golden_tomahawk": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:iron_parrying_dagger": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_warhammer": [
+      "attack:16"
+    ],
+    "spartanweaponry:bronze_battle_hammer": [
+      "attack:8"
+    ],
+    "spartanweaponry:diamond_glaive": [
+      "attack:16"
+    ],
+    "spartanweaponry:tin_spear": [
+      "attack:6"
+    ],
+    "spartanweaponry:lead_longbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_dagger": [
+      "attack:20"
+    ],
+    "spartanweaponry:constantan_glaive": [
+      "attack:9"
+    ],
+    "spartanweaponry:golden_katana": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:nickel_rapier": [
+      "attack:8"
+    ],
+    "spartanweaponry:electrum_rapier": [
+      "attack:8"
+    ],
+    "spartanweaponry:golden_rapier": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:tin_glaive": [
+      "attack:6"
+    ],
+    "spartanweaponry:aluminum_heavy_crossbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:invar_longsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:aluminum_longsword": [
+      "attack:9"
+    ],
+    "spartanweaponry:tin_rapier": [
+      "attack:6"
+    ],
+    "spartanweaponry:silver_battleaxe": [
+      "attack:6"
+    ],
+    "spartanweaponry:bolt": [
+      "attack:10",
+      "defense:10"
+    ],
+    "spartanweaponry:iron_battleaxe": [
+      "attack:8"
+    ],
+    "spartanweaponry:nickel_lance": [
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_rapier": [
+      "attack:9"
+    ],
+    "spartanweaponry:nickel_longbow": [
+      "agility:10",
+      "attack:8"
+    ],
+    "spartanweaponry:constantan_longbow": [
+      "agility:10",
+      "attack:9"
+    ],
+    "spartanweaponry:silver_glaive": [
+      "attack:6"
+    ],
+    "spartanweaponry:netherite_heavy_crossbow": [
+      "agility:10",
+      "attack:32"
+    ],
+    "spartanweaponry:electrum_glaive": [
+      "attack:8"
+    ],
+    "spartanweaponry:netherite_pike": [
+      "attack:32"
+    ],
+    "spartanweaponry:steel_rapier": [
+      "attack:10"
+    ],
+    "spartanweaponry:tin_longsword": [
+      "attack:6"
+    ],
+    "spartanweaponry:nickel_longsword": [
+      "attack:8"
+    ],
+    "spartanweaponry:platinum_scythe": [
+      "attack:20"
+    ],
+    "spartanweaponry:golden_javelin": [
+      "magic:4",
+      "attack:4"
+    ],
+    "spartanweaponry:diamond_pike": [
+      "attack:16"
+    ],
+    "spartanweaponry:invar_spear": [
+      "attack:9"
+    ],
+    "spartanweaponry:netherite_warhammer": [
+      "attack:32"
+    ],
+    "spartanweaponry:silver_rapier": [
+      "attack:6"
+    ],
+    "spartanweaponry:lead_battleaxe": [
+      "attack:8"
+    ],
+    "spartanweaponry:steel_glaive": [
+      "attack:10"
+    ],
+    "spartanweaponry:tin_heavy_crossbow": [
+      "agility:10",
+      "attack:6"
+    ],
+    "minecraft:wayfinder_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:tide_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:golden_horse_armor": [
+      "magic:4"
+    ],
+    "minecraft:golden_boots": [
+      "magic:4",
+      "defense:4"
+    ],
+    "minecraft:coast_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:golden_hoe": [
+      "magic:4",
+      "farming:4"
+    ],
+    "minecraft:bow": [
+      "agility:2",
+      "attack:4"
+    ],
+    "minecraft:raw_gold": [
+      "magic:4"
+    ],
+    "minecraft:trident": [
+      "attack:16"
+    ],
+    "minecraft:golden_axe": [
+      "magic:4",
+      "gathering:4"
+    ],
+    "minecraft:rib_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:leather_boots": [
+      "defense:10"
+    ],
+    "minecraft:sentry_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:snout_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:leather_helmet": [
+      "defense:10"
+    ],
+    "minecraft:dune_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:golden_helmet": [
+      "magic:4",
+      "defense:4"
+    ],
+    "minecraft:raiser_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:spire_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:silence_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:leather_chestplate": [
+      "defense:10"
+    ],
+    "minecraft:shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "minecraft:leather_leggings": [
+      "defense:10"
+    ],
+    "minecraft:gold_nugget": [
+      "magic:4"
+    ],
+    "minecraft:enchanted_golden_apple": [
+      "magic:4"
+    ],
+    "minecraft:golden_carrot": [
+      "magic:4"
+    ],
+    "minecraft:golden_sword": [
+      "magic:4",
+      "attack:4"
+    ],
+    "minecraft:turtle_helmet": [
+      "defense:10"
+    ],
+    "minecraft:crossbow": [
+      "agility:4",
+      "attack:6"
+    ],
+    "minecraft:golden_pickaxe": [
+      "magic:4",
+      "mining:4"
+    ],
+    "minecraft:golden_shovel": [
+      "magic:4",
+      "gathering:4"
+    ],
+    "minecraft:golden_leggings": [
+      "magic:4",
+      "defense:4"
+    ],
+    "minecraft:eye_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:shaper_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:vex_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:gold_ingot": [
+      "magic:4"
+    ],
+    "minecraft:golden_apple": [
+      "magic:4"
+    ],
+    "minecraft:ward_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:golden_chestplate": [
+      "magic:4",
+      "defense:4"
+    ],
+    "minecraft:wild_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "minecraft:shulker_shell": [
+      "defense:10"
+    ],
+    "minecraft:host_armor_trim_smithing_template": [
+      "defense:10",
+      "defense:10"
+    ],
+    "iceandfire:sheep_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_black_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_black_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_red_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:deathworm_yellow_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:frost_troll_leather_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:tide_green_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragon_stick": [
+      "magic:10"
+    ],
+    "iceandfire:tide_purple_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_green_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_axe": [
+      "gathering:10"
+    ],
+    "iceandfire:armor_electric_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_ice_boots": [
+      "defense:32"
+    ],
+    "iceandfire:armor_blue_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_ice_leggings": [
+      "defense:32"
+    ],
+    "iceandfire:armor_red_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_fire_sword": [
+      "attack:32"
+    ],
+    "iceandfire:tide_blue_boots": [
+      "defense:10"
+    ],
+    "iceandfire:troll_weapon_trunk": [
+      "attack:10"
+    ],
+    "iceandfire:tide_deepblue_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_white_boots": [
+      "defense:10"
+    ],
+    "iceandfire:troll_weapon_hammer": [
+      "attack:10"
+    ],
+    "iceandfire:dragonarmor_gold_head": [
+      "magic:4"
+    ],
+    "iceandfire:dragonsteel_ice_helmet": [
+      "defense:32"
+    ],
+    "iceandfire:deathworm_red_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_sword_fire": [
+      "attack:24"
+    ],
+    "iceandfire:armor_bronze_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:earplugs": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_fire_hoe": [
+      "farming:32"
+    ],
+    "iceandfire:tide_teal_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:copper_shovel": [
+      "gathering:6"
+    ],
+    "iceandfire:deathworm_gauntlet_red": [
+      "attack:10"
+    ],
+    "iceandfire:armor_green_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_bronze_boots": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_staff": [
+      "magic:10"
+    ],
+    "iceandfire:armor_silver_metal_chestplate": [
+      "defense:6"
+    ],
+    "iceandfire:armor_copper_metal_leggings": [
+      "defense:6"
+    ],
+    "iceandfire:silver_sword": [
+      "attack:6"
+    ],
+    "iceandfire:tide_red_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_electric_boots": [
+      "defense:10"
+    ],
+    "iceandfire:mountain_troll_leather_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_black_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:lich_staff": [
+      "magic:10"
+    ],
+    "iceandfire:dread_knight_sword": [
+      "attack:10"
+    ],
+    "iceandfire:tide_red_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_lightning_hoe": [
+      "farming:32"
+    ],
+    "iceandfire:dragonsteel_fire_leggings": [
+      "defense:32"
+    ],
+    "iceandfire:dragonsteel_fire_chestplate": [
+      "defense:32"
+    ],
+    "iceandfire:tide_purple_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_silver_metal_helmet": [
+      "defense:6"
+    ],
+    "iceandfire:dragonsteel_lightning_boots": [
+      "defense:32"
+    ],
+    "iceandfire:copper_hoe": [
+      "farming:6"
+    ],
+    "iceandfire:deathworm_white_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_boots": [
+      "defense:10"
+    ],
+    "iceandfire:deathworm_red_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:tide_red_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_bow": [
+      "agility:10",
+      "attack:24"
+    ],
+    "iceandfire:troll_weapon_trunk_frost": [
+      "attack:10"
+    ],
+    "iceandfire:armor_white_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_blue_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_shovel": [
+      "gathering:10"
+    ],
+    "iceandfire:dragonsteel_lightning_chestplate": [
+      "defense:32"
+    ],
+    "iceandfire:dragonbone_sword": [
+      "attack:24"
+    ],
+    "iceandfire:armor_silver_chestplate": [
+      "defense:6"
+    ],
+    "iceandfire:dread_sword": [
+      "attack:10"
+    ],
+    "iceandfire:sheep_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:tide_bronze_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:mountain_troll_leather_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:mountain_troll_leather_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:tide_blue_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:tide_bronze_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:tide_purple_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:tide_deepblue_boots": [
+      "defense:10"
+    ],
+    "iceandfire:forest_troll_leather_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:tide_green_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonarmor_gold_neck": [
+      "magic:4"
+    ],
+    "iceandfire:armor_bronze_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonarmor_gold_tail": [
+      "magic:4"
+    ],
+    "iceandfire:armor_green_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_amythest_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_lightning_axe": [
+      "gathering:32"
+    ],
+    "iceandfire:armor_silver_helmet": [
+      "defense:6"
+    ],
+    "iceandfire:dragonsteel_ice_pickaxe": [
+      "mining:32"
+    ],
+    "iceandfire:myrmex_jungle_pickaxe": [
+      "mining:10"
+    ],
+    "iceandfire:forest_troll_leather_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:deathworm_white_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:sheep_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_pickaxe": [
+      "mining:24"
+    ],
+    "iceandfire:dragonsteel_fire_helmet": [
+      "defense:32"
+    ],
+    "iceandfire:silver_axe": [
+      "gathering:6"
+    ],
+    "iceandfire:hippocampus_slapper": [
+      "attack:10"
+    ],
+    "iceandfire:armor_red_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_axe": [
+      "gathering:10"
+    ],
+    "iceandfire:deathworm_gauntlet_yellow": [
+      "attack:10"
+    ],
+    "iceandfire:troll_weapon_column_forest": [
+      "attack:10"
+    ],
+    "iceandfire:armor_silver_boots": [
+      "defense:6"
+    ],
+    "iceandfire:copper_pickaxe": [
+      "mining:6"
+    ],
+    "iceandfire:tide_deepblue_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_copper_helmet": [
+      "defense:6"
+    ],
+    "iceandfire:armor_copper_leggings": [
+      "defense:6"
+    ],
+    "iceandfire:myrmex_jungle_boots": [
+      "defense:10"
+    ],
+    "iceandfire:deathworm_yellow_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_lightning_helmet": [
+      "defense:32"
+    ],
+    "iceandfire:forest_troll_leather_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_sapphire_boots": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_staff": [
+      "magic:10"
+    ],
+    "iceandfire:tide_bronze_boots": [
+      "defense:10"
+    ],
+    "iceandfire:mountain_troll_leather_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_red_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:forest_troll_leather_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:tide_purple_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_amythest_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_copper_metal_helmet": [
+      "defense:6"
+    ],
+    "iceandfire:deathworm_red_boots": [
+      "defense:10"
+    ],
+    "iceandfire:hippogryph_sword": [
+      "attack:10"
+    ],
+    "iceandfire:tide_green_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_hoe": [
+      "farming:24"
+    ],
+    "iceandfire:myrmex_desert_pickaxe": [
+      "mining:10"
+    ],
+    "iceandfire:dragonsteel_ice_shovel": [
+      "gathering:32"
+    ],
+    "iceandfire:gold_hippogryph_armor": [
+      "magic:4"
+    ],
+    "iceandfire:deathworm_white_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:sheep_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_ice_axe": [
+      "gathering:32"
+    ],
+    "iceandfire:amphithere_macuahuitl": [
+      "attack:10"
+    ],
+    "iceandfire:silver_shovel": [
+      "gathering:6"
+    ],
+    "iceandfire:armor_copper_chestplate": [
+      "defense:6"
+    ],
+    "iceandfire:dragonsteel_lightning_sword": [
+      "attack:32"
+    ],
+    "iceandfire:stymphalian_bird_dagger": [
+      "attack:10"
+    ],
+    "iceandfire:armor_blue_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_shovel": [
+      "gathering:24"
+    ],
+    "iceandfire:myrmex_jungle_sword_venom": [
+      "attack:10"
+    ],
+    "iceandfire:tide_blue_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_sword": [
+      "attack:10"
+    ],
+    "iceandfire:tide_trident": [
+      "attack:10",
+      "agility:5"
+    ],
+    "iceandfire:deathworm_yellow_boots": [
+      "defense:10"
+    ],
+    "iceandfire:troll_weapon_column_frost": [
+      "attack:10"
+    ],
+    "iceandfire:armor_gray_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_sword_lightning": [
+      "attack:24"
+    ],
+    "iceandfire:armor_silver_leggings": [
+      "defense:6"
+    ],
+    "iceandfire:armor_white_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_green_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:copper_axe": [
+      "gathering:6"
+    ],
+    "iceandfire:myrmex_desert_hoe": [
+      "farming:10"
+    ],
+    "iceandfire:dragonsteel_fire_axe": [
+      "gathering:32"
+    ],
+    "iceandfire:blindfold": [
+      "defense:10"
+    ],
+    "iceandfire:tide_teal_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_sapphire_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_silver_metal_leggings": [
+      "defense:6"
+    ],
+    "iceandfire:frost_troll_leather_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_bronze_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:armor_amythest_boots": [
+      "defense:10"
+    ],
+    "iceandfire:copper_sword": [
+      "attack:6"
+    ],
+    "iceandfire:armor_gray_boots": [
+      "defense:10"
+    ],
+    "iceandfire:silver_pickaxe": [
+      "mining:6"
+    ],
+    "iceandfire:armor_electric_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:dread_queen_sword": [
+      "attack:10"
+    ],
+    "iceandfire:dragonbone_sword_ice": [
+      "attack:24"
+    ],
+    "iceandfire:myrmex_desert_sword_venom": [
+      "attack:10"
+    ],
+    "iceandfire:tide_red_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:silver_hoe": [
+      "farming:6"
+    ],
+    "iceandfire:armor_gray_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_fire_pickaxe": [
+      "mining:32"
+    ],
+    "iceandfire:myrmex_jungle_hoe": [
+      "farming:10"
+    ],
+    "iceandfire:tide_deepblue_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_copper_metal_chestplate": [
+      "defense:6"
+    ],
+    "iceandfire:armor_sapphire_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_electric_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:tide_blue_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_fire_boots": [
+      "defense:32"
+    ],
+    "iceandfire:dread_queen_staff": [
+      "magic:10"
+    ],
+    "iceandfire:ghost_sword": [
+      "attack:10"
+    ],
+    "iceandfire:armor_black_boots": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_ice_chestplate": [
+      "defense:32"
+    ],
+    "iceandfire:deathworm_gauntlet_white": [
+      "attack:10"
+    ],
+    "iceandfire:tide_teal_boots": [
+      "defense:10"
+    ],
+    "iceandfire:armor_white_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_gray_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_sapphire_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_jungle_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:deathworm_white_boots": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonbone_axe": [
+      "gathering:24"
+    ],
+    "iceandfire:dragonsteel_ice_hoe": [
+      "farming:32"
+    ],
+    "iceandfire:troll_weapon_axe": [
+      "attack:10"
+    ],
+    "iceandfire:dragonsteel_ice_sword": [
+      "attack:32"
+    ],
+    "iceandfire:myrmex_jungle_sword": [
+      "attack:10"
+    ],
+    "iceandfire:deathworm_yellow_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:myrmex_desert_shovel": [
+      "gathering:10"
+    ],
+    "iceandfire:deathworm_red_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:armor_silver_metal_boots": [
+      "defense:6"
+    ],
+    "iceandfire:dragonarmor_gold_body": [
+      "magic:4"
+    ],
+    "iceandfire:dragonsteel_lightning_pickaxe": [
+      "mining:32"
+    ],
+    "iceandfire:frost_troll_leather_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_lightning_leggings": [
+      "defense:32"
+    ],
+    "iceandfire:tide_green_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_blue_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:frost_troll_leather_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_lightning_shovel": [
+      "gathering:32"
+    ],
+    "iceandfire:armor_amythest_chestplate": [
+      "defense:10"
+    ],
+    "iceandfire:tide_bronze_helmet": [
+      "defense:10"
+    ],
+    "iceandfire:armor_copper_boots": [
+      "defense:6"
+    ],
+    "iceandfire:armor_copper_metal_boots": [
+      "defense:6"
+    ],
+    "iceandfire:tide_teal_leggings": [
+      "defense:10"
+    ],
+    "iceandfire:dragonsteel_fire_shovel": [
+      "gathering:32"
+    ],
+    "iceandfire:pixie_wand": [
+      "attack:10",
+      "magic:15"
+    ],
+    "iceandfire:troll_weapon_column": [
+      "attack:10"
+    ],
+    "spartanshields:elite_mekanists_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:elite_mekanists_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:iron_basic_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:lead_basic_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:copper_basic_shield": [
+      "defense:6",
+      "agility:3"
+    ],
+    "spartanshields:iron_tower_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:enderium_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:constantan_tower_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:lumium_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:constantan_basic_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:lumium_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:advanced_mekanists_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:ultimate_mekanists_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:advanced_mekanists_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:golden_basic_shield": [
+      "magic:4",
+      "defense:4",
+      "agility:2"
+    ],
+    "spartanshields:golden_tower_shield": [
+      "magic:4",
+      "defense:4",
+      "agility:2"
+    ],
+    "spartanshields:electrum_tower_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:platinum_tower_shield": [
+      "defense:20",
+      "agility:10"
+    ],
+    "spartanshields:ultimate_mekanists_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:platinum_basic_shield": [
+      "defense:20",
+      "agility:10"
+    ],
+    "spartanshields:aluminum_basic_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:steel_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:elementium_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:invar_tower_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:enderium_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:invar_basic_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:elementium_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:aluminum_tower_shield": [
+      "defense:9",
+      "agility:4"
+    ],
+    "spartanshields:lead_tower_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:obsidian_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:obsidian_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:nickel_tower_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:steel_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:terrasteel_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:signalum_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:bronze_tower_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:nickel_basic_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:signalum_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:electrum_basic_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:diamond_tower_shield": [
+      "defense:16",
+      "agility:8"
+    ],
+    "spartanshields:manasteel_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:netherite_basic_shield": [
+      "defense:32",
+      "agility:16"
+    ],
+    "spartanshields:netherite_tower_shield": [
+      "defense:32",
+      "agility:16"
+    ],
+    "spartanshields:diamond_basic_shield": [
+      "defense:16",
+      "agility:8"
+    ],
+    "spartanshields:bronze_basic_shield": [
+      "defense:8",
+      "agility:4"
+    ],
+    "spartanshields:silver_tower_shield": [
+      "defense:6",
+      "agility:3"
+    ],
+    "spartanshields:basic_mekanists_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:refined_obsidian_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:basic_mekanists_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:dark_steel_riot_tower_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:manasteel_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:tin_tower_shield": [
+      "defense:6",
+      "agility:3"
+    ],
+    "spartanshields:tin_basic_shield": [
+      "defense:6",
+      "agility:3"
+    ],
+    "spartanshields:osmium_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:dark_steel_riot_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:terrasteel_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:lapis_lazuli_basic_shield": [
+      "defense:10",
+      "agility:5"
+    ],
+    "spartanshields:silver_basic_shield": [
+      "defense:6",
+      "agility:3"
+    ],
+    "spartanshields:copper_tower_shield": [
+      "defense:6",
+      "agility:3"
+    ]
   }
 }

@@ -76,7 +76,7 @@
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		natural_regeneration = true
+		natural_regeneration = false
 		#Non Vanilla gamerule: 'naughtinessMechanics'
 		naughtiness_mechanics = true
 		#What percentage of players must sleep to skip the night.
@@ -86,13 +86,15 @@
 		soul_stratification_effect = true
 		#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
 		#Range: > 0
-		spawn_radius = 10
+		spawn_radius = 0
 		#Whether players in spectator mode can generate chunks
 		spectators_generate_chunks = true
+		#Non Vanilla gamerule: 'vanillaGUI'
+		vanilla_g_u_i = false
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.
-		announce_advancements = true
+		announce_advancements = false
 		#Whether command blocks should notify admins when they perform commands.
 		command_block_output = true
 		#Whether to log admin commands to server log.
@@ -179,6 +181,11 @@
 		zombie_fisherman_spawn = true
 		#Non Vanilla gamerule: 'zombieLumberjackSpawn'
 		zombie_lumberjack_spawn = true
+		#Non Vanilla gamerule: 'potCrabSpawnChance'
+		#Range: > 0
+		pot_crab_spawn_chance = 17
+		#Non Vanilla gamerule: 'potCrabSpawning'
+		pot_crab_spawning = true
 
 	[gamerules.drops]
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a block explosion (e.g. clicking a bed in dimensions other than the Overworld).
@@ -210,16 +217,16 @@
 [difficulty]
 	#If the difficulty should be set on world load
 	#If true difficulty changes in game will also be saved to the config
-	set_difficulty = false
+	set_difficulty = true
 	#The difficulty to set if 'set_difficulty' is true, respects if the difficulty is locked or not for the world
 	#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
-	difficulty = "NORMAL"
+	difficulty = "HARD"
 	#If true the world will be set to hardcore, difficultly will be set to hard independent to the 'difficulty' config
 	#Setting it to hardcore auto locks the difficulty while this is true
 	hardcore = false
 	#If a world's difficulty should be locked when loaded, if world already is locked it can't be changed
 	#If the global world difficulty is enabled it's set first
-	lock_difficulty = false
+	lock_difficulty = true
 
 #A collection of misc configs
 [misc]
@@ -227,5 +234,5 @@
 	save_gamerules = true
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
-	default_commands = []
+	default_commands = ["/scoreboard objectives add Deaths deathCount", "/scoreboard objectives setdisplay list Deaths"]
 

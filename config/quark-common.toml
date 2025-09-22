@@ -318,9 +318,6 @@
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
 
-	[management.hotbar_changer]
-		"Animation Time" = 7.0
-
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
 		"Enable Player Inventory In Chests" = true

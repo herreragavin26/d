@@ -1,6 +1,6 @@
 {
   "attackSkillLocks": {
-    "minecraft:zombie": ["attack:2"],
+    "minecraft:sugar_cane": ["farming:4"],
     "minecraft:skeleton": ["attack:2"]
   }
 }

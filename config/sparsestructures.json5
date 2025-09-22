@@ -7,7 +7,7 @@
   //       a spread factor above 1 means all structures are rarer
   //       a spread factor below 1 means all structures are more common
   //       a spread factor of 0 disables all structures entirely
-  "spreadFactor": 2,
+  "spreadFactor": 2.0,
 
   // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
   // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
@@ -17,10 +17,130 @@
   // this is a list of custom spread factors
   "customSpreadFactors": [
     // example of the mansion being doubled in rarity (the mod's default)
-    {
-      "structure": "minecraft:mansion",
-      "factor": 2
-    },
+{
+  "structure": "world:bigroot",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtree",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtree_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtree_22",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtree_3",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtreecustom",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:bigtreecustom_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom_3",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom_4",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom_5",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:colostreecustom_6",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:dryadhouses",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:dyb",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:dyb_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:dyb_3",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:dybcustom",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:eflshousebase_4s",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:goblinhouses",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:insanetree",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:it_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:mashrooms",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:mashrooms_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:talltree",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:talltree_2",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:talltree_4",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:tallttree_22",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:taltreeelfhouses",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+{
+  "structure": "world:tt_3",
+  "factor": 0//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+},
+
+	
+	
+
     // add the structures you want to modify in the format:
     // (don't forget to remove "//", and use dots for decimal numbers)
     //

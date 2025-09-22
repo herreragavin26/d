@@ -1,0 +1,18 @@
+
+["Incompatibility groups"]
+	#Define enchantment groups for compatibility.
+	#Each entry is a comma-separated list of enchantment registry names that are incompatible with each other.
+	incompatible = ["jlme:critical_strike, jlme:ash_destroyer, jlme:lucky_odds", "jlme:executioner, jlme:ash_destroyer, jlme:critical_strike, jlme:ice_breaker", "jlme:giant_slayer, jlme:critical_strike", "jlme:swifter_slashes, minecraft:knockback", "jlme:armor_piercing, jlme:piercing_capabilities", "jlme:magic_piercing, jlme:piercing_capabilities", "jlme:advanced_looting, jlme:butcher, jlme:advanced_butcher, minecraft:looting", "jlme:learning, jlme:adept", "jlme:learning, minecraft:looting, jlme:advanced_looting", "jlme:shielded, jlme:vitality", "jlme:viper, jlme:executioner", "jlme:executioner, jlme:swifter_slashes", "jlme:harvester, jlme:ash_destroyer", "jlme:heavy_weight, jlme:swifter_slashes"]
+
+["Rune Enchantments"]
+	#Max amount of Rune Enchantments allowed in a single item
+	"Max Runes" = 2
+	#Can runes be found in loot, mobs armor or other ways
+	"Runes discoverable" = false
+	#Level cost of using an Advanced Upgrade Template
+	"Advanced Cost Upgrade" = 5
+	#Level cost of using a Supreme Upgrade Template
+	"Supreme Cost Upgrade" = 10
+	#Level cost of using a Rune Upgrade Template
+	"Rune Cost Upgrade" = 15
+
