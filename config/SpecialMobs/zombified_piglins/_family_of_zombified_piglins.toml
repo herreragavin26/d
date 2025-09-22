@@ -47,7 +47,7 @@
   # <Number> Range: ≥ 0.0
   general.weight.brute.exceptions = []
   general.weight.fishing.exceptions = [
-    "300.0",
+    "300.0 biome_tag #forge:is_water",
     "150.0 moon_phase full",
     "150.0 weather rain & rainfall != 0.0"
   ]

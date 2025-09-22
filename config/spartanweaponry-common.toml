@@ -592,8 +592,6 @@
 	skeleton_with_longbow_spawn_chance_hard = 0.25
 	#Set to true to disable spawning a Skeleton with any Longbow from this mod
 	disable_spawning_skeleton_with_longbow = false
-	#Set to true to disable the new mob heads from being dropped from mobs using the Decapitate Weapon Trait from this mod.
-	disable_new_head_drops = false
 	#Chance for Piglins and Piglin Brutes to spawn with Golden Melee Weapons on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
 	piglin_with_melee_spawn_chance_normal = 0.05000000074505806
@@ -610,6 +608,8 @@
 	wither_skeleton_with_melee_spawn_chance_hard = 0.25
 	#Set to true to disable spawning a Wither Skeleton with any weapons from this mod
 	disable_spawning_wither_skeleton_with_weapon = false
+	#Set to true to disable the new mob heads from being dropped from mobs using the Decapitate Weapon Trait from this mod.
+	disable_new_head_drops = false
 
 [trading]
 	#Set to true to disable Villagers (Weaponsmiths and Fletchers) from trading weapons from this mod

@@ -1,5 +1,5 @@
 renderSavingScreen = false
 showToasts = true
-showSavingTime = "FALSE"
+showSavingTime = "TRUE"
 backgroundPriority = 2
 allowMultipleServers = true

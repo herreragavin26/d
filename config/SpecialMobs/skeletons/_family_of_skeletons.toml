@@ -65,7 +65,7 @@
   ]
   general.weight.gatling.exceptions = []
   general.weight.giant.exceptions = [
-    "300.0",
+    "300.0 biome_tag #forge:is_mountain",
     "300.0 y_from_sea >= 25",
     "150.0 moon_phase new",
     "15.0 y_from_sea < 0"
@@ -108,7 +108,7 @@
   general.weight.weathered.exceptions = [
     "300.0 dimension_property ultrawarm",
     "300.0 dimension_property natural & rainfall = 0.0",
-    "7.5",
+    "7.5 biome_tag #forge:is_water",
     "7.5 rainfall > 0.85",
     "7.5 weather rain & position can_see_sky",
     "150.0 moon_brightness < 0.5"

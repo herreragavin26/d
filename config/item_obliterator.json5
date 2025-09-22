@@ -16,26 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "legendarysurvivaloverhaul:heart_container",
-	"trinketsandbaubles:goblins_ring",
-	"trinketsandbaubles:fairies_ring",
-	"trinketsandbaubles:faelis_ring",
-	"trinketsandbaubles:elves_ring",
-	"trinketsandbaubles:titan_ring",
-	"trinketsandbaubles:dwarves_ring",
-	"trinketsandbaubles:dragons_ring",
-	"legendarysurvivaloverhaul:healing_herbs",
-	"legendarysurvivaloverhaul:morphine",
-	"legendarysurvivaloverhaul:shield_container",
-	"legendarysurvivaloverhaul:medikit",
-	"legendarysurvivaloverhaul:plaster",
-	"legendarysurvivaloverhaul:heart_fragment",
-	"terramity:terramity_guidebook",
-	"patchouli:guide_book",
-	"vtubruhlotrmobs:bookfornoobmodlotr",
-	"spartanweaponry:wooden_weapons",
-	"spartanweaponry:stone_weapons"
-	
+    "examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

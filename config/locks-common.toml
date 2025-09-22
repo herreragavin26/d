@@ -1,7 +1,7 @@
 #Chance to generate a random lock on every new chest during world generation. Set to 0 to disable
 #在世界生成过程中，每个新箱子生成一个随机锁的概率。设置为0以禁用此功能。
 #Range: 0.0 ~ 1.0
-"Generation Chance" = 0.3
+"Generation Chance" = 0.85
 #Chance to randomly enchant a generated lock during world generation. Set to 0 to disable
 #在世界生成过程中，随机附魔生成的锁的概率。设置为0以禁用此功能。
 #Range: 0.0 ~ 1.0

@@ -1,7 +1,0 @@
-
-[client]
-
-	[client.alexscaves]
-		#Flytraps make snap sounds when closing
-		"Snap sounds" = true
-

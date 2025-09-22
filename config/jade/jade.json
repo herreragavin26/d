@@ -15,25 +15,25 @@
     "hideFromDebug": true,
     "hideFromTabList": true,
     "enableTextToSpeech": false,
-    "hintOverlayToggle": false,
+    "hintOverlayToggle": true,
     "hintNarratorToggle": true,
     "previewOverlay": true
   },
   "overlay": {
-    "alpha": 0.0,
+    "alpha": 0.7,
     "iconMode": "TOP",
     "animation": true,
     "disappearingDelay": 0.0,
     "overlaySquare": true,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
-    "overlayPosY": 0.08,
-    "overlayScale": 0.89,
-    "overlayAnchorX": 0.0,
+    "overlayPosY": 0.09,
+    "overlayScale": 1.0,
+    "overlayAnchorX": 0.51,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:waila",
+    "activeTheme": "jade:create",
     "themesHash": -328442023,
-    "overlayPosX": 0.83
+    "overlayPosX": 0.89
   },
   "formatting": {
     "modName": "§9§o%s"

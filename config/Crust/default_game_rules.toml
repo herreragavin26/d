@@ -15,16 +15,21 @@ config_enabled = false
 # Category: player
 # Default game rule settings for the 'player' category.
 
+  player.allow_terramity_explosives = true
+  player.building_debug = false
   player.disable_elytra_movement_check = false
   player.do_immediate_respawn = false
   player.do_limited_crafting = false
   player.drowning_damage = true
   player.fall_damage = true
   player.fire_damage = true
+  player.fragile_blocks = true
   player.freeze_damage = true
   player.keep_inventory = false
   player.natural_regeneration = true
+  player.naughtiness_mechanics = true
   player.players_sleeping_percentage = 100
+  player.soul_stratification_effect = true
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
 
@@ -32,23 +37,60 @@ config_enabled = false
 # Category: mobs
 # Default game rule settings for the 'mobs' category.
 
+  mobs.allow_bandit_raids = true
   mobs.disable_raids = false
+  mobs.disappearanceof_spirits_underthe_sun = true
   mobs.forgive_dead_players = true
+  mobs.frequency_bandit_raids = 30
+  mobs.maggots_appearance = true
   mobs.max_entity_cramming = 24
   mobs.mob_griefing = true
+  mobs.spawn_limited_time_beasts = true
   mobs.universal_anger = false
+  mobs.zombiesina_barrel_spawn = true
 
 
 # Category: spawning
 # Default game rule settings for the 'spawning' category.
 
+  spawning.baby_skeleton_spawn = true
+  spawning.baby_spider_spawn = true
+  spawning.bloody_gadfly_spawn = true
+  spawning.bone_imp_spawn = true
+  spawning.bonescaller_spawn = true
+  spawning.corpse_fish_spawn = true
+  spawning.corpse_fly_spawn = true
+  spawning.dark_vortex_spawn = true
+  spawning.decaying_zombie_spawn = true
+  spawning.decrepit_skeleton_spawn = true
   spawning.do_insomnia = true
   spawning.do_mob_spawning = true
   spawning.do_patrol_spawning = true
   spawning.do_trader_spawning = true
   spawning.do_warden_spawning = true
-  spawning.pot_crab_spawn_chance = 17
-  spawning.pot_crab_spawning = true
+  spawning.door_knight_spawn = true
+  spawning.dread_hound_spawn = true
+  spawning.fallen_chaos_knight_spawn = true
+  spawning.firelight_spawn = true
+  spawning.generationof_infected_diamonds = true
+  spawning.glutton_fish_spawn = true
+  spawning.krampus_spawn = true
+  spawning.lifestealer_spawn = true
+  spawning.missionary_spawn = true
+  spawning.mother_spider_spawn = true
+  spawning.phantom_creeper_spawn = true
+  spawning.restless_spirit_spawn = true
+  spawning.ser_pumpkinhead_spawn = true
+  spawning.skeleton_bomb_spawn = true
+  spawning.skeleton_thrasher_spawn = true
+  spawning.spirit_guide_spawn = true
+  spawning.spirit_of_chaos_spawn = true
+  spawning.theappearanceofthe_nightmare_stalker = true
+  spawning.thornshell_crab_spawn = true
+  spawning.zombie_bruiser_spawn = true
+  spawning.zombie_clown_spawn = true
+  spawning.zombie_fisherman_spawn = true
+  spawning.zombie_lumberjack_spawn = true
 
 
 # Category: drops
@@ -65,8 +107,10 @@ config_enabled = false
 # Category: updates
 # Default game rule settings for the 'updates' category.
 
+  updates.ageing_spawners = true
   updates.do_daylight_cycle = true
   updates.do_fire_tick = true
+  updates.do_season_cycle = true
   updates.do_vines_spread = true
   updates.do_weather_cycle = true
   updates.lava_source_conversion = false
@@ -81,7 +125,6 @@ config_enabled = false
   chat.announce_advancements = true
   chat.command_block_output = true
   chat.log_admin_commands = true
-  chat.puffish_skills:announce_new_points = true
   chat.send_command_feedback = true
   chat.show_death_messages = true
 

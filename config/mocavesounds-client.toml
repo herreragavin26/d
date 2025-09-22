@@ -1,4 +1,0 @@
-#Interval (in seconds) to play random cave sounds.
-#Range: 10 ~ 3600
-soundInterval = 880
-

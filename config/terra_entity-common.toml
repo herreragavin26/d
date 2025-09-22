@@ -29,7 +29,7 @@
 	#Should the boss have no physics? Only for some bosses.
 	boss_no_physics = true
 	#Should the boss leave on day? Only for some bosses.
-	boss_leave_on_day = true
+	boss_leave_on_day = false
 	#Should all monsters be enhanced?
 	#If false, only specific monsters in this mod.
 	enhance_all_monster = false
@@ -43,10 +43,10 @@
 	#For kjs modify
 	disable_builtin_health_attack_modifier = false
 	#Should monsters spawn without light?
-	spawn_without_light = true
+	spawn_without_light = false
 	#Chance to spawn slime on zombie head.
 	#Range: 0.0 ~ 1.0
-	chance_to_spawn_slime_on_zombie_head = 0.01
+	chance_to_spawn_slime_on_zombie_head = 0.05
 	#Chance to spawn a monster.
 	#Range: 0.0 ~ 1.0
 	enemy_spawn_chance = 1.0

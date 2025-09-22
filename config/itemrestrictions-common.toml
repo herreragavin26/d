@@ -1,5 +1,0 @@
-[debug]
-    # if true, debug mode is enabled
-    # Allowed values: true, false - Default: false
-    is_debug = false
-

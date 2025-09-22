@@ -73,7 +73,7 @@
     "150.0 moon_phase full"
   ]
   general.weight.wind.exceptions = [
-    "300.0",
+    "300.0 biome_tag #forge:is_mountain",
     "300.0 y_from_sea >= 25",
     "150.0 moon_phase new",
     "15.0 y_from_sea < 0"
