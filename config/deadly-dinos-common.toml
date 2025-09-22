@@ -1,0 +1,27 @@
+
+["Deadly Dinos"]
+	#Debug Log in Console
+	"Debug Log Enabled" = true
+	#Should Anomalies be able to spawn?
+	"Anomaly Spawning" = true
+	#Should large dinos be able to destroy blocks like cobblestone, wood and glass?
+	"Large Dinos Break Blocks" = true
+	#Should medium dinos be able to destroy blocks like wood and glass?
+	"Medium Dinos Break Blocks" = true
+	#Should small dinos be able to destroy blocks like glass?
+	"Small Dinos Break Blocks" = true
+	#Should Ridable Dinos "ground tie", or stop moving around, when saddled & dismounted?
+	"Ground Tie When Dismounted" = true
+	#Minimum amount of time, in ticks, that a dino can lay an unfertilized egg. Default is 24000 ticks, or 20 minutes.
+	"Dino Egg Lay Cooldown" = 24000
+	#Amount of Fertilized Eggs a dino should lay after mating. Default is 1.
+	"Dino Egg Lay Amount" = 1
+	#Should an dino's gender affect the ability to get bi-products from it?
+	"Genders Affect Bi-Products/ Eggs" = true
+	#Should a dino's gender affect how it breeds?
+	"Genders Affect Breeding" = true
+	#Maximum amount of Utahraptors that can pack up at once.
+	"Max Utahraptor Pack Count" = 6
+	#Maximum amount of Parasaurolophus that can herd up at once.
+	"Max Parasaurolophus Herd Count" = 6
+

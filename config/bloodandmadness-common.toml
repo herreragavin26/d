@@ -1,0 +1,96 @@
+
+[bloodandmadness]
+	#Configs:
+	#Will entities spawn blood particles when damaged?
+	spawn_blood_particles = true
+	#Apply Dawncraft patch
+	apply_dawncraft_patch = false
+	#How much will weapon damage scale for each level
+	#Range: 0.0 ~ 255.0
+	upgrade_level_scaling = 0.2
+	#max durability of Blood And Madness weapons
+	#Range: 0 ~ 1048576
+	weapon_duraility = 4096
+	#max durability of Blood And Madness weapons
+	#Range: 0 ~ 333
+	blood_vial_heal_amplifier = 1
+	#Should Silverbeasts naturally spawn?
+	should_silverbeast_spawn = true
+	#Should Brainsuckers naturally spawn?
+	should_brainsucker_spawn = true
+	#Should Huntsmen with Axe naturally spawn?
+	should_huntsman_axe_spawn = true
+	#Should Huntsmen with Cutlass naturally spawn?
+	should_huntsman_cutlass_spawn = true
+	#Should Church Doctors naturally spawn?
+	should_church_doctor_spawn = true
+	#Should Church Doctors with Lantern naturally spawn?
+	should_church_doctor_lantern_spawn = true
+	#Should Church Doctors with Pistol naturally spawn?
+	should_church_doctor_pistol_spawn = true
+	#Should Church Doctors with Flamesprayer naturally spawn?
+	should_church_doctor_flamesprayer_spawn = true
+	#Should Church Doctors with Scythe naturally spawn?
+	should_church_doctor_scythe_spawn = true
+	#Should Church Doctors with Crucifix naturally spawn?
+	should_church_doctor_crucifix_spawn = true
+	#Should Celestial Emissaries naturally spawn?
+	should_celestial_emissary_spawn = true
+	#Should Beast Patients naturally spawn?
+	should_beast_patients_spawn = true
+	#Should Cloaked Beast Patients naturally spawn?
+	should_cloaked_beast_patients_spawn = true
+	#Should Ashen Blood Beast Patients naturally spawn?
+	should_ashen_beast_patients_spawn = true
+	#Father Gascoigne HP (total)
+	#Range: 1.0 ~ 1048576.0
+	father_gascoigne_hp = 1000.0
+	#Micolash HP
+	#Range: 1.0 ~ 1048576.0
+	micolash_hp = 1500.0
+	#Skeletal Puppet HP
+	#Range: 1.0 ~ 1048576.0
+	puppet_hp = 60.0
+	#Silverbeast HP
+	#Range: 1.0 ~ 1048576.0
+	silverbeast_hp = 200.0
+	#Beast Patient HP
+	#Range: 1.0 ~ 1048576.0
+	beast_patient_hp = 50.0
+	#Beast Patient HP
+	#Range: 1.0 ~ 1048576.0
+	cloaked_beast_patient_hp = 60.0
+	#Ashen Blood Beast Patient HP
+	#Range: 1.0 ~ 1048576.0
+	ashen_blood_beast_patient_hp = 80.0
+	#Brainsucker HP
+	#Range: 1.0 ~ 1048576.0
+	brainsucker_hp = 80.0
+	#Celestial Emissary HP
+	#Range: 1.0 ~ 1048576.0
+	celestial_emissary_hp = 60.0
+	#Huntsman (Axe) HP
+	#Range: 1.0 ~ 1048576.0
+	huntsman_axe_hp = 32.0
+	#Huntsman (Cutlass) HP
+	#Range: 1.0 ~ 1048576.0
+	huntsman_cutlass_hp = 28.0
+	#Church Doctor (Normal) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_hp = 80.0
+	#Church Doctor (Pistol) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_pistol_hp = 80.0
+	#Church Doctor (Flamesprayer) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_flamesprayer_hp = 80.0
+	#Church Doctor (Crucifix) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_crucifix_hp = 80.0
+	#Church Doctor (Lantern) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_lantern_hp = 80.0
+	#Church Doctor (Scythe) HP
+	#Range: 1.0 ~ 1048576.0
+	church_doctor_scythe_hp = 80.0
+

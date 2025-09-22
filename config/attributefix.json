@@ -1056,6 +1056,17 @@
         "value": 1
       }
     },
+    "dwarven_forge:generic.magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "celestial_core:toughness_penetration": {
       "enabled": false,
       "min": {
@@ -1769,6 +1780,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "dwarven_forge:generic.explosion_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "undead_revamp2:cheroattackspeed": {

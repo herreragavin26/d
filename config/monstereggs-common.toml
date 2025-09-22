@@ -1,0 +1,12 @@
+
+#General settings
+[General]
+	#dictates the Y offset of the mob spawned from the egg [Default: 0.5]
+	#Range: -2.147483648E9 ~ 2.147483647E9
+	spawnOffset = 0.5
+
+#Debug settings
+[Debug]
+	#Show the mob in the tooltip of the shell [Default: false]
+	debugInfo = false
+

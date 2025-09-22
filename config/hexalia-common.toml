@@ -1,0 +1,55 @@
+
+#Functional Blocks Settings
+[functional_blocks]
+	#Radius of the censer's area of effect
+	#Range: 1 ~ 64
+	censerEffectRadius = 16
+	#Burn duration (in ticks) of the censer effect
+	#Range: 20 ~ 24000
+	censerEffectDuration = 7200
+	#How far (in blocks) the Dreamcatcher detects and affects phantoms.
+	#Range: 1 ~ 64
+	radius = 16
+	#Duration (in ticks) phantoms are set on fire. 20 ticks = 1 second.
+	#Range: 0 ~ 600
+	phantomIgniteDuration = 100
+
+#Brew Settings
+[brews]
+	#Fixed duration in ticks for all brew effects. 20 ticks = 1 second. Default: 4800 ticks = 4 minutes
+	#Range: 20 ~ 24000
+	brewEffectDuration = 4800
+	#Flat amplifier bonus applied to all brews. Default: 0
+	#Range: -2 ~ 5
+	brewAmplifierBonus = 0
+
+#Mandrake Scream Settings
+[mandrake]
+	#Radius in blocks around the player affected by the Mandrake's scream. Default: 5.0
+	#Range: 1.0 ~ 32.0
+	mandrakeScreamRadius = 5.0
+	#Stun duration in ticks applied by the Mandrake's scream. Default: 60 ticks = 3 seconds
+	#Range: 1 ~ 600
+	mandrakeStunDuration = 60
+
+#Enchanted Plant Settings
+[enchanted_plants]
+	#How long (in ticks) the Nautilite stays active before disappearing. 20 ticks = 1 second. Default: 2400 (2 minutes)
+	#Range: 100 ~ 24000
+	nautiliteDuration = 2400
+	#Radius in blocks around the Nautilite in which players and mobs are affected.
+	#Range: 1 ~ 64
+	nautiliteEffectRadius = 16
+	#How long (in ticks) the Windsong stays active before disappearing. Default: 600 ticks = 30 seconds
+	#Range: 100 ~ 24000
+	windsongDuration = 600
+	#Radius in blocks around the Windsong that deflects projectiles. Default: 6
+	#Range: 1 ~ 32
+	windsongEffectRadius = 6
+	#How long (in ticks) the Astrylis stays active before deactivating. Default: 1200 = 60 seconds
+	#Range: 100 ~ 24000
+	astrylisDuration = 1200
+	#Interval in ticks between bonemeal pulses while Astrylis is active. Default: 240 ticks = 12 seconds
+	#Range: 20 ~ 1200
+	astrylisBonemealInterval = 240
+
