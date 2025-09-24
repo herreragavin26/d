@@ -31,15 +31,11 @@
 		allow_bandit_raids = true
 		#Whether raids are disabled.
 		disable_raids = false
-		#Non Vanilla gamerule: 'disappearanceofSpiritsUndertheSun'
-		disappearanceof_spirits_underthe_sun = true
 		#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
 		forgive_dead_players = true
 		#Non Vanilla gamerule: 'frequencyBanditRaids'
 		#Range: > 0
 		frequency_bandit_raids = 30
-		#Non Vanilla gamerule: 'maggotsAppearance'
-		maggots_appearance = true
 		#The maximum number of pushable entities a mob or player can push, before taking 6 (♥♥♥) entity cramming damage per half-second. Setting to 0 or lower disables the rule. Damage affects Survival-mode or Adventure-mode players, and all mobs but bats. Pushable entities include non-Spectator-mode players, any mob except bats, as well as boats and minecarts.
 		#Range: > 0
 		max_entity_cramming = 24
@@ -49,6 +45,10 @@
 		spawn_limited_time_beasts = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
+		#Non Vanilla gamerule: 'disappearanceofSpiritsUndertheSun'
+		disappearanceof_spirits_underthe_sun = true
+		#Non Vanilla gamerule: 'maggotsAppearance'
+		maggots_appearance = true
 		#Non Vanilla gamerule: 'zombiesinaBarrelSpawn'
 		zombiesina_barrel_spawn = true
 
@@ -77,13 +77,9 @@
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = false
-		#Non Vanilla gamerule: 'naughtinessMechanics'
-		naughtiness_mechanics = true
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
 		players_sleeping_percentage = 100
-		#Non Vanilla gamerule: 'soulStratificationEffect'
-		soul_stratification_effect = true
 		#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
 		#Range: > 0
 		spawn_radius = 0
@@ -91,6 +87,10 @@
 		spectators_generate_chunks = true
 		#Non Vanilla gamerule: 'vanillaGUI'
 		vanilla_g_u_i = false
+		#Non Vanilla gamerule: 'naughtinessMechanics'
+		naughtiness_mechanics = true
+		#Non Vanilla gamerule: 'soulStratificationEffect'
+		soul_stratification_effect = true
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.
@@ -105,6 +105,21 @@
 		show_death_messages = true
 
 	[gamerules.spawning]
+		#Whether phantoms can spawn in the nighttime.
+		do_insomnia = true
+		#Whether mobs should naturally spawn. Does not affect monster spawners.
+		do_mob_spawning = true
+		#Whether patrols can spawn.
+		do_patrol_spawning = true
+		#Whether wandering traders can spawn.
+		do_trader_spawning = true
+		#Whether wardens can spawn.
+		do_warden_spawning = true
+		#Non Vanilla gamerule: 'potCrabSpawnChance'
+		#Range: > 0
+		pot_crab_spawn_chance = 17
+		#Non Vanilla gamerule: 'potCrabSpawning'
+		pot_crab_spawning = true
 		#Non Vanilla gamerule: 'babySkeletonSpawn'
 		baby_skeleton_spawn = true
 		#Non Vanilla gamerule: 'babySpiderSpawn'
@@ -125,16 +140,6 @@
 		decaying_zombie_spawn = true
 		#Non Vanilla gamerule: 'decrepitSkeletonSpawn'
 		decrepit_skeleton_spawn = true
-		#Whether phantoms can spawn in the nighttime.
-		do_insomnia = true
-		#Whether mobs should naturally spawn. Does not affect monster spawners.
-		do_mob_spawning = true
-		#Whether patrols can spawn.
-		do_patrol_spawning = true
-		#Whether wandering traders can spawn.
-		do_trader_spawning = true
-		#Whether wardens can spawn.
-		do_warden_spawning = true
 		#Non Vanilla gamerule: 'doorKnightSpawn'
 		door_knight_spawn = true
 		#Non Vanilla gamerule: 'dreadHoundSpawn'
@@ -181,11 +186,6 @@
 		zombie_fisherman_spawn = true
 		#Non Vanilla gamerule: 'zombieLumberjackSpawn'
 		zombie_lumberjack_spawn = true
-		#Non Vanilla gamerule: 'potCrabSpawnChance'
-		#Range: > 0
-		pot_crab_spawn_chance = 17
-		#Non Vanilla gamerule: 'potCrabSpawning'
-		pot_crab_spawning = true
 
 	[gamerules.drops]
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a block explosion (e.g. clicking a bed in dimensions other than the Overworld).
