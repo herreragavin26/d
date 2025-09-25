@@ -1,6 +1,11 @@
 $SCRIPT_VERSION = "1.5.7"
+
 $script:menu_selection = 1
 $script:need_remote = $false
+
+$script:repo_url = ""
+$script:current_br = ""
+$script:status = ""
 
 # Set console title
 $Host.UI.RawUI.WindowTitle = "GitHub Script v$SCRIPT_VERSION"
@@ -14,6 +19,7 @@ if ($script_restarted) {
 function Wait-ForKeyPress {
     param([string]$Message = "Press any key to continue...")
     Write-Host $Message
+    Update-Status
     $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown") | Out-Null
 }
 
@@ -45,10 +51,11 @@ function Initialize-Repository {
         $script:need_remote = $true
     } else {
         git branch -M main 2>$null | Out-Null
-        git config --get remote.origin.url 2>$null | Out-Null
+        $script:repo_url = git config --get remote.origin.url 2>$null
         if ($LASTEXITCODE -ne 0) {
             $script:need_remote = $true
-        } else {
+        } 
+        else {
             $script:need_remote = $false
         }
     }
@@ -149,7 +156,7 @@ function Test-FileSizes {
 }
 
 function Test-RemoteChangesAvailable {
-    $current_branch = git branch --show-current
+    $script:current_br = $current_branch = git branch --show-current
     git fetch origin 2>$null
     git diff HEAD "origin/$current_branch" --quiet 2>$null
     return ($LASTEXITCODE -ne 0)
@@ -163,11 +170,41 @@ function Test-LocalChangesAvailable {
     return (($diff_result -ne 0) -or ($cached_diff_result -ne 0))
 }
 
+function Update-Status {
+    $has_remote_changes = Test-RemoteChangesAvailable
+    $has_local_changes = Test-LocalChangesAvailable
+
+    $script:status = @{
+        Repository = $script:repo_url
+        Branch = $script:current_br
+        HasRemoteChanges = $has_remote_changes
+        HasLocalChanges = $has_local_changes
+    }
+}
+
+function Show-Status {
+    Write-Host "Repository | " -NoNewline
+    Write-Host $script:status.Branch -ForegroundColor Cyan -NoNewline
+    Write-Host " | " -NoNewline
+    Write-Host $script:status.Repository -ForegroundColor Blue -NoNewline
+    Write-Host " | " -NoNewline
+
+    if ($script:status.HasRemoteChanges -and $script:status.HasLocalChanges) {
+        Write-Host "Remote & Local Changes" -ForegroundColor Yellow
+    } elseif ($script:status.HasRemoteChanges) {
+        Write-Host "Remote Changes" -ForegroundColor Yellow
+    } elseif ($script:status.HasLocalChanges) {
+        Write-Host "Local Changes" -ForegroundColor Yellow
+    } else {
+        Write-Host "Synced" -ForegroundColor Green
+    }
+}
+
 function Show-MenuDisplay {
     param($status_line)
     Clear-Host
-    Write-Host "Current directory: $(Get-Location)"
-    Write-Host $status_line
+    Write-Host "Current directory: $(Get-Location)`n"
+    Show-Status
 
     for ($i = 0; $i -lt $script:menu_items.Count; $i++) {
         $item = $script:menu_items[$i]
@@ -225,21 +262,12 @@ function Show-Menu {
     Start-MenuLoop $status_line
 }
 
-function Commit-Script {
-    $mydate = Get-Date -Format "ddd-MM-dd"
-    $mytime = Get-Date -Format "HH:mm"
-    $commit_message = "Auto commit $mydate $mytime"
-
-    # Add all files to staging (excluding those now in .gitignore)
-    git add .
-
-    Write-Host "`nGit Status:"
-    git status --porcelain
-    Write-Host "`n"
-
+function Commit-Script {    
     if (Test-LocalChangesAvailable) {
-        Write-Host "Changes to be committed:"
-        git diff --staged --name-only
+        git add .
+
+        Write-Host "`nGit Status:"
+        git status --porcelain
         Write-Host "`n"
 
         $confirm_commit = Read-Host "Do you want to commit these changes? (y/n)"
@@ -249,10 +277,15 @@ function Commit-Script {
             return
         }
 
+        $mydate = Get-Date -Format "ddd-MM-dd"
+        $mytime = Get-Date -Format "HH:mm"
+        $commit_message = "Auto commit $mydate $mytime"
+
         git commit -m $commit_message
         Write-Host "`n"
 
         $current_branch = git branch --show-current
+
         git push -u origin $current_branch
         if ($LASTEXITCODE -ne 0) {
             Write-Host "Push failed. Attempting to pull and merge remote changes..."
@@ -272,7 +305,8 @@ function Commit-Script {
         }
 
         Write-Host "`nCommit completed successfully!" -ForegroundColor Green
-    } else {
+    } 
+    else {
         Write-Host "No changes to commit."
     }
 
@@ -290,15 +324,10 @@ function Start-PullRemoteChanges {
     $current_branch = git branch --show-current
     git fetch origin 2>$null
 
-    # Check if there are changes to pull
-    git diff HEAD "origin/$current_branch" --quiet 2>$null
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "Remote changes detected:" -ForegroundColor Yellow
-
+    if (Test-RemoteChangesAvailable) {
         # Show what changes are available
         Write-Host "`nChanges available from remote:"
         git log HEAD..origin/$current_branch --oneline --max-count=5
-
 
         $confirm_pull = Read-Host "`nDo you want to pull these changes? (y/n)"
         if ($confirm_pull -ne "y" -and $confirm_pull -ne "Y") {
@@ -353,7 +382,8 @@ function Start-PullRemoteChanges {
         }
 
         Write-Host "`nPull completed successfully!" -ForegroundColor Green
-    } else {
+    } 
+    else {
         Write-Host "Already up to date with remote" -ForegroundColor Green
     }
 
@@ -361,127 +391,138 @@ function Start-PullRemoteChanges {
 }
 
 function Start-HardResetLocal {
-    Write-Host "`nWARNING: This will PERMANENTLY DELETE all local changes!" -ForegroundColor Red
-    Write-Host "Your local repository will be reset to match the remote exactly." -ForegroundColor Yellow
-    Write-Host "`nWhat will happen:"
-    Write-Host "  1. All uncommitted changes will be lost"
-    Write-Host "  2. All local commits not on remote will be lost"
-    Write-Host "  3. Working directory will match remote branch exactly`n"
+    if (Test-LocalChangesAvailable or Test-RemoteChangesAvailable) {
+        Write-Host "`nWARNING: This will PERMANENTLY DELETE all local changes!" -ForegroundColor Red
+        Write-Host "Your local repository will be reset to match the remote exactly." -ForegroundColor Yellow
+        Write-Host "`nWhat will happen:"
+        Write-Host "  1. All uncommitted changes will be lost"
+        Write-Host "  2. All local commits not on remote will be lost"
+        Write-Host "  3. Working directory will match remote branch exactly`n"
 
-    # Determine which branch to reset to
-    $current_branch = git branch --show-current
-    git rev-parse "origin/$current_branch" 2>$null
-    if ($LASTEXITCODE -ne 0) {
-        # Try main branch if current branch doesn't exist on remote
-        git rev-parse "origin/main" 2>$null
-        if ($LASTEXITCODE -eq 0) {
-            $reset_branch = "main"
-            Write-Host "Note: Current branch ($current_branch) not found on remote." -ForegroundColor Yellow
-            Write-Host "Will reset to origin/main instead."
-        } else {
-            # Try master branch
-            git rev-parse "origin/master" 2>$null
+        # Determine which branch to reset to
+        $current_branch = git branch --show-current
+        git rev-parse "origin/$current_branch" 2>$null
+        if ($LASTEXITCODE -ne 0) {
+            # Try main branch if current branch doesn't exist on remote
+            git rev-parse "origin/main" 2>$null
             if ($LASTEXITCODE -eq 0) {
-                $reset_branch = "master"
+                $reset_branch = "main"
                 Write-Host "Note: Current branch ($current_branch) not found on remote." -ForegroundColor Yellow
-                Write-Host "Will reset to origin/master instead."
+                Write-Host "Will reset to origin/main instead."
             } else {
-                Write-Host "ERROR: No suitable remote branch found!" -ForegroundColor Red
-                Write-Host "Cannot determine which remote branch to reset to."
-                Wait-ForKeyPress
-                return
+                # Try master branch
+                git rev-parse "origin/master" 2>$null
+                if ($LASTEXITCODE -eq 0) {
+                    $reset_branch = "master"
+                    Write-Host "Note: Current branch ($current_branch) not found on remote." -ForegroundColor Yellow
+                    Write-Host "Will reset to origin/master instead."
+                } else {
+                    Write-Host "ERROR: No suitable remote branch found!" -ForegroundColor Red
+                    Write-Host "Cannot determine which remote branch to reset to."
+                    Wait-ForKeyPress
+                    return
+                }
             }
+        } else {
+            $reset_branch = $current_branch
         }
-    } else {
-        $reset_branch = $current_branch
+
+        Write-Host "`nReady to reset to origin/$reset_branch!" -ForegroundColor Cyan
+        $confirm = Read-Host "`nType 'RESET' to confirm (anything else cancels)"
+
+        if ($confirm -ne "RESET") {
+            Write-Host "`nReset cancelled."
+            Wait-ForKeyPress
+            return
+        }
+
+        Write-Host "`nPerforming hard reset...`n"
+
+        # Abort any ongoing merge/rebase
+        git merge --abort 2>$null
+        git rebase --abort 2>$null
+
+        # Clean working directory
+        Write-Host "Cleaning working directory..."
+        git clean -fd
+        git reset --hard HEAD
+
+        # Switch to target branch and reset
+        Write-Host "Switching to $reset_branch branch..."
+        git checkout $reset_branch 2>$null
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "Creating $reset_branch branch from origin/$reset_branch..."
+            git checkout -b $reset_branch "origin/$reset_branch"
+        }
+
+        # Hard reset to remote
+        Write-Host "Resetting to origin/$reset_branch..."
+        git reset --hard "origin/$reset_branch"
+
+        # Clean any remaining untracked files
+        git clean -fd
+
+        Write-Host "`nHard reset completed successfully!" -ForegroundColor Green
+        Write-Host "Local repository now matches origin/$reset_branch!" -ForegroundColor Green
+        Write-Host "`nRepository status:"
+        $status = git status --porcelain
+        if (-not $status) {
+            Write-Host "  Working directory is clean"
+        } else {
+            git status --porcelain
+        }
     }
-
-    Write-Host "`nReady to reset to origin/$reset_branch!" -ForegroundColor Cyan
-    $confirm = Read-Host "`nType 'RESET' to confirm (anything else cancels)"
-
-    if ($confirm -ne "RESET") {
-        Write-Host "`nReset cancelled."
-        Wait-ForKeyPress
-        return
-    }
-
-    Write-Host "`nPerforming hard reset...`n"
-
-    # Abort any ongoing merge/rebase
-    git merge --abort 2>$null
-    git rebase --abort 2>$null
-
-    # Clean working directory
-    Write-Host "Cleaning working directory..."
-    git clean -fd
-    git reset --hard HEAD
-
-    # Switch to target branch and reset
-    Write-Host "Switching to $reset_branch branch..."
-    git checkout $reset_branch 2>$null
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "Creating $reset_branch branch from origin/$reset_branch..."
-        git checkout -b $reset_branch "origin/$reset_branch"
-    }
-
-    # Hard reset to remote
-    Write-Host "Resetting to origin/$reset_branch..."
-    git reset --hard "origin/$reset_branch"
-
-    # Clean any remaining untracked files
-    git clean -fd
-
-    Write-Host "`nHard reset completed successfully!" -ForegroundColor Green
-    Write-Host "Local repository now matches origin/$reset_branch!" -ForegroundColor Green
-    Write-Host "`nRepository status:"
-    $status = git status --porcelain
-    if (-not $status) {
-        Write-Host "  Working directory is clean"
-    } else {
-        git status --porcelain
+    else {
+        Write-Host "Remote already matches your local changes exactly." -ForegroundColor Yellow
     }
 
     Wait-ForKeyPress
 }
 
 function Start-ForcePushMode {
-    Write-Host "`nWARNING: This will FORCEFULLY OVERWRITE the remote repository!" -ForegroundColor Red
-    Write-Host "Remote will be reset to match your local changes exactly." -ForegroundColor Yellow
-    Write-Host "`nWhat will happen:"
-    Write-Host "  1. All local changes will be committed"
-    Write-Host "  2. Remote repository will be force-pushed to match local"
-    Write-Host "  3. Any remote changes not in local will be LOST FOREVER`n"
+    if (Test-LocalChangesAvailable) {
+        Write-Host "`nWARNING: This will FORCEFULLY OVERWRITE the remote repository!" -ForegroundColor Red
+        Write-Host "Remote will be reset to match your local changes exactly." -ForegroundColor Yellow
+        Write-Host "`nWhat will happen:"
+        Write-Host "  1. All local changes will be committed"
+        Write-Host "  2. Remote repository will be force-pushed to match local"
+        Write-Host "  3. Any remote changes not in local will be LOST FOREVER`n"
 
-    $confirm = Read-Host "Type 'FORCE' to confirm force push (anything else cancels)"
+        $confirm = Read-Host "Type 'FORCE' to confirm force push (anything else cancels)"
 
-    if ($confirm -ne "FORCE") {
-        Write-Host "`nForce push cancelled."
-        Wait-ForKeyPress
-        return
+        if ($confirm -ne "FORCE") {
+            Write-Host "`nForce push cancelled."
+            Wait-ForKeyPress
+            return
+        }
+
+        Write-Host "`nPerforming force push...`n"
+        Write-Host "Adding all local changes...`n"
+
+        git add .
+
+        $mydate = Get-Date -Format "ddd-MM-dd"
+        $mytime = Get-Date -Format "HH:mm"
+        git commit -m "Force push commit $mydate $mytime"
+
+        # Get current branch
+        $current_branch = git branch --show-current
+
+        Write-Host "Force pushing to origin/$current_branch..."
+        git push origin $current_branch --force
+
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "`nForce push failed! Check the error messages above." -ForegroundColor Red
+            Wait-ForKeyPress
+            return
+        }
+
+        Write-Host "`nForce push completed successfully!" -ForegroundColor Green
+        Write-Host "Remote repository now matches your local changes exactly!" -ForegroundColor Green
     }
-
-    Write-Host "`nPerforming force push...`n"
-    Write-Host "Adding all local changes...`n"
-    git add .
-
-    $mydate = Get-Date -Format "ddd-MM-dd"
-    $mytime = Get-Date -Format "HH:mm"
-    git commit -m "Force push commit $mydate $mytime"
-
-    # Get current branch
-    $current_branch = git branch --show-current
-
-    Write-Host "Force pushing to origin/$current_branch..."
-    git push origin $current_branch --force
-
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "`nForce push failed! Check the error messages above." -ForegroundColor Red
-        Wait-ForKeyPress
-        return
+    else {
+        Write-Host "Remote repository already matches your local changes exactly!" -ForegroundColor Yellow
     }
-
-    Write-Host "`nForce push completed successfully!" -ForegroundColor Green
-    Write-Host "Remote repository now matches your local changes exactly!" -ForegroundColor Green
 
     Wait-ForKeyPress
 }
@@ -493,6 +534,7 @@ function Start-Script {
     Initialize-LFS | Out-Null
     Test-FileSizes
 
+    Update-Status
     Show-Menu
 }
 
