@@ -17,9 +17,5 @@
 
 # Allow the commit script
 !commit_to_github.bat
+!commit_to_github.ps1
 !.gitignore
-
-
-mods/ba_bt-1.20.1-3.0.0-beta2.jar
-
-mods/minecolonies-1.20.1-1.1.1041-snapshot.jar
