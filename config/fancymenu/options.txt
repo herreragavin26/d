@@ -1,7 +1,7 @@
 ##[general]
 
 I:default_gui_scale = '-1';
-B:play_vanilla_menu_music = 'true';
+B:play_vanilla_menu_music = 'false';
 B:force_fullscreen = 'false';
 
 
@@ -26,7 +26,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = '';
+S:custom_window_title = 'Blood & Stone';
 S:custom_window_icon_16 = '';
 
 

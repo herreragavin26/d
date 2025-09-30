@@ -45,12 +45,6 @@
 		spawn_limited_time_beasts = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
-		#Non Vanilla gamerule: 'disappearanceofSpiritsUndertheSun'
-		disappearanceof_spirits_underthe_sun = true
-		#Non Vanilla gamerule: 'maggotsAppearance'
-		maggots_appearance = true
-		#Non Vanilla gamerule: 'zombiesinaBarrelSpawn'
-		zombiesina_barrel_spawn = true
 
 	[gamerules.player]
 		#Non Vanilla gamerule: 'allowTerramityExplosives'
@@ -85,12 +79,6 @@
 		spawn_radius = 0
 		#Whether players in spectator mode can generate chunks
 		spectators_generate_chunks = true
-		#Non Vanilla gamerule: 'vanillaGUI'
-		vanilla_g_u_i = false
-		#Non Vanilla gamerule: 'naughtinessMechanics'
-		naughtiness_mechanics = true
-		#Non Vanilla gamerule: 'soulStratificationEffect'
-		soul_stratification_effect = true
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.
@@ -115,77 +103,6 @@
 		do_trader_spawning = true
 		#Whether wardens can spawn.
 		do_warden_spawning = true
-		#Non Vanilla gamerule: 'potCrabSpawnChance'
-		#Range: > 0
-		pot_crab_spawn_chance = 17
-		#Non Vanilla gamerule: 'potCrabSpawning'
-		pot_crab_spawning = true
-		#Non Vanilla gamerule: 'babySkeletonSpawn'
-		baby_skeleton_spawn = true
-		#Non Vanilla gamerule: 'babySpiderSpawn'
-		baby_spider_spawn = true
-		#Non Vanilla gamerule: 'bloodyGadflySpawn'
-		bloody_gadfly_spawn = true
-		#Non Vanilla gamerule: 'boneImpSpawn'
-		bone_imp_spawn = true
-		#Non Vanilla gamerule: 'bonescallerSpawn'
-		bonescaller_spawn = true
-		#Non Vanilla gamerule: 'corpseFishSpawn'
-		corpse_fish_spawn = true
-		#Non Vanilla gamerule: 'corpseFlySpawn'
-		corpse_fly_spawn = true
-		#Non Vanilla gamerule: 'darkVortexSpawn'
-		dark_vortex_spawn = true
-		#Non Vanilla gamerule: 'decayingZombieSpawn'
-		decaying_zombie_spawn = true
-		#Non Vanilla gamerule: 'decrepitSkeletonSpawn'
-		decrepit_skeleton_spawn = true
-		#Non Vanilla gamerule: 'doorKnightSpawn'
-		door_knight_spawn = true
-		#Non Vanilla gamerule: 'dreadHoundSpawn'
-		dread_hound_spawn = true
-		#Non Vanilla gamerule: 'fallenChaosKnightSpawn'
-		fallen_chaos_knight_spawn = true
-		#Non Vanilla gamerule: 'firelightSpawn'
-		firelight_spawn = true
-		#Non Vanilla gamerule: 'generationofInfectedDiamonds'
-		generationof_infected_diamonds = true
-		#Non Vanilla gamerule: 'gluttonFishSpawn'
-		glutton_fish_spawn = true
-		#Non Vanilla gamerule: 'krampusSpawn'
-		krampus_spawn = true
-		#Non Vanilla gamerule: 'lifestealerSpawn'
-		lifestealer_spawn = true
-		#Non Vanilla gamerule: 'missionarySpawn'
-		missionary_spawn = true
-		#Non Vanilla gamerule: 'motherSpiderSpawn'
-		mother_spider_spawn = true
-		#Non Vanilla gamerule: 'phantomCreeperSpawn'
-		phantom_creeper_spawn = true
-		#Non Vanilla gamerule: 'restlessSpiritSpawn'
-		restless_spirit_spawn = true
-		#Non Vanilla gamerule: 'serPumpkinheadSpawn'
-		ser_pumpkinhead_spawn = true
-		#Non Vanilla gamerule: 'skeletonBombSpawn'
-		skeleton_bomb_spawn = true
-		#Non Vanilla gamerule: 'skeletonThrasherSpawn'
-		skeleton_thrasher_spawn = true
-		#Non Vanilla gamerule: 'spiritGuideSpawn'
-		spirit_guide_spawn = true
-		#Non Vanilla gamerule: 'spiritOfChaosSpawn'
-		spirit_of_chaos_spawn = true
-		#Non Vanilla gamerule: 'theappearanceoftheNightmareStalker'
-		theappearanceofthe_nightmare_stalker = true
-		#Non Vanilla gamerule: 'thornshellCrabSpawn'
-		thornshell_crab_spawn = true
-		#Non Vanilla gamerule: 'zombieBruiserSpawn'
-		zombie_bruiser_spawn = true
-		#Non Vanilla gamerule: 'zombieClownSpawn'
-		zombie_clown_spawn = true
-		#Non Vanilla gamerule: 'zombieFishermanSpawn'
-		zombie_fisherman_spawn = true
-		#Non Vanilla gamerule: 'zombieLumberjackSpawn'
-		zombie_lumberjack_spawn = true
 
 	[gamerules.drops]
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a block explosion (e.g. clicking a bed in dimensions other than the Overworld).

@@ -43,7 +43,7 @@
 	#For kjs modify
 	disable_builtin_health_attack_modifier = false
 	#Should monsters spawn without light?
-	spawn_without_light = false
+	spawn_without_light = true
 	#Chance to spawn slime on zombie head.
 	#Range: 0.0 ~ 1.0
 	chance_to_spawn_slime_on_zombie_head = 0.05
