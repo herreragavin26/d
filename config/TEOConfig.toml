@@ -1,0 +1,61 @@
+#Banned Enchantments from Enchanted Scripts
+"banned list" = ["minecraft:mending"]
+
+["Disable enchantments on villagers trades"]
+	#Disable enchantments in Toolsmith's trades
+	"Disable Toolsmith" = true
+	#Disable enchantments in Armorer's trades
+	"Disable Armorer" = true
+	#Disable enchantments in Weaponsmith's trades
+	"Disable Weaponsmith" = true
+	#Disable enchantments in Fletcher's trades
+	"Disable Fletcher" = true
+
+["Enchanted Script in Simple dungeon loot table"]
+	#Weight in Simple Dungeon, default 10
+	weight = 10
+	#Minimal amount of rolls
+	"min roll" = 1
+	#Max amount of rolls
+	"max roll" = 2
+
+["Enchanted Script in Stronghold Library loot table"]
+	#Weight in Stronghold library, default 10
+	weight = 10
+	#Minimal amount of rolls
+	"min roll" = 4
+	#Max amount of rolls
+	"max roll" = 6
+
+["Enchanted Script in Jungle Temple loot table"]
+	#Weight in Jungle Temple, default 5
+	weight = 5
+	#Minimal amount of rolls
+	"min roll" = 2
+	#Max amount of rolls
+	"max roll" = 4
+
+["Enchanted Script in Woodland Mansion loot table"]
+	#Weight in Woodland Mansion, default 5
+	weight = 5
+	#Minimal amount of rolls
+	"min roll" = 2
+	#Max amount of rolls
+	"max roll" = 4
+
+["Enchanted Script in Pillager Outpost loot table"]
+	#Weight in Pillager Outpost, default 1
+	weight = 1
+	#Minimal amount of rolls
+	"min roll" = 1
+	#Max amount of rolls
+	"max roll" = 1
+
+["Enchanted Script in Mineshaft loot table"]
+	#Weight in Mineshaft, default 5
+	weight = 10
+	#Minimal amount of rolls
+	"min roll" = 1
+	#Max amount of rolls
+	"max roll" = 3
+

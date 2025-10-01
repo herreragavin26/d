@@ -255,6 +255,8 @@
 ["Supreme Smite"]
 	#Activates or disables enchantment
 	Active = true
+	#Should enchantment be findable in loot
+	Findable = false
 
 ["Advanced Bane of Arthropods"]
 	#Activates or disables enchantment
@@ -263,6 +265,8 @@
 ["Supreme Bane of Arthropods"]
 	#Activates or disables enchantment
 	Active = true
+	#Should enchantment be findable in loot
+	Findable = false
 
 ["Armor Piercing"]
 	#Activates or disables enchantment
@@ -437,6 +441,8 @@
 ["Supreme Fire Aspect"]
 	#Activates or disables enchantment
 	Active = true
+	#Should enchantment be findable in loot
+	Findable = false
 
 ["Cold Aspect"]
 	#Activates or disables enchantment
@@ -455,6 +461,8 @@
 	Active = true
 	#Max level of enchantment
 	"Max Level" = 2
+	#Should enchantment be findable in loot
+	Findable = false
 
 ["Ice Breaker"]
 	#Activates or disables enchantment

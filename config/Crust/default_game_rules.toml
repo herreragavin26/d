@@ -35,6 +35,7 @@ config_enabled = false
 # Category: mobs
 # Default game rule settings for the 'mobs' category.
 
+  mobs.aggressive_sharks = false
   mobs.allow_bandit_raids = true
   mobs.disable_raids = false
   mobs.forgive_dead_players = true

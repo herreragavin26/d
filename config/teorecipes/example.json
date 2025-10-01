@@ -1,0 +1,17 @@
+{
+  "input1": {
+    "enchantment": "minecraft:smite",
+    "level": 1,
+    "is_an_enchanted_book": true
+  },
+  "input2": {
+    "enchantment": "minecraft:bane_of_arthropods",
+    "level": 1,
+    "is_an_enchanted_book": true
+  },
+  "output": {
+    "result": "minecraft:sharpness",
+    "level": 1,
+    "is_an_enchanted_book": true
+  }
+}
