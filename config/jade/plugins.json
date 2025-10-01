@@ -89,6 +89,11 @@
   "corpse": {
     "corpse": true
   },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
   "balm": {
     "jade": true
   }
