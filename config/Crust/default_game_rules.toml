@@ -42,7 +42,6 @@ config_enabled = false
   mobs.frequency_bandit_raids = 30
   mobs.max_entity_cramming = 24
   mobs.mob_griefing = true
-  mobs.spawn_limited_time_beasts = true
   mobs.universal_anger = false
 
 
@@ -96,6 +95,7 @@ config_enabled = false
 # Default game rule settings for the 'misc' category.
 
   misc.command_modification_block_limit = 32768
+  misc.flyingcastlestype = 1
   misc.global_sound_events = true
   misc.max_command_chain_length = 65536
   misc.reduced_debug_info = false

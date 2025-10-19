@@ -1,0 +1,28 @@
+#Configure the Lightning Chain's damage for lightning dragon bone weapons.
+#Range: 0.0 ~ 1.7976931348623157E308
+"Dragonbone Chain Damage" = 4.0
+#Configure the Lightning Chain's damage for lightning dragonsteel weapons.
+#Range: 0.0 ~ 1.7976931348623157E308
+"Dragonsteel Chain Damage" = 8.0
+#Configure the maximum number of targets for lightning dragon bone weapons' chain lightning.
+#Range: > 1
+"Dragonbone Max Chain Targets" = 6
+#Configure the maximum number of targets for lightning dragonsteel weapons' chain lightning.
+#Range: > 1
+"Dragonsteel Max Chain Targets" = 12
+#Configure the area range for lightning dragon bone weapons' chain lightning.
+#Range: 1.0 ~ 1.7976931348623157E308
+"Dragonbone Chain Range" = 12.0
+#Configure the area range for lightning dragonsteel weapons' chain lightning.
+#Range: 1.0 ~ 1.7976931348623157E308
+"Dragonsteel Chain Range" = 24.0
+#Configure the Flaming Surge damage for fire dragon bone weapons.
+#Range: 0.0 ~ 1.7976931348623157E308
+"Dragonbone Flaming Surge Damage" = 3.0
+#Configure the Flaming Surge damage for fire dragonsteel weapons.
+#Range: 0.0 ~ 1.7976931348623157E308
+"Dragonsteel Flaming Surge Damage" = 5.0
+#Configure the duration (in ticks) of the Flaming Surge effect, will always add 0-40 ticks of duration on spawn.
+#Range: > 1
+"Flaming Surge Duration" = 60
+

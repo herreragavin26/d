@@ -1,0 +1,9 @@
+#A list of IDs to shut them up. Every element must be in "" and divided by , from one another.
+#You can prevent RANDOM ticking of any block in the game. Be it vanilla or modded.
+#E.G. ["minecraft:copper_block", "minecraft:bamboo"]
+randomticks_blocks = [""]
+#You can prevent TICKING of any block in the game. Be it vanilla or modded.
+#USE AT YOUR OWN DISCRETION. YOU MUST KNOW WHAT YOU ARE DOING OR YOU CAN BREAK GAMEPLAY.
+#E.G. ["minecraft:fire"]
+ticks_blocks = [""]
+

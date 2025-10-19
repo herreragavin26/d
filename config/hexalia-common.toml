@@ -14,26 +14,32 @@
 	#Range: 0 ~ 600
 	phantomIgniteDuration = 100
 
-#Brew Settings
-[brews]
-	#Fixed duration in ticks for all brew effects. 20 ticks = 1 second. Default: 4800 ticks = 4 minutes
-	#Range: 20 ~ 24000
-	brewEffectDuration = 4800
-	#Flat amplifier bonus applied to all brews. Default: 0
-	#Range: -2 ~ 5
-	brewAmplifierBonus = 0
-
-#Mandrake Scream Settings
-[mandrake]
+#Mandrake & Tool/Item Settings
+[tools]
 	#Radius in blocks around the player affected by the Mandrake's scream. Default: 5.0
 	#Range: 1.0 ~ 32.0
 	mandrakeScreamRadius = 5.0
-	#Stun duration in ticks applied by the Mandrake's scream. Default: 60 ticks = 3 seconds
-	#Range: 1 ~ 600
-	mandrakeStunDuration = 60
+	#Stun duration in seconds applied by the Mandrake's scream. Default: 3 seconds
+	#Range: 1 ~ 60
+	mandrakeStunDuration = 3
+	#Duration in seconds of the poisonous cloud created by the Foul Sac. Default: 8 seconds
+	#Range: 1 ~ 60
+	foulSacDuration = 8
+	#Duration in seconds of the frost cloud created by the Frost Sac. Default: 8 seconds
+	#Range: 1 ~ 60
+	frostSacDuration = 8
+	#Duration in seconds of the cleansing cloud created by Purifying Sac. Default: 8 seconds
+	#Range: 1 ~ 60
+	purifyingSacDuration = 8
+	#Radius in blocks for the Siphon effect. Default: 5.0
+	#Range: 0.5 ~ 64.0
+	siphonRadius = 5.0
+	#Damage applied by the Bleeding effect (in health points). Default: 0.5
+	#Range: 0.0 ~ 10.0
+	bleedingDamage = 0.5
 
 #Enchanted Plant Settings
-[enchanted_plants]
+[plants]
 	#How long (in ticks) the Nautilite stays active before disappearing. 20 ticks = 1 second. Default: 2400 (2 minutes)
 	#Range: 100 ~ 24000
 	nautiliteDuration = 2400
@@ -52,4 +58,13 @@
 	#Interval in ticks between bonemeal pulses while Astrylis is active. Default: 240 ticks = 12 seconds
 	#Range: 20 ~ 1200
 	astrylisBonemealInterval = 240
+	#Radius in blocks around the Morphora mutates blocks into others. Default: 6
+	#Range: 1 ~ 32
+	morphoraEffectRadius = 6
+	#How long (in ticks) the Grimshade stays active before disappearing. 20 ticks = 1 second. Default: 2400 (2 minutes)
+	#Range: 100 ~ 24000
+	grimshadeDuration = 2400
+	#Radius in blocks around the Grimshade in which players and mobs are affected.
+	#Range: 1 ~ 64
+	grimshadeEffectRadius = 16
 

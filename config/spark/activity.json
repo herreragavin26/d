@@ -5,6 +5,32 @@
       "name": "muuted",
       "uniqueId": "f02bd8f4-508e-4e52-a7db-55e64e6382f9"
     },
+    "time": 1759940374521,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/poWHISqP1Q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "muuted",
+      "uniqueId": "f02bd8f4-508e-4e52-a7db-55e64e6382f9"
+    },
+    "time": 1759932973635,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZEd0ZkkImg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "muuted",
+      "uniqueId": "f02bd8f4-508e-4e52-a7db-55e64e6382f9"
+    },
     "time": 1759347754368,
     "type": "Profiler",
     "data": {

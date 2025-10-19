@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "l2hostility": {
+    "mob": true
+  },
   "enchantableblocks": {
     "enchantments": true
   },

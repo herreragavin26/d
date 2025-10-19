@@ -418,6 +418,17 @@
         "value": 34
       }
     },
+    "tropicraft:underwater_visibility": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -504,6 +515,17 @@
       "max": {
         "default": 1024,
         "value": 1000000
+      }
+    },
+    "l2hostility:extra_scale": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "celestial_core:regen_rate": {
@@ -880,17 +902,6 @@
         "value": 0
       }
     },
-    "tetra:ability_cooldown": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "l2damagetracker:bow_strength": {
       "enabled": false,
       "min": {
@@ -911,6 +922,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "tetra:ability_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "ancientcurses:dodge_chance": {
@@ -1142,6 +1164,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "l2hostility:extra_difficulty": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "iter_rpg:spell_burnout_multiplier": {

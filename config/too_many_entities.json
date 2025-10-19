@@ -1,0 +1,6 @@
+{
+  "maxEntityCount": 64,
+  "applyMaxEntityCountGlobally": false,
+  "useEntityCulling": false,
+  "entityMaxCounts": {}
+}

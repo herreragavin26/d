@@ -1,0 +1,21 @@
+
+#Basic Motor
+[message]
+	#Enable In Game Message
+	enableingamemessage = false
+
+#Basic Motor
+[villagers]
+	#Enable Andesite Worker Profession
+	#Requires game restart after changing this setting.
+	enableAndesiteWorker = true
+	#Enable Brassworker Profession
+	#Requires game restart after changing this setting.
+	enableBrassworker = true
+	#Enable Copperworker Profession
+	#Requires game restart after changing this setting.
+	enableCopperworker = true
+	#Enable Miner Profession
+	#Requires game restart after changing this setting.
+	enableMiner = true
+

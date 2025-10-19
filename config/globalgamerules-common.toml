@@ -41,8 +41,6 @@
 		max_entity_cramming = 24
 		#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks, and whether mobs can pick up items. When mobGriefing is disabled, piglins do not pick up gold ingots, but a player can still barter with them by using the item on the mob. Similarly, villagers do not pick up food items but can still breed until they run out of any food already in their inventory. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs.
 		mob_griefing = true
-		#Non Vanilla gamerule: 'spawnLimitedTimeBeasts'
-		spawn_limited_time_beasts = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
 		#Non Vanilla gamerule: 'aggressiveSharks'
@@ -131,6 +129,9 @@
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
+		#Non Vanilla gamerule: 'flyingcastlestype'
+		#Range: > 0
+		flyingcastlestype = 1
 
 #Configs related to difficult changes
 [difficulty]
