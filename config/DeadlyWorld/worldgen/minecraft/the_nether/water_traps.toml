@@ -1,0 +1,251 @@
+# deadlyworld:worldgen/minecraft/the_nether/water_traps.toml
+# This config contains options for all water trap features specific to the 'the_nether' dimension from 'minecraft'.
+
+# ! WARNING !:
+# This config basically does nothing because the 'the_nether' dimension does not have any naturally generating water
+#   for water traps to generate in.
+
+
+# Category: normal_sea_mine_water_traps
+# Options to customize normal_sea_mine water traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   normal_sea_mine water traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  normal_sea_mine_water_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for normal_sea_mine water traps. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  normal_sea_mine_water_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values normal_sea_mine water traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  normal_sea_mine_water_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  normal_sea_mine_water_traps.height.max = 120
+
+  # The number of placement attempts in surface water per chunk (16x16 blocks) for normal_sea_mine water traps. A
+  #   decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  normal_sea_mine_water_traps.placements_ocean = 0.0
+
+  # How far up from the ocean floor in blocks the mine will be placed, with a trail of chains underneath it.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 2
+  normal_sea_mine_water_traps.dist_from_bottom.min = 2
+  # <Integer> Range: ≥ 0, Default: 8
+  normal_sea_mine_water_traps.dist_from_bottom.max = 8
+
+  # The explosion power of this mine block.
+  # For reference, vanilla creepers = 3.0 and vanilla TNT = 4.0.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 6.0
+  normal_sea_mine_water_traps.explosion_power = 6.0
+
+  # A list of potions that may be applied to creatures caught in this mine's blast.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: []
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  normal_sea_mine_water_traps.potions = []
+
+
+# Category: puffer_sea_mine_water_traps
+# Options to customize puffer_sea_mine water traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   puffer_sea_mine water traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  puffer_sea_mine_water_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for puffer_sea_mine water traps. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  puffer_sea_mine_water_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values puffer_sea_mine water traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  puffer_sea_mine_water_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  puffer_sea_mine_water_traps.height.max = 120
+
+  # The number of placement attempts in surface water per chunk (16x16 blocks) for puffer_sea_mine water traps. A
+  #   decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  puffer_sea_mine_water_traps.placements_ocean = 0.0
+
+  # How far up from the ocean floor in blocks the mine will be placed, with a trail of chains underneath it.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 2
+  puffer_sea_mine_water_traps.dist_from_bottom.min = 2
+  # <Integer> Range: ≥ 0, Default: 10
+  puffer_sea_mine_water_traps.dist_from_bottom.max = 10
+
+  # The explosion power of this mine block.
+  # For reference, vanilla creepers = 3.0 and vanilla TNT = 4.0.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 4.0
+  puffer_sea_mine_water_traps.explosion_power = 4.0
+
+  # A list of potions that may be applied to creatures caught in this mine's blast.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "minecraft:poison 100.0 280.0 0.0", "minecraft:poison 60.0 280.0 1.0", "minecraft:poison 10.0 280.0 2.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  puffer_sea_mine_water_traps.potions = [
+    "minecraft:poison 100.0 280.0 0.0",
+    "minecraft:poison 60.0 280.0 1.0",
+    "minecraft:poison 10.0 280.0 2.0"
+  ]
+
+
+# Category: guardian_sea_mine_water_traps
+# Options to customize guardian_sea_mine water traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   guardian_sea_mine water traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  guardian_sea_mine_water_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for guardian_sea_mine water traps. A decimal represents
+  #   a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  guardian_sea_mine_water_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values guardian_sea_mine water traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  guardian_sea_mine_water_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  guardian_sea_mine_water_traps.height.max = 120
+
+  # The number of placement attempts in surface water per chunk (16x16 blocks) for guardian_sea_mine water traps. A
+  #   decimal represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  guardian_sea_mine_water_traps.placements_ocean = 0.0
+
+  # How far up from the ocean floor in blocks the mine will be placed, with a trail of chains underneath it.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 2
+  guardian_sea_mine_water_traps.dist_from_bottom.min = 2
+  # <Integer> Range: ≥ 0, Default: 6
+  guardian_sea_mine_water_traps.dist_from_bottom.max = 6
+
+  # The explosion power of this mine block.
+  # For reference, vanilla creepers = 3.0 and vanilla TNT = 4.0.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 4.5
+  guardian_sea_mine_water_traps.explosion_power = 4.5
+
+  # A list of potions that may be applied to creatures caught in this mine's blast.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "crust:weight 100.0 400.0 2.0", "crust:weight 20.0 400.0 4.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  guardian_sea_mine_water_traps.potions = [
+    "crust:weight 100.0 400.0 2.0",
+    "crust:weight 20.0 400.0 4.0"
+  ]
+
+
+# Category: sea_mine_mob_water_traps
+# Options to customize sea_mine_mob water traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   sea_mine_mob water traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  sea_mine_mob_water_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for sea_mine_mob water traps. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  sea_mine_mob_water_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values sea_mine_mob water traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  sea_mine_mob_water_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  sea_mine_mob_water_traps.height.max = 120
+
+  # The chance for sea_mine_mob water traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  sea_mine_mob_water_traps.camo_chance = 0.66
+  # The chance for sea_mine_mob water traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  sea_mine_mob_water_traps.decoy_chance = 0.05
+
+  # These water traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 6.0
+  sea_mine_mob_water_traps.required_player_range = 6.0
+  # The chance for sea_mine_mob water traps to generate as requiring a sight check.
+  # When the sight check is enabled, sea_mine_mob water traps will only activate when they have direct line-of-sight
+  #   to a player within activation range. Their delays will continue to tick down, but they will wait to actually
+  #   activate until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  sea_mine_mob_water_traps.sight_check_chance = 1.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: 1
+  sea_mine_mob_water_traps.triggers = 1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  sea_mine_mob_water_traps.reset_time.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  sea_mine_mob_water_traps.reset_time.max = 60
+
+  # The number of placement attempts in surface water per chunk (16x16 blocks) for sea_mine_mob water traps. A decimal
+  #   represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  sea_mine_mob_water_traps.placements_ocean = 0.0
+
+  # Weighted list of mobs that can be spawned by sea_mine_mob water traps. One of these is chosen at random when the
+  #   trap is generated.
+  # Overriding this setting via data pack is NOT supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: []
+  #    Range for Values: ≥ 0.0
+  sea_mine_mob_water_traps.spawn_list = []
+
+  # The multiplier used when modifying the movement speed of the mobs spawned by this trap.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 1.5
+  sea_mine_mob_water_traps.speed_multiplier = 1.5
+  # The multiplier used when modifying the health of the mobs spawned by this trap.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.5
+  sea_mine_mob_water_traps.health_multiplier = 0.5

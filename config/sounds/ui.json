@@ -2,26 +2,26 @@
 	"hotbarScrollSoundEffect": {
 		"pitch": 1.8,
 		"volume": 0.2,
-		"enabledDynamic": true,
+		"enabledDynamic": false,
 		"id": "hotbarScroll",
 		"soundEvent": "minecraft:block.note_block.hat",
-		"shouldPlay": true
+		"shouldPlay": false
 	},
 	"hotbarPickSoundEffect": {
 		"pitch": 1.8,
 		"volume": 0.2,
-		"enabledDynamic": true,
+		"enabledDynamic": false,
 		"id": "hotbarPick",
 		"soundEvent": "minecraft:block.note_block.hat",
-		"shouldPlay": true
+		"shouldPlay": false
 	},
 	"inventoryOpenSoundEffect": {
 		"pitch": 2.0,
 		"volume": 0.5,
-		"enabledDynamic": true,
+		"enabledDynamic": false,
 		"id": "inventoryOpen",
 		"soundEvent": "minecraft:ui.toast.in",
-		"shouldPlay": true
+		"shouldPlay": false
 	},
 	"inventoryCloseSoundEffect": {
 		"pitch": 2.0,
@@ -29,17 +29,17 @@
 		"enabledDynamic": false,
 		"id": "inventoryClose",
 		"soundEvent": "minecraft:ui.toast.out",
-		"shouldPlay": true
+		"shouldPlay": false
 	},
 	"inventoryScrollSoundEffect": {
-		"shouldPlay": true,
+		"shouldPlay": false,
 		"pitch": 1.8,
 		"volume": 0.2,
 		"id": "inventoryScroll",
 		"soundEvent": "minecraft:block.note_block.hat"
 	},
 	"inventoryTypingSoundEffect": {
-		"shouldPlay": true,
+		"shouldPlay": false,
 		"pitch": 1.6,
 		"volume": 0.4,
 		"id": "inventoryTyping",
@@ -49,10 +49,10 @@
 	"itemDropSoundEffect": {
 		"pitch": 1.5,
 		"volume": 0.4,
-		"enabledDynamic": true,
+		"enabledDynamic": false,
 		"id": "itemDrop",
 		"soundEvent": "minecraft:block.dispenser.launch",
-		"shouldPlay": true
+		"shouldPlay": false
 	},
 	"itemCopySoundEffect": {
 		"pitch": 2.0,

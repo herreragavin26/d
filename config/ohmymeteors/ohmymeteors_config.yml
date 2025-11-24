@@ -101,10 +101,10 @@ dimension_night_chances:{minecraft:the_end=100000}
 biome_list_mode:false
 #A black or whitelist of the biomes in which meteor will or will not spawn according to the setting above | default= [minecraft:cherry_grove, minecraft:soul_sand_valley, modname:modbiome] | type= ListN
 biome_spawn_list:[minecraft:cherry_grove, minecraft:soul_sand_valley, modname:modbiome]
-#A map consisting of biome=chance of spawning. The spawn chance works as described above. The meteors must be able to spawn in those biomes, otherwise they won't! | default= {minecraft:desert=19990, modname:modbiome=2025} | type= MapN
-biome_chances:{minecraft:desert=19990, modname:modbiome=2025}
-#The same as above but with a possibly different chance at night if enabled | default= {minecraft:desert=9995, modname:modbiome=2025} | type= MapN
-biome_night_chances:{minecraft:desert=9995, modname:modbiome=2025}
+#A map consisting of biome=chance of spawning. The spawn chance works as described above. The meteors must be able to spawn in those biomes, otherwise they won't! | default= {modname:modbiome=2025, minecraft:desert=19990} | type= MapN
+biome_chances:{modname:modbiome=2025, minecraft:desert=19990}
+#The same as above but with a possibly different chance at night if enabled | default= {modname:modbiome=2025, minecraft:desert=9995} | type= MapN
+biome_night_chances:{modname:modbiome=2025, minecraft:desert=9995}
 
 #If true will use a spherical explosion instead of the vanilla cubical one. These look nicer at higher explosion power/ranges, but after power 100 become quite laggy. | default= true | type= Boolean
 use_better_explosions:true

@@ -1229,18 +1229,12 @@
       "defense:10",
       "defense:10"
     ],
-    "minecraft:leather_boots": [
-      "defense:10"
-    ],
     "minecraft:sentry_armor_trim_smithing_template": [
       "defense:10",
       "defense:10"
     ],
     "minecraft:snout_armor_trim_smithing_template": [
       "defense:10",
-      "defense:10"
-    ],
-    "minecraft:leather_helmet": [
       "defense:10"
     ],
     "minecraft:dune_armor_trim_smithing_template": [
@@ -1263,15 +1257,9 @@
       "defense:10",
       "defense:10"
     ],
-    "minecraft:leather_chestplate": [
-      "defense:10"
-    ],
     "minecraft:shield": [
       "defense:10",
       "agility:5"
-    ],
-    "minecraft:leather_leggings": [
-      "defense:10"
     ],
     "minecraft:gold_nugget": [
       "magic:4"
@@ -1330,20 +1318,6 @@
     "minecraft:golden_chestplate": [
       "magic:4",
       "defense:4"
-    ],
-    "minecraft:wild_armor_trim_smithing_template": [
-      "defense:10",
-      "defense:10"
-    ],
-    "minecraft:shulker_shell": [
-      "defense:10"
-    ],
-    "minecraft:host_armor_trim_smithing_template": [
-      "defense:10",
-      "defense:10"
-    ],
-    "iceandfire:sheep_chestplate": [
-      "defense:10"
     ],
     "iceandfire:armor_black_chestplate": [
       "defense:10"

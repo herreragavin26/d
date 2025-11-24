@@ -1,0 +1,175 @@
+# deadlyworld:infested_blocks.toml
+# This config contains options to customize auto-generated infested blocks, including which to generate and how they
+#   behave.
+
+
+# Category: general
+# Options that apply to infested blocks as a whole (not just Deadly World's infested blocks).
+
+  # A list of items that can interact with infested blocks to revert them to their host block. This will release the
+  #   silverfish infesting it and damage the tool, depending on the settings below.
+  # For reference, the standard tool tags are: "#minecraft:swords", "#minecraft:axes", "#minecraft:hoes",
+  #   "#minecraft:pickaxes", "#minecraft:shovels", "#minecraft:tools".
+  # <"minecraft:item" Registry List> Format: [ "namespace:entry_name", ... ], Default: [ "#minecraft:shovels" ]
+  general.cleanse.tools = [
+    "#minecraft:shovels"
+  ]
+  # The amount of damage tools take when successfully cleansing an infested block.
+  # <Integer> Range: ≥ 0, Default: 2
+  general.cleanse.tool_damage = 2
+  # If true, cleansing an infested block spawns a silverfish.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  general.cleanse.spawns_silverfish = true
+
+
+# Category: auto_generated_blocks
+# Options that apply to automatic generation of this Deadly World's infested blocks, as well as their behavior.
+
+  # A list of blocks to generate an "infested" version for. The infested version of a block looks identical, but has
+  #   modified behavior (see below) and spawns a silverfish when broken.
+  # Only blocks that are solid, full cubes with no block entity should be put on this list.
+  # All hosts for vanilla infested blocks are included here by default; this overrides the vanilla block in most cases.
+  # If any mod-added blocks on this list are not loaded by the time Deadly World loads its blocks, the game will crash
+  #   (see "dependencies" below).
+  # To connect to a server, this setting must be the same on both client and server or your connection will be refused
+  #   for failing to synchronize registry data.
+  #  * Requires a GAME restart to take effect *
+  # <namespace:block_name List> Format: [ "namespace:block_name1", "namespace:block_name2", ... ], Default: [
+  #   "minecraft:stone", "minecraft:cobblestone", "minecraft:deepslate", "minecraft:stone_bricks",
+  #   "minecraft:mossy_stone_bricks", "minecraft:cracked_stone_bricks", "minecraft:chiseled_stone_bricks",
+  #   "minecraft:dirt", "minecraft:mud", "minecraft:mud_bricks", "minecraft:clay", "minecraft:mossy_cobblestone",
+  #   "minecraft:bookshelf", "minecraft:granite", "minecraft:polished_granite", "minecraft:diorite",
+  #   "minecraft:polished_diorite", "minecraft:andesite", "minecraft:polished_andesite", "minecraft:tuff",
+  #   "minecraft:sandstone", "minecraft:cut_sandstone", "minecraft:chiseled_sandstone", "minecraft:smooth_sandstone",
+  #   "minecraft:red_sandstone", "minecraft:cut_red_sandstone", "minecraft:chiseled_red_sandstone",
+  #   "minecraft:smooth_red_sandstone", "minecraft:calcite", "minecraft:smooth_basalt", "minecraft:cobbled_deepslate",
+  #   "minecraft:chiseled_deepslate", "minecraft:polished_deepslate", "minecraft:deepslate_tiles",
+  #   "minecraft:cracked_deepslate_tiles", "minecraft:deepslate_bricks", "minecraft:cracked_deepslate_bricks",
+  #   "minecraft:prismarine", "minecraft:prismarine_bricks", "minecraft:dark_prismarine", "minecraft:coal_ore",
+  #   "minecraft:deepslate_coal_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:iron_ore",
+  #   "minecraft:deepslate_iron_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:redstone_ore",
+  #   "minecraft:deepslate_redstone_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore",
+  #   "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:emerald_ore",
+  #   "minecraft:deepslate_emerald_ore", "minecraft:netherrack", "minecraft:basalt", "minecraft:polished_basalt",
+  #   "minecraft:soul_soil", "minecraft:blackstone", "minecraft:polished_blackstone",
+  #   "minecraft:chiseled_polished_blackstone", "minecraft:polished_blackstone_bricks",
+  #   "minecraft:cracked_polished_blackstone_bricks", "minecraft:nether_bricks", "minecraft:cracked_nether_bricks",
+  #   "minecraft:chiseled_nether_bricks", "minecraft:red_nether_bricks", "minecraft:nether_gold_ore",
+  #   "minecraft:nether_quartz_ore", "minecraft:end_stone", "minecraft:end_stone_bricks", "minecraft:purpur_block",
+  #   "minecraft:purpur_pillar" ]
+  auto_generated_blocks.host_blocks = [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:deepslate",
+    "minecraft:stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:dirt",
+    "minecraft:mud",
+    "minecraft:mud_bricks",
+    "minecraft:clay",
+    "minecraft:mossy_cobblestone",
+    "minecraft:bookshelf",
+    "minecraft:granite",
+    "minecraft:polished_granite",
+    "minecraft:diorite",
+    "minecraft:polished_diorite",
+    "minecraft:andesite",
+    "minecraft:polished_andesite",
+    "minecraft:tuff",
+    "minecraft:sandstone",
+    "minecraft:cut_sandstone",
+    "minecraft:chiseled_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:calcite",
+    "minecraft:smooth_basalt",
+    "minecraft:cobbled_deepslate",
+    "minecraft:chiseled_deepslate",
+    "minecraft:polished_deepslate",
+    "minecraft:deepslate_tiles",
+    "minecraft:cracked_deepslate_tiles",
+    "minecraft:deepslate_bricks",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:prismarine",
+    "minecraft:prismarine_bricks",
+    "minecraft:dark_prismarine",
+    "minecraft:coal_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:polished_basalt",
+    "minecraft:soul_soil",
+    "minecraft:blackstone",
+    "minecraft:polished_blackstone",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:nether_bricks",
+    "minecraft:cracked_nether_bricks",
+    "minecraft:chiseled_nether_bricks",
+    "minecraft:red_nether_bricks",
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks",
+    "minecraft:purpur_block",
+    "minecraft:purpur_pillar"
+  ]
+  # The vanilla fallback block to replace missing infested blocks with. If the "host_blocks" list is changed and you
+  #   load into a world that used to have infested blocks that no longer exist, they will be replaced with this block.
+  # <String> Default: "minecraft:infested_stone"
+  auto_generated_blocks.fallback_block = "minecraft:infested_stone"
+
+  # The style to use for infested blocks' display names.
+  # The available styles are:
+  #  * vanilla: Follows the vanilla name pattern (Dirt -> Infested Dirt)
+  #  * suspicious: Puts the host name in quotes (Dirt -> "Dirt")
+  #  * identity: Directly uses the host name (Dirt -> Dirt)
+  # Note: If you are using Jade, by default its block tooltip will not reveal "infested" blocks in survival mode, so
+  #   this setting has little effect. Set "builtinCamouflage" to false in 'jade.json' if you wish to see this name style
+  #   in its tooltips.
+  # <Enum> Valid Values: { "vanilla", "suspicious", "identity" }, Default: "suspicious"
+  auto_generated_blocks.name_style = "suspicious"
+
+  # Break speed multiplier for infested blocks. A value of 0 makes them unbreakable, while something really high like
+  #   3.4E38 makes them break instantly.
+  # Base break speed of infested blocks is double the host block's break speed, but is unaffected by tools.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  auto_generated_blocks.break_speed_multi = 2.0
+  # Explosion resistance for infested blocks.
+  # For reference, some vanilla block explosion resistances are: Dirt = 0.5, Stone = 6, Obsidian = 1200
+  # <Number> Range: ≥ 0.0, Default: 0.75
+  auto_generated_blocks.explosion_resistance = 0.75
+
+  # The chance for silverfish to immediately start calling for reinforcements when they spawn from an infested block
+  #   being broken. Does not trigger for silverfish spawned by 'cleansing', but can trigger from silverfish summoned by
+  #   this effect. With a high enough chance, silverfish tend to chain this effect to pop all infested blocks.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  auto_generated_blocks.aggressive_chance = 0.05
+
+  # The chance for infested blocks to break when hit by a projectile.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.3
+  auto_generated_blocks.break_chance.projectile = 0.3
+  # The chance for infested blocks to break when stepped on by a player. This chance is rolled each tick (20 times per
+  #   second) while standing on an infested block, so it should probably be kept pretty low.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.01
+  auto_generated_blocks.break_chance.step = 0.01

@@ -1,6 +1,6 @@
 {
 	"katherine": {
-		"spawn": true,
+		"spawn": false,
 		"spawn_rate": 2,
 		"life": 20.0,
 		"attack": 5.0
@@ -14,41 +14,41 @@
 	},
 	"armored_zombie": {
 		"spawn": true,
-		"spawn_rate": 15,
+		"spawn_rate": 50,
 		"life": 20.0,
 		"attack": 7.0
 	},
 	"bigboss": {
 		"spawn": false,
-		"spawn_rate": 1,
+		"spawn_rate": 50,
 		"life": 400.0,
 		"attack": 9.0
 	},
 	"black_bear": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 30,
 		"life": 20.0,
 		"attack": 6.0
 	},
 	"blue_spider": {
 		"spawn": true,
-		"spawn_rate": 20,
+		"spawn_rate": 50,
 		"life": 24.0,
 		"attack": 6.0
 	},
 	"boar": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 15,
 		"life": 16.0
 	},
 	"boss_skeleton": {
 		"spawn": true,
-		"spawn_rate": 3,
+		"spawn_rate": 50,
 		"life": 60.0
 	},
 	"boss_zombie": {
 		"spawn": true,
-		"spawn_rate": 1,
+		"spawn_rate": 50,
 		"life": 400.0,
 		"attack": 10.0
 	},
@@ -67,12 +67,12 @@
 	},
 	"cookie_creeper": {
 		"spawn": true,
-		"spawn_rate": 10,
+		"spawn_rate": 20,
 		"life": 24.0
 	},
 	"dirty_boar": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 20,
 		"life": 10.0
 	},
 	"dwarf": {
@@ -98,7 +98,7 @@
 	},
 	"ender_zombie": {
 		"spawn": true,
-		"spawn_rate": 8,
+		"spawn_rate": 20,
 		"life": 20.0,
 		"attack": 5.0
 	},
@@ -110,18 +110,18 @@
 	},
 	"frost_blaze": {
 		"spawn": true,
-		"spawn_rate": 10,
+		"spawn_rate": 20,
 		"life": 26.0,
 		"attack": 7.0
 	},
 	"frost_creeper": {
 		"spawn": true,
-		"spawn_rate": 10,
+		"spawn_rate": 50,
 		"life": 18.0
 	},
 	"golden_chicken": {
 		"spawn": true,
-		"spawn_rate": 3,
+		"spawn_rate": 20,
 		"life": 4.0
 	},
 	"honey_slime": {
@@ -132,20 +132,20 @@
 	},
 	"ice_golem": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 20,
 		"life": 52.0,
 		"attack": 14.0
 	},
 	"illusioner": {
 		"spawn": true,
-		"spawn_rate": 2,
+		"spawn_rate": 20,
 		"life": 16.0,
 		"attack": 1.6,
 		"can_join_raid": "SURFACE_ONLY"
 	},
 	"lava_golem": {
 		"spawn": true,
-		"spawn_rate": 10,
+		"spawn_rate": 50,
 		"life": 48.0,
 		"attack": 14.0
 	},
@@ -158,7 +158,7 @@
 	},
 	"lost_skeleton": {
 		"spawn": true,
-		"spawn_rate": 10,
+		"spawn_rate": 20,
 		"life": 20.0,
 		"attack": 5.0
 	},
@@ -180,7 +180,7 @@
 	},
 	"overgrown_skeleton": {
 		"spawn": true,
-		"spawn_rate": 15,
+		"spawn_rate": 20,
 		"life": 26.0
 	},
 	"pigman": {
@@ -199,18 +199,18 @@
 	},
 	"purple_spider": {
 		"spawn": true,
-		"spawn_rate": 15,
+		"spawn_rate": 50,
 		"life": 26.0,
 		"attack": 5.0
 	},
 	"soul_creeper": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 50,
 		"life": 25.0
 	},
 	"fast_zombie": {
 		"spawn": true,
-		"spawn_rate": 30,
+		"spawn_rate": 50,
 		"life": 15.0,
 		"attack": 4.0
 	},
@@ -223,44 +223,44 @@
 	},
 	"iron_steve": {
 		"spawn": true,
-		"spawn_rate": 2,
+		"spawn_rate": 50,
 		"life": 32.0,
 		"attack": 9.0
 	},
 	"stone_golem": {
 		"spawn": true,
-		"spawn_rate": 2,
+		"spawn_rate": 50,
 		"life": 64.0,
 		"attack": 14.0
 	},
 	"tank_zombie": {
 		"spawn": true,
-		"spawn_rate": 30,
+		"spawn_rate": 50,
 		"life": 56.0,
 		"attack": 9.0
 	},
 	"templar": {
 		"spawn": true,
-		"spawn_rate": 2,
+		"spawn_rate": 20,
 		"life": 34.0,
 		"attack": 7.0
 	},
 	"tiny_spider": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 40,
 		"life": 1.0,
 		"attack": 0.0
 	},
 	"warrior": {
 		"spawn": true,
-		"spawn_rate": 3,
+		"spawn_rate": 50,
 		"life": 48.0,
 		"attack": 6.0,
 		"can_join_raid": "SURFACE_ONLY"
 	},
 	"wild_boar": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 30,
 		"life": 12.0
 	},
 	"withender": {
@@ -275,7 +275,7 @@
 	},
 	"zombie_mage": {
 		"spawn": true,
-		"spawn_rate": 5,
+		"spawn_rate": 50,
 		"life": 28.0,
 		"attack": 7.0,
 		"can_join_raid": "SURFACE_ONLY"

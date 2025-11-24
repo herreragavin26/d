@@ -1,1 +1,858 @@
-[]
+[
+  {"mob": "terra_entity:evil_slime", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "terra_entity:black_slime", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "terra_entity:dungeon_slime", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "terra_entity:corrupt_slime", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "terra_entity:crimson_slime", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "world:goblinshaman", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "wrd:antlion", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "terra_entity:antlion_swarmer", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "terra_entity:giant_antlion_swarmer", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "wrd:ranged_antlion", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "iter_rpg:peeper", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "iter_rpg:griever", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "iter_rpg:void_elemental", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "iter_rpg:carcass", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "iter_rpg:fiend", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "specialmobs:giantskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "majruszsdifficulty:giant", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "mobz:bigboss", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mobz:small_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mobz:zombie_mage", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "majruszsdifficulty:cursed_armor", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "ddenizens:shadow", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "ddenizens:spectator", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "wrd:buff_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "wrd:petrified_skeletonm", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "wrd:speared_petrified_skeleton_m", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "mocreatures:biggolem", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mocreatures:silverskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mocreatures:darkmanticore", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mocreatures:undeadscorpion", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:bandit_1", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:bandit_2", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:bandit_3", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:orc_warrior", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:orc_berserker", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "valarian_conquest:orc_archer", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "terramity:elite_skeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"], "result": "deny"},
+  {"mob": "mobz:lost_skeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:bruteskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:brutezombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:plaguezombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "mobz:fast_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "mobz:armored_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "mobz:boss_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:fishingzombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:hungryzombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "wrd:bulky_ancient_skeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "wrd:crawling_eye", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "wrd:ancient_skeleton_skull", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "ddenizens:winged_skeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "mobz:small_zombie", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "mobz:zombie_mage", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:minicreeper", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "valarian_conquest:gardonian_knight", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "valarian_conquest:visgothian_archer", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "valarian_conquest:orc_raider", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "valarian_conquest:numerian_spearman", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "threateningly_mobs:armor_desert", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "majruszsdifficulty:cursed_armor", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:gatlingskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:knightskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:ninjaskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "specialmobs:sniperskeleton", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"], "result": "deny"},
+  {"mob": "bosscraft_respawn:rogue_archer", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "undead_resurrected:skeleton_warrior", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "undead_resurrected:warlock", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "majruszsdifficulty:giant", "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach"], "result": "deny"},
+  {"mob": "terra_entity:green_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:blue_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:red_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:yellow_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:purple_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:swamp_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:jungle_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:ice_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:tropic_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:desert_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:black_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:dungeon_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:evil_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:corrupt_slime", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:crimson_slime", "seesky": false, "result": "deny"},
+  {"mob": "world:goblinshaman", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:peeper", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:griever", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:void_elemental", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:prismaw", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:carcass", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:fiend", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:small_scallop", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:mudkin", "seesky": false, "result": "deny"},
+  {"mob": "iter_rpg:air_elemental", "seesky": false, "result": "deny"},
+  {"mob": "specialmobs:giantskeleton", "seesky": false, "result": "deny"},
+  {"mob": "majruszsdifficulty:giant", "seesky": false, "result": "deny"},
+  {"mob": "mobz:bigboss", "seesky": false, "result": "deny"},
+  {"mob": "mobz:small_zombie", "seesky": false, "result": "deny"},
+  {"mob": "mobz:zombie_mage", "seesky": false, "result": "deny"},
+  {"mob": "majruszsdifficulty:cursed_armor", "seesky": false, "result": "deny"},
+  {"mob": "ddenizens:shadow", "seesky": false, "result": "deny"},
+  {"mob": "ddenizens:spectator", "seesky": false, "result": "deny"},
+  {"mob": "wrd:buff_zombie", "seesky": false, "result": "deny"},
+  {"mob": "wrd:petrified_skeletonm", "seesky": false, "result": "deny"},
+  {"mob": "wrd:speared_petrified_skeleton_m", "seesky": false, "result": "deny"},
+  {"mob": "wrd:dirty_skeleton", "seesky": false, "result": "deny"},
+  {"mob": "wrd:yeti", "seesky": false, "result": "deny"},
+  {"mob": "wrd:frost_golem", "seesky": false, "result": "deny"},
+  {"mob": "wrd:frost_guard", "seesky": false, "result": "deny"},
+  {"mob": "wrd:frost_soldier", "seesky": false, "result": "deny"},
+  {"mob": "wrd:frost_mage", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:biggolem", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:silverskeleton", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:darkmanticore", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:undeadscorpion", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:minigolem", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:wyvern", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:plainmanticore", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:greenogre", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:dirtscorpion", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:frostmanticore", "seesky": false, "result": "deny"},
+  {"mob": "mocreatures:frostscorpion", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:bandit_1", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:bandit_2", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:bandit_3", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:orc_warrior", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:orc_berserker", "seesky": false, "result": "deny"},
+  {"mob": "valarian_conquest:orc_archer", "seesky": false, "result": "deny"},
+  {"mob": "terramity:elite_skeleton", "seesky": false, "result": "deny"},
+  {"mob": "glorious_creatures:dripstone_hermit", "seesky": false, "result": "deny"},
+  {"mob": "pumpeddesertremake:sand_storm", "seesky": false, "result": "deny"},
+  {"mob": "bosscraft_respawn:rogue_archer", "seesky": false, "result": "deny"},
+  {"mob": "undead_resurrected:skeleton_warrior", "seesky": false, "result": "deny"},
+  {"mob": "undead_resurrected:warlock", "seesky": false, "result": "deny"},
+  {"mob": "wrd:bulky_ancient_skeleton", "seesky": false, "result": "deny"},
+  {"mob": "wrd:crawling_eye", "seesky": false, "result": "deny"},
+  {"mob": "wrd:antlion", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:antlion_swarmer", "seesky": false, "result": "deny"},
+  {"mob": "terra_entity:giant_antlion_swarmer", "seesky": false, "result": "deny"},
+  {"mob": "wrd:ranged_antlion", "seesky": false, "result": "deny"},
+  {
+    "mob": "terra_entity:green_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:blue_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:red_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:yellow_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:purple_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:swamp_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:jungle_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:ice_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:tropic_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:desert_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "glorious_creatures:dripstone_hermit",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:small_scallop",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:mudkin",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:air_elemental",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "pumpeddesertremake:sand_storm",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:yeti",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_golem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_guard",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_soldier",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:frostmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:frostscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:wyvern",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:plainmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:greenogre",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:dirtscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:minigolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_2",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_3",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:dirty_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:black_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:dungeon_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:evil_slime",
+    "mintime": 0,
+    "maxtime": 12000,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:corrupt_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:crimson_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "world:goblinshaman",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:peeper",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:griever",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:void_elemental",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:prismaw",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:carcass",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:fiend",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:giantskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:giant",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:bigboss",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:cursed_armor",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:shadow",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:spectator",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:buff_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:petrified_skeletonm",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:speared_petrified_skeleton_m",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:biggolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:silverskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:darkmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:undeadscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terramity:elite_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:silverskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:lost_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:giantskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:bruteskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:gatlingskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:knightskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:ninjaskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:sniperskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:brutezombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:plaguezombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:fast_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:armored_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:boss_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:fishingzombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:hungryzombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:bulky_ancient_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:crawling_eye",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:ancient_skeleton_skull",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:winged_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:minicreeper",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:desertspider",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:desertcavespider",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:snowcreeper",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "pumpeddesertremake:sand_storm",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:gardonian_knight",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:visgothian_archer",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_raider",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:numerian_spearman",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:snow_flinx",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "pirates:shipmate_1",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "pirates:shipmate_2",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "pirates:shipmate_3",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:armor_desert",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:giant",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:cursed_armor",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:infernoblaze",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "world:ghoul",
+    "result": "deny"
+  },
+  {
+    "mob": "world:cyclopss",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "world:cyclopss",
+    "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:river", "minecraft:frozen_river"],
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:cannon_crab",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:flame_horn_re",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:forest_drake",
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:solscarab_maximus",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "threateningly_mobs:dracoscorpius",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "bosscraft_respawn:rogue_archer",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "undead_resurrected:skeleton_warrior",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "undead_resurrected:warlock",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:giant",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_expanded:crumbling_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_expanded:gloomknight",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:beholder",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:boss_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:spider_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  }
+]

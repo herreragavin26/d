@@ -16,6 +16,14 @@
 	maxRenderDistance = 128
 	#Whether to replace vanilla smoke particles from a campfire or not
 	replaceVanillaCampfireSmoke = true
+	#Whether smoke causes poisoning to animals
+	poisonAnimals = true
+	#Whether smoke causes poisoning to hostile mobs
+	poisonHostileMobs = true
+	#Whether smoke causes poisoning to non-playable characters
+	poisonNPCs = true
+	#Whether smoke causes poisoning to players
+	poisonPlayers = true
 
 [Paint]
 	#Whether a bucket of water is required to be in the player's inventory in order to paint

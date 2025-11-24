@@ -1,0 +1,85 @@
+
+#Global Events Configuration
+[events]
+	#Minimum Minecraft day before events can start (0 = events can start on first day, 1 = second day, etc.)
+	#Range: 0 ~ 100
+	minimumDayForEvents = 1
+	#Chance for Acid Rain to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	acidRainChance = 0.01
+	#Duration of Acid Rain in minutes
+	#Range: 1 ~ 60
+	acidRainDuration = 5
+	#Chance for Thunderstorm to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	thunderstormChance = 0.01
+	#Duration of Thunderstorm in minutes
+	#Range: 1 ~ 60
+	thunderstormDuration = 5
+	#Minimum seconds between lightning strikes
+	#Range: 1 ~ 120
+	thunderstormMinInterval = 1
+	#Maximum seconds between lightning strikes
+	#Range: 1 ~ 120
+	thunderstormMaxInterval = 1
+	#Chance for Zombie Horde to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	zombieHordeChance = 0.0
+	#Duration of Zombie Horde in minutes
+	#Range: 1 ~ 60
+	zombieHordeDuration = 1
+	#Number of zombies to spawn in the horde
+	#Range: 10 ~ 200
+	zombieHordeCount = 50
+	#Chance for Experience Rain to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	expRainChance = 0.001
+	#Duration of Experience Rain in minutes
+	#Range: 1 ~ 60
+	expRainDuration = 1
+	#Chance for Flying Pigs to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	flyingPigsChance = 0.001
+	#Duration of Flying Pigs in minutes
+	#Range: 1 ~ 60
+	flyingPigsDuration = 2
+	#Number of flying pigs to spawn
+	#Range: 10 ~ 100
+	flyingPigsCount = 30
+	#Chance for Wandering Traders to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	wanderingTradersChance = 0.001
+	#Duration of Wandering Traders in minutes
+	#Range: 1 ~ 60
+	wanderingTradersDuration = 10
+	#Number of wandering traders to spawn
+	#Range: 5 ~ 50
+	wanderingTradersCount = 20
+	#Chance for Enderman Chaos to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	endermanChaosChance = 0.01
+	#Duration of Enderman Chaos in minutes
+	#Range: 1 ~ 60
+	endermanChaosDuration = 5
+	#Number of endermen to spawn
+	#Range: 5 ~ 50
+	endermanChaosCount = 20
+	#Chance for Ender Dragon to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	enderDragonChance = 1.0E-4
+	#Duration of Ender Dragon in minutes
+	#Range: 1 ~ 60
+	enderDragonDuration = 10
+	#Chance for Wither to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	witherChance = 0.001
+	#Duration of Wither in minutes
+	#Range: 1 ~ 60
+	witherDuration = 10
+	#Chance for Warden to occur each day (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	wardenChance = 0.001
+	#Duration of Warden in minutes
+	#Range: 1 ~ 60
+	wardenDuration = 5
+

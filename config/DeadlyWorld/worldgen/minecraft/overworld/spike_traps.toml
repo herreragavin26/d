@@ -1,0 +1,372 @@
+# deadlyworld:worldgen/minecraft/overworld/spike_traps.toml
+# This config contains options for all spike trap features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for spike trap features in any extra dimensions that do not have
+#   world gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main config
+#   file, "_main").
+
+
+# Category: mundane_spike_traps
+# Options to customize mundane spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated mundane
+  #   spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mundane_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mundane spike traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  mundane_spike_traps.placements = 0.1
+
+  # The minimum and maximum (inclusive) heights/y-values mundane spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mundane_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mundane_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 25
+  mundane_spike_traps.placement_tries = 25
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  mundane_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  mundane_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  mundane_spike_traps.damage = 3.0
+
+
+# Category: poison_spike_traps
+# Options to customize poison spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated poison
+  #   spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  poison_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for poison spike traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  poison_spike_traps.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values poison spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  poison_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  poison_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  poison_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  poison_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  poison_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  poison_spike_traps.damage = 2.0
+
+  # The duration of this spike trap type's potion effect when applied to mobs or players (in ticks).
+  # <Integer> Range: ≥ 1, Default: 200
+  poison_spike_traps.effect_duration = 200
+  # The amplifier of this spike trap type's potion effect when applied to mobs or players.
+  # <Integer> Range: 0 ~ 255, Default: 0
+  poison_spike_traps.effect_amplifier = 0
+
+
+# Category: fiery_spike_traps
+# Options to customize fiery spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fiery
+  #   spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fiery_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fiery spike traps. A decimal represents a chance for
+  #   a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  fiery_spike_traps.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values fiery spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  fiery_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  fiery_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  fiery_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  fiery_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  fiery_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  fiery_spike_traps.damage = 2.0
+
+  # This determines how much time in seconds players and mobs should be burning after coming in contact with this
+  #   spike trap.
+  # <Integer> Range: ≥ 1, Default: 6
+  fiery_spike_traps.seconds_on_fire = 6
+
+
+# Category: withering_spike_traps
+# Options to customize withering spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   withering spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  withering_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for withering spike traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  withering_spike_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values withering spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  withering_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  withering_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  withering_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  withering_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  withering_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  withering_spike_traps.damage = 2.0
+
+  # The duration of this spike trap type's potion effect when applied to mobs or players (in ticks).
+  # <Integer> Range: ≥ 1, Default: 140
+  withering_spike_traps.effect_duration = 140
+  # The amplifier of this spike trap type's potion effect when applied to mobs or players.
+  # <Integer> Range: 0 ~ 255, Default: 0
+  withering_spike_traps.effect_amplifier = 0
+
+
+# Category: mechanical_mundane_spike_traps
+# Options to customize mechanical_mundane spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   mechanical_mundane spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mechanical_mundane_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mechanical_mundane spike traps. A decimal represents
+  #   a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  mechanical_mundane_spike_traps.placements = 0.1
+
+  # The minimum and maximum (inclusive) heights/y-values mechanical_mundane spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mechanical_mundane_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mechanical_mundane_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 25
+  mechanical_mundane_spike_traps.placement_tries = 25
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  mechanical_mundane_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  mechanical_mundane_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 4.0
+  mechanical_mundane_spike_traps.damage = 4.0
+
+
+# Category: mechanical_poison_spike_traps
+# Options to customize mechanical_poison spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   mechanical_poison spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mechanical_poison_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mechanical_poison spike traps. A decimal represents
+  #   a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  mechanical_poison_spike_traps.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values mechanical_poison spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mechanical_poison_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mechanical_poison_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  mechanical_poison_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  mechanical_poison_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  mechanical_poison_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  mechanical_poison_spike_traps.damage = 3.0
+
+  # The duration of this spike trap type's potion effect when applied to mobs or players (in ticks).
+  # <Integer> Range: ≥ 1, Default: 100
+  mechanical_poison_spike_traps.effect_duration = 100
+  # The amplifier of this spike trap type's potion effect when applied to mobs or players.
+  # <Integer> Range: 0 ~ 255, Default: 1
+  mechanical_poison_spike_traps.effect_amplifier = 1
+
+
+# Category: mechanical_fiery_spike_traps
+# Options to customize mechanical_fiery spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   mechanical_fiery spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mechanical_fiery_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mechanical_fiery spike traps. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  mechanical_fiery_spike_traps.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values mechanical_fiery spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mechanical_fiery_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mechanical_fiery_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  mechanical_fiery_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  mechanical_fiery_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  mechanical_fiery_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  mechanical_fiery_spike_traps.damage = 3.0
+
+  # This determines how much time in seconds players and mobs should be burning after coming in contact with this
+  #   spike trap.
+  # <Integer> Range: ≥ 1, Default: 4
+  mechanical_fiery_spike_traps.seconds_on_fire = 4
+
+
+# Category: mechanical_withering_spike_traps
+# Options to customize mechanical_withering spike traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   mechanical_withering spike traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mechanical_withering_spike_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mechanical_withering spike traps. A decimal
+  #   represents a chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.0
+  mechanical_withering_spike_traps.placements = 0.0
+
+  # The minimum and maximum (inclusive) heights/y-values mechanical_withering spike traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mechanical_withering_spike_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mechanical_withering_spike_traps.height.max = 54
+
+  # The amount of placement tries when placing a spike trap block in a spike trap patch.
+  # Not to be confused with the 'placements' field above.
+  # <Integer> Range: ≥ 1, Default: 20
+  mechanical_withering_spike_traps.placement_tries = 20
+  # How far on the X and Z axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 1 ~ 15, Default: 5
+  mechanical_withering_spike_traps.spread.vertical = 5
+  # How far on the Y axis placements can be offset in a spike trap patch.
+  # <Integer> Range: 0 ~ 10, Default: 2
+  mechanical_withering_spike_traps.spread.horizontal = 2
+
+  # The amount of damage this spike trap deals to players standing on it
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  mechanical_withering_spike_traps.damage = 3.0
+
+  # The duration of this spike trap type's potion effect when applied to mobs or players (in ticks).
+  # <Integer> Range: ≥ 1, Default: 80
+  mechanical_withering_spike_traps.effect_duration = 80
+  # The amplifier of this spike trap type's potion effect when applied to mobs or players.
+  # <Integer> Range: 0 ~ 255, Default: 1
+  mechanical_withering_spike_traps.effect_amplifier = 1

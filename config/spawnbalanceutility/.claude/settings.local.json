@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Administrator/Desktop/**)",
+      "WebFetch(domain:modrinth.com)",
+      "WebFetch(domain:www.mcjty.eu)",
+      "WebFetch(domain:github.com)",
+      "Bash(python:*)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,309 @@
+# deadlyworld:worldgen/minecraft/overworld/tower_dispensers.toml
+# This config contains options for all tower dispenser features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for tower dispenser features in any extra dimensions that do not
+#   have world gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main
+#   config file, "_main").
+
+
+
+# Category: simple_tower_dispensers
+# Options to customize simple tower dispensers specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated simple
+  #   tower dispensers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  simple_tower_dispensers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for simple tower dispensers. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.6
+  simple_tower_dispensers.placements = 0.6
+
+  # The minimum and maximum (inclusive) heights/y-values simple tower dispensers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  simple_tower_dispensers.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  simple_tower_dispensers.height.max = 54
+  # These tower dispensers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  simple_tower_dispensers.required_player_range = 9.0
+  # The chance for simple tower dispensers to generate as requiring a sight check.
+  # When the sight check is enabled, simple tower dispensers will only activate when they have direct line-of-sight to
+  #   a player within activation range. The simple tower dispensers's delay will continue to tick down, but it will wait
+  #   to actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  simple_tower_dispensers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  simple_tower_dispensers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  simple_tower_dispensers.attack_delay.max = 40
+  # The base damage of attacks from simple tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  simple_tower_dispensers.attack_damage = 3.0
+
+  # The base speed of projectiles fired by simple tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  simple_tower_dispensers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by simple tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  simple_tower_dispensers.projectile_variance = 0.08
+
+
+# Category: fire_tower_dispensers
+# Options to customize fire tower dispensers specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fire
+  #   tower dispensers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fire_tower_dispensers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fire tower dispensers. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  fire_tower_dispensers.placements = 0.2
+
+  # The minimum and maximum (inclusive) heights/y-values fire tower dispensers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  fire_tower_dispensers.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  fire_tower_dispensers.height.max = 54
+  # These tower dispensers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  fire_tower_dispensers.required_player_range = 9.0
+  # The chance for fire tower dispensers to generate as requiring a sight check.
+  # When the sight check is enabled, fire tower dispensers will only activate when they have direct line-of-sight to a
+  #   player within activation range. The fire tower dispensers's delay will continue to tick down, but it will wait to
+  #   actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  fire_tower_dispensers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  fire_tower_dispensers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  fire_tower_dispensers.attack_delay.max = 40
+  # The base damage of attacks from fire tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  fire_tower_dispensers.attack_damage = 1.0
+
+  # The base speed of projectiles fired by fire tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.2
+  fire_tower_dispensers.projectile_speed = 1.2
+  # The inaccuracy of projectiles fired by fire tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  fire_tower_dispensers.projectile_variance = 0.08
+
+
+# Category: potion_tower_dispensers
+# Options to customize potion tower dispensers specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated potion
+  #   tower dispensers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  potion_tower_dispensers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for potion tower dispensers. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.3
+  potion_tower_dispensers.placements = 0.3
+
+  # The minimum and maximum (inclusive) heights/y-values potion tower dispensers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  potion_tower_dispensers.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  potion_tower_dispensers.height.max = 54
+  # These tower dispensers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  potion_tower_dispensers.required_player_range = 9.0
+  # The chance for potion tower dispensers to generate as requiring a sight check.
+  # When the sight check is enabled, potion tower dispensers will only activate when they have direct line-of-sight to
+  #   a player within activation range. The potion tower dispensers's delay will continue to tick down, but it will wait
+  #   to actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  potion_tower_dispensers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  potion_tower_dispensers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  potion_tower_dispensers.attack_delay.max = 40
+  # The base damage of attacks from potion tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.5
+  potion_tower_dispensers.attack_damage = 0.5
+
+  # The base speed of projectiles fired by potion tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  potion_tower_dispensers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by potion tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  potion_tower_dispensers.projectile_variance = 0.2
+
+  # Weighted list of potion effects that can be used by potion tower dispenserss when shooting tipped arrows. One of
+  #   these is chosen
+  # at random when the tower dispenser is generated. If the tower dispenser is generated as 'dynamic_chance' it will
+  #   pick again
+  # between each potion effect.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "minecraft:poison 30.0 280.0 0.0", "minecraft:slowness 20.0 300.0 1.0", "minecraft:weakness 20.0 250.0 1.0",
+  #   "minecraft:instant_damage 20.0 1.0 1.0", "minecraft:hunger 20.0 500.0 1.0", "minecraft:blindness 20.0 250.0",
+  #   "minecraft:unluck 5.0 9000.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  potion_tower_dispensers.potion_list = [
+    "minecraft:poison 30.0 280.0 0.0",
+    "minecraft:slowness 20.0 300.0 1.0",
+    "minecraft:weakness 20.0 250.0 1.0",
+    "minecraft:instant_damage 20.0 1.0 1.0",
+    "minecraft:hunger 20.0 500.0 1.0",
+    "minecraft:blindness 20.0 250.0 0.0",
+    "minecraft:unluck 5.0 9000.0 0.0"
+  ]
+  # The chance for potion tower dispensers to generate as 'dynamicChance'.
+  # Dynamic potion towers pick a new potion every time they shoot a tipped arrow.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.2
+  potion_tower_dispensers.dynamic_chance = 0.2
+
+
+# Category: gatling_tower_dispensers
+# Options to customize gatling tower dispensers specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated gatling
+  #   tower dispensers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  gatling_tower_dispensers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for gatling tower dispensers. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.6
+  gatling_tower_dispensers.placements = 0.6
+
+  # The minimum and maximum (inclusive) heights/y-values gatling tower dispensers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  gatling_tower_dispensers.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  gatling_tower_dispensers.height.max = 54
+  # These tower dispensers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 11.0
+  gatling_tower_dispensers.required_player_range = 11.0
+  # The chance for gatling tower dispensers to generate as requiring a sight check.
+  # When the sight check is enabled, gatling tower dispensers will only activate when they have direct line-of-sight
+  #   to a player within activation range. The gatling tower dispensers's delay will continue to tick down, but it will
+  #   wait to actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  gatling_tower_dispensers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 6
+  gatling_tower_dispensers.attack_delay.min = 6
+  # <Integer> Range: 0 ~ 32767, Default: 7
+  gatling_tower_dispensers.attack_delay.max = 7
+  # The base damage of attacks from gatling tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  gatling_tower_dispensers.attack_damage = 1.0
+
+  # The base speed of projectiles fired by gatling tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  gatling_tower_dispensers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by gatling tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  gatling_tower_dispensers.projectile_variance = 0.08
+
+
+# Category: fireball_tower_dispensers
+# Options to customize fireball tower dispensers specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fireball
+  #   tower dispensers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fireball_tower_dispensers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fireball tower dispensers. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.6
+  fireball_tower_dispensers.placements = 0.6
+
+  # The minimum and maximum (inclusive) heights/y-values fireball tower dispensers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  fireball_tower_dispensers.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  fireball_tower_dispensers.height.max = 54
+  # These tower dispensers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 15.0
+  fireball_tower_dispensers.required_player_range = 15.0
+  # The chance for fireball tower dispensers to generate as requiring a sight check.
+  # When the sight check is enabled, fireball tower dispensers will only activate when they have direct line-of-sight
+  #   to a player within activation range. The fireball tower dispensers's delay will continue to tick down, but it will
+  #   wait to actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  fireball_tower_dispensers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  fireball_tower_dispensers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  fireball_tower_dispensers.attack_delay.max = 40
+  # The base damage of attacks from fireball tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  fireball_tower_dispensers.attack_damage = 2.0
+
+  # The base speed of projectiles fired by fireball tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.3
+  fireball_tower_dispensers.projectile_speed = 1.3
+  # The inaccuracy of projectiles fired by fireball tower dispensers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.4
+  fireball_tower_dispensers.projectile_variance = 0.4

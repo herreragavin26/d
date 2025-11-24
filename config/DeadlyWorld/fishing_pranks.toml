@@ -1,0 +1,59 @@
+# deadlyworld:fishing_pranks.toml
+# This config contains options fishing pranks.
+
+
+# Category: general
+# General settings related to traps and pranks that may trigger when reeling in your catch.
+
+  # The chance for a "prank" to trigger when the player is fishing and right-clicks to reel in their catch
+  # Setting this to 0.0 effectively disabled fishing pranks.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.1
+  general.prank_chance = 0.1
+
+  # Weighted list of fishing pranks to pick from when pranking a player that is fishing.
+  # Note that some pranks have custom checks to see if they can be executed under the current circumstances.
+  # If the prank cannot be executed, nothing happens.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value", ... ], Default: [ "deadlyworld:single_tnt
+  #   100.0", "deadlyworld:mob 150.0" ]
+  #    Target registry: ResourceKey[minecraft:root / deadlyworld:fishing_pranks]
+  #    Range for Values: ≥ 0.0
+  general.prank_list = [
+    "deadlyworld:single_tnt 100.0",
+    "deadlyworld:mob 150.0"
+  ]
+
+  # Fishing Prank Properties:
+  # Below you can configure the properties of the fishing pranks added by Deadly World.
+  # Other mods registering their own pranks are responsible for creating their own configs.
+
+
+# Category: single_tnt
+# Properties for the deadlyworld:single_tnt fishing prank.
+
+  # The tick duration of the fuse of the TNT spawned by this prank.
+  # <Integer> Range: ≥ 1, Default: 60
+  single_tnt.fuse = 60
+  # If enabled, the TNT spawned from this prank will deal MASSIVE knockback instead of damaging blocks and entities. 
+  # <Boolean> Valid Values: { true, false }, Default: false
+  single_tnt.yeet = false
+
+
+
+# Category: mob
+# Properties for the deadlyworld:mob fishing prank.
+
+  # A weighted list of the different mobs that this prank can spawn.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:creeper 100.0",
+  #   "minecraft:drowned 200.0", "minecraft:pufferfish 100.0", "minecraft:pig 5.0", "minecraft:guardian 50.0",
+  #   "minecraft:elder_guardian 1.0", "minecraft:minecart 40.0" ]
+  #    Range for Values: ≥ 0.0
+  mob.mob_list = [
+    "minecraft:creeper 100.0",
+    "minecraft:drowned 200.0",
+    "minecraft:pufferfish 100.0",
+    "minecraft:pig 5.0",
+    "minecraft:guardian 50.0",
+    "minecraft:elder_guardian 1.0",
+    "minecraft:minecart 40.0"
+  ]
+

@@ -2,7 +2,7 @@
 debug_mode = true
 #Spawn rate percentage (1–100). Used if spawn_day is 0
 #Range: 1 ~ 100
-spawn_rate = 89
+spawn_rate = 20
 #Force gate spawn after this in-game day. If set above 0, overrides spawn_rate and guarantees 100% spawn
 #Range: > 0
 spawn_day = 0

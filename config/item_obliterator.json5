@@ -47,7 +47,20 @@
 	"terra_entity:amethyst_whip",
 	"terra_entity:swamp_whip",
 	"terra_entity:wooden_yoyo",
-	"terra_entity:tendon_whip"
+	"terra_entity:tendon_whip",
+	"terra_entity:summon_wooden_sword_staff",
+	"terra_entity:summon_stone_sword_staff",
+	"terra_entity:summon_iron_sword_staff",
+	"terra_entity:summon_golden_sword_staff",
+	"terra_entity:summon_diamond_sword_staff",
+	"terra_entity:summon_netherite_sword_staff",
+	"terra_entity:terraprisma",
+	"terra_entity:swamp_whip",
+	"terra_entity:wooden_yoyo",
+	"terra_entity:tendon_whip",
+	"majruszsdifficulty:bandage",
+	"majruszsdifficulty:golden_bandage",
+	"minecraft:boat"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

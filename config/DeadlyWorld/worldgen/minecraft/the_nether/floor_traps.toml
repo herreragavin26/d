@@ -1,0 +1,407 @@
+# deadlyworld:worldgen/minecraft/the_nether/floor_traps.toml
+# This config contains options for all floor trap features specific to the 'the_nether' dimension from 'minecraft'.
+
+  # Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+  #   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+  #   Entity types are defined by their key in the entity registry, usually following the pattern
+  #     'namespace:entity_name'.
+  #   'default' can be used instead of an entity type registry key to provide default values for all entities.
+  #   List entries by default match any entity type derived from (i.e. based on) their entity type. For example,
+  #     '~minecraft:zombie'.
+  #     There is no steadfast rule about extending, even in vanilla, but the hope is that mod-added mobs will extend
+  #       their base mob.
+  #   An asterisk '*' can be used to match all registry entries belonging to X namespace. For example, 'minecraft:*'
+  #     will match all vanilla entries.
+  #   Entity type tags can also be used here. To declare a tag, start with a '#' followed by the rest of the tag path.
+  #   Tag example: '#minecraft:beehive_inhabitors'
+  #       Priority order: specific entries > tag entries > namespace entries > default
+
+
+# Category: tnt_floor_traps
+# Options to customize tnt floor traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated tnt
+  #   floor traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  tnt_floor_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for tnt floor traps. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.15
+  tnt_floor_traps.placements = 0.15
+
+  # The minimum and maximum (inclusive) heights/y-values tnt floor traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  tnt_floor_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  tnt_floor_traps.height.max = 120
+
+  # The chance for tnt floor traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  tnt_floor_traps.camo_chance = 0.66
+  # The chance for tnt floor traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  tnt_floor_traps.decoy_chance = 0.05
+
+  # These floor traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 4.0
+  tnt_floor_traps.required_player_range = 4.0
+  # The chance for tnt floor traps to generate as requiring a sight check.
+  # When the sight check is enabled, tnt floor traps will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  tnt_floor_traps.sight_check_chance = 1.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: 1
+  tnt_floor_traps.triggers = 1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  tnt_floor_traps.reset_time.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  tnt_floor_traps.reset_time.max = 60
+
+  # The minimum and maximum (inclusive) fuse time set on TNT spawned by this trap, in ticks. (20 ticks = 1 second)
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  tnt_floor_traps.fuse_time.min = 40
+  # <Integer> Range: 0 ~ 32767, Default: 50
+  tnt_floor_traps.fuse_time.max = 50
+
+  # The amount of TNT spawned when this trap is activated.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 1, Default: 4
+  tnt_floor_traps.tnt_count = 4
+  # The velocity at which the spawned TNT gets launched when this trap activates.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  tnt_floor_traps.launch_speed = 2.0
+
+
+# Category: tnt_mob_floor_traps
+# Options to customize tnt_mob floor traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated tnt_mob
+  #   floor traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  tnt_mob_floor_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for tnt_mob floor traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  tnt_mob_floor_traps.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values tnt_mob floor traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  tnt_mob_floor_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  tnt_mob_floor_traps.height.max = 120
+
+  # The chance for tnt_mob floor traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  tnt_mob_floor_traps.camo_chance = 0.66
+  # The chance for tnt_mob floor traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  tnt_mob_floor_traps.decoy_chance = 0.05
+
+  # These floor traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 4.0
+  tnt_mob_floor_traps.required_player_range = 4.0
+  # The chance for tnt_mob floor traps to generate as requiring a sight check.
+  # When the sight check is enabled, tnt_mob floor traps will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  tnt_mob_floor_traps.sight_check_chance = 1.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: 1
+  tnt_mob_floor_traps.triggers = 1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  tnt_mob_floor_traps.reset_time.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  tnt_mob_floor_traps.reset_time.max = 60
+
+  # The minimum and maximum (inclusive) fuse time set on TNT spawned by this trap, in ticks. (20 ticks = 1 second)
+  # <Integer> Range: 0 ~ 32767, Default: 80
+  tnt_mob_floor_traps.fuse_time.min = 80
+  # <Integer> Range: 0 ~ 32767, Default: 180
+  tnt_mob_floor_traps.fuse_time.max = 180
+
+  # The amount of TNT spawned when this trap is activated.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 1, Default: 3
+  tnt_mob_floor_traps.tnt_count = 3
+  # The velocity at which the spawned TNT gets launched when this trap activates.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.6
+  tnt_mob_floor_traps.launch_speed = 0.6
+
+  # Weighted list of mobs that can be spawned by tnt_mob floor traps. One of these is chosen at random when the trap
+  #   is generated.
+  # Overriding this setting via data pack is NOT supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:wither_skeleton 200.0",
+  #   "minecraft:husk 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0" ]
+  #    Range for Values: ≥ 0.0
+  tnt_mob_floor_traps.spawn_list = [
+    "minecraft:wither_skeleton 200.0",
+    "minecraft:husk 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0"
+  ]
+
+  # The multiplier used when modifying the movement speed of the mobs spawned by this trap.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 1.5
+  tnt_mob_floor_traps.speed_multiplier = 1.5
+  # The multiplier used when modifying the health of the mobs spawned by this trap.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.5
+  tnt_mob_floor_traps.health_multiplier = 0.5
+
+
+# Category: potion_floor_traps
+# Options to customize potion floor traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated potion
+  #   floor traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  potion_floor_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for potion floor traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.15
+  potion_floor_traps.placements = 0.15
+
+  # The minimum and maximum (inclusive) heights/y-values potion floor traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  potion_floor_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  potion_floor_traps.height.max = 120
+
+  # The chance for potion floor traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  potion_floor_traps.camo_chance = 0.66
+  # The chance for potion floor traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  potion_floor_traps.decoy_chance = 0.05
+
+  # These floor traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  potion_floor_traps.required_player_range = 5.0
+  # The chance for potion floor traps to generate as requiring a sight check.
+  # When the sight check is enabled, potion floor traps will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  potion_floor_traps.sight_check_chance = 1.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: -1
+  potion_floor_traps.triggers = -1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  potion_floor_traps.reset_time.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  potion_floor_traps.reset_time.max = 60
+
+  # The chance for potion floor traps to generate as 'dynamicChance'.
+  # Dynamic potion traps pick a new potion every time they trigger.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.2
+  potion_floor_traps.dynamic_chance = 0.2
+  # Weighted list of potion effects that can be used by potion floor trapss when hurling splash potions. One of these
+  #   is chosen
+  # at random when the trap is generated. If the trap is generated as 'dynamic_chance' it will pick again
+  # between each potion effect.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "minecraft:wither 5.0 100.0 0.0", "minecraft:slowness 30.0 200.0 2.0", "minecraft:poison 20.0 100.0 1.0",
+  #   "minecraft:blindness 10.0 200.0 0.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  potion_floor_traps.potion_list = [
+    "minecraft:wither 5.0 100.0 0.0",
+    "minecraft:slowness 30.0 200.0 2.0",
+    "minecraft:poison 20.0 100.0 1.0",
+    "minecraft:blindness 10.0 200.0 0.0"
+  ]
+
+
+# Category: lava_floor_traps
+# Options to customize lava floor traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated lava
+  #   floor traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  lava_floor_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for lava floor traps. A decimal represents a chance for
+  #   a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.07
+  lava_floor_traps.placements = 0.07
+
+  # The minimum and maximum (inclusive) heights/y-values lava floor traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  lava_floor_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  lava_floor_traps.height.max = 120
+
+  # The chance for lava floor traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  lava_floor_traps.camo_chance = 0.66
+  # The chance for lava floor traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  lava_floor_traps.decoy_chance = 0.05
+
+  # These floor traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  lava_floor_traps.required_player_range = 5.0
+  # The chance for lava floor traps to generate as requiring a sight check.
+  # When the sight check is enabled, lava floor traps will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  lava_floor_traps.sight_check_chance = 1.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: 1
+  lava_floor_traps.triggers = 1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  lava_floor_traps.reset_time.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  lava_floor_traps.reset_time.max = 60
+
+  # The chance for lava floor traps to place runny lava instead of vanilla lava.
+  # Runny lava flows faster than water, even outside the Nether.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  lava_floor_traps.runny_chance = 0.0
+
+
+# Category: fire_floor_traps
+# Options to customize fire floor traps specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fire
+  #   floor traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fire_floor_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fire floor traps. A decimal represents a chance for
+  #   a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.07
+  fire_floor_traps.placements = 0.07
+
+  # The minimum and maximum (inclusive) heights/y-values fire floor traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  fire_floor_traps.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  fire_floor_traps.height.max = 120
+
+  # The chance for fire floor traps to generate with camouflage.
+  # Camouflage disguises the trap as a random nearby block.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.66
+  fire_floor_traps.camo_chance = 0.66
+  # The chance for fire floor traps to generate with a decoy above it.
+  # Decoys range from fake cakes, illusionary mobs and other visual distractions that are not real.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  fire_floor_traps.decoy_chance = 0.05
+
+  # These floor traps are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  fire_floor_traps.required_player_range = 5.0
+  # The chance for fire floor traps to generate as requiring a sight check.
+  # When the sight check is enabled, fire floor traps will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  fire_floor_traps.sight_check_chance = 0.0
+
+  # How many times the trap can trigger before it gets "used up".
+  # Setting this to -1 equals infinite triggers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: -1 ~ 32767, Default: -1
+  fire_floor_traps.triggers = -1
+  # The minimum and maximum (inclusive) amount of time that must pass before a previously triggered trap resets, in
+  #   ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  fire_floor_traps.reset_time.min = 4
+  # <Integer> Range: 0 ~ 32767, Default: 7
+  fire_floor_traps.reset_time.max = 7
+
+  # Determines the speed at which fire blocks are launched from this trap.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: 1.0 ~ 20.0, Default: 4.0
+  fire_floor_traps.throw_power = 4.0

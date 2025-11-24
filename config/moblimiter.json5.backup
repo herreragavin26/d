@@ -1,0 +1,134 @@
+{
+  // Mob Limiter Configuration
+  // Prevents night-only mobs from stacking up when players AFK overnight
+
+  // Vanilla despawn settings
+  "vanilla_despawn": {
+    "enabled": true
+  },
+
+  // World-wide limits for night-only mobs
+  // When limit is exceeded, oldest mobs despawn silently
+  "world_limits": {
+    // Boss/Special mobs - very limited
+    "deadlyworld:spawner_mimic": 2,
+    "glorious_creatures:skeleton_lich": 10,
+    "specialmobs:giantskeleton": 10,
+    "majruszsdifficulty:giant": 10,
+    "mobz:bigboss": 10,
+    "world:goblinshaman": 1, // Extremely rare - maximum global cap of 1
+    "terramity:gatmancer": 1, // Extremely rare - only 1 max in entire world
+    "terramity:elite_skeleton": 5, // Super rare - only 5 max in entire world
+
+    // Rare dangerous mobs
+    "iter_rpg:peeper": 25,
+    "iter_rpg:griever": 25,
+    "iter_rpg:void_elemental": 25,
+    "iter_rpg:prismaw": 25,
+    "iter_rpg:carcass": 25,
+    "iter_rpg:fiend": 25,
+    "ddenizens:shadow": 30,
+    "ddenizens:spectator": 30,
+
+    // Mo'Creatures dangerous mobs
+    "mocreatures:biggolem": 15,
+    "mocreatures:silverskeleton": 30,
+    "mocreatures:darkmanticore": 15,
+    "mocreatures:undeadscorpion": 25,
+
+    // Common night mobs - more generous limits
+    "terra_entity:evil_slime": 40,
+    "terra_entity:black_slime": 40,
+    "terra_entity:dungeon_slime": 40,
+    "terra_entity:corrupt_slime": 40,
+    "terra_entity:crimson_slime": 40,
+
+    "mobz:small_zombie": 50,
+    "mobz:zombie_mage": 30,
+    "majruszsdifficulty:cursed_armor": 40,
+
+    "deadlyworld:mini_creeper": 35,
+    "wrd:buff_zombie": 1, // Extremely rare - only 1 max in world
+    "wrd:petrified_skeletonm": 15, // Rare - max 15 in world
+    "wrd:speared_petrified_skeleton_m": 2, // Extremely rare - only 2 max in world
+    "wrd:dirty_skeleton": 20, // Uncommon
+    "creatures_expanded:crumbling_skeleton": 25, // Uncommon
+    "creatures_expanded:gloomknight": 15, // Rare - max 15 in world
+
+    // Valarian Conquest rare mobs - global cap of 1
+    "valarian_conquest:numerian_spearman": 1,
+
+    // Other rare mobs - global cap of 1
+    "mobz:katherine": 1,
+
+    // Pirates - beach spawns, global cap of 10 each
+    "pirates:shipmate_1": 10,
+    "pirates:shipmate_2": 10,
+    "pirates:shipmate_3": 10,
+
+    // Ancient skeletons - global cap
+    "wrd:bulky_ancient_skeleton": 8,
+    "wrd:bulky_ancient_skeleton_torso": 2,
+    "wrd:ancient_skeleton_skull": 2,
+
+    // Cyclops - global cap of 2
+    "world:cyclopss": 2,
+
+    // Ghouls - global cap of 2
+    "world:ghoul": 2,
+
+    // Pigs - global cap of 8
+    "minecraft:pig": 8
+  },
+
+  // Per-chunk limits (prevents clustering)
+  "chunk_limits": {
+    // Boss mobs - only 1 per chunk
+    "deadlyworld:spawner_mimic": 1,
+    "glorious_creatures:skeleton_lich": 1,
+    "specialmobs:giantskeleton": 1,
+    "majruszsdifficulty:giant": 1,
+    "mobz:bigboss": 1,
+    "terramity:gatmancer": 1,
+
+    // Rare skeletons and special mobs - 1 per chunk
+    "wrd:buff_zombie": 1,
+    "wrd:petrified_skeletonm": 1,
+    "wrd:speared_petrified_skeleton_m": 1,
+    "wrd:dirty_skeleton": 1,
+    "wrd:bulky_ancient_skeleton": 1,
+    "wrd:bulky_ancient_skeleton_torso": 1,
+    "creatures_expanded:crumbling_skeleton": 1,
+    "creatures_expanded:gloomknight": 1,
+    "world:goblinshaman": 1,
+    "world:ghoul": 1,
+
+    // Pirates - 2 per chunk
+    "pirates:shipmate_1": 2,
+    "pirates:shipmate_2": 2,
+    "pirates:shipmate_3": 2,
+
+    // Dangerous mobs - limited per chunk
+    "mocreatures:biggolem": 2,
+    "mocreatures:darkmanticore": 2,
+    "iter_rpg:void_elemental": 3,
+    "iter_rpg:griever": 3,
+
+    // Slimes - 4 per chunk
+    "terra_entity:evil_slime": 4,
+    "terra_entity:black_slime": 4,
+    "terra_entity:dungeon_slime": 4,
+    "terra_entity:corrupt_slime": 4,
+    "terra_entity:crimson_slime": 4,
+
+    // Regular mobs - prevent excessive clustering
+    "mobz:small_zombie": 8,
+    "deadlyworld:mini_creeper": 6
+  },
+
+  // How to remove excess mobs
+  "removal_type": "despawn", // Options: "despawn" (silent) or "kill" (drops loot)
+
+  // Additional settings
+  "check_interval": 200 // Check every 10 seconds (200 ticks)
+}

@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thirst"
+	group: "56F4436F82BE1293"
+	icon: {
+		Count: 1
+		id: "simple_difficulty:iron_canteen_full"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0D77CB59BB9A9B1F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thirst"
+}

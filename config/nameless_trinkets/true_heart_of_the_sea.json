@@ -5,6 +5,6 @@
     "blindnessWhenChoking": true,
     "airReductionSpeed": 5,
     "swimSpeedMultiplierPercentage": 300.0,
-    "isEnable": true
+    "isEnable": false
   }
 }

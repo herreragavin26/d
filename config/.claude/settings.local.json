@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(then echo \"$jar\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(do if unzip -l \"$jar\")",
+      "Bash(then echo \"=== $jar ===\")",
+      "Bash(do unzip:*)",
+      "Bash(echo:*)",
+      "Bash(bash:*)",
+      "Read(//c/Users/Administrator/Desktop/modded server/**)",
+      "WebFetch(domain:stardustlabs.miraheze.org)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

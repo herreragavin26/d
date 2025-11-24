@@ -24,7 +24,7 @@
 		#Remove Look Random
 		[entity.mob.remove_look_random]
 			#Remove the look at random position AI task. This will cause AIs to feel a little lifeless as they do not animate head movement while idle.
-			remove_look_random = false
+			remove_look_random = true
 			#Set this to true to apply this setting to all mobs on the filter list. Set this to false to NOT apply this to mobs on the filter list.
 			is_allowlist = false
 			#The list of mobs that is affected by this setting according to is_allowlist
@@ -42,11 +42,11 @@
 	#Entity Fish
 	[entity.fish]
 		#Remove the fish's random swimming pathfinder. This will cause fish to stay in position more often.
-		remove_swim = false
+		remove_swim = true
 		#Remove the fish's panic pathfinder. This will cause fish to not run away.
 		remove_panic = false
 		#Remove the fish's AI task to avoid players.
-		remove_avoid_player = false
+		remove_avoid_player = true
 		#Remove the fish's AI task to follow a leader fish to act as a group of fish.
 		remove_follow_leader = false
 		#Remove the fish's AI task to puff up when entities are nearby
@@ -55,7 +55,7 @@
 	#Squid Fish
 	[entity.squid]
 		#Remove the squid's flee pathfinder. This will cause squid to not run away.
-		remove_flee = false
+		remove_flee = true
 		#Remove the squid's random movement pathfinder. This will cause squid to swim around randomly.
 		remove_random_move = false
 
@@ -72,7 +72,7 @@
 		#Remove the cow's follow parent AI task. This causes baby cows to no longer follow their parents.
 		remove_follow_parent = false
 		#Remove the cow's random stroll AI task. This causes cows to no longer walk around randomly.
-		remove_stroll = false
+		remove_stroll = true
 
 	#Chicken
 	[entity.chicken]
@@ -87,7 +87,7 @@
 		#Remove the chicken's follow parent AI task. This causes baby chickens to no longer follow their parents.
 		remove_follow_parent = false
 		#Remove the chicken's random stroll AI task. This causes chickens to no longer walk around randomly.
-		remove_stroll = false
+		remove_stroll = true
 
 	#Pig
 	[entity.pig]
@@ -102,7 +102,7 @@
 		#Remove the pig's follow parent AI task. This causes baby pigs to no longer follow their parents.
 		remove_follow_parent = false
 		#Remove the pig's random stroll AI task. This causes pigs to no longer walk around randomly.
-		remove_stroll = false
+		remove_stroll = true
 
 	#Sheep
 	[entity.sheep]
@@ -117,7 +117,7 @@
 		#Remove the sheep's follow parent AI task. This causes baby sheep to no longer follow their parents.
 		remove_follow_parent = false
 		#Remove the sheep's random stroll AI task. This causes sheep to no longer walk around randomly.
-		remove_stroll = false
+		remove_stroll = true
 		#Remove the sheep's eat block AI task. This causes sheep to no longer eat grass, and thus be unable to regenerate their wool.
 		remove_eat_block = false
 

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_keybinds"
+	group: "56F4436F82BE1293"
+	icon: "mocreatures:wyvern_diamond_ore"
+	id: "7BD1225DF518B7F6"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Useful Keybinds"
+}

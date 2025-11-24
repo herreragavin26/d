@@ -1,0 +1,416 @@
+[
+  {
+    "mob": "terra_entity:green_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:blue_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:red_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:yellow_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:purple_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:swamp_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:jungle_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:ice_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:tropic_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:desert_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "glorious_creatures:dripstone_hermit",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:small_scallop",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:mudkin",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "iter_rpg:air_elemental",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "pumpeddesertremake:sand_storm",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:yeti",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_golem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_guard",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_soldier",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "wrd:frost_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:frostmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:frostscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:wyvern",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:plainmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:greenogre",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:dirtscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "mocreatures:minigolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_1",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_2",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:bandit_3",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "valarian_conquest:orc_archer",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_warrior",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "valarian_conquest:orc_berserker",
+    "minlight": 0,
+    "maxlight": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:dirty_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "allow"
+  },
+  {
+    "mob": "terra_entity:black_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:dungeon_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:evil_slime",
+    "mintime": 0,
+    "maxtime": 12000,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:corrupt_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:crimson_slime",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "world:goblinshaman",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "glorious_creatures:skeleton_lich",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:peeper",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:griever",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:void_elemental",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:prismaw",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:carcass",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "iter_rpg:fiend",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "specialmobs:giantskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:giant",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:bigboss",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:small_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mobz:zombie_mage",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "majruszsdifficulty:cursed_armor",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:shadow",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "ddenizens:spectator",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "deadlyworld:mini_creeper",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "deadlyworld:spawner_mimic",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:buff_zombie",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:petrified_skeletonm",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "wrd:speared_petrified_skeleton_m",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:biggolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:silverskeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:darkmanticore",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "mocreatures:undeadscorpion",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terramity:gatmancer",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "terramity:elite_skeleton",
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  }
+]

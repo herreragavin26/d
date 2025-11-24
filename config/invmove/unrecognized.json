@@ -48,7 +48,35 @@
     "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
     "de.keksuccino.panoramica.DummyScreen": true,
     "carbonconfiglib.gui.screen.ArrayScreen": true,
-    "carbonconfiglib.gui.screen.MultiChoiceScreen": true
+    "carbonconfiglib.gui.screen.MultiChoiceScreen": true,
+    "com.momosoftworks.coldsweat.client.gui.config.pages.ConfigPageOne": true,
+    "fathertoast.crust.api.config.client.gui.screen.CrustConfigSelectScreen": true,
+    "fathertoast.crust.api.config.client.gui.screen.CrustConfigFileScreen": true,
+    "org.violetmoon.quark.base.client.config.QuarkConfigHomeScreen": true,
+    "org.violetmoon.zeta.client.config.screen.SectionScreen": true,
+    "com.momosoftworks.coldsweat.client.gui.config.pages.ConfigPageDifficulty": true,
+    "com.momosoftworks.coldsweat.client.gui.config.pages.ConfigPageTwo": true,
+    "com.momosoftworks.coldsweat.client.gui.config.pages.ConfigPageThree": true,
+    "com.momosoftworks.coldsweat.client.gui.config.pages.ConfigPageFour": true,
+    "dev.nonamecrackers2.simpleclouds.client.gui.SimpleCloudsConfigScreen": true,
+    "nonamecrackers2.crackerslib.client.gui.ConfigScreen": true,
+    "nonamecrackers2.crackerslib.client.gui.Popup": true,
+    "carbonconfiglib.gui.screen.ListSelectionScreen": true,
+    "com.qendolin.betterclouds.gui.ConfigScreen": true,
+    "carbonconfiglib.gui.screen.EditStringScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "net.mcreator.pirates.client.gui.CannonGUIScreen": true,
+    "team.creative.creativecore.common.gui.integration.GuiScreenIntegration": true,
+    "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
+    "net.thetct.tctcore.client.gui.TCTcoreScreen": true,
+    "io.github.maki99999.biomebeats.gui.common.ForwardingScreen": true,
+    "com.gmail.rawlxxxviii.visual_keybinder.screen.AlternativeKeybindScreen": true,
+    "dev.imb11.sounds.loaders.forge.SoundsForge$NoConfigScreenWarning": true,
+    "com.simibubi.create.content.equipment.zapper.terrainzapper.WorldshaperScreen": true,
+    "snownee.jade.gui.WailaConfigScreen": true,
+    "snownee.jade.gui.PluginsConfigScreen": true,
+    "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
+    "ichttt.mods.firstaid.client.tutorial.GuiTutorial": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -67,6 +95,10 @@
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
     "melonslise.locks.client.gui.LockPickingScreen": true,
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
-    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
+    "net.mcreator.pirates.client.gui.CannonGUIScreen": true,
+    "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
+    "com.simibubi.create.content.equipment.zapper.terrainzapper.WorldshaperScreen": true,
+    "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true
   }
 }

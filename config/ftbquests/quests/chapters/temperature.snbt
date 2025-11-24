@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "56F4436F82BE1293"
+	icon: "cold_sweat:thermometer"
+	id: "5E7A716F05FD04C8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Temperature"
+}

@@ -1,0 +1,59 @@
+* Mass Addition File for Terra Entity Slimes
+* Lines starting with '*' are comments
+* Format: Line, Dimension, Class, mod:mob, SpawnWeight, MinGroup, MaxGroup
+* Dimension: O = Overworld only
+* Class: MONSTER (they will spawn during day via InControl spawn.json override)
+* Weight: 60 = common (green/blue), 15 = rare (red/yellow/purple)
+*
+* DAYTIME SLIMES (allowed in light via spawn.json)
+1, O, MONSTER, terra_entity:green_slime, 60, 1, 3
+2, O, MONSTER, terra_entity:blue_slime, 50, 1, 3
+3, O, MONSTER, terra_entity:red_slime, 15, 1, 3
+4, O, MONSTER, terra_entity:yellow_slime, 15, 1, 3
+5, O, MONSTER, terra_entity:purple_slime, 15, 1, 3
+*
+* NIGHTTIME SLIMES - COMMON (spawn naturally at night, blocked during day)
+6, O, MONSTER, terra_entity:black_slime, 50, 1, 3
+7, O, MONSTER, terra_entity:dungeon_slime, 50, 1, 3
+8, O, MONSTER, terra_entity:evil_slime, 50, 1, 3
+*
+* NIGHTTIME SLIMES - RARE (spawn naturally at night, blocked during day)
+9, O, MONSTER, terra_entity:corrupt_slime, 15, 1, 3
+10, O, MONSTER, terra_entity:crimson_slime, 15, 1, 3
+*
+* NIGHTTIME MOBS - RARE (spawn naturally at night, blocked during day)
+* REMOVED: world:goblinshaman (too frequent, limited to 5 specific biomes in BiomeMobWeight.csv)
+12, O, MONSTER, iter_rpg:peeper, 10, 1, 1
+13, O, MONSTER, iter_rpg:griever, 10, 1, 1
+14, O, MONSTER, iter_rpg:void_elemental, 10, 1, 1
+15, O, MONSTER, iter_rpg:prismaw, 10, 1, 1
+16, O, MONSTER, iter_rpg:carcass, 10, 1, 1
+17, O, MONSTER, iter_rpg:fiend, 20, 1, 1
+18, O, MONSTER, specialmobs:giantskeleton, 15, 1, 1
+19, O, MONSTER, majruszsdifficulty:giant, 15, 1, 1
+20, O, MONSTER, mobz:bigboss, 15, 1, 1
+21, O, MONSTER, mobz:small_zombie, 30, 1, 5
+22, O, MONSTER, mobz:zombie_mage, 50, 1, 1
+23, O, MONSTER, majruszsdifficulty:cursed_armor, 30, 1, 1
+24, O, MONSTER, ddenizens:shadow, 30, 1, 1
+25, O, MONSTER, ddenizens:spectator, 40, 1, 1
+26, O, MONSTER, deadlyworld:mini_creeper, 15, 1, 1
+27, O, MONSTER, deadlyworld:spawner_mimic, 15, 1, 1
+28, O, MONSTER, wrd:buff_zombie, 60, 1, 1
+29, O, MONSTER, wrd:petrified_skeletonm, 40, 1, 1
+30, O, MONSTER, wrd:speared_petrified_skeleton_m, 40, 1, 1
+31, O, MONSTER, wrd:dirty_skeleton, 40, 1, 1
+32, O, MONSTER, mocreatures:biggolem, 20, 1, 1
+33, O, MONSTER, mocreatures:silverskeleton, 30, 1, 1
+34, O, MONSTER, mocreatures:darkmanticore, 50, 1, 1
+35, O, MONSTER, mocreatures:undeadscorpion, 30, 1, 1
+36, O, MONSTER, mocreatures:minigolem, 10, 1, 1
+37, O, MONSTER, valarian_conquest:bandit_1, 20, 1, 1
+38, O, MONSTER, valarian_conquest:bandit_2, 20, 1, 1
+39, O, MONSTER, valarian_conquest:bandit_3, 20, 1, 1
+40, O, MONSTER, valarian_conquest:orc_warrior, 20, 1, 1
+41, O, MONSTER, valarian_conquest:orc_berserker, 20, 1, 1
+* REMOVED: terramity:gatmancer (removed from spawn system entirely)
+43, O, MONSTER, terramity:elite_skeleton, 10, 1, 1
+44, O, MONSTER, wrd:bulky_ancient_skeleton, 40, 1, 1
+45, O, MONSTER, wrd:crawling_eye, 40, 1, 1

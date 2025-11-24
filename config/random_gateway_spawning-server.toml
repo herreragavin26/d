@@ -1,0 +1,11 @@
+#Turn on debug mode
+debug_mode = true
+#Spawn rate percentage (1–100). Used if spawn_day is 0
+#Range: 1 ~ 100
+spawn_rate = 100
+#Force gate spawn after this in-game day. If set above 0, overrides spawn_rate and guarantees 100% spawn
+#Range: > 0
+spawn_day = 1
+#A list of gates to be spawned
+whiteList = ["gateways:basic/blaze", "gateways:basic/enderman", "gateways:basic/slime", "gateways:emerald_grove", "gateways:endless/blaze", "gateways:hellish_fortress", "gateways:overworldian_nights"]
+

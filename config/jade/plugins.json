@@ -3,7 +3,6 @@
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
-    "travelerscompass": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "item_storage.normal_amount": 9,
@@ -52,14 +51,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
-  },
   "enchantableblocks": {
     "enchantments": true
-  },
-  "bonsaitrees3": {
-    "bonsaipot": true
   },
   "specialmobs": {
     "display_ninja_disguises": true
@@ -91,11 +84,6 @@
   },
   "corpse": {
     "corpse": true
-  },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
   },
   "balm": {
     "jade": true

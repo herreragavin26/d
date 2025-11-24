@@ -7,7 +7,7 @@
   //       a spread factor above 1 means all structures are rarer
   //       a spread factor below 1 means all structures are more common
   //       a spread factor of 0 disables all structures entirely
-  "spreadFactor": 2,
+  "spreadFactor": 1,
 
   // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
   // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
@@ -18,9 +18,335 @@
   "customSpreadFactors": [
     // example of the mansion being doubled in rarity (the mod's default)
     {
-      "structure": "minecraft:mansion",
-      "factor": 2
+      "structure": "pirates:tradersshipentitystructure",
+      "factor": 0
     },
+    {
+      "structure": "pumpeddesertremake:big_sakul",
+      "factor": 4.0
+    },
+    {
+      "structure": "idas:desert_camp",
+      "factor": 0
+    },
+    {
+      "structure": "terramity:overgrown_facility",
+      "factor": 4.0
+    },
+    {
+      "structure": "dungeons_arise:lighthouse",
+      "factor": 1
+    },
+    {
+      "structure": "terramity:suspicious_shrine",
+      "factor": 0
+    },
+    {
+      "structure": "terramity:mudhut",
+      "factor": 0
+    },
+    {
+      "structure": "ancientcurses:cursedaltar",
+      "factor": 0.5
+    },
+    {
+      "structure": "world:dyb_3",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtrree_32",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigroot",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtree",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtree_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtree_22",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtree_3",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtreecustom",
+      "factor": 0
+    },
+    {
+      "structure": "world:bigtreecustom_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom_3",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom_4",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom_5",
+      "factor": 0
+    },
+    {
+      "structure": "world:colostreecustom_6",
+      "factor": 0
+    },
+    {
+      "structure": "world:dryadhouses",
+      "factor": 0
+    },
+    {
+      "structure": "world:dyb",
+      "factor": 0
+    },
+    {
+      "structure": "world:dyb_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:dyb_3",
+      "factor": 0
+    },
+    {
+      "structure": "world:dybcustom",
+      "factor": 0
+    },
+    {
+      "structure": "world:eflshousebase_4s",
+      "factor": 0
+    },
+    {
+      "structure": "world:it_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:mashrooms",
+      "factor": 0
+    },
+    {
+      "structure": "world:mashrooms_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:talltree",
+      "factor": 0
+    },
+    {
+      "structure": "world:talltree_2",
+      "factor": 0
+    },
+    {
+      "structure": "world:talltree_4",
+      "factor": 0
+    },
+    {
+      "structure": "world:tallttree_22",
+      "factor": 0
+    },
+    {
+      "structure": "world:taltreeelfhouses",
+      "factor": 0
+    },
+    {
+      "structure": "world:tt_3",
+      "factor": 0
+    },
+    {
+      "structure": "takesapillage:pillager_camp",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:aegis_castle_structure",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:aegis_outpost_structure",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:bandit_camp",
+      "factor": 0.5
+    },
+    {
+      "structure": "valarian_conquest:bohemiancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:bohemianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:bohemiantower",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:caladrian_castle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:caladrianfort",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:caladrianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:dwarven_tower",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:galician_fort",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:galiciancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:galicianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:gardoniancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:gilded_legion_fort",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:lancastiancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:lancastianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:numeriancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:numerianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:orc_fort",
+      "factor": 0.5
+    },
+    {
+      "structure": "valarian_conquest:orc_outpost",
+      "factor": 0.5
+    },
+    {
+      "structure": "valarian_conquest:valariancastle",
+      "factor": 0.8
+    },
+    {
+      "structure": "valarian_conquest:valarianfort",
+      "factor": 0.8
+    },
+    {
+      "structure": "valarian_conquest:valarianoutpost",
+      "factor": 0.8
+    },
+    {
+      "structure": "valarian_conquest:visgothiancastle",
+      "factor": 1
+    },
+    {
+      "structure": "valarian_conquest:visgothianoutpost",
+      "factor": 1
+    },
+    {
+      "structure": "idas:animal_den/forest_den",
+      "factor": 0.5
+    },
+    {
+      "structure": "idas:castle",
+      "factor": 0.5
+    },
+	{
+      "structure": "dungeons_enhanced:castle",
+      "factor": 0.7
+    },
+    {
+      "structure": "dungeons_enhanced:large_dungeon",
+      "factor": 0.7
+    },
+	{
+      "structure": "dungeons_enhanced:pullager_camp",
+      "factor": 0.7
+    },
+	{
+      "structure": "dungeons_arise:bandit_village",
+      "factor": 0.5
+    },
+	{
+      "structure": "kobolds:kobold_den",
+      "factor": 0.5
+    },
+    {
+      "structure": "kobolds:kobold_den_pirate",
+      "factor": 0.5
+    },
+    {
+      "structure": "dungeoncrawl:dungeon",
+      "factor": 0.5
+    },
+    {
+      "structure": "terramity:snow_fort",
+      "factor": 0
+    },
+    {
+      "structure": "minecolonies:barbarian_camp",
+      "factor": 0.7
+    },
+    {
+      "structure": "minecolonies:amazon_camp",
+      "factor": 0.7
+    },
+    {
+      "structure": "minecolonies:desert_camp",
+      "factor": 0.7
+    },
+    {
+      "structure": "minecolonies:ship",
+      "factor": 1.5
+    },
+    {
+      "structure": "ati_structures:illager_tower",
+      "factor": 0.7
+    },
+    {
+      "structure": "battle_shrines:battle_shrine",
+      "factor": 0.7
+    },
+    {
+      "structure": "mortality:uvogre_village",
+      "factor": 0.5
+    },
+
+
     // add the structures you want to modify in the format:
     // (don't forget to remove "//", and use dots for decimal numbers)
     //

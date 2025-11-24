@@ -4,14 +4,14 @@
 	#Tower Separation values below only change how often the game tries to spawn the structure. Several other factors (Land height/other structures) can affect whether the structure actually spawns.
 	#The minimum possible distance between Land Towers measured in chunks. (9 chunk minimum. Default: 20 Chunks
 	#Range: 9 ~ 999999999
-	landMinimumSeparation = 30
+	landMinimumSeparation = 50
 	#The minimum possible distance between Ocean Towers measured in chunks. (6 chunk minimum. Default: 16 Chunks
 	#Range: 9 ~ 999999999
-	oceanMinimumSeparation = 35
+	oceanMinimumSeparation = 50
 	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 25 chunks 
-	firstTowerDistance = 25
+	firstTowerDistance = 50
 	#Whether to include acceptable Terralith biomes during the tower's Biome check.
-	terralith = false
+	terralith = true
 	#Whether to include acceptable Biomes of Plenty biomes during the tower's Biome check.
 	biomesofPlenty = false
 	#Whether to include acceptable Oh The Biomes You'll Go biomes during the tower's Biome check.

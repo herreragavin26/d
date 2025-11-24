@@ -7,7 +7,7 @@
 * Line starting with '*' are comments and ignored. 
 *
 * Line, biome, mod:mob, psuedoWeight, mingroup , maxgroup
-* 1, minecraft:plains, minecraft:husk, 80, 4, 4
+* 1, minecraft:plains, terra_entity:green_slime, 80, 3, 3
 * 2, minecraft:plains, minecraft:blaze, 80, 1, 1
 * 4, minecraft:desert, minecraft:iron_golem, 80, 1, 1
 * 5, minecraft:snowyplains, minecraft:snow_golem, 80, 1, 1

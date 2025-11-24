@@ -1,0 +1,109 @@
+
+[Progession]
+
+	[Progession.is_progression_activate]
+		#When false it will delete the progression lock of the mod (unbreakable ores blocks until [...], unusable tools etc...). Default = true
+		is_progression_activate = true
+
+	[Progession.is_nether_blocked]
+		#If true the nether will be blocked until Eldorath is defeated. Default = true
+		is_nether_blocked = true
+
+	[Progession.are_enchanted_tools_blocked]
+		#If true the enchanted tools will not be usable until Eldorath's death. Default = true
+		are_enchanted_tools_blocked = true
+
+["Bosses Health"]
+
+	["Bosses Health"."Iron Colossus Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		iron_colossus_health_bonus = 0.0
+
+	["Bosses Health"."Golbin Lord Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		goblin_lord_health_bonus = 0.0
+
+	["Bosses Health"."Arion Bonus Health (work for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		arion_health_bonus = 0.0
+
+	["Bosses Health"."Eldorath Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		eldorath_health_bonus = 0.0
+
+	["Bosses Health"."Zoranth Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		zoranth_health_bonus = 0.0
+
+	["Bosses Health"."Elvenite Paladin Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		elvenite_paladin_health_bonus = 0.0
+
+	["Bosses Health"."Vaedric Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		vaedric_health_bonus = 0.0
+
+	["Bosses Health"."Bringer Of Doom Bonus Health (work for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		bod_health_bonus = 0.0
+
+	["Bosses Health"."Calamities Bonus Health (for each)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		calamities_health_bonus = 0.0
+
+	["Bosses Health"."Sanghor Bonus Health (work for each phase)"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		sanghor_health_bonus = 0.0
+
+	["Bosses Health"."Zoranth Zenith Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		zoranthzenith_health_bonus = 0.0
+
+	["Bosses Health"."Nyxaris Bonus Health"]
+		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
+		nyxaris_health_bonus = 0.0
+
+["Bosses Misc & co"]
+
+	["Bosses Misc & co".are_bosses_despawning_if_a_player_is_killed]
+		#If false, bosses will stop despawning if someone is killed ! Default = true
+		are_bosses_despawning_if_a_player_is_killed = true
+
+	["Bosses Misc & co".are_weapons_and_artifacts_drop_from_treasurebags]
+		#When false this will disable the loot of weapons and artifacts from the treasure bags of every bosses! Default = true
+		are_weapons_and_artifacts_drop_from_treasurebags = true
+
+	["Bosses Misc & co".are_ores_dropping_from_treasurebags]
+		#When false this will disable the loot of ores from the treasure bags of every bosses! Default = true
+		are_ores_dropping_from_treasurebags = true
+
+[Hardmode]
+
+	[Hardmode.is_hardmode_activate]
+		#When false it will desactivate the harmode after beating the Ender Dragon (entities will have more health -> you can add your own entities with tags)  Default = true
+		is_hardmode_activate = true
+
+	[Hardmode.hardmode_health_modifier]
+		#This number increases the life of entities when entering hardmode troughout a multiplication. Default = 2.5 and don't forget the number and the dot
+		hardmode_health_modifier = 2.5
+
+	[Hardmode.hardmode_damage_modifier]
+		#This number increases the damages of entities when entering hardmode troughout a multiplication. Default = 2.0 and don't forget the number and the dot
+		hardmode_damage_modifier = 2.0
+
+["Gapple Sickness"]
+
+	["Gapple Sickness".is_gapple_sickness_active]
+		#This logic active or not the Gapple Sickness Effect. Default = false
+		is_gapple_sickness_active = false
+
+["Prevention Messages"]
+
+	["Prevention Messages".are_prevention_messages_showing]
+		#This logic let you choose if the pop-up messages/ preventions messages are shown. Default = true
+		are_prevention_messages_showing = true
+
+	["Prevention Messages".is_prevention_messages_showing_into_actionbar]
+		#This logic let you choose if the pop-up messages/ preventions messages are shown in the chat or in the action bar. True = action bar, False = Chat.  Default = false
+		is_prevention_messages_showing_into_actionbar = false
+

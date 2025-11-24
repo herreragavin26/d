@@ -7,7 +7,7 @@
 	#Enables spider egg generation
 	"Spider eggs" = true
 	#Enables the generation of simple un-themed dungeons
-	"Generic dungeons" = true
+	"Generic dungeons" = false
 	#Enables the generation of Arthropod Catacombs
 	"Arthropod catacombs" = true
 	#Enables the generation of goblin camps

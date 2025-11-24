@@ -1,0 +1,126 @@
+# deadlyworld:worldgen/minecraft/overworld/pitfall_traps.toml
+# This config contains options for all pitfall trap features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for pitfall trap features in any extra dimensions that do not
+#   have world gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main
+#   config file, "_main").
+
+
+# Category: spikes_pitfall_traps
+# Options to customize spikes pitfall traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated spikes
+  #   pitfall traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  spikes_pitfall_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for spikes pitfall traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.3
+  spikes_pitfall_traps.placements = 0.3
+
+  # The minimum and maximum (inclusive) heights/y-values spikes pitfall traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  spikes_pitfall_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 34
+  spikes_pitfall_traps.height.max = 34
+
+  # The minimum and maximum (inclusive) radius of the pit generated for this trap.
+  # Note that a bigger radius will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 1 ~ 10, Default: 2
+  spikes_pitfall_traps.radius.min = 2
+  # <Integer> Range: 1 ~ 10, Default: 4
+  spikes_pitfall_traps.radius.max = 4
+  # The minimum and maximum (inclusive) depth of the pit generated for this trap
+  # Note that a greater depth will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 2 ~ 6, Default: 2
+  spikes_pitfall_traps.depth.min = 2
+  # <Integer> Range: 2 ~ 6, Default: 4
+  spikes_pitfall_traps.depth.max = 4
+
+
+# Category: lava_pitfall_traps
+# Options to customize lava pitfall traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated lava
+  #   pitfall traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  lava_pitfall_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for lava pitfall traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  lava_pitfall_traps.placements = 0.2
+
+  # The minimum and maximum (inclusive) heights/y-values lava pitfall traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  lava_pitfall_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: -14
+  lava_pitfall_traps.height.max = -14
+
+  # The minimum and maximum (inclusive) radius of the pit generated for this trap.
+  # Note that a bigger radius will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 1 ~ 10, Default: 2
+  lava_pitfall_traps.radius.min = 2
+  # <Integer> Range: 1 ~ 10, Default: 5
+  lava_pitfall_traps.radius.max = 5
+  # The minimum and maximum (inclusive) depth of the pit generated for this trap
+  # Note that a greater depth will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 2 ~ 6, Default: 2
+  lava_pitfall_traps.depth.min = 2
+  # <Integer> Range: 2 ~ 6, Default: 4
+  lava_pitfall_traps.depth.max = 4
+
+
+# Category: cobweb_pitfall_traps
+# Options to customize cobweb pitfall traps specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated cobweb
+  #   pitfall traps. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  cobweb_pitfall_traps.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for cobweb pitfall traps. A decimal represents a chance
+  #   for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  cobweb_pitfall_traps.placements = 0.2
+
+  # The minimum and maximum (inclusive) heights/y-values cobweb pitfall traps can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  cobweb_pitfall_traps.height.min = -54
+  # <Integer> Range: Any Value, Default: 34
+  cobweb_pitfall_traps.height.max = 34
+
+  # The minimum and maximum (inclusive) radius of the pit generated for this trap.
+  # Note that a bigger radius will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 1 ~ 10, Default: 2
+  cobweb_pitfall_traps.radius.min = 2
+  # <Integer> Range: 1 ~ 10, Default: 4
+  cobweb_pitfall_traps.radius.max = 4
+  # The minimum and maximum (inclusive) depth of the pit generated for this trap
+  # Note that a greater depth will make it harder to pass generation criteria and make the trap less likely to generate.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 2 ~ 6, Default: 2
+  cobweb_pitfall_traps.depth.min = 2
+  # <Integer> Range: 2 ~ 6, Default: 4
+  cobweb_pitfall_traps.depth.max = 4

@@ -1,0 +1,57 @@
+# deadlyworld:_main.toml
+# This config contains options for miscellaneous features in the mod.
+
+
+# Category: general
+# Options to customize misc settings that apply to the mod as a whole.
+
+  # If true, this mod's traps will be allowed to trigger in peaceful mode. (Redstone-based traps ignore this setting.)
+  # <Boolean> Valid Values: { true, false }, Default: true
+  general.trigger_traps_in_peaceful = true
+  # If true, creative mode players will trigger this mod's traps. (Redstone-based traps ignore this setting.)
+  # <Boolean> Valid Values: { true, false }, Default: false
+  general.trigger_traps_vs_creative = false
+
+  # If true, creative mode players will activate this mod's spawners.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  general.activate_spawners_vs_creative = true
+
+  # List of extra dimension types for this mod to generate configs for. If this list is empty, world gen configs will
+  #   only generate for the overworld. All dimensions NOT in this list will default to the 'minecraft:overworld'
+  #   configs.
+  # NOTE: Having configs for a dimension does NOT add world gen to it. Your data pack determines all world gen, and
+  #   can also overwrite most world gen config settings. This mod generally only supports the default values here
+  #   without the use of a data pack.
+  #  * Requires a GAME restart to take effect *
+  # <Dimension Type List> Format: [ "dimension_type1", "dimension_type2", ... ], Default: [ "minecraft:the_nether" ]
+  general.extra_dimensions = [
+    "minecraft:the_nether"
+  ]
+
+
+
+# Category: stalactite_overhaul
+# Misc settings related to interactions with Pointed Dripstone in the world.
+
+  # If enabled, pointed dripstone blocks will break when hit with any projectile entity tagged as
+  #   'minecraft:impact_projectiles'.
+  # In vanilla, only thrown tridents can break pointed dripstone, but this setting allows entities like arrows,
+  #   snowballs and others to also do so.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  stalactite_overhaul.pointed_dripstone_sniping = true
+
+  # If enabled, there is a chance for nearby pointed dripstone (stalactites) in the ceiling to break off and fall when
+  #   the player is breaking blocks.
+  # Skylight level must be less than 3, and the position of the destroyed block must be below sea level.
+  # Also, stalactites must be pointing downwards and be within scan range (specified in the below field "scan_height").
+  # <Boolean> Valid Values: { true, false }, Default: true
+  stalactite_overhaul.spooky_stalactites = true
+  # If "spooky_stalactites" is enabled, this field determines the chance for nearby stalactites to break off and fall
+  #   when the player breaks a block.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.1
+  stalactite_overhaul.trigger_chance = 0.1
+  # If "spooky_stalactites" is enabled, this determines the vertical scan height used when checking for Pointed
+  #   Dripstone above the player.
+  # <Integer> Range: ≥ 1, Default: 10
+  stalactite_overhaul.scan_height = 10
+

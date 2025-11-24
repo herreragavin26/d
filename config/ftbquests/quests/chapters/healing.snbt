@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "healing"
+	group: "56F4436F82BE1293"
+	icon: "firstaid:bandage"
+	id: "3EC659FB392F4B15"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Healing"
+}

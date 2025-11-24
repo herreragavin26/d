@@ -1,4 +1,4 @@
 
 [BlockBlocker]
-	BlockedBlocks = ["unusualprehistory:sludge"]
+	BlockedBlocks = ["unusualprehistory:sludge", "pumpeddesertremake:quick_sand"]
 

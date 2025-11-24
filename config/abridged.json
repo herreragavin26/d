@@ -1,4 +1,4 @@
 {
   "directly_sample_heightmap": false,
-  "frequency": 0.8
+  "frequency": 0.1
 }

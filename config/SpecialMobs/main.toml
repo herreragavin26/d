@@ -16,7 +16,7 @@
 
   # If enabled, mobs spawned from spawner blocks/dungeon spawners will not be subject to mob replacement.
   # <Boolean> Valid Values: { true, false }, Default: false
-  general.skip_spawner_spawns = false
+  general.skip_spawner_spawns = true
 
   # Whether the mod uses Special Mobs entities in place of vanilla entities for non-special species. This allows your
   #   config options to apply to non-special species and allows them to benefit from Special Mob Data and any
@@ -33,7 +33,7 @@
   # Set to false to prevent any of this mod's mobs from applying nausea (aka confusion). Use this if the screen
   #   warping from nausea hurts your face or makes you sick.
   # <Boolean> Valid Values: { true, false }, Default: true
-  general.enable_nausea_effects = true
+  general.enable_nausea_effects = false
   # Overrides the default fishing rod item animation so that it is compatible with fishing mobs from this mod. Set to
   #   false if it causes problems with another mod. Fishing mobs will instead render a stick while casting.
   #  * Requires a GAME restart to take effect *

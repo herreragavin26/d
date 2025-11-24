@@ -16,6 +16,8 @@
 	#NPC Chat Bubble Style.
 	#Allowed Values: CLOUD, RECT
 	npc_chat_bubble_style = "RECT"
+	#Enable Entity Motion Blur.
+	enable_entity_motion_blur = true
 
 [server]
 	#When a boss has no target, should it be cleared?
@@ -51,5 +53,7 @@
 	#Range: 0.0 ~ 1.0
 	enemy_spawn_chance = 1.0
 	#Should the chance to spawn a monster apply to all monsters?
-	enemy_spawn_chance_apply_all = false
+	enemy_spawn_chance_apply_all = true
+	#Should bosses random stroll when have no target? 
+	boss_keep_wandering = true
 

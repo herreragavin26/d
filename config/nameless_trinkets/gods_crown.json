@@ -14,6 +14,6 @@
     "percentageExtraBlockReach": 0.0,
     "percentageExtraEntityReach": 0.0,
     "percentageExtraStepHeightAddition": 0.0,
-    "isEnable": true
+    "isEnable": false
   }
 }

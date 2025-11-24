@@ -9,4 +9,3 @@
 	"watermaxDistanceFromCenter": 116,
 	// Enable or disable the welcome message, Requires game restart after changing this setting.
 	"ENABLE_IN_GAME_MESSAGE": false
-}

@@ -1,0 +1,86 @@
+# deadlyworld:worldgen/minecraft/the_nether/dungeons.toml
+# This config contains options for all dungeon features specific to the 'the_nether' dimension from 'minecraft'.
+
+
+# Category: normal_dungeons
+# Options to customize normal dungeons specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated normal
+  #   dungeons. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  normal_dungeons.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for normal dungeons. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 10.0
+  normal_dungeons.placements = 10.0
+
+  # The minimum and maximum (inclusive) heights/y-values normal dungeons can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  normal_dungeons.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  normal_dungeons.height.max = 120
+
+  # The chance for floor and wall blocks to be infested with silverfish. The chance is rolled for each block
+  #   individually, and the block must be a valid host (see the "infested_blocks" config).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.15
+  normal_dungeons.infested_chance = 0.15
+
+  # A list of registry IDs for subfeatures that can generate in the middle of the dungeon room.
+  # By default, this includes most spawners and tower dispensers from Deadly World.
+  # You can technically specify the ID of any configured feature here, but whether it will generate correctly is never
+  #   guaranteed.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <String List> Format: [ "string1", "string2", ... ], Default: [ "deadlyworld:simple_spawner_nether",
+  #   "deadlyworld:brutal_spawner_nether", "deadlyworld:swarm_spawner_nether", "deadlyworld:stream_spawner_nether",
+  #   "deadlyworld:silverfish_nest_nether", "deadlyworld:simple_tower_nether", "deadlyworld:potion_tower_nether",
+  #   "deadlyworld:gatling_tower_nether", "deadlyworld:fire_tower_nether", "deadlyworld:fireball_tower_nether" ]
+  normal_dungeons.subfeatures = [
+    "deadlyworld:simple_spawner_nether",
+    "deadlyworld:brutal_spawner_nether",
+    "deadlyworld:swarm_spawner_nether",
+    "deadlyworld:stream_spawner_nether",
+    "deadlyworld:silverfish_nest_nether",
+    "deadlyworld:simple_tower_nether",
+    "deadlyworld:potion_tower_nether",
+    "deadlyworld:gatling_tower_nether",
+    "deadlyworld:fire_tower_nether",
+    "deadlyworld:fireball_tower_nether"
+  ]
+
+
+# Category: mini_dungeons
+# Options to customize mini dungeons specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated mini
+  #   dungeons. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mini_dungeons.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mini dungeons. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  mini_dungeons.placements = 1.0
+
+  # The minimum and maximum (inclusive) heights/y-values mini dungeons can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  mini_dungeons.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  mini_dungeons.height.max = 120
+
+  # The chance for floor and wall blocks to be infested with silverfish. The chance is rolled for each block
+  #   individually, and the block must be a valid host (see the "infested_blocks" config).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.15
+  mini_dungeons.infested_chance = 0.15

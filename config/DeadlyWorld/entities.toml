@@ -1,0 +1,143 @@
+# deadlyworld:entities.toml
+# This config contains options for miscellaneous features in the mod.
+
+  # Attribute List fields: General format = [ "namespace:attribute_name operation value", ... ]
+  #   Attribute lists are arrays of base attribute changes. Attributes are defined by their key in the attribute
+  #     registry, usually following the pattern 'namespace:attribute_name'.
+  #   The operations that can be performed are +, -, and *. The + and - operators change the attribute by adding the
+  #     value to it (or subtracting the value from it). The * operator changes the attribute by multiplying it by the
+  #     value.
+  #   Each entry in the attribute list is applied in the exact order listed.
+  #   As an example, the entry "minecraft:generic.max_health + 10.0" will increase a mob's max health by 10. By
+  #     convention, never use the + or - operators for movement speed (minecraft:generic.movement_speed).
+
+
+# Category: mini_mobs
+# Options to customize misc global settings.
+
+  # Attribute modifiers for mini creepers. If no attribute changes are defined here, mini creepers will have the exact
+  #   same attributes as the full-size version vanilla mob.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health * 0.333", "minecraft:generic.movement_speed * 1.3", "minecraft:generic.attack_damage
+  #   * 0.5" ]
+  #    Range for Values: Any Value
+  mini_mobs.creeper_attributes = [
+    "minecraft:generic.max_health * 0.333",
+    "minecraft:generic.movement_speed * 1.3",
+    "minecraft:generic.attack_damage * 0.5"
+  ]
+  # Attribute modifiers for mini zombies. If no attribute changes are defined here, mini zombies will have the exact
+  #   same attributes as the full-size version vanilla mob.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health * 0.333", "minecraft:generic.movement_speed * 1.3", "minecraft:generic.attack_damage
+  #   * 0.5" ]
+  #    Range for Values: Any Value
+  mini_mobs.zombie_attributes = [
+    "minecraft:generic.max_health * 0.333",
+    "minecraft:generic.movement_speed * 1.3",
+    "minecraft:generic.attack_damage * 0.5"
+  ]
+  # Attribute modifiers for mini skeletons. If no attribute changes are defined here, mini skeletons will have the
+  #   exact same attributes as the full-size version vanilla mob.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health * 0.333", "minecraft:generic.movement_speed * 1.3", "minecraft:generic.attack_damage
+  #   * 0.5" ]
+  #    Range for Values: Any Value
+  mini_mobs.skeleton_attributes = [
+    "minecraft:generic.max_health * 0.333",
+    "minecraft:generic.movement_speed * 1.3",
+    "minecraft:generic.attack_damage * 0.5"
+  ]
+  # Attribute modifiers for mini spiders. If no attribute changes are defined here, mini spiders will have the exact
+  #   same attributes as the full-size version vanilla mob.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health * 0.333", "minecraft:generic.movement_speed * 1.3", "minecraft:generic.attack_damage
+  #   * 0.5" ]
+  #    Range for Values: Any Value
+  mini_mobs.spider_attributes = [
+    "minecraft:generic.max_health * 0.333",
+    "minecraft:generic.movement_speed * 1.3",
+    "minecraft:generic.attack_damage * 0.5"
+  ]
+  # Attribute modifiers for micro ghasts. If no attribute changes are defined here, micro ghasts will have the exact
+  #   same attributes as the full-size version vanilla mob.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health * 0.333", "minecraft:generic.movement_speed * 1.3", "minecraft:generic.attack_damage
+  #   * 0.5" ]
+  #    Range for Values: Any Value
+  mini_mobs.ghast_attributes = [
+    "minecraft:generic.max_health * 0.333",
+    "minecraft:generic.movement_speed * 1.3",
+    "minecraft:generic.attack_damage * 0.5"
+  ]
+
+
+# Category: mimics
+# Options to customize misc global settings.
+
+  # Attribute modifiers for chest mimics.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health + 15.0", "minecraft:generic.movement_speed * 1.0", "minecraft:generic.attack_damage
+  #   + 2.0" ]
+  #    Range for Values: Any Value
+  mimics.chest_attributes = [
+    "minecraft:generic.max_health + 15.0",
+    "minecraft:generic.movement_speed * 1.0",
+    "minecraft:generic.attack_damage + 2.0"
+  ]
+  # List of IDs for loot tables that can have a Mimic Core item added to them by Deadly World.
+  # Each ID is paired with a chance value (the chance for a Mimic Core to be added to the loot table).
+  # Chance is in percents, so it should range from 0.0 to 1.0.
+  # Mimic Cores are what makes chests come alive and become Chest Mimics, so if one exists in a chest's inventory,
+  # be it either because of a loot modifier or because someone put it there, the chest will come alive when opened.
+  # <Resource Location value List> Format: [ "namespace:path value", ... ], Default: "N/A"
+  mimics.chest_target_loot_tables = [
+    "minecraft:chests/abandoned_mineshaft 0.2",
+    "minecraft:chests/ancient_city 0.2",
+    "minecraft:chests/bastion_bridge 0.2",
+    "minecraft:chests/bastion_treasure 0.2",
+    "minecraft:chests/desert_pyramid 0.2",
+    "minecraft:chests/end_city_treasure 0.2",
+    "minecraft:chests/igloo_chest 0.1",
+    "minecraft:chests/jungle_temple 0.2",
+    "minecraft:chests/nether_bridge 0.2",
+    "minecraft:chests/ruined_portal 0.1",
+    "minecraft:chests/simple_dungeon 0.3",
+    "minecraft:chests/spawn_bonus_chest 0.5",
+    "minecraft:chests/stronghold_corridor 0.3",
+    "minecraft:chests/jungle_temple 0.2",
+    "minecraft:chests/woodland_mansion 0.1"
+  ]
+
+  # Attribute modifiers for jukebox mimics.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health + 15.0", "minecraft:generic.movement_speed * 1.0", "minecraft:generic.attack_damage
+  #   + 2.0" ]
+  #    Range for Values: Any Value
+  mimics.jukebox_attributes = [
+    "minecraft:generic.max_health + 15.0",
+    "minecraft:generic.movement_speed * 1.0",
+    "minecraft:generic.attack_damage + 2.0"
+  ]
+
+  # Attribute modifiers for spawner mimics.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health + 15.0", "minecraft:generic.movement_speed * 1.0", "minecraft:generic.attack_damage
+  #   + 2.0" ]
+  #    Range for Values: Any Value
+  mimics.spawner_attributes = [
+    "minecraft:generic.max_health + 15.0",
+    "minecraft:generic.movement_speed * 1.0",
+    "minecraft:generic.attack_damage + 2.0"
+  ]
+
+  # Attribute modifiers for mini_mimics.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health + 10.0", "minecraft:generic.movement_speed * 1.25", "minecraft:generic.attack_damage
+  #   + 1.5" ]
+  #    Range for Values: Any Value
+  mimics.mini_attributes = [
+    "minecraft:generic.max_health + 10.0",
+    "minecraft:generic.movement_speed * 1.25",
+    "minecraft:generic.attack_damage + 1.5"
+  ]

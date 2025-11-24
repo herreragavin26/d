@@ -198,7 +198,7 @@
 			twitch = true
 			#Sanity indicator scale
 			#Range: 0.0 ~ 3.4028234663852886E38
-			scale = 0.7
+			scale = 1.0
 			#Sanity indicator location
 			#Allowed Values: HOTBAR_LEFT, HOTBAR_RIGHT, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 			location = "HOTBAR_LEFT"
@@ -206,16 +206,16 @@
 		#Inner monologue configuration
 		[sanity.client.hints]
 			#Whether to render inner monologue/random thoughts
-			render = false
+			render = true
 			#Whether to twitch inner monologue/random thoughts at low sanity levels
-			twitch = false
+			twitch = true
 
 		#Blood tendrils overlay configuration
 		[sanity.client.blood_tendrils]
 			#Whether to render blood tendrils overlay
-			render = false
+			render = true
 			#Whether to flash blood tendrils overlay upon losing sanity in a short burst
-			short_burst_flash = false
+			short_burst_flash = true
 			#Whether to render blood tendrils overlay when passively losing sanity
-			render_passive = false
+			render_passive = true
 

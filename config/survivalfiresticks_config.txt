@@ -1,0 +1,14 @@
+# Survival Firesticks Config
+# durability: sets how many uses the Firestick has before it breaks.
+durability=4
+
+# chargeToIgnite: determines how the Firestick is used.
+#   false = Works like vanilla flint and steel (instant fire on right-click).
+#   true  = Works like a bow: hold right-click to charge, release to ignite.
+chargeToIgnite=true
+
+# workChance: percent chance (0-100) that the firestick works.
+#   100 = always works (default)
+#   50  = 50% chance to work, 50% chance to fail (still consumes durability)
+#   0   = never works (only wastes durability)
+workChance=100

@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "skill_locks"
+	group: "56F4436F82BE1293"
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "646854FAFDA48BAD"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Skill Locks"
+}

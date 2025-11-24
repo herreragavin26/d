@@ -1,0 +1,39 @@
+# deadlyworld:worldgen/minecraft/overworld/environmental_hazards.toml
+# This config contains options for misc environmental hazard features specific to the 'overworld' dimension from
+#   'minecraft'.
+
+# This config also functions as the default settings for environmental hazard features in any extra dimensions that do
+#   not have world gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main
+#   config file, "_main").
+
+
+# Category: buried_liquids
+# Settings related to buried liquids in the world; single fluid source blocks of varying kinds that generate in the
+#   ground and not exposed to air.
+
+  # Registry entry-value list fields: General format = [ "namespace:registry_name value1 value2 ...", ... ]
+  #   Registry entry-value lists are arrays of registry keys. Many things in the game, such as blocks or potions, are
+  #     defined by their registry key within a registry. For example, all items are registered in the "minecraft:item"
+  #     registry.
+  #   Registry entry-value lists may have one or multiple numeric values linked to each entry.
+  #   'default' can be used instead of a registry key to provide default values.
+  #   An asterisk '*' can be used to match all registry entries/keys belonging to X namespace. For example,
+  #     'minecraft:*' will match all vanilla entries.
+  #   Tags can also be used here. To declare a tag, start with a '#' followed by the rest of the tag path.
+  #   Tag example: '#minecraft:oak_logs'
+  #       Priority order: specific entries > tag entries > namespace entries > default
+
+  # This list defines buried liquid entries. Each entry consists of the following in the given order:
+  # Liquid source block registry ID - for example "minecraft:water" or "minecraft:lava".
+  # Min height - the lowest Y coordinate this liquid can generate at.
+  # Max height - the highest Y coordinate this liquid can generate at.
+  # Placements - the amount of times the world generator will try to place this liquid in a chunk.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "minecraft:water -14.0 54.0 20.0", "minecraft:lava -63.0 0.0 10.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:block]
+  #    Range for Values: Any Value
+  buried_liquids.buried_liquids = [
+    "minecraft:water -14.0 54.0 20.0",
+    "minecraft:lava -63.0 0.0 10.0"
+  ]

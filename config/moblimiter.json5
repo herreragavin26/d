@@ -1,0 +1,265 @@
+{
+  // Mob Limiter Configuration
+  // Prevents night-only mobs from stacking up when players AFK overnight
+
+  // Vanilla despawn settings
+  "vanilla_despawn": {
+    "mode": "vanilla"  // Options: "vanilla", "custom", "disabled"
+  },
+
+  // World-wide limits for night-only mobs
+  // When limit is exceeded, oldest mobs despawn silently
+  "world_limits": {
+    "enabled": true,
+    "total": -1,  // Total global mob cap (-1 for unlimited total)
+    "removal_type": "despawn",  // Options: "despawn" (silent) or "kill" (drops loot)
+
+    "mobs": {
+      // Boss/Special mobs - very limited
+      "specialmobs:giantskeleton": 5,
+      "majruszsdifficulty:giant": 1,
+      "mobz:bigboss": 2,
+      "world:goblinshaman": 1,
+      "terramity:elite_skeleton": 5,
+
+      // Rare dangerous mobs (UPDATED - max cap 5)
+      "iter_rpg:peeper": 1,
+      "iter_rpg:griever": 2,
+      "iter_rpg:void_elemental": 1,
+      "iter_rpg:prismaw": 1,
+      "iter_rpg:carcass": 2,
+      "iter_rpg:fiend": 2,
+      "iter_rpg:scallop": 5,
+      "iter_rpg:small_scallop": 4,
+      "ddenizens:shadow": 5,
+      "ddenizens:spectator": 5,
+      "ddenizens:beholder": 1,
+
+      // Mo'Creatures dangerous mobs
+      "mocreatures:biggolem": 1,
+      "mocreatures:silverskeleton": 5,
+      "mocreatures:darkmanticore": 2,
+      "mocreatures:undeadscorpion": 2,
+      "mocreatures:caveogre": 2,
+      "mocreatures:cavescorpion": 2,
+      "mocreatures:frostmanticore": 2,
+      "mocreatures:frostscorpion": 2,
+      "mocreatures:grizzlybear": 1,
+      "mocreatures:plainmanticore": 4,
+      "mocreatures:toxicmanticore": 4,
+      "mocreatures:wraith": 2,
+      "mocreatures:wyvern": 1,
+      "mocreatures:piranha": 5,
+      "mocreatures:crab": 5,
+
+      // Common night mobs - reduced to max 5
+      "terra_entity:evil_slime": 5,
+      "terra_entity:black_slime": 5,
+      "terra_entity:dungeon_slime": 5,
+      "terra_entity:corrupt_slime": 5,
+      "terra_entity:crimson_slime": 5,
+
+      "mobz:small_zombie": 5,
+      "mobz:zombie_mage": 5,
+      "mobz:boss_skeleton": 2,
+      "mobz:bowman": 2,
+      "mobz:frost_blaze": 3,
+      "mobz:frost_creeper": 5,
+      "mobz:iron_steve": 2,
+      "mobz:spider_mage": 1,
+      "mobz:templar": 1,
+      "mobz:tank_zombie": 2,
+      "majruszsdifficulty:cursed_armor": 5,
+
+      "wrd:buff_zombie": 1,
+      "wrd:petrified_skeletonm": 2,
+      "wrd:speared_petrified_skeleton_m": 2,
+      "wrd:dirty_skeleton": 5,
+      "creatures_expanded:crumbling_skeleton": 1,
+      "creatures_expanded:gloomknight": 1,
+
+      // Valarian Conquest mobs - HEAVY TICK LAG
+      "valarian_conquest:orc_raider": 5,
+      "valarian_conquest:gardonian_knight": 5,
+      "valarian_conquest:bandit_1": 5,
+      "valarian_conquest:bandit_2": 5,
+      "valarian_conquest:bandit_3": 5,
+      "valarian_conquest:visgothian_archer": 5,
+      "valarian_conquest:numerian_spearman": 1,
+      "valarian_conquest:orc_berserker": 5,
+      "valarian_conquest:orc_warrior": 5,
+      "valarian_conquest:orc_archer": 5,
+
+      // Iter RPG goblins
+      "iter_rpg:goblin": 5,
+      "iter_rpg:goblin_warrior": 5,
+      "iter_rpg:hobgoblin": 5,
+
+      // Other common mobs - reduced to max 5
+      "mobz:dirty_boar": 5,
+      "mobz:wild_boar": 5,
+      "mobz:brown_bear": 2,
+      "mobz:armored_zombie": 5,
+      "creatures_expanded:shroomarauder": 5,
+      "creatures_expanded:fungal_ghoul": 5,
+      "creatures_expanded:shadowfiend": 5,
+      "creatures_expanded:undead_necromancer": 5,
+      "creatures_expanded:prosperisher_zombie": 5,
+      "world:goblin": 5,
+      "world:appleant_2": 5,
+
+      // Terra Entity birds and animals
+      "terra_entity:blue_jay": 5,
+      "terra_entity:duck": 5,
+      "terra_entity:cardinal": 5,
+      "terra_entity:squirrel": 5,
+      "terra_entity:blue_slime": 5,
+      "terra_entity:green_slime": 5,
+      "terra_entity:purple_slime": 5,
+      "terra_entity:desert_slime": 5,
+
+      // MoCreatures animals
+      "mocreatures:leopard": 5,
+      "mocreatures:bird": 5,
+      "mocreatures:mole": 5,
+      "mocreatures:turtle": 5,
+      "mocreatures:bee": 5,
+      "mocreatures:snake": 5,
+      "mocreatures:roach": 5,
+      "mocreatures:boar": 5,
+      "mocreatures:elephant": 3,
+      "mocreatures:ant": 5,
+      "mocreatures:bass": 5,
+      "mocreatures:anchovy": 5,
+      "mocreatures:goldfish": 5,
+      "mocreatures:fishy": 5,
+
+      // Other rare mobs
+      "mobz:katherine": 1,
+      "knights:heavyknight": 1,
+      "glorious_creatures:dripstone_hermit": 4,
+      "glorious_creatures:ent": 2,
+
+      // MineColonies
+      "minecolonies:barbarian": 10,
+
+      // New custom mobs
+      "bosscraft_respawn:rogue_archer": 2,
+      "undead_resurrected:skeleton_warrior": 2,
+      "undead_resurrected:warlock": 1,
+
+      // Pirates - beach spawns
+      "pirates:shipmate_1": 5,
+      "pirates:shipmate_2": 5,
+      "pirates:shipmate_3": 5,
+
+      // Ancient skeletons
+      "wrd:bulky_ancient_skeleton": 4,
+      "wrd:bulky_ancient_skeleton_torso": 2,
+      "wrd:ancient_skeleton_skull": 2,
+
+      // Antlions
+      "wrd:antlion": 3,
+
+      // Cyclops - extremely rare, only 1 in entire world
+      "world:cyclopss": 1,
+
+      // Yeti
+      "wrd:yeti_": 2,
+
+      // Crawling Eye
+      "wrd:crawling_eye": 2,
+
+      // Pigs
+      "minecraft:pig": 20,
+
+      // Tide Specter
+      "threateningly_mobs:tide_specter": 4,
+
+      // Mini Golem
+      "mocreatures:minigolem": 2,
+
+      // Threatening Mobs
+      "threateningly_mobs:cannon_crab": 4,
+      "threateningly_mobs:forest_drake": 4
+    }
+  },
+
+  // Per-chunk limits (prevents clustering)
+  "chunk_limits": {
+    "enabled": true,
+    "default_limit": -1,  // Default limit per chunk (-1 for unlimited for unlisted mobs)
+
+    "mobs": {
+      // Boss mobs - only 1 per chunk
+      "specialmobs:giantskeleton": 1,
+      "mobz:bigboss": 1,
+
+      // New custom mobs - limit per chunk
+      "bosscraft_respawn:rogue_archer": 1,
+      "undead_resurrected:skeleton_warrior": 1,
+      "undead_resurrected:warlock": 1,
+
+      // Rare skeletons and special mobs - 1 per chunk
+      // Note: wrd:buff_zombie, majruszsdifficulty:giant, terramity:gatmancer, and
+      // world:goblinshaman have world cap = 1, so chunk caps are redundant
+      "wrd:petrified_skeletonm": 1,
+      "wrd:speared_petrified_skeleton_m": 1,
+      "wrd:dirty_skeleton": 1,
+      "wrd:bulky_ancient_skeleton": 1,
+      "wrd:bulky_ancient_skeleton_torso": 1,
+      "creatures_expanded:crumbling_skeleton": 1,
+      "creatures_expanded:gloomknight": 1,
+      "threateningly_mobs:tide_specter": 1,
+      "wrd:yeti_": 1,
+      "mocreatures:minigolem": 1,
+
+      // Pirates - 2 per chunk
+      "pirates:shipmate_1": 2,
+      "pirates:shipmate_2": 2,
+      "pirates:shipmate_3": 2,
+
+      // Dangerous mobs - limited per chunk
+      "mocreatures:biggolem": 2,
+      "mocreatures:darkmanticore": 2,
+      "mocreatures:cavescorpion": 2,
+      "mocreatures:crab": 2,
+      "iter_rpg:void_elemental": 3,
+      "iter_rpg:griever": 3,
+
+      // Valarian Conquest mobs - heavy tick lag, limit per chunk
+      "valarian_conquest:orc_raider": 3,
+      "valarian_conquest:gardonian_knight": 2,
+      "valarian_conquest:bandit_1": 2,
+      "valarian_conquest:bandit_2": 2,
+      "valarian_conquest:bandit_3": 2,
+      "valarian_conquest:visgothian_archer": 2,
+      "valarian_conquest:orc_berserker": 2,
+
+      // Iter RPG goblins
+      "iter_rpg:goblin": 3,
+      "iter_rpg:goblin_warrior": 3,
+      "iter_rpg:hobgoblin": 2,
+
+      // Slimes - 4 per chunk
+      "terra_entity:evil_slime": 4,
+      "terra_entity:black_slime": 4,
+      "terra_entity:dungeon_slime": 4,
+      "terra_entity:corrupt_slime": 4,
+      "terra_entity:crimson_slime": 4,
+      "terra_entity:blue_slime": 3,
+      "terra_entity:green_slime": 3,
+      "terra_entity:purple_slime": 3,
+
+      // Regular mobs - prevent excessive clustering
+      "mobz:small_zombie": 8,
+      "mobz:dirty_boar": 3,
+      "mobz:wild_boar": 3,
+      "creatures_expanded:shroomarauder": 2,
+      "creatures_expanded:fungal_ghoul": 2
+    }
+  },
+
+  // Check interval in ticks (20 ticks = 1 second)
+  "check_interval": 20
+}

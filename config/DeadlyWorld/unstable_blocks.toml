@@ -1,0 +1,63 @@
+# deadlyworld:unstable_blocks.toml
+# This config contains options to customize auto-generated unstable blocks, including which to generate and how they
+#   behave.
+
+
+# Category: auto_generated_blocks
+# Options that apply to automatic generation of this Deadly World's unstable blocks, as well as their behavior.
+
+  # A list of blocks to generate an "unstable" version for. The unstable version of a block looks identical, but has
+  #   modified behavior (see below) and pops itself and other neighboring unstable blocks when stepped on.
+  # Only blocks that are solid, full cubes with no block entity should be put on this list.
+  # If any mod-added blocks on this list are not loaded by the time Deadly World loads its blocks, the game will crash
+  #   (see "block_auto_gen_dependencies" in main config).
+  # To connect to a server, this setting must be the same on both client and server or your connection will be refused
+  #   for failing to synchronize registry data.
+  #  * Requires a GAME restart to take effect *
+  # <namespace:block_name List> Format: [ "namespace:block_name1", "namespace:block_name2", ... ], Default: [
+  #   "minecraft:dirt", "minecraft:mud", "minecraft:gravel", "minecraft:sand", "minecraft:red_sand",
+  #   "minecraft:soul_sand", "minecraft:soul_soil" ]
+  auto_generated_blocks.host_blocks = [
+    "minecraft:dirt",
+    "minecraft:mud",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+  ]
+  # The vanilla fallback block to replace missing unstable blocks with. If the "host_blocks" list is changed and you
+  #   load into a world that used to have unstable blocks that no longer exist, they will be replaced with this block.
+  # <String> Default: "minecraft:sand"
+  auto_generated_blocks.fallback_block = "minecraft:sand"
+
+  # The style to use for unstable blocks' display names.
+  # The available styles are:
+  #  * vanilla: Follows the vanilla name pattern (Dirt -> Unstable Dirt)
+  #  * suspicious: Puts the host name in quotes (Dirt -> "Dirt")
+  #  * identity: Directly uses the host name (Dirt -> Dirt)
+  # <Enum> Valid Values: { "vanilla", "suspicious", "identity" }, Default: "vanilla"
+  auto_generated_blocks.name_style = "vanilla"
+
+  # Break speed multiplier for unstable blocks. A value of 0 makes them unbreakable, while something really high like
+  #   3.4E38 makes them break instantly.
+  # Base break speed of unstable blocks is double the host block's break speed, but is unaffected by tools.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  auto_generated_blocks.break_speed_multi = 2.0
+  # Explosion resistance for unstable blocks.
+  # For reference, some vanilla block explosion resistances are: Dirt = 0.5, Stone = 6, Obsidian = 1200
+  # <Number> Range: ≥ 0.0, Default: 0.75
+  auto_generated_blocks.explosion_resistance = 0.75
+
+  # The chance for unstable blocks to fall when hit by a projectile.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.3
+  auto_generated_blocks.fall_chance.projectile = 0.3
+  # The chance for unstable blocks to pop/break when stepped on by a player. This chance is rolled each tick (20 times
+  #   per second) while standing on an unstable block.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  auto_generated_blocks.fall_chance.step = 0.05
+
+  # When an unstable block is destroyed, neighboring unstable blocks will also start to disintegrate.
+  # This value determines how many ticks it takes before neighbors get destroyed.
+  # <Integer> Range: 1 ~ 40, Default: 5
+  auto_generated_blocks.neighbor_update_tick_speed = 5

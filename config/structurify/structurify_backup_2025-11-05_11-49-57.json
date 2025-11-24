@@ -1,0 +1,2201 @@
+{
+  "config_version": "1.0.21",
+  "config_datetime": "2025-11-02_17-42-35",
+  "general": {
+    "min_structure_distance_from_world_center": 0,
+    "disable_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 2.9
+  },
+  "structures": [
+    {
+      "name": "minecraft:living_tree",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 10,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 10,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:volcano_fortress",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 2,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 2,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_cherry",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_dark_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_rowboat_spruce",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_sloop_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_sloop_cherry",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_sloop_dark_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_sloop_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alekiships:unfinished_sloop_spruce",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:ancient_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:dojo",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:fortified_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:monastery_tower",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:mosque",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:rotting_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:rotting_temple_underground",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ati_structures:sinking_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "create_pillagers_arise:createchinatower",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:abandoned_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:bathhouse",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:infested_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 104,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 104,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:monastery",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "glorious_creatures:samurai_temple",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "pirates:tradersshipentitystructure",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "random_abandonned_structure:sheep_fold_a",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 30,
+      "flatness_check_threshold": 4,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "terramity:subterranean_shrine",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 50,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 50,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "terramity:suspicious_shrine",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 40,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 40,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigroot",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtree",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtree_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtree_22",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtree_3",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtreecustom",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:bigtreecustom_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom_3",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom_4",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom_5",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:colostreecustom_6",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:dryadhouses",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:dyb",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:dyb_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:dyb_3",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:dybcustom",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:eflshousebase_4s",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:insanetree",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:it_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:mashrooms",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:mashrooms_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:talltree",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:talltree_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:talltree_4",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:tallttree_22",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:taltreeelfhouses",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "world:tt_3",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "ancientcurses:cursealtar",
+      "salt": 16421364,
+      "frequency": 0.29999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 8
+    },
+    {
+      "name": "ati_structures:aboveground_large",
+      "salt": 88,
+      "frequency": 0.32,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 21
+    },
+    {
+      "name": "ati_structures:aboveground_medium",
+      "salt": 11111,
+      "frequency": 0.22999999,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 8
+    },
+    {
+      "name": "ati_structures:aboveground_small",
+      "salt": 123456234,
+      "frequency": 0.14999999,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 5
+    },
+    {
+      "name": "ati_structures:rare",
+      "salt": 34562347,
+      "frequency": 0.31,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 13
+    },
+    {
+      "name": "battle_shrines:battle_shrine",
+      "salt": 1646207470,
+      "frequency": 0.19999999,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 16,
+      "separation": 8
+    },
+    {
+      "name": "compatstructures:hunter_fire_dragon",
+      "salt": 88648278,
+      "frequency": 0.87,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 220,
+      "separation": 34
+    },
+    {
+      "name": "compatstructures:hunter_ice_dragon",
+      "salt": 17048881,
+      "frequency": 0.65,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 220,
+      "separation": 200
+    },
+    {
+      "name": "compatstructures:hunter_light_dragon",
+      "salt": 56032939,
+      "frequency": 0.84999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 220,
+      "separation": 200
+    },
+    {
+      "name": "compatstructures:hunter_myrmex",
+      "salt": 75278541,
+      "frequency": 0.61,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 16
+    },
+    {
+      "name": "compatstructures:hunter_pixie",
+      "salt": 70631710,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 54,
+      "separation": 23
+    },
+    {
+      "name": "compatstructures:large_island",
+      "salt": 30622441,
+      "frequency": 0.48,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 57,
+      "separation": 23
+    },
+    {
+      "name": "compatstructures:life_monument",
+      "salt": 89209484,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 74,
+      "separation": 21
+    },
+    {
+      "name": "compatstructures:nest_amphithere",
+      "salt": 14988670,
+      "frequency": 0.42999998,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 94,
+      "separation": 84
+    },
+    {
+      "name": "compatstructures:nest_fire_dragon",
+      "salt": 24980615,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 96,
+      "separation": 39
+    },
+    {
+      "name": "compatstructures:nest_sea",
+      "salt": 71014398,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 67,
+      "separation": 18
+    },
+    {
+      "name": "create_pillagers_arise:cathedral_create",
+      "salt": 647315576,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 88,
+      "separation": 11
+    },
+    {
+      "name": "create_pillagers_arise:createpillagerblimp",
+      "salt": 1844928792,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 111,
+      "separation": 1
+    },
+    {
+      "name": "create_pillagers_arise:createpillagercamp",
+      "salt": 1704156013,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 41,
+      "separation": 21
+    },
+    {
+      "name": "create_pillagers_arise:createpillagerfortgate",
+      "salt": 1379539121,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 52,
+      "separation": 20
+    },
+    {
+      "name": "create_pillagers_arise:createpillagerhousesmall",
+      "salt": 689348404,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 129,
+      "separation": 14
+    },
+    {
+      "name": "create_pillagers_arise:createpillageroutpost",
+      "salt": 1225400517,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 114,
+      "separation": 12
+    },
+    {
+      "name": "create_pillagers_arise:createpillagersmallhouse",
+      "salt": 694549768,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 134,
+      "separation": 10
+    },
+    {
+      "name": "create_pillagers_arise:createpillagervillage",
+      "salt": 1928941135,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 78,
+      "separation": 5
+    },
+    {
+      "name": "create_pillagers_arise:pillagercreatetower",
+      "salt": 1612313754,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 98,
+      "separation": 25
+    },
+    {
+      "name": "dungeoncrawl:dungeons",
+      "salt": 10387313,
+      "frequency": 0.32999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 12
+    },
+    {
+      "name": "dungeons_arise:major_structures",
+      "salt": 88371663,
+      "frequency": 0.31,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 39,
+      "separation": 23
+    },
+    {
+      "name": "dungeons_arise:minor_structures",
+      "salt": 342415935,
+      "frequency": 0.11,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 8
+    },
+    {
+      "name": "glorious_creatures:champion_hall",
+      "salt": 1662256925,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 10,
+      "separation": 8
+    },
+    {
+      "name": "glorious_creatures:frog_camp",
+      "salt": 1546893312,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 12,
+      "separation": 10
+    },
+    {
+      "name": "glorious_creatures:frog_village",
+      "salt": 1569421433,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 14,
+      "separation": 12
+    },
+    {
+      "name": "iceandfire:gorgon_temple",
+      "salt": 76489509,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 12
+    },
+    {
+      "name": "iter_rpg:generic_dungeon",
+      "salt": 199035231,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 10,
+      "separation": 4
+    },
+    {
+      "name": "iter_rpg:goblin_camp",
+      "salt": 1323361775,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 10
+    },
+    {
+      "name": "minecolonies:amazon_camp",
+      "salt": 1223366777,
+      "frequency": 0.59,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 55,
+      "separation": 25
+    },
+    {
+      "name": "minecolonies:barbarian_camp",
+      "salt": 1223366777,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 31,
+      "separation": 10
+    },
+    {
+      "name": "minecolonies:desert_camp",
+      "salt": 1223366777,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 55,
+      "separation": 25
+    },
+    {
+      "name": "minecolonies:empty_colony",
+      "salt": 1225566777,
+      "frequency": 0.74,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 95,
+      "separation": 31
+    },
+    {
+      "name": "minecolonies:ship",
+      "salt": 1225566777,
+      "frequency": 0.45,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 55,
+      "separation": 25
+    },
+    {
+      "name": "minecraft:airship",
+      "salt": 165745296,
+      "frequency": 0.6,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 24
+    },
+    {
+      "name": "minecraft:airshipwreck",
+      "salt": 165745400,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 18
+    },
+    {
+      "name": "minecraft:archbishop_stronghold",
+      "salt": 165742500,
+      "frequency": 0.45,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 24
+    },
+    {
+      "name": "minecraft:brig",
+      "salt": 165740660,
+      "frequency": 0.42999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 12,
+      "separation": 10
+    },
+    {
+      "name": "minecraft:castle",
+      "salt": 165745200,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 20
+    },
+    {
+      "name": "minecraft:hall_of_greed",
+      "salt": 1225565500,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 62,
+      "separation": 47
+    },
+    {
+      "name": "minecraft:ocean_ruins",
+      "salt": 14357621,
+      "frequency": 0.65999997,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 8
+    },
+    {
+      "name": "minecraft:pillager_outposts",
+      "salt": 165745296,
+      "frequency": 0.39,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 8
+    },
+    {
+      "name": "minecraft:pirate_fleet",
+      "salt": 165744700,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 14
+    },
+    {
+      "name": "minecraft:pirate_hideout",
+      "salt": 365740296,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 14
+    },
+    {
+      "name": "minecraft:ruined_portals",
+      "salt": 34222645,
+      "frequency": 0.62,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 15
+    },
+    {
+      "name": "minecraft:shipwrecks",
+      "salt": 165745295,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 4
+    },
+    {
+      "name": "minecraft:villages",
+      "salt": 213742069,
+      "frequency": 0.74,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 39,
+      "separation": 18
+    },
+    {
+      "name": "mortality:uvogre_village",
+      "salt": 1977226128,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 15
+    },
+    {
+      "name": "mss:castle_ruin",
+      "salt": 213548795,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 49,
+      "separation": 28
+    },
+    {
+      "name": "mss:castle_tower",
+      "salt": 333265012,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 94,
+      "separation": 52
+    },
+    {
+      "name": "mss:desert_well",
+      "salt": 336251454,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 15
+    },
+    {
+      "name": "mss:large_tower",
+      "salt": 996503632,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 59,
+      "separation": 26
+    },
+    {
+      "name": "nostalgic_structures:bigmossypyramid",
+      "salt": 1079873024,
+      "frequency": 0.56,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 44,
+      "separation": 26
+    },
+    {
+      "name": "nostalgic_structures:cobblestonepillar",
+      "salt": 919253405,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 13
+    },
+    {
+      "name": "nostalgic_structures:dirtbase",
+      "salt": 1659403623,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 50
+    },
+    {
+      "name": "nostalgic_structures:dirthut",
+      "salt": 116672057,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 30
+    },
+    {
+      "name": "nostalgic_structures:dirtpillar",
+      "salt": 94675880,
+      "frequency": 0.45999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 15
+    },
+    {
+      "name": "nostalgic_structures:ididntbuildthis",
+      "salt": 1376796933,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 120,
+      "separation": 34
+    },
+    {
+      "name": "nostalgic_structures:noobbase",
+      "salt": 1050628845,
+      "frequency": 0.37,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 55,
+      "separation": 31
+    },
+    {
+      "name": "nostalgic_structures:notch_village",
+      "salt": 1140085403,
+      "frequency": 0.45,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 80,
+      "separation": 70
+    },
+    {
+      "name": "nostalgic_structures:oldcobblestonehut",
+      "salt": 1578131935,
+      "frequency": 0.65999997,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 65,
+      "separation": 55
+    },
+    {
+      "name": "nostalgic_structures:starterhouse",
+      "salt": 643699753,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 80,
+      "separation": 70
+    },
+    {
+      "name": "nostalgic_structures:tutorialhouse",
+      "salt": 1709725198,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 75,
+      "separation": 65
+    },
+    {
+      "name": "phenomena:abandoned_mansion",
+      "salt": 1127369758,
+      "frequency": 0.71999997,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 16
+    },
+    {
+      "name": "phenomena:deepslate_hill",
+      "salt": 79727809,
+      "frequency": 0.65999997,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 64,
+      "separation": 10
+    },
+    {
+      "name": "phenomena:doorbox",
+      "salt": 1133439758,
+      "frequency": 0.65999997,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 16
+    },
+    {
+      "name": "phenomena:jungle_portal",
+      "salt": 1229369750,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 16
+    },
+    {
+      "name": "phenomena:lush_trap",
+      "salt": 1375259728,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 4,
+      "separation": 3
+    },
+    {
+      "name": "phenomena:medieval_boat",
+      "salt": 1325769858,
+      "frequency": 0.55,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 10
+    },
+    {
+      "name": "phenomena:nether_monster_room",
+      "salt": 828680680,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 4
+    },
+    {
+      "name": "phenomena:sand_wall",
+      "salt": 1527969758,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 10
+    },
+    {
+      "name": "phenomena:shulker_tower",
+      "salt": 98727809,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 68,
+      "separation": 1
+    },
+    {
+      "name": "phenomena:small_bridge",
+      "salt": 172595233,
+      "frequency": 0.53,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 1
+    },
+    {
+      "name": "phenomena:small_bridge_deep",
+      "salt": 1725959633,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 54,
+      "separation": 1
+    },
+    {
+      "name": "phenomena:small_bridge_sand",
+      "salt": 172595193,
+      "frequency": 0.44,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 1
+    },
+    {
+      "name": "phenomena:stonehenge",
+      "salt": 1326963758,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 108,
+      "separation": 36
+    },
+    {
+      "name": "phenomena:village/village_campsite",
+      "salt": 1376953758,
+      "frequency": 0.44,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 14
+    },
+    {
+      "name": "phenomena:wall",
+      "salt": 1325969758,
+      "frequency": 0.39,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 39,
+      "separation": 13
+    },
+    {
+      "name": "phenomena:watchtower",
+      "salt": 193495230,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 44,
+      "separation": 23
+    },
+    {
+      "name": "philipsbiomefeatures:andesite_rocks",
+      "salt": 149983889,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 10,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:diorite_rocks",
+      "salt": 268214822,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:granite_rocks",
+      "salt": 249173624,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:mossy_cobblestone_rocks",
+      "salt": 152173921,
+      "frequency": 0.21,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:oak_wood_logs",
+      "salt": 256973849,
+      "frequency": 0.31,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 10,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:spruce_wood_logs",
+      "salt": 336719412,
+      "frequency": 0.32999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 10,
+      "separation": 5
+    },
+    {
+      "name": "philipsbiomefeatures:stone_rocks",
+      "salt": 316789412,
+      "frequency": 0.11,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 5
+    },
+    {
+      "name": "red:abandoned_house",
+      "salt": 953488643,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 18
+    },
+    {
+      "name": "red:beach_house",
+      "salt": 1410246,
+      "frequency": 0.66999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 12,
+      "separation": 10
+    },
+    {
+      "name": "red:dark_tower",
+      "salt": 597050557,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 5
+    },
+    {
+      "name": "ships:ship",
+      "salt": 1209359398,
+      "frequency": 0.48,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 10
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_house",
+      "salt": 1584012760,
+      "frequency": 0.41,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_house_tower",
+      "salt": 728469140,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_mine_outpost",
+      "salt": 957249521,
+      "frequency": 0.48,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_mine_tower",
+      "salt": 1461505001,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_portal",
+      "salt": 667876123,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:bad_land_tower",
+      "salt": 446260289,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:desert_big_tower",
+      "salt": 1251999089,
+      "frequency": 0.45999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:desert_fortress",
+      "salt": 290066806,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 150,
+      "separation": 100
+    },
+    {
+      "name": "the_pillager_legion_:desert_house",
+      "salt": 1044957393,
+      "frequency": 0.53,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:desert_library",
+      "salt": 1586870174,
+      "frequency": 0.56,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 30
+    },
+    {
+      "name": "the_pillager_legion_:desert_outpost",
+      "salt": 132337417,
+      "frequency": 0.48999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:desert_portal",
+      "salt": 1874881726,
+      "frequency": 0.53,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 30
+    },
+    {
+      "name": "the_pillager_legion_:desert_site",
+      "salt": 1922472384,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 30
+    },
+    {
+      "name": "the_pillager_legion_:desert_small_house",
+      "salt": 620119262,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:desert_tower",
+      "salt": 1071011069,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 20
+    },
+    {
+      "name": "the_pillager_legion_:forest_outpost",
+      "salt": 1633263567,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 50
+    },
+    {
+      "name": "the_pillager_legion_:nether_fortress",
+      "salt": 2102487685,
+      "frequency": 0.59,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 250,
+      "separation": 149
+    },
+    {
+      "name": "the_pillager_legion_:nether_outpost",
+      "salt": 1863805666,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:aegis_castle_structure",
+      "salt": 1770842996,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:aegis_outpost_structure",
+      "salt": 1264469604,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:bandit_camp",
+      "salt": 1524572405,
+      "frequency": 0.48999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:bohemiancastle",
+      "salt": 2048053411,
+      "frequency": 0.61,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:bohemianoutpost",
+      "salt": 1860831379,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 25
+    },
+    {
+      "name": "valarian_conquest:bohemiantower",
+      "salt": 325517801,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:caladrian_castle",
+      "salt": 859167112,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 34,
+      "separation": 23
+    },
+    {
+      "name": "valarian_conquest:caladrianfort",
+      "salt": 426430548,
+      "frequency": 0.65,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 31,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:caladrianoutpost",
+      "salt": 742696385,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:dwarven_tower",
+      "salt": 1463091015,
+      "frequency": 0.48999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 25
+    },
+    {
+      "name": "valarian_conquest:galician_fort",
+      "salt": 664418620,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:galiciancastle",
+      "salt": 1395668688,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:galicianoutpost",
+      "salt": 1622012701,
+      "frequency": 0.39999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:gardoniancastle",
+      "salt": 550146077,
+      "frequency": 0.47,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:gilded_legion_fort",
+      "salt": 1496584128,
+      "frequency": 0.44,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 25
+    },
+    {
+      "name": "valarian_conquest:lancastiancastle",
+      "salt": 996552875,
+      "frequency": 0.42,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:lancastianoutpost",
+      "salt": 853596639,
+      "frequency": 0.42,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:numeriancastle",
+      "salt": 1593554534,
+      "frequency": 0.38,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 25
+    },
+    {
+      "name": "valarian_conquest:numerianoutpost",
+      "salt": 2050480541,
+      "frequency": 0.45999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:orc_fort",
+      "salt": 772001998,
+      "frequency": 0.48,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 34,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:orc_outpost",
+      "salt": 516614837,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "valarian_conquest:valariancastle",
+      "salt": 19736099,
+      "frequency": 0.63,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 47,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:valarianfort",
+      "salt": 2048465962,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 25
+    },
+    {
+      "name": "valarian_conquest:valarianoutpost",
+      "salt": 1693401292,
+      "frequency": 0.48,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valarian_conquest:visgothiancastle",
+      "salt": 769460669,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "valarian_conquest:visgothianoutpost",
+      "salt": 2059083798,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "valhelsia_structures:castle_ruins",
+      "salt": 436946199,
+      "frequency": 0.35999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 8
+    },
+    {
+      "name": "valhelsia_structures:castles",
+      "salt": 16987356,
+      "frequency": 0.29999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 7
+    },
+    {
+      "name": "valhelsia_structures:deep_spawner_rooms",
+      "salt": 601654390,
+      "frequency": 0.38,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 4,
+      "separation": 2
+    },
+    {
+      "name": "valhelsia_structures:desert_houses",
+      "salt": 572792859,
+      "frequency": 0.29,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 7
+    },
+    {
+      "name": "valhelsia_structures:forges",
+      "salt": 12857691,
+      "frequency": 0.39999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 23,
+      "separation": 8
+    },
+    {
+      "name": "valhelsia_structures:player_houses",
+      "salt": 292107367,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 7
+    },
+    {
+      "name": "valhelsia_structures:spawner_dungeons",
+      "salt": 23498567,
+      "frequency": 0.25,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 7
+    },
+    {
+      "name": "valhelsia_structures:spawner_rooms",
+      "salt": 820846813,
+      "frequency": 0.37,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 4,
+      "separation": 2
+    },
+    {
+      "name": "valhelsia_structures:tower_ruins",
+      "salt": 24357670,
+      "frequency": 0.31,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 18,
+      "separation": 8
+    }
+  ]
+}

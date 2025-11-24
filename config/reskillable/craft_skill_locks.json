@@ -1,3 +1,17 @@
 {
-  "craftSkillLocks": {}
+  "craftSkillLocks": {
+    "locks:iron_lock_pick": [
+      "building:8"
+    ],
+    "locks:steel_lock_pick": [
+      "building:8"
+    ],
+    "locks:gold_lock_pick": [
+      "building:6",
+      "magic:6"
+    ],
+    "locks:diamond_lock_pick": [
+      "building:16"
+    ]
+  }
 }

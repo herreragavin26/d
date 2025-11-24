@@ -1,0 +1,784 @@
+# deadlyworld:worldgen/minecraft/overworld/spawners.toml
+# This config contains options for all spawner features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for spawner features in any extra dimensions that do not have
+#   world gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main config
+#   file, "_main").
+
+  # Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+  #   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+  #   Entity types are defined by their key in the entity registry, usually following the pattern
+  #     'namespace:entity_name'.
+  #   'default' can be used instead of an entity type registry key to provide default values for all entities.
+  #   List entries by default match any entity type derived from (i.e. based on) their entity type. For example,
+  #     '~minecraft:zombie'.
+  #     There is no steadfast rule about extending, even in vanilla, but the hope is that mod-added mobs will extend
+  #       their base mob.
+  #   An asterisk '*' can be used to match all registry entries belonging to X namespace. For example, 'minecraft:*'
+  #     will match all vanilla entries.
+  #   Entity type tags can also be used here. To declare a tag, start with a '#' followed by the rest of the tag path.
+  #   Tag example: '#minecraft:beehive_inhabitors'
+  #       Priority order: specific entries > tag entries > namespace entries > default
+
+  # Progressive Spawn Delay:
+  #   * By default, spawners added by this mod use a mechanic called 'progressive spawn delay'. Unlike vanilla
+  #     spawners that have a completely random delay chosen anywhere from 10 to 40 seconds (what awful variance!),
+  #     Deadly World spawners will start from a 10 second delay and slowly increase up to 40 seconds delay as you
+  #     continue to stand close to them (with the same vanilla delay limits of 200-800 ticks).
+  #   * A spawner's 'delay buildup' starts at its minimum delay and increases by its delay progression (±10%) with
+  #     each successful spawn, up to its maximum delay.
+  #   * While no players are within the spawner's activation range, its 'delay buildup' is continuously decreased by
+  #     its delay recovery, back down to its minimum delay.
+  #   * The delay, delay progression, and delay recovery for each spawner type are determined by either these configs
+  #     or the 'configured_feature' json file when generated or placed and can then be overwritten for individual
+  #     spawners by nbt editing.
+
+
+# Category: simple_spawners
+# Options to customize simple spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated simple
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  simple_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for simple spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.6
+  simple_spawners.placements = 0.6
+
+  # The minimum and maximum (inclusive) heights/y-values simple spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  simple_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  simple_spawners.height.max = 54
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  simple_spawners.required_player_range = 16
+  # The chance for simple spawners to generate as requiring a sight check.
+  # When the sight check is enabled, simple spawners will only activate when they have direct line-of-sight to a
+  #   player within activation range. The simple spawners's delay will continue to tick down, but it will wait to
+  #   actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  simple_spawners.sight_check_chance = 0.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 8
+  simple_spawners.max_nearby_entities = 8
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 200
+  simple_spawners.delay.min = 200
+  # <Integer> Range: 0 ~ 32767, Default: 800
+  simple_spawners.delay.max = 800
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  simple_spawners.delay.progression = 40
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  simple_spawners.delay.recovery_rate = 0.1
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  simple_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  simple_spawners.spawn_count = 4
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  simple_spawners.spawn_range = 4
+
+  # The chance for simple spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.1
+  simple_spawners.dynamic_chance = 0.1
+  # Weighted list of mobs that can be spawned by simple spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200.0",
+  #   "minecraft:skeleton 100.0", "minecraft:spider 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0",
+  #   "minecraft:silverfish 10.0" ]
+  #    Range for Values: ≥ 0.0
+  simple_spawners.spawn_list = [
+    "minecraft:zombie 200.0",
+    "minecraft:skeleton 100.0",
+    "minecraft:spider 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0",
+    "minecraft:silverfish 10.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  simple_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by simple spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  simple_spawners.attribute_adjustments = []
+
+
+# Category: stream_spawners
+# Options to customize stream spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated stream
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  stream_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for stream spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  stream_spawners.placements = 0.2
+
+  # The minimum and maximum (inclusive) heights/y-values stream spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  stream_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 34
+  stream_spawners.height.max = 34
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  stream_spawners.required_player_range = 16
+  # The chance for stream spawners to generate as requiring a sight check.
+  # When the sight check is enabled, stream spawners will only activate when they have direct line-of-sight to a
+  #   player within activation range. The stream spawners's delay will continue to tick down, but it will wait to
+  #   actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  stream_spawners.sight_check_chance = 1.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 2
+  stream_spawners.max_nearby_entities = 2
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  stream_spawners.delay.min = 0
+  # <Integer> Range: 0 ~ 32767, Default: 400
+  stream_spawners.delay.max = 400
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 10
+  stream_spawners.delay.progression = 10
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.025
+  stream_spawners.delay.recovery_rate = 0.025
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  stream_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 1
+  stream_spawners.spawn_count = 1
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 2
+  stream_spawners.spawn_range = 2
+
+  # The chance for stream spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.95
+  stream_spawners.dynamic_chance = 0.95
+  # Weighted list of mobs that can be spawned by stream spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200.0",
+  #   "minecraft:skeleton 100.0", "minecraft:spider 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0",
+  #   "minecraft:silverfish 10.0" ]
+  #    Range for Values: ≥ 0.0
+  stream_spawners.spawn_list = [
+    "minecraft:zombie 200.0",
+    "minecraft:skeleton 100.0",
+    "minecraft:spider 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0",
+    "minecraft:silverfish 10.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  stream_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by stream spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  stream_spawners.attribute_adjustments = []
+
+
+# Category: swarm_spawners
+# Options to customize swarm spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated swarm
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  swarm_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for swarm spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.12
+  swarm_spawners.placements = 0.12
+
+  # The minimum and maximum (inclusive) heights/y-values swarm spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  swarm_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 14
+  swarm_spawners.height.max = 14
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  swarm_spawners.required_player_range = 20
+  # The chance for swarm spawners to generate as requiring a sight check.
+  # When the sight check is enabled, swarm spawners will only activate when they have direct line-of-sight to a player
+  #   within activation range. The swarm spawners's delay will continue to tick down, but it will wait to actually
+  #   activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  swarm_spawners.sight_check_chance = 1.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 24
+  swarm_spawners.max_nearby_entities = 24
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 400
+  swarm_spawners.delay.min = 400
+  # <Integer> Range: 0 ~ 32767, Default: 2400
+  swarm_spawners.delay.max = 2400
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 100
+  swarm_spawners.delay.progression = 100
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.25
+  swarm_spawners.delay.recovery_rate = 0.25
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  swarm_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 12
+  swarm_spawners.spawn_count = 12
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 8
+  swarm_spawners.spawn_range = 8
+
+  # The chance for swarm spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  swarm_spawners.dynamic_chance = 0.05
+  # Weighted list of mobs that can be spawned by swarm spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200.0",
+  #   "minecraft:skeleton 100.0", "minecraft:spider 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0",
+  #   "minecraft:silverfish 10.0" ]
+  #    Range for Values: ≥ 0.0
+  swarm_spawners.spawn_list = [
+    "minecraft:zombie 200.0",
+    "minecraft:skeleton 100.0",
+    "minecraft:spider 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0",
+    "minecraft:silverfish 10.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  swarm_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by swarm spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  swarm_spawners.attribute_adjustments = []
+
+
+# Category: brutal_spawners
+# Options to customize brutal spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated brutal
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  brutal_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for brutal spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.06
+  brutal_spawners.placements = 0.06
+
+  # The minimum and maximum (inclusive) heights/y-values brutal spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  brutal_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 0
+  brutal_spawners.height.max = 0
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  brutal_spawners.required_player_range = 16
+  # The chance for brutal spawners to generate as requiring a sight check.
+  # When the sight check is enabled, brutal spawners will only activate when they have direct line-of-sight to a
+  #   player within activation range. The brutal spawners's delay will continue to tick down, but it will wait to
+  #   actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  brutal_spawners.sight_check_chance = 1.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  brutal_spawners.max_nearby_entities = 4
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 200
+  brutal_spawners.delay.min = 200
+  # <Integer> Range: 0 ~ 32767, Default: 800
+  brutal_spawners.delay.max = 800
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 100
+  brutal_spawners.delay.progression = 100
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.25
+  brutal_spawners.delay.recovery_rate = 0.25
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  brutal_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 2
+  brutal_spawners.spawn_count = 2
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 3
+  brutal_spawners.spawn_range = 3
+
+  # The chance for brutal spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  brutal_spawners.dynamic_chance = 0.05
+  # Weighted list of mobs that can be spawned by brutal spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200.0",
+  #   "minecraft:skeleton 100.0", "minecraft:spider 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0",
+  #   "minecraft:silverfish 10.0" ]
+  #    Range for Values: ≥ 0.0
+  brutal_spawners.spawn_list = [
+    "minecraft:zombie 200.0",
+    "minecraft:skeleton 100.0",
+    "minecraft:spider 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0",
+    "minecraft:silverfish 10.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  brutal_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by brutal spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
+  #   "minecraft:generic.max_health + 5.0", "minecraft:generic.max_health * 1.2",
+  #   "minecraft:generic.knockback_resistance + 0.5", "minecraft:generic.armor + 12.0",
+  #   "minecraft:generic.armor_toughness + 8.0", "minecraft:generic.attack_damage + 1.0",
+  #   "minecraft:generic.attack_damage * 1.2", "minecraft:generic.attack_knockback + 2.0",
+  #   "minecraft:generic.movement_speed * 1.1" ]
+  #    Range for Values: Any Value
+  brutal_spawners.attribute_adjustments = [
+    "minecraft:generic.max_health + 5.0",
+    "minecraft:generic.max_health * 1.2",
+    "minecraft:generic.knockback_resistance + 0.5",
+    "minecraft:generic.armor + 12.0",
+    "minecraft:generic.armor_toughness + 8.0",
+    "minecraft:generic.attack_damage + 1.0",
+    "minecraft:generic.attack_damage * 1.2",
+    "minecraft:generic.attack_knockback + 2.0",
+    "minecraft:generic.movement_speed * 1.1"
+  ]
+
+  # If true, the potion effects below will not display potion effects particles.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  brutal_spawners.brutal_ambient_fx = false
+  # If true, non-creeper mobs spawned by brutal spawners will have the 'fire resistance' potion effect.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  brutal_spawners.brutal_fire_resistance = true
+  # If true, non-creeper mobs spawned by brutal spawners will have the 'water breathing' potion effect.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  brutal_spawners.brutal_water_breathing = true
+
+
+# Category: nest_spawners
+# Options to customize nest spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated nest
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  nest_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for nest spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.52
+  nest_spawners.placements = 0.52
+
+  # The minimum and maximum (inclusive) heights/y-values nest spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  nest_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  nest_spawners.height.max = 54
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  nest_spawners.required_player_range = 16
+  # The chance for nest spawners to generate as requiring a sight check.
+  # When the sight check is enabled, nest spawners will only activate when they have direct line-of-sight to a player
+  #   within activation range. The nest spawners's delay will continue to tick down, but it will wait to actually
+  #   activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  nest_spawners.sight_check_chance = 0.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 12
+  nest_spawners.max_nearby_entities = 12
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 100
+  nest_spawners.delay.min = 100
+  # <Integer> Range: 0 ~ 32767, Default: 400
+  nest_spawners.delay.max = 400
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  nest_spawners.delay.progression = 20
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  nest_spawners.delay.recovery_rate = 0.05
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  nest_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 6
+  nest_spawners.spawn_count = 6
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 6
+  nest_spawners.spawn_range = 6
+
+  # The chance for nest spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  nest_spawners.dynamic_chance = 0.0
+  # Weighted list of mobs that can be spawned by nest spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:silverfish 100.0" ]
+  #    Range for Values: ≥ 0.0
+  nest_spawners.spawn_list = [
+    "minecraft:silverfish 100.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  nest_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by nest spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  nest_spawners.attribute_adjustments = []
+
+
+# Category: mini_spawners
+# Options to customize mini spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated mini
+  #   spawners. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray after world gen for more intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  mini_spawners.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for mini spawners. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  mini_spawners.placements = 0.08
+
+  # The minimum and maximum (inclusive) heights/y-values mini spawners can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  mini_spawners.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  mini_spawners.height.max = 54
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  mini_spawners.required_player_range = 16
+  # The chance for mini spawners to generate as requiring a sight check.
+  # When the sight check is enabled, mini spawners will only activate when they have direct line-of-sight to a player
+  #   within activation range. The mini spawners's delay will continue to tick down, but it will wait to actually
+  #   activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  mini_spawners.sight_check_chance = 0.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 12
+  mini_spawners.max_nearby_entities = 12
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 100
+  mini_spawners.delay.min = 100
+  # <Integer> Range: 0 ~ 32767, Default: 400
+  mini_spawners.delay.max = 400
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  mini_spawners.delay.progression = 20
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  mini_spawners.delay.recovery_rate = 0.05
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  mini_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 6
+  mini_spawners.spawn_count = 6
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  mini_spawners.spawn_range = 4
+
+  # The chance for mini spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.1
+  mini_spawners.dynamic_chance = 0.1
+  # Weighted list of mobs that can be spawned by mini spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "deadlyworld:mini_zombie 200.0",
+  #   "deadlyworld:mini_skeleton 100.0", "deadlyworld:mini_spider 100.0", "deadlyworld:mini_creeper 50.0" ]
+  #    Range for Values: ≥ 0.0
+  mini_spawners.spawn_list = [
+    "deadlyworld:mini_zombie 200.0",
+    "deadlyworld:mini_skeleton 100.0",
+    "deadlyworld:mini_spider 100.0",
+    "deadlyworld:mini_creeper 50.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  mini_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by mini spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  mini_spawners.attribute_adjustments = []
+
+
+# Category: dungeon_spawners
+# Options to customize dungeon spawners specific to the 'overworld' dimension from 'minecraft'.
+
+  # These spawners are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 16
+  dungeon_spawners.required_player_range = 16
+  # The chance for dungeon spawners to generate as requiring a sight check.
+  # When the sight check is enabled, dungeon spawners will only activate when they have direct line-of-sight to a
+  #   player within activation range. The dungeon spawners's delay will continue to tick down, but it will wait to
+  #   actually activate until it has line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  dungeon_spawners.sight_check_chance = 0.0
+  # Will not spawn if this many or more similar entities are in close proximity. Specifically, it checks a cube that
+  #   extends out by the spawn range in all six directions. Set this to 0 to allow spawns regardless of nearby entities.
+  # For reference, vanilla spawners have a max of 6 nearby entities.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 8
+  dungeon_spawners.max_nearby_entities = 8
+
+  # The minimum and maximum (inclusive) delay between spawn batches, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 200
+  dungeon_spawners.delay.min = 200
+  # <Integer> Range: 0 ~ 32767, Default: 800
+  dungeon_spawners.delay.max = 800
+  # Each spawn batch increases the spawner's delay buildup by this many ticks (±10%). Set this to 0 to revert to the
+  #   vanilla spawner behavior (simple random between min and max delays).
+  # See above for a more in-depth description of progressive spawn delay.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  dungeon_spawners.delay.progression = 40
+  # The rate at which the spawn delay buildup on spawners recovers while no players are within range.
+  # Inactive spawners' delay are reduced by this value each tick (20 times per second).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  dungeon_spawners.delay.recovery_rate = 0.1
+
+  # The total number of mobs that can be spawned by this type of spawner. Spawners permanently deactivate when they
+  #   run out of spawns. Set this to 0 for unlimited spawns (the normal behavior).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 0
+  dungeon_spawners.max_spawns = 0
+  # The number of mobs to try spawning with each spawn batch. May spawn fewer depending on nearby obstructions.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  dungeon_spawners.spawn_count = 4
+  # The maximum horizontal range to spawn mobs in.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 4
+  dungeon_spawners.spawn_range = 4
+
+  # The chance for dungeon spawners to generate as 'dynamicChance'.
+  # Dynamic spawners pick a new mob to spawn after each spawn.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.1
+  dungeon_spawners.dynamic_chance = 0.1
+  # Weighted list of mobs that can be spawned by dungeon spawners. One of these is chosen
+  # at random when the spawner is generated. Spawners that are generated as 'dynamicChance' will pick again
+  # between each spawn.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Entity List> Format: [ "namespace:entity_type value", ... ], Default: [ "minecraft:zombie 200.0",
+  #   "minecraft:skeleton 100.0", "minecraft:spider 100.0", "minecraft:cave_spider 10.0", "minecraft:creeper 10.0",
+  #   "minecraft:silverfish 10.0" ]
+  #    Range for Values: ≥ 0.0
+  dungeon_spawners.spawn_list = [
+    "minecraft:zombie 200.0",
+    "minecraft:skeleton 100.0",
+    "minecraft:spider 100.0",
+    "minecraft:cave_spider 10.0",
+    "minecraft:creeper 10.0",
+    "minecraft:silverfish 10.0"
+  ]
+
+  # The chance for a spawner of this type to generate as a Spawner Mimic.
+  # The mimic reveals itself when the spawner block is destroyed.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  dungeon_spawners.mimic_chance = 0.05
+
+  # Base attribute adjustments applied to entities spawned by dungeon spawners, if applicable.
+  # Overriding this setting via data pack is NOT currently supported.
+  # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: []
+  #    Range for Values: Any Value
+  dungeon_spawners.attribute_adjustments = []
+
+  # If true, the type of monster to spawn is picked from Forge's internal weighted list of entity types that can spawn
+  #   in monster rooms/simple dungeons.
+  # This setting takes priority over this spawner's spawn list config.
+  # Also, if this spawner is 'dynamic' and picks a new type of monster to spawn every time it spawns, a new type will
+  #   be picked from the weighted Forge list instead of this spawner's spawn list config.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  dungeon_spawners.use_forge_hook_entities = false

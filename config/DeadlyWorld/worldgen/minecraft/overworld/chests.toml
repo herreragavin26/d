@@ -1,0 +1,239 @@
+# deadlyworld:worldgen/minecraft/overworld/chests.toml
+# This config contains options for all chest features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for chest features in any extra dimensions that do not have world
+#   gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main config file,
+#   "_main").
+
+
+# Category: simple_chests
+# Options to customize simple chests specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated simple
+  #   chests. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  simple_chests.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for simple chests. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.3
+  simple_chests.placements = 0.3
+
+  # The minimum and maximum (inclusive) heights/y-values simple chests can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  simple_chests.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  simple_chests.height.max = 54
+
+
+# Category: valuable_chests
+# Options to customize valuable chests specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated valuable
+  #   chests. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  valuable_chests.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for valuable chests. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  valuable_chests.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values valuable chests can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  valuable_chests.height.min = -54
+  # <Integer> Range: Any Value, Default: 0
+  valuable_chests.height.max = 0
+
+
+# Category: tnt_trap_chests
+# Options to customize tnt_trap chests specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated tnt_trap
+  #   chests. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  tnt_trap_chests.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for tnt_trap chests. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  tnt_trap_chests.placements = 0.05
+
+  # The minimum and maximum (inclusive) heights/y-values tnt_trap chests can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  tnt_trap_chests.height.min = -54
+  # <Integer> Range: Any Value, Default: 14
+  tnt_trap_chests.height.max = 14
+
+
+# Category: infested_chests
+# Options to customize infested chests specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated infested
+  #   chests. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  infested_chests.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for infested chests. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  infested_chests.placements = 0.1
+
+  # The minimum and maximum (inclusive) heights/y-values infested chests can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  infested_chests.height.min = -54
+  # <Integer> Range: Any Value, Default: 54
+  infested_chests.height.max = 54
+
+  # The chance for infested chests to spawn mini spiders when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 10
+  infested_chests.weight.spiders = 10
+  # The chance for infested chests to spawn silverfish when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 10
+  infested_chests.weight.silverfish = 10
+
+  # The number of mini spiders spawned when a spider-infested container is opened.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 8
+  infested_chests.spiders.count = 8
+  # The maximum horizontal speed spawned mini spiders are launched at.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.3
+  infested_chests.spiders.launch_speed = 0.3
+
+  # The number of silverfish spawned when a silverfish-infested container is opened.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 4
+  infested_chests.silverfish.count = 4
+  # The maximum horizontal speed spawned silverfish are launched at.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  infested_chests.silverfish.launch_speed = 0.2
+
+
+# Category: surprise_chests
+# Options to customize surprise chests specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated surprise
+  #   chests. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  surprise_chests.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for surprise chests. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  surprise_chests.placements = 0.1
+
+  # The minimum and maximum (inclusive) heights/y-values surprise chests can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  surprise_chests.height.min = -54
+  # <Integer> Range: Any Value, Default: 34
+  surprise_chests.height.max = 34
+
+  # The chance for surprise chests to spawn primed TNT when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 10
+  surprise_chests.weight.tnt = 10
+  # The chance for surprise chests to overflow with lava when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 5
+  surprise_chests.weight.lava = 5
+  # The chance for surprise chests to overflow with runny lava when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 2
+  surprise_chests.weight.runny_lava = 2
+  # The chance for surprise chests to release an expanding poison cloud when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 5
+  surprise_chests.weight.poison_gas = 5
+  # The chance for surprise chests to release an expanding wither cloud when triggered.
+  # This setting can be overridden by 'configured_feature' and/or 'loot_tables' files in data packs.
+  # <Integer> Range: ≥ 0, Default: 1
+  surprise_chests.weight.wither_gas = 1
+
+  # The delay before spawned TNT explodes, in ticks. (20 ticks = 1 second).
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 40
+  surprise_chests.tnt.fuse_time.min = 40
+  # <Integer> Range: ≥ 0, Default: 60
+  surprise_chests.tnt.fuse_time.max = 60
+  # The number of TNT spawned when a TNT-rigged container is opened.
+  # Note that setting this higher than 1 will pretty much guarantee everything in the container gets exploded.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 1
+  surprise_chests.tnt.count = 1
+  # The maximum horizontal speed spawned TNT are launched at.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.0, Default: 0.05
+  surprise_chests.tnt.launch_speed = 0.05
+
+  # The delay before the poison gas cloud starts spreading, in ticks. (20 ticks = 1 second)
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 20
+  surprise_chests.poison_gas.delay = 20
+  # The duration (after its initial delay) until the poison gas cloud reaches max size and disappears, in ticks.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 40
+  surprise_chests.poison_gas.duration = 40
+  # The maximum distance, in blocks, the poison gas cloud spreads from its origin.
+  # Note the cloud starts at 0.5 radius and linearly increases to max radius at exactly its max duration.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.5, Default: 12.0
+  surprise_chests.poison_gas.max_radius = 12.0
+  # Potency of the poison effect applied by poison gas clouds. (0 = Poison I, 1 = Poison II, etc.)
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 0
+  surprise_chests.poison_gas.effect.potency = 0
+  # Duration of the poison effect applied by poison gas clouds, in ticks.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 200
+  surprise_chests.poison_gas.effect.duration = 200
+
+  # The delay before the withering gas cloud starts spreading, in ticks. (20 ticks = 1 second)
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 20
+  surprise_chests.wither_gas.delay = 20
+  # The duration (after its initial delay) until the withering gas cloud reaches max size and disappears, in ticks.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 40
+  surprise_chests.wither_gas.duration = 40
+  # The maximum distance, in blocks, the withering gas cloud spreads from its origin.
+  # Note the cloud starts at 0.5 radius and linearly increases to max radius at exactly its max duration.
+  # Overriding this setting via data pack is NOT supported.
+  # <Number> Range: ≥ 0.5, Default: 12.0
+  surprise_chests.wither_gas.max_radius = 12.0
+  # Potency of the wither effect applied by withering gas clouds. (0 = Wither I, 1 = Wither II, etc.)
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 0
+  surprise_chests.wither_gas.effect.potency = 0
+  # Duration of the wither effect applied by withering gas clouds, in ticks.
+  # Overriding this setting via data pack is NOT supported.
+  # <Integer> Range: ≥ 0, Default: 200
+  surprise_chests.wither_gas.effect.duration = 200

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lock_picks"
+	group: "56F4436F82BE1293"
+	icon: "locks:diamond_lock_pick"
+	id: "0A7185DBFD0B6F76"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Lock Picks"
+}

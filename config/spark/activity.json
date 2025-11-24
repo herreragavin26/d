@@ -5,6 +5,19 @@
       "name": "muuted",
       "uniqueId": "f02bd8f4-508e-4e52-a7db-55e64e6382f9"
     },
+    "time": 1761153662377,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uLRIC0cI0K"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "muuted",
+      "uniqueId": "f02bd8f4-508e-4e52-a7db-55e64e6382f9"
+    },
     "time": 1759940374521,
     "type": "Profiler",
     "data": {

@@ -8,7 +8,7 @@
   # The chance for vanilla replacement zombies to succeed at natural spawn attempts. Does not affect Mob Replacement.
   # Note: Most species do NOT naturally spawn - they must be added by a mod or data pack for this option to do anything.
   # <Number> Range: 0.0 ~ 1.0, Default: 1.0
-  general.natural_spawn_chance.base = 1.0
+  general.natural_spawn_chance.base = 0.1
   # The chance for vanilla replacement zombies to succeed at natural spawn attempts when specific environmental
   #   conditions are met.
   # <Environment List> Format: [ "value condition1 state1 & condition2 state2 & ...", ... ], Default: []

@@ -1,0 +1,308 @@
+# deadlyworld:worldgen/minecraft/the_nether/towers.toml
+# This config contains options for all tower features specific to the 'the_nether' dimension from 'minecraft'.
+
+
+# Category: simple_towers
+# Options to customize simple towers specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated simple
+  #   towers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  simple_towers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for simple towers. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  simple_towers.placements = 0.2
+
+  # The minimum and maximum (inclusive) heights/y-values simple towers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  simple_towers.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  simple_towers.height.max = 120
+
+  # These towers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 11.0
+  simple_towers.required_player_range = 11.0
+  # The chance for simple towers to generate as requiring a sight check.
+  # When the sight check is enabled, simple towers will only activate when they have direct line-of-sight to a player
+  #   within activation range. Their delays will continue to tick down, but they will wait to actually activate until
+  #   they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  simple_towers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  simple_towers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  simple_towers.attack_delay.max = 40
+  # The base damage of attacks from simple towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  simple_towers.attack_damage = 3.0
+
+  # The base speed of projectiles fired by simple towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.2
+  simple_towers.projectile_speed = 1.2
+  # The inaccuracy of projectiles fired by simple towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  simple_towers.projectile_variance = 0.08
+
+
+# Category: fire_towers
+# Options to customize fire towers specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fire
+  #   towers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fire_towers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fire towers. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.075
+  fire_towers.placements = 0.075
+
+  # The minimum and maximum (inclusive) heights/y-values fire towers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  fire_towers.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  fire_towers.height.max = 120
+
+  # These towers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  fire_towers.required_player_range = 9.0
+  # The chance for fire towers to generate as requiring a sight check.
+  # When the sight check is enabled, fire towers will only activate when they have direct line-of-sight to a player
+  #   within activation range. Their delays will continue to tick down, but they will wait to actually activate until
+  #   they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  fire_towers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 20
+  fire_towers.attack_delay.min = 20
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  fire_towers.attack_delay.max = 40
+  # The base damage of attacks from fire towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  fire_towers.attack_damage = 1.0
+
+  # The base speed of projectiles fired by fire towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  fire_towers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by fire towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.1
+  fire_towers.projectile_variance = 0.1
+
+
+# Category: potion_towers
+# Options to customize potion towers specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated potion
+  #   towers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  potion_towers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for potion towers. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.075
+  potion_towers.placements = 0.075
+
+  # The minimum and maximum (inclusive) heights/y-values potion towers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  potion_towers.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  potion_towers.height.max = 120
+
+  # These towers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  potion_towers.required_player_range = 9.0
+  # The chance for potion towers to generate as requiring a sight check.
+  # When the sight check is enabled, potion towers will only activate when they have direct line-of-sight to a player
+  #   within activation range. Their delays will continue to tick down, but they will wait to actually activate until
+  #   they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  potion_towers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 30
+  potion_towers.attack_delay.min = 30
+  # <Integer> Range: 0 ~ 32767, Default: 50
+  potion_towers.attack_delay.max = 50
+  # The base damage of attacks from potion towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 2.0
+  potion_towers.attack_damage = 2.0
+
+  # The base speed of projectiles fired by potion towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  potion_towers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by potion towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.08
+  potion_towers.projectile_variance = 0.08
+
+  # The chance for potion towers to generate as 'dynamic'.
+  # Dynamic potion towers pick a new potion every time they shoot a tipped arrow.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.2
+  potion_towers.dynamic_chance = 0.2
+  # Weighted list of potion effects that can be used by potion towers when shooting tipped arrows. One of these is
+  #   chosen at random when the tower is generated.
+  # Towers generated as 'dynamic' pick again for each shot.
+  # Overriding this setting via data pack is NOT supported.
+  # <Registry Entry-value List> Format: [ "namespace:registry_name value1 value2 value3", ... ], Default: [
+  #   "minecraft:wither 5.0 100.0 0.0", "minecraft:slowness 30.0 200.0 2.0", "minecraft:poison 20.0 100.0 1.0",
+  #   "minecraft:blindness 10.0 200.0 0.0" ]
+  #    Target registry: ResourceKey[minecraft:root / minecraft:mob_effect]
+  #    Range for Values: ≥ 0.0
+  potion_towers.potion_list = [
+    "minecraft:wither 5.0 100.0 0.0",
+    "minecraft:slowness 30.0 200.0 2.0",
+    "minecraft:poison 20.0 100.0 1.0",
+    "minecraft:blindness 10.0 200.0 0.0"
+  ]
+
+
+# Category: gatling_towers
+# Options to customize gatling towers specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated gatling
+  #   towers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  gatling_towers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for gatling towers. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.075
+  gatling_towers.placements = 0.075
+
+  # The minimum and maximum (inclusive) heights/y-values gatling towers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  gatling_towers.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  gatling_towers.height.max = 120
+
+  # These towers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 9.0
+  gatling_towers.required_player_range = 9.0
+  # The chance for gatling towers to generate as requiring a sight check.
+  # When the sight check is enabled, gatling towers will only activate when they have direct line-of-sight to a player
+  #   within activation range. Their delays will continue to tick down, but they will wait to actually activate until
+  #   they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  gatling_towers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 6
+  gatling_towers.attack_delay.min = 6
+  # <Integer> Range: 0 ~ 32767, Default: 8
+  gatling_towers.attack_delay.max = 8
+  # The base damage of attacks from gatling towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  gatling_towers.attack_damage = 1.0
+
+  # The base speed of projectiles fired by gatling towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.0
+  gatling_towers.projectile_speed = 1.0
+  # The inaccuracy of projectiles fired by gatling towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  gatling_towers.projectile_variance = 0.2
+
+
+# Category: fireball_towers
+# Options to customize fireball towers specific to the 'the_nether' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated fireball
+  #   towers. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  fireball_towers.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for fireball towers. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.07
+  fireball_towers.placements = 0.07
+
+  # The minimum and maximum (inclusive) heights/y-values fireball towers can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 32
+  fireball_towers.height.min = 32
+  # <Integer> Range: Any Value, Default: 120
+  fireball_towers.height.max = 120
+
+  # These towers are active as long as a player is within this distance (spherical distance).
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 16.0
+  fireball_towers.required_player_range = 16.0
+  # The chance for fireball towers to generate as requiring a sight check.
+  # When the sight check is enabled, fireball towers will only activate when they have direct line-of-sight to a
+  #   player within activation range. Their delays will continue to tick down, but they will wait to actually activate
+  #   until they have line-of-sight.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  fireball_towers.sight_check_chance = 1.0
+
+  # The minimum and maximum (inclusive) delay between attacks, in ticks. (20 ticks = 1 second)
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 32767, Default: 40
+  fireball_towers.attack_delay.min = 40
+  # <Integer> Range: 0 ~ 32767, Default: 60
+  fireball_towers.attack_delay.max = 60
+  # The base damage of attacks from fireball towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  fireball_towers.attack_damage = 3.0
+
+  # The base speed of projectiles fired by fireball towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 1.3
+  fireball_towers.projectile_speed = 1.3
+  # The inaccuracy of projectiles fired by fireball towers.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 3.5
+  fireball_towers.projectile_variance = 3.5

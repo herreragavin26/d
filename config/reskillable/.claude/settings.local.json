@@ -4,7 +4,9 @@
       "WebFetch(domain:www.curseforge.com)",
       "WebSearch",
       "Read(//c/Users/Administrator/Desktop/modded server/config/**)",
-      "Read(//c/Users/Administrator/Desktop/modded server/**)"
+      "Read(//c/Users/Administrator/Desktop/modded server/**)",
+      "Read(//c/Users/Administrator/Desktop/**)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []

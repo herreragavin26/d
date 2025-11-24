@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "start"
-	group: "02DBE8F9C9CB4867"
+	group: "56F4436F82BE1293"
 	icon: {
 		Count: 1
 		id: "notreepunching:flint_axe"
@@ -116,5 +116,5 @@
 			y: -2.0d
 		}
 	]
-	title: "Back to the Basics"
+	title: "Flint Beginnings!"
 }

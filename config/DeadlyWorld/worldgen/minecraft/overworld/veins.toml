@@ -1,0 +1,142 @@
+# deadlyworld:worldgen/minecraft/overworld/veins.toml
+# This config contains options for all vein features specific to the 'overworld' dimension from 'minecraft'.
+
+# This config also functions as the default settings for vein features in any extra dimensions that do not have world
+#   gen configs (all dimensions not included in the "general.extra_dimensions" list within the mod's main config file,
+#   "_main").
+
+
+# Category: infested_block.base_veins
+# Options to customize infested_block.base veins specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   infested_block.base veins. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  infested_block.base_veins.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for infested_block.base veins. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 14.0
+  infested_block.base_veins.placements = 14.0
+
+  # The minimum and maximum (inclusive) heights/y-values infested_block.base veins can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -63
+  infested_block.base_veins.height.min = -63
+  # <Integer> Range: Any Value, Default: 63
+  infested_block.base_veins.height.max = 63
+
+  # The size for infested_block.base veins.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 64, Default: 9
+  infested_block.base_veins.size = 9
+  # The chance for blocks of this vein to fail to place when exposed to air.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  infested_block.base_veins.discard_chance_on_air_exposure = 0.0
+
+
+# Category: infested_block.added_veins
+# Options to customize infested_block.added veins specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated
+  #   infested_block.added veins. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  infested_block.added_veins.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for infested_block.added veins. A decimal represents a
+  #   chance for a placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 0.33
+  infested_block.added_veins.placements = 0.33
+
+  # The minimum and maximum (inclusive) heights/y-values infested_block.added veins can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -54
+  infested_block.added_veins.height.min = -54
+  # <Integer> Range: Any Value, Default: 0
+  infested_block.added_veins.height.max = 0
+
+  # The size for infested_block.added veins.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 64, Default: 33
+  infested_block.added_veins.size = 33
+  # The chance for blocks of this vein to fail to place when exposed to air.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  infested_block.added_veins.discard_chance_on_air_exposure = 0.0
+
+
+# Category: water_veins
+# Options to customize water veins specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated water
+  #   veins. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  water_veins.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for water veins. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  water_veins.placements = 5.0
+
+  # The minimum and maximum (inclusive) heights/y-values water veins can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: -63
+  water_veins.height.min = -63
+  # <Integer> Range: Any Value, Default: 63
+  water_veins.height.max = 63
+
+  # The size for water veins.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 64, Default: 7
+  water_veins.size = 7
+  # The chance for blocks of this vein to fail to place when exposed to air.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 1.0
+  water_veins.discard_chance_on_air_exposure = 1.0
+
+
+# Category: sand_veins
+# Options to customize sand veins specific to the 'overworld' dimension from 'minecraft'.
+
+  # When set to true, places a 1x1 column of glass to the height limit from a few blocks above each generated sand
+  #   veins. This is game-breaking and laggy. Also prints a message to the console.
+  # Consider using a tool to strip away all stone/dirt/etc. or xray via spectator mode after world gen for more
+  #   intensive testing.
+  # Overriding this setting via data pack is NOT supported.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  sand_veins.testing_markers = false
+
+  # The number of placement attempts per chunk (16x16 blocks) for sand veins. A decimal represents a chance for a
+  #   placement attempt (e.g., 0.3 means 30% chance for one attempt).
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Number> Range: ≥ 0.0, Default: 3.0
+  sand_veins.placements = 3.0
+
+  # The minimum and maximum (inclusive) heights/y-values sand veins can generate at.
+  # This setting can be overridden for world gen by 'placed_feature' files in data packs.
+  # <Integer> Range: Any Value, Default: 0
+  sand_veins.height.min = 0
+  # <Integer> Range: Any Value, Default: 319
+  sand_veins.height.max = 319
+
+  # The size for sand veins.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Integer> Range: 0 ~ 64, Default: 33
+  sand_veins.size = 33
+  # The chance for blocks of this vein to fail to place when exposed to air.
+  # This setting can be overridden for world gen by 'configured_feature' files in data packs.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.0
+  sand_veins.discard_chance_on_air_exposure = 0.0

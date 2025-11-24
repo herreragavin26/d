@@ -1,0 +1,26 @@
+#Max Hp obtainable from heart containers, integer default 20
+#Range: 0 ~ 100
+"Max Hp" = 20
+#Chances of a mob becoming a blight, default 0.5% , chances are from 1 to 100
+#Range: 0.0 ~ 100.0
+"Blight Chance" = 1.0
+#How much extra HP does a blight get, default 20
+#Range: 5.0 ~ 1000.0
+"Blight Extra HP" = 20.0
+#Experience multiplier for blights, default x40, must be integer
+#Range: 1 ~ 1000000
+"blight xp" = 40
+#Experience increase for blights bosses, must be integer
+#Range: 0 ~ 1000000
+"blight boss xp" = 100
+#List of mobeffects that blights get when spawning
+"Blight Effects" = ["minecraft:fire_resistance;0", "minecraft:strength;2", "minecraft:speed;4"]
+#Those entities will always be blight
+"Always Blight List" = []
+#Those entities will never be blight
+"Never Blight List" = ["minecraft:ender_dragon"]
+#Those entities are defined as bossess
+"Boss List" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden"]
+#Extra log to plank mappings in the format 'modid:block_log;modid:block_plank'
+extra_log_to_plank = []
+

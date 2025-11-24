@@ -1,0 +1,14 @@
+
+[Items]
+	#Amount of HP healed by Dressing Plantago item (default: 2.0 = 1 heart)
+	#Range: 0.0 ~ 20.0
+	dressingPlantagoHealAmount = 2.0
+
+[RandomGateways]
+	#Minimum distance from player for random gateway spawning (default: 50)
+	#Range: 0 ~ 10000
+	randomGateMinDistance = 5
+	#Maximum distance from player for random gateway spawning (default: 100)
+	#Range: 0 ~ 10000
+	randomGateMaxDistance = 5
+

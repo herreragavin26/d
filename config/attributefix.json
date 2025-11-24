@@ -88,6 +88,17 @@
         "value": 1000
       }
     },
+    "turtlecore:critical_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "iter_rpg:stat_vitality": {
       "enabled": false,
       "min": {
@@ -97,6 +108,28 @@
       "max": {
         "default": 1000000,
         "value": 1000000
+      }
+    },
+    "cold_sweat:heat_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "just_in_blacksmith:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
       }
     },
     "minecraft:generic.luck": {
@@ -122,6 +155,17 @@
       }
     },
     "ancientcurses:hit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:thrown_damage": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -187,6 +231,17 @@
         "value": 64
       }
     },
+    "just_in_blacksmith:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
+      }
+    },
     "iter_rpg:item_regeneration": {
       "enabled": false,
       "min": {
@@ -207,6 +262,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "turtlecore:healing_effectiveness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "quality_equipment:projectile_damage": {
@@ -352,6 +418,17 @@
         "value": 1024
       }
     },
+    "turtlecore:player_size": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "terra_entity:player.minion_capacity": {
       "enabled": false,
       "min": {
@@ -396,6 +473,17 @@
         "value": 1
       }
     },
+    "cold_sweat:world_temperature": {
+      "enabled": false,
+      "min": {
+        "default": NaN,
+        "value": NaN
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
     "vminus:protection": {
       "enabled": false,
       "min": {
@@ -405,6 +493,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "just_in_blacksmith:break_armor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
       }
     },
     "attributeslib:prot_pierce": {
@@ -517,6 +616,17 @@
         "value": 1000000
       }
     },
+    "just_in_blacksmith:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "l2hostility:extra_scale": {
       "enabled": false,
       "min": {
@@ -559,6 +669,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "undead_resurrected:abilityanimation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.knockback_resistance": {
@@ -627,6 +748,17 @@
         "value": 1000
       }
     },
+    "turtlecore:armor_penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -636,6 +768,17 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "cold_sweat:base_temperature": {
+      "enabled": false,
+      "min": {
+        "default": NaN,
+        "value": NaN
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -693,15 +836,15 @@
         "value": 100
       }
     },
-    "confluence:ranged_damage": {
+    "turtlecore:cooldown_reduction": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 10,
-        "value": 10
+        "default": 1024,
+        "value": 1024
       }
     },
     "iter_rpg:spellcasting_power": {
@@ -713,6 +856,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "confluence:ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "l2damagetracker:damage_absorption": {
@@ -748,6 +902,28 @@
         "value": 100000000
       }
     },
+    "galosphere:illager_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "undead_resurrected:ability_2animation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "dwarven_forge:generic.magic_resistance": {
       "enabled": false,
       "min": {
@@ -757,6 +933,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "cold_sweat:cold_dampening": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "celestial_core:toughness_penetration": {
@@ -814,6 +1001,39 @@
         "value": 2
       }
     },
+    "turtlecore:ranged_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:hit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "cold_sweat:heat_dampening": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -858,6 +1078,28 @@
         "value": 1000
       }
     },
+    "just_in_blacksmith:magic_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
+      }
+    },
+    "turtlecore:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.attack_knockback": {
       "enabled": true,
       "min": {
@@ -867,6 +1109,17 @@
       "max": {
         "default": 5,
         "value": 1000000
+      }
+    },
+    "cold_sweat:freezing_point": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
       }
     },
     "forge:swim_speed": {
@@ -979,6 +1232,17 @@
         "value": 1024
       }
     },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
     "confluence:magic_damage": {
       "enabled": false,
       "min": {
@@ -990,15 +1254,15 @@
         "value": 10
       }
     },
-    "forge:nametag_distance": {
+    "turtlecore:damage_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 64,
-        "value": 64
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2damagetracker:crit_rate": {
@@ -1111,6 +1375,17 @@
         "value": 1000000
       }
     },
+    "turtlecore:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1.5,
+        "value": 1.5
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:current_hp_damage": {
       "enabled": false,
       "min": {
@@ -1120,6 +1395,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "turtlecore:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "vminus:mining_speed": {
@@ -1166,6 +1452,17 @@
         "value": 100
       }
     },
+    "cold_sweat:cold_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "l2hostility:extra_difficulty": {
       "enabled": false,
       "min": {
@@ -1177,6 +1474,28 @@
         "value": 1000
       }
     },
+    "just_in_blacksmith:cooldown_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
+      }
+    },
+    "cold_sweat:burning_point": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
     "iter_rpg:spell_burnout_multiplier": {
       "enabled": false,
       "min": {
@@ -1186,6 +1505,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "just_in_blacksmith:range_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0,
+        "value": 0
       }
     },
     "attributeslib:arrow_damage": {
@@ -1219,6 +1549,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "turtlecore:magic_amp": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:life_steal": {

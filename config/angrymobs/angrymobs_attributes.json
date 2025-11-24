@@ -1,0 +1,9 @@
+{
+  "additionList": [
+    {
+      "entity": "mobz:wild_boar",
+      "attribute": "generic.attack_damage",
+      "value": 1.0
+    }
+  ]
+}

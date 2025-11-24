@@ -27,6 +27,7 @@ config_enabled = false
   player.freeze_damage = true
   player.keep_inventory = false
   player.natural_regeneration = true
+  player.only_smith_on_weapon = true
   player.players_sleeping_percentage = 100
   player.spawn_radius = 10
   player.spectators_generate_chunks = true

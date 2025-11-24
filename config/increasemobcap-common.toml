@@ -9,9 +9,9 @@
 	#Mob cap for ambient creatures. Controls the maximum number of bats. Default: 15
 	ambient = 15
 	#Mob cap for creatures. Controls the maximum number of miscellaneous creatures. Default: 10
-	creature = 10
+	creature = 15
 	#Mob cap for ambient water creatures. Controls the maximum number of fish. Default: 20
-	water_ambient = 20
+	water_ambient = 10
 	#Mob cap for monsters. Controls the maximum number of zombies, creepers, etc. Default: 70
-	monster = 75
+	monster = 70
 
