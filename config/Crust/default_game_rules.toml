@@ -36,7 +36,6 @@ config_enabled = false
 # Category: mobs
 # Default game rule settings for the 'mobs' category.
 
-  mobs.aggressive_sharks = false
   mobs.allow_bandit_raids = true
   mobs.disable_raids = false
   mobs.forgive_dead_players = true
@@ -49,6 +48,7 @@ config_enabled = false
 # Category: spawning
 # Default game rule settings for the 'spawning' category.
 
+  spawning.distortion_land_spawn_condition = false
   spawning.do_insomnia = true
   spawning.do_mob_spawning = true
   spawning.do_patrol_spawning = true

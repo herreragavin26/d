@@ -217,5 +217,5 @@
 			#Whether to flash blood tendrils overlay upon losing sanity in a short burst
 			short_burst_flash = true
 			#Whether to render blood tendrils overlay when passively losing sanity
-			render_passive = true
+			render_passive = false
 

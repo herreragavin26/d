@@ -86,11 +86,7 @@
   // Items here will get their recipes disabled
   // Keep in mind this already is applied to blacklisted items
   "only_disable_recipes": [
-    "minecraft:stone_axe",
-    "minecraft:stone_pickaxe",
-    "minecraft:stone_hoe",
-    "minecraft:stone_shovel",
-    "minecraft:stone_sword"
+    "minecraft:stone_ax"
   ],
   // -----------------------------------------------------------
   // If true, the mod will use a hashset to handle the blacklisted items

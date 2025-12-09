@@ -21,8 +21,14 @@
 			fragileBlocks = true
 			onlySmithOnWeapon = true
 
+			[gamerules.modded.player.accessories]
+				keepAccessoryInventory = false
+
 		[gamerules.modded.misc]
 			flyingcastlestype = 1
+
+		[gamerules.modded.spawning]
+			distortionLandSpawnCondition = false
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.

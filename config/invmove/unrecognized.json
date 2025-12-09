@@ -76,7 +76,8 @@
     "snownee.jade.gui.WailaConfigScreen": true,
     "snownee.jade.gui.PluginsConfigScreen": true,
     "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
-    "ichttt.mods.firstaid.client.tutorial.GuiTutorial": true
+    "ichttt.mods.firstaid.client.tutorial.GuiTutorial": true,
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -99,6 +100,7 @@
     "net.mcreator.pirates.client.gui.CannonGUIScreen": true,
     "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
     "com.simibubi.create.content.equipment.zapper.terrainzapper.WorldshaperScreen": true,
-    "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true
+    "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true
   }
 }
