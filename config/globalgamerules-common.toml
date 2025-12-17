@@ -29,6 +29,7 @@
 
 		[gamerules.modded.spawning]
 			distortionLandSpawnCondition = false
+			allowPatrols = true
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.

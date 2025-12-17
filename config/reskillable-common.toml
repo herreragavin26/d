@@ -3,7 +3,7 @@ disableWoolDrops = true
 #Reset all skills to 1 when a player dies.
 deathSkillReset = false
 #Should you gain health on set level ups?
-HealthBonus = true
+HealthBonus = false
 #Toggle the visibility of the tab buttons in the inventory.
 showTabButtons = true
 #Global scaling multiplier for XP costs.

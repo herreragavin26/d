@@ -77,7 +77,9 @@
     "snownee.jade.gui.PluginsConfigScreen": true,
     "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
     "ichttt.mods.firstaid.client.tutorial.GuiTutorial": true,
-    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
+    "com.minecolonies.core.client.gui.containers.WindowRack": true,
+    "net.minecraft.client.gui.screens.OnlineOptionsScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -101,6 +103,7 @@
     "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
     "com.simibubi.create.content.equipment.zapper.terrainzapper.WorldshaperScreen": true,
     "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
-    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
+    "com.minecolonies.core.client.gui.containers.WindowRack": true
   }
 }
