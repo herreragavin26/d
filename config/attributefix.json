@@ -143,6 +143,17 @@
         "value": 1024
       }
     },
+    "justleveling:magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "confluence:mining_speed": {
       "enabled": false,
       "min": {
@@ -152,6 +163,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "caverns_and_chasms:weakness_aura": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "turtlecore:thrown_damage": {
@@ -218,6 +240,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "caverns_and_chasms:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "terra_entity:player.whip_range": {
@@ -295,6 +328,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "caverns_and_chasms:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -394,6 +438,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "justleveling:beneficial_effect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "celestial_core:armor_penetration": {
@@ -515,6 +570,28 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "caverns_and_chasms:slowness_infliction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "caverns_and_chasms:magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "tropicraft:underwater_visibility": {
@@ -660,6 +737,17 @@
         "value": 100
       }
     },
+    "justleveling:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:horse.jump_strength": {
       "enabled": true,
       "min": {
@@ -702,6 +790,17 @@
       "max": {
         "default": 1000000,
         "value": 1000000
+      }
+    },
+    "justleveling:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "confluence:ranged_velocity": {
@@ -1386,6 +1485,17 @@
         "value": 1024
       }
     },
+    "justleveling:break_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:current_hp_damage": {
       "enabled": false,
       "min": {
@@ -1549,6 +1659,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "caverns_and_chasms:experience_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "turtlecore:magic_amp": {

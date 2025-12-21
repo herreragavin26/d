@@ -1,0 +1,9 @@
+
+#GUI settings.
+[GUI]
+	#Whether current protection status is displayed as text on screen.
+	guiScreenTextEnabled = true
+	#Controls the text font size.
+	#Range: 1 ~ 10
+	guiScreenTextScale = 1
+

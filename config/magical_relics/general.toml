@@ -1,0 +1,5 @@
+#A list of artifact abilities that should be unobtainable (essentially disabled). Abilities will still function, but will not be applied to artifacts when artifacts are generated. Changes do not apply until game has been restarted.
+unobtainableAbilities = []
+#This is a list of IDs for items that should not be chosen as a random 'Wizard's Favorite' item. When certain wizard towers generate in the world, a display pedestal can be found in the structure containing a completely random item (the Wiz' favorite item). Changes do not apply until game has been restarted.
+wizardFavoriteBlacklist = ["minecraft:bedrock", "minecraft:structure_block", "minecraft:jigsaw", "minecraft:structure_void", "minecraft:barrier", "minecraft:debug_stick", "minecraft:air", "minecraft:spawner"]
+

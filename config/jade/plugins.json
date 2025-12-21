@@ -85,6 +85,9 @@
   "corpse": {
     "corpse": true
   },
+  "magical_relics": {
+    "display_camos": true
+  },
   "balm": {
     "jade": true
   }

@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-11-13_02-06-11",
+  "config_datetime": "2025-12-20_19-28-41",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -424,23 +424,6 @@
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 114,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": []
-    },
-    {
-      "name": "glorious_creatures:samurai_temple",
-      "is_disabled": true,
-      "enable_flatness_check": false,
-      "flatness_check_distance": 64,
-      "flatness_check_threshold": 10,
-      "enable_biome_check": false,
-      "biome_check_distance": 64,
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#is_river",
@@ -1106,14 +1089,6 @@
       "separation": 18
     },
     {
-      "name": "ancientcurses:cursealtar",
-      "salt": 16421364,
-      "frequency": 0.29999998,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 18,
-      "separation": 8
-    },
-    {
       "name": "ancientsand:tomb",
       "salt": 60987131,
       "frequency": 0.38,
@@ -1546,30 +1521,6 @@
       "separation": 8
     },
     {
-      "name": "glorious_creatures:champion_hall",
-      "salt": 1662256925,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 10,
-      "separation": 8
-    },
-    {
-      "name": "glorious_creatures:frog_camp",
-      "salt": 1546893312,
-      "frequency": 0.53999996,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 12,
-      "separation": 10
-    },
-    {
-      "name": "glorious_creatures:frog_village",
-      "salt": 1569421433,
-      "frequency": 0.51,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 14,
-      "separation": 12
-    },
-    {
       "name": "iceandfire:gorgon_temple",
       "salt": 76489509,
       "frequency": 0.29,
@@ -1663,46 +1614,6 @@
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 75,
-      "separation": 25
-    },
-    {
-      "name": "minecolonies:amazon_camp",
-      "salt": 1223366777,
-      "frequency": 0.59,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 55,
-      "separation": 25
-    },
-    {
-      "name": "minecolonies:barbarian_camp",
-      "salt": 1223366777,
-      "frequency": 0.55,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 31,
-      "separation": 10
-    },
-    {
-      "name": "minecolonies:desert_camp",
-      "salt": 1223366777,
-      "frequency": 0.52,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 55,
-      "separation": 25
-    },
-    {
-      "name": "minecolonies:empty_colony",
-      "salt": 1225566777,
-      "frequency": 0.74,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 95,
-      "separation": 31
-    },
-    {
-      "name": "minecolonies:ship",
-      "salt": 1225566777,
-      "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 55,
       "separation": 25
     },
     {
@@ -2162,12 +2073,156 @@
       "separation": 10
     },
     {
+      "name": "supplementaries:way_signs",
+      "salt": 431041527,
+      "frequency": 0.41,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 19,
+      "separation": 10
+    },
+    {
       "name": "takesapillage:pillager_structure",
       "salt": 10520565,
       "frequency": 0.53999996,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 26,
       "separation": 12
+    },
+    {
+      "name": "teo:forgotten_library",
+      "salt": 938758465,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "terramity:ancient_outcrop",
+      "salt": 44337822,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 45,
+      "separation": 40
+    },
+    {
+      "name": "terramity:chthonian_breach",
+      "salt": 13357833,
+      "frequency": 0.45999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 18
+    },
+    {
+      "name": "terramity:chthonic_cathedral",
+      "salt": 55579261,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 46,
+      "separation": 44
+    },
+    {
+      "name": "terramity:chthonic_dungeon",
+      "salt": 57118533,
+      "frequency": 0.56,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 18
+    },
+    {
+      "name": "terramity:court_of_gnomes",
+      "salt": 57801474,
+      "frequency": 0.56,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 46,
+      "separation": 15
+    },
+    {
+      "name": "terramity:fairy_fountain",
+      "salt": 43192489,
+      "frequency": 0.52,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 12
+    },
+    {
+      "name": "terramity:fire_lookout_tower",
+      "salt": 88211487,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 56,
+      "separation": 19
+    },
+    {
+      "name": "terramity:infested_laboratory",
+      "salt": 99999999,
+      "frequency": 0.59,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 26
+    },
+    {
+      "name": "terramity:mausoleum",
+      "salt": 67811434,
+      "frequency": 0.53999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 12
+    },
+    {
+      "name": "terramity:mudhut",
+      "salt": 37601474,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 12
+    },
+    {
+      "name": "terramity:prismatic_pond",
+      "salt": 93500054,
+      "frequency": 0.58,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 20
+    },
+    {
+      "name": "terramity:snow_fort",
+      "salt": 11999511,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 44
+    },
+    {
+      "name": "terramity:subterranean_shrine",
+      "salt": 12557839,
+      "frequency": 0.59,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 7,
+      "separation": 5
+    },
+    {
+      "name": "terramity:suspicious_shrine",
+      "salt": 312910712,
+      "frequency": 0.57,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 45
+    },
+    {
+      "name": "terramity:sword_shrine",
+      "salt": 44337822,
+      "frequency": 0.59,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 16
+    },
+    {
+      "name": "terramity:trial_spire",
+      "salt": 33383232,
+      "frequency": 0.63,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 70,
+      "separation": 18
     },
     {
       "name": "the_pillager_legion_:bad_land_house",

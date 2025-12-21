@@ -1,0 +1,55 @@
+{
+  // Enable quick backpack swapping
+  "quick_swap_backpack": true,
+  // Force use of dedicated backpack slot instead of accessory slot
+  "use_dedicated_slot": false,
+  // Render backpack model
+  "render_backpack_model": true,
+  // Prevent container items (like Shulker Boxes) from being placed in backpack
+  "restrict_container_items": false,
+  // X position of backpack slot
+  "slot_position_x": 0,
+  // Y position of backpack slot
+  "slot_position_y": 0,
+  // X position of backpack GUI
+  "backpack_gui_x": 0,
+  // Y position of backpack GUI
+  "backpack_gui_y": 0,
+  // Backpack preview modifier key (alt, ctrl, none)
+  "tooltip_modifier": "shift",
+  // detailed/simplified
+  "backpack_model_style": "detailed",
+  // Additional container items
+  // Format: "namespace:item_id"
+  // Example: "minecraft:shulker_box",
+  //          "minecraft:shulker_box",
+  //          "minecraft:shulker_box",
+  "restricted_items": [],
+  // Multi-tier backpack effects configuration
+  // Each element in the list corresponds to an additional backpack tier:
+  //   - Index 0: Effect for carrying 1 extra backpack
+  //   - Index 1: Effect for carrying 2 extra backpacks
+  //   - Index 2: Effect for carrying 3 extra backpacks
+  //   - And so on...
+  // 
+  // Each effect must contain the following fields:
+  //   - "effectType": Effect ID (e.g. "minecraft:speed")
+  //   - "amplifier": Effect level (0-based)
+  // 
+  // Example configuration:
+  // [
+  //   { // Effect for carrying 1 extra backpack
+  //     "effectType": "none", // No effect
+  //     "amplifier": 0
+  //   },
+  //   { // Effect for carrying 2 extra backpacks
+  //     "effectType": "minecraft:slowness",
+  //     "amplifier": 1
+  //   },
+  //   { // Effect for carrying 3 extra backpacks
+  //     "effectType": "minecraft:slowness",
+  //     "amplifier": 3
+  //   }
+  // ]
+  "backpack_multi_effects": []
+}

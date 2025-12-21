@@ -1,0 +1,125 @@
+
+[ability_properties]
+
+	[ability_properties."magical_relics:water_breathing"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 1210
+
+	[ability_properties."magical_relics:tnt"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 400
+		#How long it takes before the TNT actually explodes after being summoned (in ticks)
+		#Range: 1 ~ 100000
+		fuse = 80
+
+	[ability_properties."magical_relics:terrain_walker"]
+		#The max height a player can step up. A value of 3 will allow a player to walk up a 3 high block pillar for example.
+		#Range: 1 ~ 100
+		stepIncrease = 1
+
+	[ability_properties."magical_relics:stun"]
+		#How many ticks of cooldown to put this ability on when it has been activated
+		#Range: 5 ~ 100000
+		cooldown = 500
+
+	[ability_properties."magical_relics:speed_boost"]
+		#The minimum amount of movement speed increase the boost of this ability can grant, in percentage. When this ability is applied to an artifact, the total boost equals minBoost + a random value between 0 and maxAdditionalBoost.
+		#Range: 1 ~ 100000
+		minBoost = 4
+		#The maximum amount of additional movement speed increase the boost of this ability can grant, in percentage. When this ability is applied to an artifact, the total boost equals minBoost + a random value between 0 and maxAdditionalBoost.
+		#Range: 0 ~ 100000
+		maxAdditionalBoost = 12
+
+	[ability_properties."magical_relics:slow_falling"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 2400
+
+	[ability_properties."magical_relics:self_repair"]
+		#How many ticks of cooldown must pass before the next time this ability can restore a point of durability
+		#Range: 5 ~ 100000
+		cooldown = 120
+
+	[ability_properties."magical_relics:resurrect"]
+		#How many ticks of cooldown to put this ability on when it has been activated
+		#Range: 5 ~ 100000
+		cooldown = 6000
+
+	[ability_properties."magical_relics:reach_boost"]
+		#The maximum amount of extra reach the boost of this ability can grant (for example, a value of 3 would equal 3/10 of a block more range). When this ability is applied to an artifact, a random value between 1 and maxBoost is picked.
+		#Range: 1 ~ 100
+		maxBoost = 4
+
+	[ability_properties."magical_relics:ore_radar"]
+		#The scan range of the ore radar. A range of 5 equals a search area of 5x5x5 blocks around the player.Note that larger values may cause poor performance on clients.
+		#Range: 1 ~ 50
+		scanRange = 7
+
+	[ability_properties."magical_relics:obscurity"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 610
+
+	[ability_properties."magical_relics:night_vision"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 2400
+
+	[ability_properties."magical_relics:mass_excavate"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 20
+
+	[ability_properties."magical_relics:lightning"]
+		#If enabled, the player summoning the lightning bolt will not be struck themselves.
+		cancelUserDamage = true
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 20 ~ 100000
+		cooldown = 100
+
+	[ability_properties."magical_relics:jump_boost"]
+		#The maximum possible potion amplifier that can be applied to this ability.
+		#Range: 0 ~ 10
+		maxAmplifier = 2
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 20 ~ 100000
+		cooldown = 900
+
+	[ability_properties."magical_relics:health_boost"]
+		#The maximum amount of extra health the boost of this ability can grant. When this ability is applied to an artifact, a random value between 1 and maxBoost is picked.
+		#Range: 1 ~ 10
+		maxBoost = 10
+
+	[ability_properties."magical_relics:glow_vision"]
+		#The range in blocks that this ability will look for mobs to make glow
+		#Range: 0 ~ 100
+		range = 30
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 400
+
+	[ability_properties."magical_relics:foodie"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 20
+
+	[ability_properties."magical_relics:fireball"]
+		#The explosion power of the fireballs summoned by this ability. Be a bit careful with larger numbers, since the fireballs explode automatically after having traveled a good distance
+		#Range: 1 ~ 20
+		explosionPower = 1
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 20
+
+	[ability_properties."magical_relics:baker"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 20
+
+	[ability_properties."magical_relics:adrenaline"]
+		#How many ticks of cooldown to put this ability on when it has been used
+		#Range: 5 ~ 100000
+		cooldown = 300
+

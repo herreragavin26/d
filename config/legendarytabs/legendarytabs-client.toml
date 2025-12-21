@@ -8,17 +8,17 @@
 	#Range: -10000 ~ 10000
 	"Tabs Menu Display Y Offset" = 0
 	# If enabled, show current tab opened in the tabs menu.
-	"Include Opened Screen Tab" = true
+	"Include Opened Screen Tab" = false
 	# If enabled, show the inventory button in the tabs menu.
-	"Inventory Tab Enabled " = true
+	"Inventory Tab Enabled " = false
 	# If enabled, show the backpack button for Backpacked mod in the tabs menu.
-	"Backpacked Tab Enabled " = true
+	"Backpacked Tab Enabled " = false
 	# If enabled, show the backpack button for Travelers Backpack mod in the tabs menu.
-	"Travelers Backpack Tab Enabled " = true
+	"Travelers Backpack Tab Enabled " = false
 	# If enabled, show the body damage button for Legendarysurvivaloverhaul in the tabs menu.
 	"Body Damage Tab Enabled " = false
 	# If enabled, show the reskillable button for Rereskillable or Reskillable Reimagined in the tabs menu.
-	"Reskillable Tab Enabled " = true
+	"Reskillable Tab Enabled " = false
 	# If enabled, show the ftb quests button in the tabs menu.
 	"FTB Quests Tab Enabled " = true
 	# If enabled, show the map button for Map Atlases mod in the tabs menu.
@@ -28,11 +28,11 @@
 	# If enabled, show the map button for Journey Map mod in the tabs menu.
 	"Journey Map Tab Enabled " = false
 	# If enabled, show the ftb teams button in the tabs menu.
-	"FTB Teams Tab Enabled " = true
+	"FTB Teams Tab Enabled " = false
 	# If enabled, show the diet button in the tabs menu.
 	"Diet Tab Enabled " = true
 	# If enabled, show the pufferfish's skills button in the tabs menu.
-	"Pufferfish Skills Tab Enabled " = true
+	"Pufferfish Skills Tab Enabled " = false
 	# If enabled, show the passive skill tree button in the tabs menu.
-	"Passive Skill Tree Tab Enabled " = true
+	"Passive Skill Tree Tab Enabled " = false
 

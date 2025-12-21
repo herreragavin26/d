@@ -1,0 +1,117 @@
+# apocalypse:events/acid_rain.toml
+# This config contains settings related to Apocalypse's acid rain event.
+
+  # Entity List fields: General format = [ "namespace:entity_type value1 value2 ...", ... ]
+  #   Entity lists are arrays of entity types. Some entity lists specify a number of values linked to each entity type.
+  #   Entity types are defined by their key in the entity registry, usually following the pattern
+  #     'namespace:entity_name'.
+  #   'default' can be used instead of an entity type registry key to provide default values for all entities.
+  #   List entries by default match any entity type derived from (i.e. based on) their entity type. For example,
+  #     '~minecraft:zombie'.
+  #     There is no steadfast rule about extending, even in vanilla, but the hope is that mod-added mobs will extend
+  #       their base mob.
+  #   An asterisk '*' can be used to match all registry entries belonging to X namespace. For example, 'minecraft:*'
+  #     will match all vanilla entries.
+  #   Entity type tags can also be used here. To declare a tag, start with a '#' followed by the rest of the tag path.
+  #   Tag example: '#minecraft:beehive_inhabitors'
+  #       Priority order: specific entries > tag entries > namespace entries > default
+
+  # Block Transform List fields: General format = [ "namespace:block_name|#namespace:tag_name
+  #   namespace:block_name[property1=value1,...] true|false", ... ]
+  #   Block transform lists are arrays of blocks linked to a resulting block state and a flag for optionally copying
+  #     properties from the input block over to the resulting block state.
+  #   Blocks are defined by their key in the block registry, usually following the pattern 'namespace:block_name'.
+  #   A block tag can be used as input instead of a block ID here. To declare a tag, start with a '#' followed by the
+  #     rest of the tag path.
+  #   Tag example: '#minecraft:beehive_inhabitors'
+  #   List entries can have blank state properties (types as []) if you want the default block state as a result. The
+  #     block states to match can be narrowed down by specifying properties. The syntax for block state properties is
+  #     the same as for commands. Any properties not specified will match any value. For example,
+  #     'minecraft:beehive[honey_level=5]' will match any full beehives, regardless of the direction they face.
+
+
+
+# Category: general
+# General event settings
+
+  # The chance of triggering an Acid Rain event when it starts raining. 1.0 = 100% chance, 0.5 = 50% etc.
+  # Setting this to 0.0 effectively disables acid rain.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.5
+  general.acid_rain_chance = 0.5
+
+  # Determines the interval in which acid rain damage should be dealt in seconds.
+  # A value of 2 will inflict acid rain damage on players every 2 seconds.
+  # <Integer> Range: 1 ~ 1000, Default: 3
+  general.damage_rate = 3
+  # The amount of damage that should be dealt to players on acid rain tick.
+  # Setting this to 0 disables acid rain damage.
+  # <Integer> Range: ≥ 0, Default: 1
+  general.rain_damage = 1
+
+  # If true, acid rain will damage all living things and not just players.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  general.damage_mobs = false
+  # If 'damage_mobs' is true, this field acts as a blacklist for mobs that should be an exception and NOT take damage
+  #   from acid rain.
+  # <Entity List> Format: [ "namespace:entity_type", ... ], Default: [ "minecraft:vex", "minecraft:slime",
+  #   "minecraft:warden", "apocalypse:ghost" ]
+  general.mob_blacklist = [
+    "minecraft:vex",
+    "minecraft:slime",
+    "minecraft:warden",
+    "apocalypse:ghost"
+  ]
+
+  # If true, colder biomes/areas where it snows will have acid snow when the acid rain event triggers.
+  #  * Requires a WORLD restart to take effect *
+  # <Boolean> Valid Values: { true, false }, Default: false
+  general.acid_snow = false
+  # If acid snow is enabled, setting this to false will stop snow layers from being placed on the ground when it is
+  #   snowing acid.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  general.acid_snow_accumulates = false
+
+
+
+# Category: world_degradation
+# Settings related to block degradation in the world when it rains acid
+
+  # If enabled, acid rain will start "corroding" blocks it comes in contact with.
+  # What blocks are affected and what they turn into can be configured in the below transformation list.
+  # Note that block degradation by acid rain will not happen in snowy areas unless "acidSnow" is enabled in the
+  #   general category.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  world_degradation.enable_block_degradation = false
+  # A list of input blocks and what block state they turn into when exposed to acid rain.
+  # Consider this example entry:
+  # "minecraft:mossy_cobblestone_stairs minecraft:cobblestone_stairs[] true"
+  # This will result in mossy cobble stairs turning into normal cobblestone stairs, and since the "copy" properties
+  #   flag is set to true, the block state property values of the old stairs will be copied over to the new ones so we
+  #   retain the rotation of the stairs.
+  # <Block Transform List> Format: [ "namespace:block_name|#namespace:tag_name namespace:block_name[properties]
+  #   true|false", ... ], Default: [ "minecraft:grass_block minecraft:dirt[] false", "minecraft:grass
+  #   apocalypse:dead_grass[] false", "minecraft:tall_grass minecraft:grass[] false", "#minecraft:small_flowers
+  #   apocalypse:dead_plant[] false", "minecraft:fern apocalypse:dead_plant[] false", "minecraft:large_fern
+  #   minecraft:fern[] false", "minecraft:brown_mushroom minecraft:air[] false", "#minecraft:saplings
+  #   minecraft:dead_bush[] false", "#minecraft:crops apocalypse:dead_plant[] false", ... ]
+  world_degradation.block_transformations = [
+    "minecraft:grass_block minecraft:dirt[] false",
+    "minecraft:grass apocalypse:dead_grass[] false",
+    "minecraft:tall_grass minecraft:grass[] false",
+    "#minecraft:small_flowers apocalypse:dead_plant[] false",
+    "minecraft:fern apocalypse:dead_plant[] false",
+    "minecraft:large_fern minecraft:fern[] false",
+    "minecraft:brown_mushroom minecraft:air[] false",
+    "#minecraft:saplings minecraft:dead_bush[] false",
+    "#minecraft:crops apocalypse:dead_plant[] false",
+    "minecraft:sweet_berry_bush minecraft:dead_bush[] false",
+    "minecraft:mossy_cobblestone minecraft:cobblestone[] false",
+    "minecraft:mossy_cobblestone_slab minecraft:cobblestone_slab[] true",
+    "minecraft:mossy_cobblestone_wall minecraft:cobblestone_wall[] true",
+    "minecraft:mossy_cobblestone_stairs minecraft:cobblestone_stairs[] true",
+    "minecraft:mossy_stone_bricks minecraft:stone_bricks[] false",
+    "minecraft:mossy_stone_brick_slab minecraft:stone_brick_slab[] true",
+    "minecraft:mossy_stone_brick_wall minecraft:stone_brick_wall[] true",
+    "minecraft:mossy_stone_brick_stairs minecraft:stone_brick_stairs[] true"
+  ]
+

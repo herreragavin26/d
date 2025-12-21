@@ -79,7 +79,16 @@
     "ichttt.mods.firstaid.client.tutorial.GuiTutorial": true,
     "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
     "com.minecolonies.core.client.gui.containers.WindowRack": true,
-    "net.minecraft.client.gui.screens.OnlineOptionsScreen": true
+    "net.minecraft.client.gui.screens.OnlineOptionsScreen": true,
+    "portb.biggerstacks.gui.ConfigureScreen": true,
+    "com.natamus.collective_common_forge.config.DuskConfig$DuskConfigScreen": true,
+    "eu.midnightdust.core.screen.MidnightConfigOverviewScreen": true,
+    "de.keksuccino.fancymenu.customization.layout.editor.LayoutEditorScreen": true,
+    "de.keksuccino.fancymenu.util.rendering.ui.screen.ConfirmationScreen": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "com.talhanation.workers.client.gui.CommandScreen": true,
+    "me.fzzyhmstrs.fzzy_config.screen.internal.ConfigScreen": true,
+    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -104,6 +113,9 @@
     "com.simibubi.create.content.equipment.zapper.terrainzapper.WorldshaperScreen": true,
     "net.mcreator.undeadresurrected.client.gui.RuneEquipMenuScreen": true,
     "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
-    "com.minecolonies.core.client.gui.containers.WindowRack": true
+    "com.minecolonies.core.client.gui.containers.WindowRack": true,
+    "com.dplayend.justleveling.client.screen.JustLevelingScreen": true,
+    "com.talhanation.workers.client.gui.CommandScreen": true,
+    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true
   }
 }
