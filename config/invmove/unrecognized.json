@@ -88,7 +88,19 @@
     "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
     "com.talhanation.workers.client.gui.CommandScreen": true,
     "me.fzzyhmstrs.fzzy_config.screen.internal.ConfigScreen": true,
-    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true
+    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true,
+    "com.idark.valoria.client.ui.screen.book.codex.Codex": true,
+    "com.idark.valoria.client.ui.screen.book.BookGui": true,
+    "net.salju.curse.gui.CurseGuiScreen": true,
+    "com.simibubi.create.content.schematics.cannon.SchematicannonScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.LiteOrNormalScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.ShopGui1Screen": true,
+    "net.mcreator.hostilecivilization.client.gui.Aboutshop1Screen": true,
+    "net.mcreator.hostilecivilization.client.gui.DefenseGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.WhatisblockremoverScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.CombatguiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.TrapsguiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -116,6 +128,17 @@
     "com.minecolonies.core.client.gui.containers.WindowRack": true,
     "com.dplayend.justleveling.client.screen.JustLevelingScreen": true,
     "com.talhanation.workers.client.gui.CommandScreen": true,
-    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true
+    "net.mcreator.undeadresurrected.client.gui.SoulAltarGUIScreen": true,
+    "com.idark.valoria.client.ui.screen.book.codex.Codex": true,
+    "com.idark.valoria.client.ui.screen.book.BookGui": true,
+    "net.salju.curse.gui.CurseGuiScreen": true,
+    "com.simibubi.create.content.schematics.cannon.SchematicannonScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.ShopGui1Screen": true,
+    "net.mcreator.hostilecivilization.client.gui.Aboutshop1Screen": true,
+    "net.mcreator.hostilecivilization.client.gui.DefenseGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.WhatisblockremoverScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.CombatguiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.TrapsguiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true
   }
 }

@@ -1,0 +1,50 @@
+
+["Clockwork Wings"]
+	#Default durability
+	#
+	#Default: 320
+	#Range: 0 ~ 100000
+	CLOCKWORK_WINGS_DEFAULT_DURABILITY = 320
+	#Boost velocity multiplier
+	#
+	#Default: 1.0
+	#Range: 0.0 ~ 1000.0
+	CLOCKWORK_WINGS_BOOST_VELOCITY = 1.0
+	#Default velocity reduction multiplier. This is multiplied each tick, so even high values can stop the entity
+	#
+	#Default: 0.97725
+	#Range: 0.0 ~ 1000.0
+	CLOCKWORK_WINGS_DEFAULT_VELOCITY = 0.97725
+	#Default flying sink force
+	#
+	#Default: 0.004225
+	#Range: 0.0 ~ 1000.0
+	CLOCKWORK_WINGS_DEFAULT_SINK = 0.004225
+	#Boost cooldown ticks
+	#
+	#Default: 60
+	#Range: 0 ~ 1000
+	CLOCKWORK_WINGS_BOOST_COOLDOWN_TICKS = 60
+
+[Dragonfly]
+	#Default health
+	#
+	#Default: 20.0
+	#Range: 0.0 ~ 1000.0
+	DRAGONFLY_DEFAULT_HEALTH = 20.0
+	#Default flying speed
+	#
+	#Default: 0.6499999761581421
+	#Range: 0.0 ~ 1000.0
+	DRAGONFLY_DEFAULT_FLYING_SPEED = 0.6499999761581421
+	#Default walking speed
+	#
+	#Default: 0.20000000298023224
+	#Range: 0.0 ~ 1000.0
+	DRAGONFLY_DEFAULT_WALKING_SPEED = 0.20000000298023224
+	#How much health does the clockwork gear restore
+	#
+	#Default: 3.0
+	#Range: 0.0 ~ 1000.0
+	CLOCKWORK_GEAR_HEAL_AMOUNT = 3.0
+

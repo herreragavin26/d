@@ -1,0 +1,38 @@
+
+#Misc
+[misc]
+	showToasts = true
+	showUpdates = true
+	damageIndicator = true
+
+#Graphics
+[graphics]
+	#(Y) Coordinate for Misc UI
+	miscY = 5
+	#(X) Coordinate for Misc UI
+	miscX = 4
+	#(Y) Coordinate for Soul Bar
+	soulBarY = 5
+	#(X) Coordinate for Soul Bar
+	soulBarX = 4
+	#(X) Coordinate for Nihility Meter
+	nihilityMeterX = 35
+	#(Y) Coordinate for Nihility Meter
+	nihilityMeterY = 35
+	#Bar will be always visible, (Default: False, seen only on updating)
+	nihilityMeterAlwaysVisible = false
+	#Squish animation for Nihiity Meter
+	nihilityMeterAnimate = true
+	#(Y) Coordinate for Magma Bar
+	magmaBarY = 5
+	#(X) Coordinate for Magma Bar
+	magmaBarX = 4
+	#Type of Magma Bar
+	#Range: 1 ~ 3
+	magmaBarType = 1
+	#Item activation on ability use
+	phantomActivationRendering = true
+	#Changes goblin model to old one
+	#You will need to reload your resources to see results
+	goblinModel = false
+

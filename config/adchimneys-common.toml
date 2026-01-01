@@ -23,7 +23,7 @@
 	#Whether smoke causes poisoning to non-playable characters
 	poisonNPCs = true
 	#Whether smoke causes poisoning to players
-	poisonPlayers = true
+	poisonPlayers = false
 
 [Paint]
 	#Whether a bucket of water is required to be in the player's inventory in order to paint

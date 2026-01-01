@@ -10,7 +10,7 @@
     "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
-    "displayTooltip": true,
+    "displayTooltip": false,
     "displayBlocks": true,
     "hideFromDebug": false,
     "hideFromTabList": false,
@@ -31,9 +31,9 @@
     "overlayScale": 0.71,
     "overlayAnchorX": 0.14,
     "overlayAnchorY": 0.88,
-    "activeTheme": "jade:dark",
-    "themesHash": -328442023,
-    "overlayPosX": 0.52
+    "activeTheme": "jade_excalibur_120:excalibur",
+    "themesHash": 1444895262,
+    "overlayPosX": 0.83
   },
   "formatting": {
     "modName": "§9§o%s"

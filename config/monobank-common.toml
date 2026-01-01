@@ -1,0 +1,38 @@
+
+[Monobank]
+	#Maximum amount of items that can be stored in Monobank. Default: 8192
+	#Range: > 1
+	Capacity = 8192
+	#Combination is required to unlock a Monobank. Default: true
+	CombinationEnabled = true
+
+[Ownership]
+	#Owners can unlock their Monobank without combination. Default: true
+	OwnerCanUnlockWithoutCombination = true
+	#If enabled - players will be able to break other player's banks.
+	#If disabled - monobank will be indestructible if other player owns it. Default: false
+	CanRelocateOtherPlayersBanks = false
+	#If enabled - players will be able to change locks in other player's banks. Default: false
+	CanReplaceOtherPlayersLocks = false
+
+[Thief]
+	#Crime severity for attempting to unlock a Monobank (opening combination UI).
+	#Default: LIGHT
+	#Allowed Values: NONE, LIGHT, MEDIUM, HEAVY
+	crime_severity_for_unlocking_attempt = "LIGHT"
+	#Crime severity for unlocking a Monobank.
+	#Default: MEDIUM
+	#Allowed Values: NONE, LIGHT, MEDIUM, HEAVY
+	crime_severity_for_unlocking = "MEDIUM"
+	#Crime severity for opening a Monobank.
+	#Default: HEAVY
+	#Allowed Values: NONE, LIGHT, MEDIUM, HEAVY
+	crime_severity_for_opening = "HEAVY"
+
+[StructureGeneration]
+	#Vault buildings will generate in villages.
+	GenerateVaults = true
+	#Vault building generation weight. Larger number = more chances to generate.
+	#Range: > 1
+	VaultWeight = 15
+

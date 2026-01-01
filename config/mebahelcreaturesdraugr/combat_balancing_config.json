@@ -1,0 +1,8 @@
+{
+  "draugrMinBlockProbability": 8.0,
+  "draugrMaxBlockProbability": 16.0,
+  "draugrOverlordMinBlockProbability": 10.0,
+  "draugrOverlordMaxBlockProbability": 20.0,
+  "draugrSpawnWithPotionProbability": 5.0,
+  "draugrRaidScalingDifficulty": true
+}

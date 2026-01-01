@@ -57,6 +57,13 @@
   "specialmobs": {
     "display_ninja_disguises": true
   },
+  "valoria": {
+    "jewelry": true,
+    "manipulator": true,
+    "keg": true,
+    "key": true,
+    "crusher": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

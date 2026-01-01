@@ -14,22 +14,41 @@
 			aggressiveSharks = false
 			allowBanditRaids = true
 			frequencyBanditRaids = 30
+			globalStun = true
+			spawnLimitedTimeBeasts = true
 
 		[gamerules.modded.player]
 			allowTerramityExplosives = true
 			buildingDebug = false
 			fragileBlocks = true
 			onlySmithOnWeapon = true
+			"valoria:disableBossDungeonGriefing" = true
+			canSwitchPlayerMode = true
+			hasFallAnimation = true
+			initialMode = 1
+			keepSkills = true
+			skillReplaceCooldown = 6000
+			stiffComboAttacks = true
+			weightPenalty = 100
 
 			[gamerules.modded.player.accessories]
 				keepAccessoryInventory = false
 
 		[gamerules.modded.misc]
 			flyingcastlestype = 1
+			"valoria:trapActivating" = true
+			disableEntityUI = false
 
 		[gamerules.modded.spawning]
 			distortionLandSpawnCondition = false
 			allowPatrols = true
+			doCaravanSpawning = true
+			noMobsInBossfight = true
+			animalMobCap = 15
+			persistentAnimals = false
+
+		[gamerules.modded.drops]
+			epicDrop = false
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.

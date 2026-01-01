@@ -66,6 +66,17 @@
         "value": 2
       }
     },
+    "epicfight:offhand_armor_negation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "tetra:ability_damage": {
       "enabled": false,
       "min": {
@@ -121,6 +132,17 @@
         "value": 1
       }
     },
+    "epicfight:stamina_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
     "just_in_blacksmith:crit_chance": {
       "enabled": false,
       "min": {
@@ -165,15 +187,26 @@
         "value": 10
       }
     },
-    "caverns_and_chasms:weakness_aura": {
+    "valoria:depth_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "epicfight:execution_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 30,
-        "value": 30
+        "default": 10,
+        "value": 10
       }
     },
     "turtlecore:thrown_damage": {
@@ -185,6 +218,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "caverns_and_chasms:weakness_aura": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "ancientcurses:hit_chance": {
@@ -264,6 +308,39 @@
         "value": 64
       }
     },
+    "valoria:excavation_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "valoria:nihility_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "valoria:nihility_resilience": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "just_in_blacksmith:life_steal": {
       "enabled": false,
       "min": {
@@ -341,6 +418,17 @@
         "value": 30
       }
     },
+    "epicfight:offhand_impact": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -350,6 +438,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "valoria:attack_radius": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
       }
     },
     "l2damagetracker:crit_damage": {
@@ -407,6 +506,17 @@
         "value": 1024
       }
     },
+    "tridot:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "l2damagetracker:explosion_damage": {
       "enabled": false,
       "min": {
@@ -416,6 +526,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "windswept:fragrance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "iter_rpg:spell_cooldown": {
@@ -449,6 +570,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "valoria:necromancy_count": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 15,
+        "value": 15
       }
     },
     "celestial_core:armor_penetration": {
@@ -526,6 +658,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "valoria:necromancy_lifetime": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4028,
+        "value": 4028
+      }
+    },
+    "epicfight:staminar": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "cold_sweat:world_temperature": {
@@ -616,6 +770,28 @@
         "value": 1024
       }
     },
+    "epicfight:stun_armor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "epicfight:offhand_max_strikes": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "vminus:fire_protection": {
       "enabled": false,
       "min": {
@@ -636,6 +812,39 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "valoria:nature_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "valoria:infernal_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "windswept:snow_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:mining_speed": {
@@ -702,6 +911,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "epicfight:offhand_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2hostility:extra_scale": {
@@ -836,6 +1056,17 @@
         "value": 10
       }
     },
+    "epicfight:weight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:healing_received": {
       "enabled": false,
       "min": {
@@ -878,6 +1109,17 @@
       "max": {
         "default": Infinity,
         "value": Infinity
+      }
+    },
+    "valoria:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -944,6 +1186,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "valoria:dash_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "iter_rpg:spellcasting_power": {
@@ -1045,6 +1298,17 @@
         "value": 1
       }
     },
+    "valoria:elemental_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "celestial_core:toughness_penetration": {
       "enabled": false,
       "min": {
@@ -1100,6 +1364,17 @@
         "value": 2
       }
     },
+    "valoria:depth_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "turtlecore:ranged_damage_bonus": {
       "enabled": false,
       "min": {
@@ -1153,6 +1428,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "valoria:nihility_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "confluence:armor_pass": {
@@ -1243,6 +1529,17 @@
         "value": 2048
       }
     },
+    "tridot:percent_armor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "vminus:mob_detection_range": {
       "enabled": false,
       "min": {
@@ -1331,6 +1628,17 @@
         "value": 1024
       }
     },
+    "epicfight:impact": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -1375,6 +1683,17 @@
         "value": 1
       }
     },
+    "valoria:miss_chance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "vminus:width": {
       "enabled": false,
       "min": {
@@ -1384,6 +1703,17 @@
       "max": {
         "default": 5,
         "value": 5
+      }
+    },
+    "valoria:max_nihility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.attack_damage": {
@@ -1461,6 +1791,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "valoria:infernal_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "iter_rpg:stat_strength": {
@@ -1628,6 +1969,28 @@
         "value": 0
       }
     },
+    "epicfight:max_strikes": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "epicfight:armor_negation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:arrow_damage": {
       "enabled": false,
       "min": {
@@ -1648,6 +2011,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "windswept:sprint_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "random_crits:critchance": {
@@ -1692,6 +2066,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "valoria:nature_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     }
   }

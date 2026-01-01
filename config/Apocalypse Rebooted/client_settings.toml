@@ -13,10 +13,10 @@
   difficulty_renderer.y_anchor = "top"
   # Additional X offset for where to render the difficulty counter.
   # <Integer> Range: Any Value, Default: 0
-  difficulty_renderer.x_offset = 0
+  difficulty_renderer.x_offset = -445
   # Additional Y offset for where to render the difficulty counter.
   # <Integer> Range: Any Value, Default: 2
-  difficulty_renderer.y_offset = 2
+  difficulty_renderer.y_offset = 100
   # If enabled and y_anchor is "TOP", a small Y offset is applied so we don't overlap with the boss bar when it is
   #   active.
   # <Boolean> Valid Values: { true, false }, Default: true

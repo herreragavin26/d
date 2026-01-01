@@ -1,0 +1,7 @@
+
+["Dark Souls Expasion Configuration"]
+	#Toggles the in-game soul bar on or off.
+	"Souls Bar" = "true"
+	#Hide the opening message when joining a world.
+	"Join Message" = "true"
+

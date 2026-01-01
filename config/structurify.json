@@ -1,11 +1,11 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-12-20_19-28-41",
+  "config_datetime": "2025-12-30_09-10-08",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 2.9
+    "global_spacing_and_separation_modifier": 2.1
   },
   "structures": [
     {
@@ -1099,7 +1099,7 @@
     {
       "name": "ati_structures:aboveground_large",
       "salt": 88,
-      "frequency": 0.21,
+      "frequency": 0.75,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 23,
       "separation": 5
@@ -1227,9 +1227,9 @@
     {
       "name": "battle_shrines:battle_shrine",
       "salt": 1646207470,
-      "frequency": 0.19999999,
+      "frequency": 0.14,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 16,
+      "spacing": 10,
       "separation": 8
     },
     {
@@ -1429,71 +1429,79 @@
       "salt": 647315576,
       "frequency": 0.59999996,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 88,
+      "spacing": 31,
       "separation": 11
+    },
+    {
+      "name": "create_pillagers_arise:createchinatower",
+      "salt": 993149696,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 18,
+      "separation": 4
     },
     {
       "name": "create_pillagers_arise:createpillagerblimp",
       "salt": 1844928792,
       "frequency": 0.57,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 111,
+      "spacing": 31,
       "separation": 1
     },
     {
       "name": "create_pillagers_arise:createpillagercamp",
       "salt": 1704156013,
-      "frequency": 0.57,
+      "frequency": 0.32,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 41,
-      "separation": 21
+      "spacing": 16,
+      "separation": 13
     },
     {
       "name": "create_pillagers_arise:createpillagerfortgate",
       "salt": 1379539121,
-      "frequency": 0.53999996,
+      "frequency": 0.35,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 52,
-      "separation": 20
+      "spacing": 23,
+      "separation": 3
     },
     {
       "name": "create_pillagers_arise:createpillagerhousesmall",
       "salt": 689348404,
-      "frequency": 0.55,
+      "frequency": 0.29,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 129,
+      "spacing": 16,
       "separation": 14
     },
     {
       "name": "create_pillagers_arise:createpillageroutpost",
       "salt": 1225400517,
-      "frequency": 0.55,
+      "frequency": 0.29999998,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 114,
+      "spacing": 34,
       "separation": 12
     },
     {
       "name": "create_pillagers_arise:createpillagersmallhouse",
       "salt": 694549768,
-      "frequency": 0.53999996,
+      "frequency": 0.31,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 134,
+      "spacing": 36,
       "separation": 10
     },
     {
       "name": "create_pillagers_arise:createpillagervillage",
       "salt": 1928941135,
-      "frequency": 0.57,
+      "frequency": 0.29999998,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 78,
+      "spacing": 36,
       "separation": 5
     },
     {
       "name": "create_pillagers_arise:pillagercreatetower",
       "salt": 1612313754,
-      "frequency": 0.55,
+      "frequency": 0.19,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 98,
+      "spacing": 26,
       "separation": 25
     },
     {
@@ -1519,6 +1527,14 @@
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 23,
       "separation": 8
+    },
+    {
+      "name": "enchanted_villagers:enchanted_tower",
+      "salt": 1499235753,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 207,
+      "separation": 103
     },
     {
       "name": "iceandfire:gorgon_temple",
@@ -1617,6 +1633,38 @@
       "separation": 25
     },
     {
+      "name": "magical_relics:buried_dungeon",
+      "salt": 1004556533,
+      "frequency": 0.31,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 8
+    },
+    {
+      "name": "magical_relics:large_wizard_tower",
+      "salt": 384804426,
+      "frequency": 0.22999999,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 14
+    },
+    {
+      "name": "magical_relics:medium_wizard_tower",
+      "salt": 1384006227,
+      "frequency": 0.44,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 34,
+      "separation": 12
+    },
+    {
+      "name": "magical_relics:small_wizard_tower",
+      "salt": 1104946533,
+      "frequency": 0.38,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 10
+    },
+    {
       "name": "minecraft:airship",
       "salt": 165745296,
       "frequency": 0.6,
@@ -1669,7 +1717,7 @@
       "salt": 165745296,
       "frequency": 0.39,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 26,
+      "spacing": 10,
       "separation": 8
     },
     {
@@ -1739,7 +1787,7 @@
     {
       "name": "mss:castle_ruin",
       "salt": 213548795,
-      "frequency": 1.0,
+      "frequency": 0.39999998,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 49,
       "separation": 28
@@ -1747,10 +1795,10 @@
     {
       "name": "mss:castle_tower",
       "salt": 333265012,
-      "frequency": 1.0,
+      "frequency": 0.29999998,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 94,
-      "separation": 52
+      "spacing": 28,
+      "separation": 18
     },
     {
       "name": "mss:desert_well",
@@ -1763,10 +1811,18 @@
     {
       "name": "mss:large_tower",
       "salt": 996503632,
-      "frequency": 1.0,
+      "frequency": 0.35,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 59,
-      "separation": 26
+      "spacing": 39,
+      "separation": 5
+    },
+    {
+      "name": "mss:small_tower",
+      "salt": 266989875,
+      "frequency": 0.42999998,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 31,
+      "separation": 21
     },
     {
       "name": "nostalgic_structures:bigmossypyramid",
@@ -2041,6 +2097,14 @@
       "separation": 5
     },
     {
+      "name": "random_abandonned_structure:tower_pillagers",
+      "salt": 388233572,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 8,
+      "separation": 1
+    },
+    {
       "name": "red:abandoned_house",
       "salt": 953488643,
       "frequency": 0.53999996,
@@ -2275,7 +2339,7 @@
     {
       "name": "the_pillager_legion_:desert_big_tower",
       "salt": 1251999089,
-      "frequency": 0.45999998,
+      "frequency": 0.16,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 30,
       "separation": 20
@@ -2283,10 +2347,10 @@
     {
       "name": "the_pillager_legion_:desert_fortress",
       "salt": 290066806,
-      "frequency": 0.52,
+      "frequency": 0.31,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 150,
-      "separation": 100
+      "spacing": 28,
+      "separation": 16
     },
     {
       "name": "the_pillager_legion_:desert_house",
@@ -2367,6 +2431,14 @@
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 50,
       "separation": 30
+    },
+    {
+      "name": "the_pillager_legion_:trading_out_post",
+      "salt": 1560559267,
+      "frequency": 0.34,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 16
     },
     {
       "name": "threateningly_mobs:forestdungeon",
@@ -2695,6 +2767,54 @@
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 18,
       "separation": 8
+    },
+    {
+      "name": "valoria:boss_structures",
+      "salt": 34222645,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 35
+    },
+    {
+      "name": "valoria:crypts",
+      "salt": 20083232,
+      "frequency": 0.48999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8
+    },
+    {
+      "name": "valoria:monstrosity",
+      "salt": 34222645,
+      "frequency": 0.45,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 16,
+      "separation": 3
+    },
+    {
+      "name": "valoria:small_structures",
+      "salt": 20083232,
+      "frequency": 0.35999998,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 12,
+      "separation": 4
+    },
+    {
+      "name": "valoria:valoria_boss_structures",
+      "salt": 34222645,
+      "frequency": 0.51,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 120,
+      "separation": 60
+    },
+    {
+      "name": "valoria:valoria_cave_structures",
+      "salt": 34222645,
+      "frequency": 0.42,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 25
     }
   ]
 }
