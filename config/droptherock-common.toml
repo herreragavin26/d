@@ -1,0 +1,12 @@
+
+#DropTheRock Config Settings
+["General Settings"]
+	#Enable loose rocks from vanilla stone variants
+	enableVanillaRocks = true
+	#Enable loose rocks from Quark stone variants
+	enableQuarkRocks = true
+	#Enable loose rocks from Oh The Biomes We've Gone stone variants
+	enableBWGRocks = true
+	#Enable loose rocks from Biomes O' Plenty stone variants
+	enableBOPRocks = true
+

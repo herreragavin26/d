@@ -1,0 +1,7 @@
+[
+  {
+    "base_block": "droptherock:example_stone",
+    "loose_rock_block": "droptherock:droptherock_example_stone_loose_rock",
+    "cobblestone_block": "droptherock:droptherock_example_cobblestone"
+  }
+]

@@ -1,0 +1,8 @@
+
+["General Settings"]
+	#Duration of the death screen in ticks (20 ticks = 1 second). Defaults to 3 seconds.
+	#Range: 0 ~ 6000
+	deathScreenDuration = 60
+	#Whether or not to force the gamerule to respawn immediately
+	forceImmediateRespawn = true
+

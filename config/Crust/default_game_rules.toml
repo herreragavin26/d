@@ -16,18 +16,15 @@ config_enabled = false
 # Default game rule settings for the 'player' category.
 
   player.allow_terramity_explosives = true
-  player.building_debug = false
   player.disable_elytra_movement_check = false
   player.do_immediate_respawn = false
   player.do_limited_crafting = false
   player.drowning_damage = true
   player.fall_damage = true
   player.fire_damage = true
-  player.fragile_blocks = true
   player.freeze_damage = true
   player.keep_inventory = false
   player.natural_regeneration = true
-  player.only_smith_on_weapon = true
   player.players_sleeping_percentage = 100
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
@@ -49,15 +46,12 @@ config_enabled = false
 # Category: spawning
 # Default game rule settings for the 'spawning' category.
 
-  spawning.animal_mob_cap = 15
   spawning.distortion_land_spawn_condition = false
-  spawning.do_caravan_spawning = true
   spawning.do_insomnia = true
   spawning.do_mob_spawning = true
   spawning.do_patrol_spawning = true
   spawning.do_trader_spawning = true
   spawning.do_warden_spawning = true
-  spawning.persistent_animals = false
 
 
 # Category: drops

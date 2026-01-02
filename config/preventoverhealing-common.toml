@@ -1,0 +1,6 @@
+
+[Items]
+	#Amount of HP healed by Dressing Plantago item (default: 2.0 = 1 heart)
+	#Range: 0.0 ~ 20.0
+	dressingPlantagoHealAmount = 2.0
+

@@ -1,0 +1,14 @@
+
+["General Settings"]
+	#Red value of the death overlay
+	#Range: 0 ~ 255
+	"Death screen R" = 0
+	#Green value of the death overlay
+	#Range: 0 ~ 255
+	"Death screen G" = 0
+	#Blue value of the death overlay
+	#Range: 0 ~ 255
+	"Death screen B" = 0
+	#Whether or not to play a sound when you die
+	"Play Sound on Death" = false
+

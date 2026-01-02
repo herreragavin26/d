@@ -3,7 +3,7 @@
 [misc]
 	showToasts = true
 	showUpdates = true
-	damageIndicator = true
+	damageIndicator = false
 
 #Graphics
 [graphics]

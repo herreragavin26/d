@@ -13,7 +13,7 @@
   difficulty_renderer.y_anchor = "top"
   # Additional X offset for where to render the difficulty counter.
   # <Integer> Range: Any Value, Default: 0
-  difficulty_renderer.x_offset = -445
+  difficulty_renderer.x_offset = -448
   # Additional Y offset for where to render the difficulty counter.
   # <Integer> Range: Any Value, Default: 2
   difficulty_renderer.y_offset = 100

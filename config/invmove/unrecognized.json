@@ -100,7 +100,14 @@
     "net.mcreator.hostilecivilization.client.gui.WhatisblockremoverScreen": true,
     "net.mcreator.hostilecivilization.client.gui.CombatguiScreen": true,
     "net.mcreator.hostilecivilization.client.gui.TrapsguiScreen": true,
-    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true
+    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true,
+    "de.keksuccino.fancymenu.customization.customgui.ManageCustomGuisScreen": true,
+    "de.keksuccino.fancymenu.customization.customgui.ManageOverriddenGuisScreen": true,
+    "de.keksuccino.fancymenu.customization.variables.ManageVariablesScreen": true,
+    "de.keksuccino.fancymenu.customization.listener.gui.ManageListenersScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "net.mcreator.medsandherbs.client.gui.PlantGuideScreen": true,
+    "net.minecraft.client.gui.screens.AccessibilityOptionsScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -139,6 +146,8 @@
     "net.mcreator.hostilecivilization.client.gui.WhatisblockremoverScreen": true,
     "net.mcreator.hostilecivilization.client.gui.CombatguiScreen": true,
     "net.mcreator.hostilecivilization.client.gui.TrapsguiScreen": true,
-    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true
+    "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "net.mcreator.medsandherbs.client.gui.PlantGuideScreen": true
   }
 }

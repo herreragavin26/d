@@ -1,0 +1,15 @@
+
+[RandomGateways]
+	#Minimum distance from player for random gateway spawning (default: 50)
+	#Range: 0 ~ 10000
+	randomGateMinDistance = 50
+	#Maximum distance from player for random gateway spawning (default: 100)
+	#Range: 0 ~ 10000
+	randomGateMaxDistance = 100
+	#Minimum time in ticks between gateway spawns (default: 1200 = 1 minute, 20 ticks = 1 second)
+	#Range: 200 ~ 72000
+	randomGateMinSpawnTicks = 1200
+	#Maximum time in ticks between gateway spawns (default: 1800 = 90 seconds)
+	#Range: 200 ~ 72000
+	randomGateMaxSpawnTicks = 1800
+
