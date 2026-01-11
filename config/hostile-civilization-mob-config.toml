@@ -1,0 +1,267 @@
+
+[mob_stats]
+
+	[mob_stats.structure_limits]
+		#Limit number of hostile mobs in structures to improve performance
+		#Enable automatic mob limiting in structures
+		enable_mob_limiting = true
+		#Maximum Castaway mobs per structure (default: 150)
+		#Range: 1 ~ 500
+		max_castaway_per_structure = 20
+		#Maximum Masked mobs per structure (default: 150)
+		#Range: 1 ~ 500
+		max_masked_per_structure = 20
+		#Maximum Burrower mobs per structure (default: 150)
+		#Range: 1 ~ 500
+		max_burrower_per_structure = 20
+
+	[mob_stats.castaway_lvl1]
+		#Range: 1.0 ~ 2000.0
+		castaway1_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway1_damage = 2.0
+		#Range: 1.0 ~ 2000.0
+		castaway2_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway2_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		castaway3_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway3_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway4_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway4_damage = 1.0
+		#Range: 1.0 ~ 2000.0
+		castaway5_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway5_damage = 2.0
+		#Range: 1.0 ~ 2000.0
+		castaway6_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway6_damage = 2.0
+		#Range: 1.0 ~ 2000.0
+		castaway7_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway7_damage = 3.0
+		#Range: 1.0 ~ 2000.0
+		castaway8_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway8_damage = 1.0
+		#Range: 1.0 ~ 2000.0
+		castaway9_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway9_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway10_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway10_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway11_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway11_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		castaway12_health = 20.0
+		#Range: 0.5 ~ 500.0
+		castaway12_damage = 3.0
+
+	[mob_stats.castaway_lvl2]
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_damage = 7.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model2_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model2_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model3_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model3_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model4_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model4_damage = 7.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model5_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model5_damage = 7.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model6_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model6_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model7_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model7_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model8_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model8_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model9_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model9_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model10_health = 45.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model10_damage = 7.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model11_health = 45.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model11_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl2_model12_health = 55.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl2_model12_damage = 7.0
+
+	[mob_stats.castaway_lvl3]
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model1_health = 40.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model1_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model2_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model2_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model3_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model3_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model4_health = 25.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model4_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model5_health = 40.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model5_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model6_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model6_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		castaway_lvl3_model7_health = 35.0
+		#Range: 0.5 ~ 500.0
+		castaway_lvl3_model7_damage = 6.0
+
+	[mob_stats.smasheraus]
+		#Range: 1.0 ~ 2000.0
+		smasheraus_health = 300.0
+		#Range: 0.5 ~ 500.0
+		smasheraus_damage = 11.0
+		#Range: 1.0 ~ 2000.0
+		smasheraus_friendly_health = 300.0
+		#Range: 0.5 ~ 500.0
+		smasheraus_friendly_damage = 11.0
+		#Range: 1.0 ~ 2000.0
+		smasheraus_stage2_health = 400.0
+		#Range: 0.5 ~ 500.0
+		smasheraus_stage2_damage = 13.0
+		#Range: 1.0 ~ 2000.0
+		smasheraus_stage2_friendly_health = 400.0
+		#Range: 0.5 ~ 500.0
+		smasheraus_stage2_friendly_damage = 13.0
+
+	[mob_stats.raideraus]
+		#Range: 1.0 ~ 2000.0
+		raideraus_health = 400.0
+		#Range: 0.5 ~ 500.0
+		raideraus_damage = 14.0
+		#Range: 1.0 ~ 2000.0
+		raideraus_friendly_health = 400.0
+		#Range: 0.5 ~ 500.0
+		raideraus_friendly_damage = 12.0
+		#Range: 1.0 ~ 2000.0
+		raideraus_stage2_friendly_health = 800.0
+		#Range: 0.5 ~ 500.0
+		raideraus_stage2_friendly_damage = 20.0
+
+	[mob_stats.gunneraus]
+		#Range: 1.0 ~ 2000.0
+		gunneraus_health = 550.0
+		#Range: 0.5 ~ 500.0
+		gunneraus_damage = 4.0
+
+	[mob_stats.masked]
+		#Range: 1.0 ~ 2000.0
+		masked1_health = 25.0
+		#Range: 0.5 ~ 500.0
+		masked1_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		masked2_health = 25.0
+		#Range: 0.5 ~ 500.0
+		masked2_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		masked3_health = 25.0
+		#Range: 0.5 ~ 500.0
+		masked3_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		masked4_health = 25.0
+		#Range: 0.5 ~ 500.0
+		masked4_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		masked6_health = 25.0
+		#Range: 0.5 ~ 500.0
+		masked6_damage = 5.0
+		#Range: 1.0 ~ 2000.0
+		masked7_health = 40.0
+		#Range: 0.5 ~ 500.0
+		masked7_damage = 8.0
+		#Range: 1.0 ~ 2000.0
+		masked8_health = 75.0
+		#Range: 0.5 ~ 500.0
+		masked8_damage = 7.0
+
+	[mob_stats.castaway_leaders]
+		#Range: 1.0 ~ 2000.0
+		castaway_leader_lvl1_health = 120.0
+		#Range: 0.5 ~ 500.0
+		castaway_leader_lvl1_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		castaway_leader_lvl2_health = 200.0
+		#Range: 0.5 ~ 500.0
+		castaway_leader_lvl2_damage = 8.0
+		#Range: 1.0 ~ 2000.0
+		castaway_leader_lvl3_health = 260.0
+		#Range: 0.5 ~ 500.0
+		castaway_leader_lvl3_damage = 11.0
+
+	[mob_stats.burrowers]
+		#Range: 1.0 ~ 2000.0
+		burrower1_health = 25.0
+		#Range: 0.5 ~ 500.0
+		burrower1_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		burrower2_health = 30.0
+		#Range: 0.5 ~ 500.0
+		burrower2_damage = 8.0
+		#Range: 1.0 ~ 2000.0
+		burrower3_health = 50.0
+		#Range: 0.5 ~ 500.0
+		burrower3_damage = 8.0
+		#Range: 1.0 ~ 2000.0
+		burrower4_health = 25.0
+		#Range: 0.5 ~ 500.0
+		burrower4_damage = 4.0
+		#Range: 1.0 ~ 2000.0
+		burrower5_health = 35.0
+		#Range: 0.5 ~ 500.0
+		burrower5_damage = 6.0
+		#Range: 1.0 ~ 2000.0
+		burrower6_health = 50.0
+		#Range: 0.5 ~ 500.0
+		burrower6_damage = 8.0
+
+	[mob_stats.drommer]
+		#Range: 1.0 ~ 2000.0
+		drommer_health = 25.0
+		#Range: 0.0 ~ 500.0
+		drommer_damage = 0.0
+
+	[mob_stats.villagers]
+		#Range: 1.0 ~ 2000.0
+		kidnapped_villager_health = 20.0
+		#Range: 0.5 ~ 500.0
+		kidnapped_villager_damage = 1.0
+

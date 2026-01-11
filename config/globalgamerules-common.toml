@@ -16,6 +16,7 @@
 			frequencyBanditRaids = 30
 			globalStun = true
 			spawnLimitedTimeBeasts = true
+			useAggroFix = true
 
 		[gamerules.modded.player]
 			allowTerramityExplosives = true

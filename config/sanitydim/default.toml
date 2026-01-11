@@ -213,9 +213,9 @@
 		#Blood tendrils overlay configuration
 		[sanity.client.blood_tendrils]
 			#Whether to render blood tendrils overlay
-			render = true
+			render = false
 			#Whether to flash blood tendrils overlay upon losing sanity in a short burst
-			short_burst_flash = true
+			short_burst_flash = false
 			#Whether to render blood tendrils overlay when passively losing sanity
-			render_passive = false
+			render_passive = true
 

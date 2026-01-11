@@ -28,7 +28,6 @@ config_enabled = false
   player.players_sleeping_percentage = 100
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
-  player.valoria.disable_boss_dungeon_griefing = true
 
 
 # Category: mobs
@@ -41,6 +40,7 @@ config_enabled = false
   mobs.max_entity_cramming = 24
   mobs.mob_griefing = true
   mobs.universal_anger = false
+  mobs.use_aggro_fix = true
 
 
 # Category: spawning
@@ -98,4 +98,3 @@ config_enabled = false
   misc.global_sound_events = true
   misc.max_command_chain_length = 65536
   misc.reduced_debug_info = false
-  misc.valoria.trap_activating = true

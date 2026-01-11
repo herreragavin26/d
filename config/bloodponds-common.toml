@@ -1,0 +1,48 @@
+
+#Blood Ponds configuration settings
+[general]
+	#Damage per second dealt by standing in blood fluid (in half-hearts, 2 = 1 heart)
+	#Range: 0.0 ~ 100.0
+	bloodDamagePerSecond = 4.0
+	#Duration of Nausea effect when drinking blood bottle (in seconds)
+	#Range: 0 ~ 300
+	nauseaDuration = 10
+	#Duration of Blindness effect when drinking blood bottle (in seconds)
+	#Range: 0 ~ 300
+	blindnessDuration = 10
+	#Chance per chunk for a blood pond to spawn (0.0 = never, 1.0 = always)
+	#Range: 0.0 ~ 1.0
+	pondSpawnChance = 0.02
+	#Minimum radius of blood ponds
+	#Range: 1 ~ 16
+	pondMinRadius = 2
+	#Maximum radius of blood ponds
+	#Range: 1 ~ 16
+	pondMaxRadius = 4
+	#Enable blood rain events
+	bloodRainEnabled = true
+	#Duration of blood rain events in ticks (3600 = 3 minutes)
+	#Range: 600 ~ 72000
+	bloodRainDuration = 3600
+	#How often to check for new blood rain events in ticks (1200 = 1 minute)
+	#Range: 200 ~ 12000
+	bloodRainCheckInterval = 1200
+	#Chance for blood rain when player is near blood ponds (0.0 = never, 1.0 = always)
+	#Range: 0.0 ~ 1.0
+	bloodRainChanceNearPonds = 0.25
+	#Chance for blood rain when player is NOT near blood ponds (0.0 = never, 1.0 = always)
+	#Range: 0.0 ~ 1.0
+	bloodRainChanceNormal = 0.05
+	#How often to spawn mobs during blood rain in ticks (200 = 10 seconds)
+	#Range: 20 ~ 1200
+	bloodRainMobSpawnInterval = 200
+	#Duration of nausea effect during blood rain in ticks (100 = 5 seconds)
+	#Range: 20 ~ 600
+	bloodRainNauseaDuration = 100
+	#Duration of slowness effect during blood rain in ticks (100 = 5 seconds)
+	#Range: 20 ~ 600
+	bloodRainSlownessDuration = 100
+	#Number of blood particles spawned per tick during blood rain
+	#Range: 5 ~ 100
+	bloodRainParticleCount = 30
+

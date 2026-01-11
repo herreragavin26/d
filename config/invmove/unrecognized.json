@@ -107,7 +107,20 @@
     "de.keksuccino.fancymenu.customization.listener.gui.ManageListenersScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
     "net.mcreator.medsandherbs.client.gui.PlantGuideScreen": true,
-    "net.minecraft.client.gui.screens.AccessibilityOptionsScreen": true
+    "net.minecraft.client.gui.screens.AccessibilityOptionsScreen": true,
+    "net.mcreator.terramity.client.gui.CardboardBoxStorageScreen": true,
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "net.mcreator.hostilecivilization.client.gui.RaidGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.AlchemyGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.ChestsOfSecretsGuiScreen": true,
+    "com.yori3o.boss_checklist.client.gui.BossChecklistScreen": true,
+    "com.yori3o.boss_checklist.client.gui.BossInfoScreen": true,
+    "com.yori3o.boss_checklist.client.gui.ConfigScreen": true,
+    "com.simibubi.create.content.equipment.toolbox.RadialToolboxMenu": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "dev.emi.emi.screen.BoMScreen": true,
+    "dev.emi.emi.screen.ConfigScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -148,6 +161,13 @@
     "net.mcreator.hostilecivilization.client.gui.TrapsguiScreen": true,
     "net.mcreator.hostilecivilization.client.gui.AboutcurrencyScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
-    "net.mcreator.medsandherbs.client.gui.PlantGuideScreen": true
+    "net.mcreator.medsandherbs.client.gui.PlantGuideScreen": true,
+    "net.mcreator.terramity.client.gui.CardboardBoxStorageScreen": true,
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "net.mcreator.hostilecivilization.client.gui.RaidGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.AlchemyGuiScreen": true,
+    "net.mcreator.hostilecivilization.client.gui.ChestsOfSecretsGuiScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true
   }
 }

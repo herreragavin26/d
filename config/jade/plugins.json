@@ -57,13 +57,6 @@
   "specialmobs": {
     "display_ninja_disguises": true
   },
-  "valoria": {
-    "jewelry": true,
-    "manipulator": true,
-    "keg": true,
-    "key": true,
-    "crusher": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -82,18 +75,8 @@
     "rooty": true,
     "branch": true
   },
-  "alekiships": {
-    "furnace": true,
-    "jukebox": true,
-    "brewing_stand": true,
-    "block": true,
-    "note_block": true
-  },
   "corpse": {
     "corpse": true
-  },
-  "magical_relics": {
-    "display_camos": true
   },
   "balm": {
     "jade": true

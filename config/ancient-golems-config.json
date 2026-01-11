@@ -1,0 +1,9 @@
+{
+  "#Mobs HP multiplier (Aggressive mobs)": 1,
+  "#Mobs DMG multiplier (Aggressive mobs)": 1,
+  "#Mobs HP multiplier (Passive/Neutral mobs)": 1,
+  "#Mobs DMG multiplier (Passive/Neutral mobs)": 1,
+  "#Electric Shock effect": false,
+  "#The amount of piglin needed to kill to summon Golem of The Molten Forge": 50,
+  "#Enable Wrough Fortress explorer map challenge": true
+}
