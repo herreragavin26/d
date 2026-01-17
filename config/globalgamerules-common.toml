@@ -82,13 +82,13 @@
 		#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks, and whether mobs can pick up items. When mobGriefing is disabled, piglins do not pick up gold ingots, but a player can still barter with them by using the item on the mob. Similarly, villagers do not pick up food items but can still breed until they run out of any food already in their inventory. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs.
 		mob_griefing = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
-		universal_anger = false
+		universal_anger = true
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
 		disable_elytra_movement_check = false
 		#Players respawn immediately without showing the death screen.
-		do_immediate_respawn = false
+		do_immediate_respawn = true
 		#Whether players can craft only those recipes that they have unlocked.
 		do_limited_crafting = false
 		#Whether the player should take damage when drowning.
@@ -160,7 +160,7 @@
 		#Range: > -2147483648
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
-		reduced_debug_info = false
+		reduced_debug_info = true
 
 #Configs related to difficulty changes
 [difficulty]

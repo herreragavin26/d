@@ -75,6 +75,10 @@
     "rooty": true,
     "branch": true
   },
+  "dtphc2": {
+    "maple_spile": true,
+    "passion_fruit_vine": true
+  },
   "corpse": {
     "corpse": true
   },

@@ -34,7 +34,7 @@
 	boss_leave_on_day = false
 	#Should all monsters be enhanced?
 	#If false, only specific monsters in this mod.
-	enhance_all_monster = false
+	enhance_all_monster = true
 	#Multiplier for monster attributes health.
 	#Range: 0.0625 ~ 100.0
 	monster_attributes_multiplier_health = 0.5

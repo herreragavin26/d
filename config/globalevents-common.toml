@@ -12,10 +12,10 @@
 	acidRainDuration = 5
 	#Chance for Thunderstorm to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
-	thunderstormChance = 0.01
+	thunderstormChance = 0.1
 	#Duration of Thunderstorm in minutes
 	#Range: 1 ~ 60
-	thunderstormDuration = 5
+	thunderstormDuration = 1
 	#Minimum seconds between lightning strikes
 	#Range: 1 ~ 120
 	thunderstormMinInterval = 1
@@ -24,7 +24,7 @@
 	thunderstormMaxInterval = 1
 	#Chance for Zombie Horde to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
-	zombieHordeChance = 0.0
+	zombieHordeChance = 0.1
 	#Duration of Zombie Horde in minutes
 	#Range: 1 ~ 60
 	zombieHordeDuration = 1
@@ -39,16 +39,16 @@
 	expRainDuration = 1
 	#Chance for Flying Pigs to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
-	flyingPigsChance = 0.001
+	flyingPigsChance = 0.1
 	#Duration of Flying Pigs in minutes
 	#Range: 1 ~ 60
-	flyingPigsDuration = 2
+	flyingPigsDuration = 1
 	#Number of flying pigs to spawn
 	#Range: 10 ~ 100
-	flyingPigsCount = 30
+	flyingPigsCount = 10
 	#Chance for Wandering Traders to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
-	wanderingTradersChance = 0.001
+	wanderingTradersChance = 0.1
 	#Duration of Wandering Traders in minutes
 	#Range: 1 ~ 60
 	wanderingTradersDuration = 10

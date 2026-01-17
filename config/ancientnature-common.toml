@@ -1,0 +1,20 @@
+#Turn Prehistoric est overworld spawning ON or OFF
+prehistoricAnimalOverworldSpawning = false
+
+["Revival Stand"]
+	#Defines the max fuel the Revival Stand will need in order to function
+	#Range: > 10
+	maxFuel = 1000
+	#Defines what the Revival Stand can heat at max per tick
+	#Range: 1 ~ 1000000
+	maxHeating = 10
+	#Defines how much fuel Blaze Powder produces in the Revival Stand
+	#Range: 10 ~ 1000000
+	blazePowderFuelTime = 500
+
+[---Camera---]
+	#Enable or disable camera shake effects
+	cameraShake = true
+	#Tilt camera while riding mob: 
+	tiltCamera = true
+

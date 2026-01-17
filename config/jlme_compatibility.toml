@@ -8,7 +8,7 @@
 	#Max amount of Rune Enchantments allowed in a single item
 	"Max Runes" = 2
 	#Can runes be found in loot, mobs armor or other ways
-	"Runes discoverable" = false
+	"Runes discoverable" = true
 	#Level cost of using an Advanced Upgrade Template
 	"Advanced Cost Upgrade" = 5
 	#Level cost of using a Supreme Upgrade Template

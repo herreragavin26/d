@@ -19,7 +19,7 @@
 	mods = [""]
 	#Allows specific mods' mobs to burn just by specifying their full id for example modid:mobname.  Comma separated and quoted list
 	#Default: "minecraft:zombie","minecraft:skeleton"
-	mobs = ["mocreatures:silverskeleton", "specialmobbs:brutezombie", "deadlyworld:spawner_mimic", "wrd:buff_zombbie", "wrd:petrified_skeletonm", "wrd:dirty_skeleton", "wrd:speared_petrified_skeleton_m", "creatures_expanded:crumbling_skeleton", "iter_rpg:fiend", "mobz:tank_zombie", "terra_entity:evil_slime", "creatures_expanded:undead_necromancer", "wrd:buff_zombie", "iter_rpg:peeper", "terramity:gatmancer", "world:goblinshaman", "iter_rpg:carcass", "creatures_expanded:gloomknight", "wrd:bulky_ancient_skeleton", "iter_rpg:griever"]
+	mobs = ["mocreatures:silverskeleton", "specialmobbs:brutezombie", "deadlyworld:spawner_mimic", "wrd:buff_zombbie", "wrd:petrified_skeletonm", "wrd:dirty_skeleton", "wrd:speared_petrified_skeleton_m", "creatures_expanded:crumbling_skeleton", "iter_rpg:fiend", "mobz:tank_zombie", "creatures_expanded:undead_necromancer", "wrd:buff_zombie", "iter_rpg:peeper", "terramity:gatmancer", "world:goblinshaman", "iter_rpg:carcass", "creatures_expanded:gloomknight", "wrd:bulky_ancient_skeleton", "iter_rpg:griever"]
 	#Allows specific mods' blocks to be ignored while checking if you are able to see the sky by specifying their full id for example modid:blockname.  Comma separated and quoted list
 	#Example: "minecraft:black_stained_glass"
 	ignoredBlocks = []

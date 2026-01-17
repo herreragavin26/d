@@ -15,14 +15,14 @@
 	#Range: 0.0 ~ 100.0
 	alertIconSize = 30.0
 	#Controls whether alert icons should grow in size with mobs
-	scaleWithMobSize = false
+	scaleWithMobSize = true
 	#Do not render alert icons for these mobs
 	clientMobBlacklist = []
 	#Draw alert icons only for the blacklisted mobs instead
 	treatBlacklistAsWhitelist = false
 	#The texture of the aggro icon
 	#Allowed Values: CLASSIC, MGS, BLOCK_BENCH
-	clientAggroIconStyle = "BLOCK_BENCH"
+	clientAggroIconStyle = "CLASSIC"
 	#The color of the alert icon
 	alertColorHex = "0xFF6666"
 	#Hide alert icon after X ticks, set to <= 0 to disable

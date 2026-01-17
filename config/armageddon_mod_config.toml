@@ -11,7 +11,7 @@
 
 	[Progession.are_enchanted_tools_blocked]
 		#If true the enchanted tools will not be usable until Eldorath's death. Default = true
-		are_enchanted_tools_blocked = true
+		are_enchanted_tools_blocked = false
 
 ["Bosses Health"]
 
@@ -95,15 +95,15 @@
 
 	["Gapple Sickness".is_gapple_sickness_active]
 		#This logic active or not the Gapple Sickness Effect. Default = false
-		is_gapple_sickness_active = false
+		is_gapple_sickness_active = true
 
 ["Prevention Messages"]
 
 	["Prevention Messages".are_prevention_messages_showing]
 		#This logic let you choose if the pop-up messages/ preventions messages are shown. Default = true
-		are_prevention_messages_showing = true
+		are_prevention_messages_showing = false
 
 	["Prevention Messages".is_prevention_messages_showing_into_actionbar]
 		#This logic let you choose if the pop-up messages/ preventions messages are shown in the chat or in the action bar. True = action bar, False = Chat.  Default = false
-		is_prevention_messages_showing_into_actionbar = false
+		is_prevention_messages_showing_into_actionbar = true
 

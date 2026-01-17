@@ -89,14 +89,14 @@
 		advancement = 20.0
 		#Breeding two animals together gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		animal_breeding = 9.0
+		animal_breeding = 1.0
 		#Breeding animals cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		animal_breeding_cd = 600.0
 		#Players gain this amount of sanity for every point of damage dealt to peaceful animals (incl. neutral ones)
 		#This value is doubled for baby animals
 		#Range: -100.0 ~ 100.0
-		animal_hurt_ratio = -0.5
+		animal_hurt_ratio = 0.0
 		#Players gain this amount of sanity upon their pets' death
 		#Range: -100.0 ~ 100.0
 		pet_death = -60.0
@@ -117,7 +117,7 @@
 		eating = 0.8
 		#Eating cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
-		eating_cd = 300.0
+		eating_cd = 0.0
 		#Fishing an item gives this amount of sanity
 		#Range: -100.0 ~ 100.0
 		fishing = 1.3
@@ -126,7 +126,7 @@
 		fishing_cd = 0.0
 		#Trampling a farmland gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		farmland_trample = -2.0
+		farmland_trample = 0.0
 		#Potting a flower gives this amount of sanity
 		#Range: -100.0 ~ 100.0
 		potting_flower = 4.0
@@ -178,7 +178,7 @@
 		#Whether sane players should be able to see and battle inner entities
 		#Mobs will still be there server-side and will count towards passive sanity
 		#Players who are targeted by inner entities see them regardless
-		sane_see_inner_entities = false
+		sane_see_inner_entities = true
 
 	#Client configuration
 	[sanity.client]
@@ -206,9 +206,9 @@
 		#Inner monologue configuration
 		[sanity.client.hints]
 			#Whether to render inner monologue/random thoughts
-			render = true
+			render = false
 			#Whether to twitch inner monologue/random thoughts at low sanity levels
-			twitch = true
+			twitch = false
 
 		#Blood tendrils overlay configuration
 		[sanity.client.blood_tendrils]

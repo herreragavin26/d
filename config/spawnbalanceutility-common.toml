@@ -6,7 +6,7 @@
 	#generateReport
 	generateReport = true
 	#suppressMinecraftMobReporting
-	suppressMinecraftMobReporting = false
+	suppressMinecraftMobReporting = true
 	#fixEmptyNether
 	fixEmptyNether = true
 	#Use the 'BiomeMobWeight.csv' file to balance Biome spawn values
@@ -14,7 +14,7 @@
 	#Fix min, max values and add nether creatures
 	fixSpawnValues = true
 	#Use the 'StructMobWeight.csv' file to balance structure spawn values
-	balanceStructureSpawnValues = true
+	balanceStructureSpawnValues = false
 	#Mod Name set separated by SemiColons of mods to report.
 	includedReportModsSet = "exampleModName;"
 
@@ -25,7 +25,7 @@
 ["Spawn Weight Values"]
 	#minimum Spawn Weight
 	#Range: 1 ~ 1000
-	minSpawnWeight = 10
+	minSpawnWeight = 1
 	#maximum Spawn Weight
 	#Range: 1 ~ 1000
 	maxSpawnWeight = 80

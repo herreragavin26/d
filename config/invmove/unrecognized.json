@@ -120,7 +120,18 @@
     "com.simibubi.create.content.equipment.toolbox.RadialToolboxMenu": true,
     "dev.emi.emi.screen.RecipeScreen": true,
     "dev.emi.emi.screen.BoMScreen": true,
-    "dev.emi.emi.screen.ConfigScreen": true
+    "dev.emi.emi.screen.ConfigScreen": true,
+    "pigcart.cosycritters.config.ConfigScreen": true,
+    "com.illusivesoulworks.spectrelib.config.client.screen.ModConfigSelectScreen": true,
+    "com.illusivesoulworks.spectrelib.config.client.screen.EditConfigScreen": true,
+    "com.izofar.takesapillage.client.gui.ModConfigScreen": true,
+    "eu.midnightdust.lib.config.MidnightConfigScreen": true,
+    "org.embeddedt.modernfix.screen.ModernFixConfigScreen": true,
+    "yalter.mousetweaks.ConfigScreen": true,
+    "net.mehvahdjukaar.supplementaries.integration.forge.configured.ModConfigSelectScreen": true,
+    "net.mehvahdjukaar.supplementaries.integration.forge.configured.ModConfigScreen": true,
+    "org.confluence.terraentity.client.gui.config_container.TEConfigScreen": true,
+    "dev.xylonity.tooltipoverhaul.client.screen.TooltipOverhaulConfigScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,

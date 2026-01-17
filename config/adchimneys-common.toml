@@ -10,7 +10,7 @@
 	maxIntencity = 4.0
 	#Maximum smoke particles scale
 	#Range: 1.0 ~ 10.0
-	maxScale = 2.5
+	maxScale = 1.5
 	#Maximum smoke particles render distance
 	#Range: 16 ~ 256
 	maxRenderDistance = 128

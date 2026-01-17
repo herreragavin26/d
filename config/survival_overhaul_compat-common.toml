@@ -1,0 +1,5 @@
+
+[debug]
+	#Enable active block logging. NOTE: THIS WILL SPAM YOUR DEBUG LOGS!
+	activeBlockLogs = false
+

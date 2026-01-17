@@ -163,6 +163,8 @@
 	Active = true
 	#Max level of enchantment
 	"Max Level" = 5
+	#Should enchantment be findable in loot
+	Findable = true
 
 ["Advanced Lure"]
 	#Activates or disables enchantment
@@ -461,7 +463,7 @@
 	Active = true
 	#Max level of enchantment
 	"Max Level" = 2
-	#Should enchantment be findable in loot
+	#Should you be able to find this enchantment on naturally generated loot
 	Findable = false
 
 ["Ice Breaker"]
@@ -485,4 +487,22 @@
 	"Base reduction" = 0.1
 	#Damage reduction per level
 	"Reduction per level" = 0.05
+
+[Repairable]
+	#Activates or disables enchantment
+	Active = true
+	#Should you be able to find this enchantment on naturally generated loot
+	Findable = false
+
+["Healthy Heart"]
+	#Activates or disables enchantment
+	Active = true
+	#Should you be able to find this enchantment on naturally generated loot
+	Findable = true
+	#Max level of enchantment
+	"Max Level" = 2
+	#Base percentage of healing
+	"Base increase" = 0.1
+	#Percentage of healing increase per level
+	"Level increase" = 0.05
 

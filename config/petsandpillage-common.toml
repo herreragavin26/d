@@ -1,0 +1,12 @@
+
+["Pillager Pet Spawn Chances"]
+	#The chance (from 0.0 to 1.0) for a Pillager to spawn with a pet wolf.
+	#Range: 0.0 ~ 1.0
+	wolfSpawnChance = 0.2
+	#If a wolf spawns, this is the additional chance (from 0.0 to 1.0) for a second wolf to also spawn.
+	#Range: 0.0 ~ 1.0
+	secondWolfSpawnChance = 0.01
+	#If a wolf does NOT spawn, this is the chance (from 0.0 to 1.0) for a Pillager to spawn with a pet parrot.
+	#Range: 0.0 ~ 1.0
+	parrotSpawnChance = 0.05
+

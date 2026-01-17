@@ -19,7 +19,7 @@
 		"attack": 7.0
 	},
 	"bigboss": {
-		"spawn": false,
+		"spawn": true,
 		"spawn_rate": 50,
 		"life": 400.0,
 		"attack": 9.0
