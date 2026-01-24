@@ -9,6 +9,8 @@
 		[gamerules.modded.updates]
 			ageingSpawners = true
 			doSeasonCycle = true
+			meteorDebris = 10
+			meteorSpread = 50
 
 		[gamerules.modded.mobs]
 			aggressiveSharks = false
@@ -17,6 +19,11 @@
 			globalStun = true
 			spawnLimitedTimeBeasts = true
 			useAggroFix = true
+			disappearanceofSpiritsUndertheSun = true
+			maggotsAppearance = true
+			zombiesinaBarrelSpawn = true
+			doIronGolemsAttackCreepers = true
+			doIronGolemsInstakillCreepers = true
 
 		[gamerules.modded.player]
 			allowTerramityExplosives = true
@@ -31,6 +38,11 @@
 			skillReplaceCooldown = 6000
 			stiffComboAttacks = true
 			weightPenalty = 100
+			chillingHorrorEvent = false
+			halloweenEvent = false
+			naughtinessMechanics = true
+			seasonalEvents = true
+			soulStratificationEffect = true
 
 			[gamerules.modded.player.accessories]
 				keepAccessoryInventory = false
@@ -39,6 +51,7 @@
 			flyingcastlestype = 1
 			"valoria:trapActivating" = true
 			disableEntityUI = false
+			meteoriteShowers = true
 
 		[gamerules.modded.spawning]
 			distortionLandSpawnCondition = false
@@ -47,6 +60,41 @@
 			noMobsInBossfight = true
 			animalMobCap = 15
 			persistentAnimals = false
+			babySkeletonSpawn = true
+			babySpiderSpawn = true
+			bloodyGadflySpawn = true
+			boneImpSpawn = true
+			bonescallerSpawn = true
+			corpseFishSpawn = true
+			corpseFlySpawn = true
+			darkVortexSpawn = true
+			decayingZombieSpawn = true
+			decrepitSkeletonSpawn = true
+			doorKnightSpawn = true
+			dreadHoundSpawn = true
+			fallenChaosKnightSpawn = true
+			firelightSpawn = true
+			generationofInfectedDiamonds = true
+			gluttonFishSpawn = true
+			krampusSpawn = true
+			lifestealerSpawn = true
+			missionarySpawn = true
+			motherSpiderSpawn = true
+			phantomCreeperSpawn = true
+			restlessSpiritSpawn = true
+			serPumpkinheadSpawn = true
+			skeletonBombSpawn = true
+			skeletonThrasherSpawn = true
+			spiritGuideSpawn = true
+			spiritOfChaosSpawn = true
+			theappearanceoftheNightmareStalker = true
+			thornshellCrabSpawn = true
+			zombieBruiserSpawn = true
+			zombieClownSpawn = true
+			zombieFishermanSpawn = true
+			zombieLumberjackSpawn = true
+			naturalMeteorites = true
+			meteorSpawnrate = 25
 
 		[gamerules.modded.drops]
 			epicDrop = false

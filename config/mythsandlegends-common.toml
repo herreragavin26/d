@@ -1,0 +1,178 @@
+
+[mobs]
+	#Enable or disable Imp
+	disable = false
+
+[imp]
+	#Health for Imp
+	#Range: 2.5 ~ 1.7976931348623157E308
+	health = 5.0
+	#Damage for Imp
+	#Range: 1.5 ~ 1.7976931348623157E308
+	damage = 3.0
+	#Flying Speed for Imp
+	#Range: 0.5 ~ 1.7976931348623157E308
+	flying_speed = 0.6
+
+[imp_clone]
+	#Health for Imp Clone
+	#Range: 1.25 ~ 1.7976931348623157E308
+	health = 2.5
+	#Damage for Imp Clone
+	#Range: 0.75 ~ 1.7976931348623157E308
+	damage = 1.5
+	#Flying Speed for Imp Clone
+	#Range: 0.5 ~ 1.7976931348623157E308
+	flying_speed = 0.6
+
+[gargoyle]
+	#Health for Gargoyle
+	#Range: 30.0 ~ 1.7976931348623157E308
+	health = 60.0
+	#Damage for Gargoyle
+	#Range: 4.0 ~ 1.7976931348623157E308
+	damage = 6.0
+	#Attack Knockback for Gargoyle
+	#Range: 0.5 ~ 2.0
+	attack_knockback = 1.2
+	#Knockback Resistance for Gargoyle
+	#Range: 0.3 ~ 1.0
+	knockback_resistance = 1.0
+
+[black_charro]
+	#Health for Black Charro
+	#Range: 300.0 ~ 1.7976931348623157E308
+	health = 350.0
+	#Armor for Black Charro
+	#Range: 0.0 ~ 1.7976931348623157E308
+	armor = 0.0
+	#Damage for Black Charro
+	#Range: 3.0 ~ 1.7976931348623157E308
+	damage = 5.0
+	#Movement for Black Charro
+	#Range: 0.3 ~ 1.7976931348623157E308
+	movement = 0.35
+	#Knockback Resistance for Black Charro
+	#Range: 0.25 ~ 1.7976931348623157E308
+	knockback_resistance = 0.5
+
+[condemned]
+	#Health for Condemned Soul
+	#Range: 8.0 ~ 1.7976931348623157E308
+	health = 12.0
+	#Damage for Condemned Soul
+	#Range: 2.0 ~ 1.7976931348623157E308
+	damage = 2.0
+
+[possessed_armor]
+	#Health for Possessed Armor
+	#Range: 15.0 ~ 1.7976931348623157E308
+	health = 30.0
+	#Armor value for Possessed Armor
+	#Range: 4.0 ~ 1.7976931348623157E308
+	armor = 8.0
+	#Armor toughness for Possessed Armor
+	#Range: 4.0 ~ 1.7976931348623157E308
+	armor_toughness = 8.0
+	#Damage for Possessed Armor
+	#Range: 6.0 ~ 1.7976931348623157E308
+	damage = 6.0
+	#Attack Knockback for Possessed Armor
+	#Range: 0.4 ~ 1.7976931348623157E308
+	attack_knockback = 1.0
+	#Knockback Resistance for Possessed Armor
+	#Range: 0.4 ~ 1.7976931348623157E308
+	knockback_resistance = 1.0
+
+[possessed_armor_archer]
+	#Health for Possessed Armor Archer
+	#Range: 15.0 ~ 1.7976931348623157E308
+	health = 30.0
+	#Armor value for Possessed Armor Archer
+	#Range: 4.0 ~ 1.7976931348623157E308
+	armor = 8.0
+	#Armor toughness for Possessed Armor Archer
+	#Range: 4.0 ~ 1.7976931348623157E308
+	armor_toughness = 8.0
+	#Damage for Possessed Armor Archer
+	#Range: 6.0 ~ 1.7976931348623157E308
+	damage = 6.0
+	#Attack Knockback for Possessed Armor Archer
+	#Range: 0.4 ~ 1.7976931348623157E308
+	attack_knockback = 1.0
+	#Knockback Resistance for Possessed Armor Archer
+	#Range: 0.4 ~ 1.7976931348623157E308
+	knockback_resistance = 1.0
+
+[possessed_armor_inquisitor]
+	#Health for Possessed Armor Inquisitor
+	#Range: 120.0 ~ 1.7976931348623157E308
+	health = 120.0
+	#Armor value for Possessed Armor Inquisitor
+	#Range: 10.0 ~ 1.7976931348623157E308
+	armor = 12.0
+	#Armor toughness for Possessed Armor Inquisitor
+	#Range: 10.0 ~ 1.7976931348623157E308
+	armor_toughness = 12.0
+	#Damage for Possessed Armor Inquisitor
+	#Range: 6.0 ~ 1.7976931348623157E308
+	damage = 8.0
+	#Attack Knockback for Possessed Armor Inquisitor
+	#Range: 0.6 ~ 1.7976931348623157E308
+	attack_knockback = 1.0
+	#Knockback Resistance for Possessed Armor Inquisitor
+	#Range: 0.6 ~ 1.7976931348623157E308
+	knockback_resistance = 1.0
+
+[alp]
+	#Health for Alp
+	#Range: 10.0 ~ 1.7976931348623157E308
+	health = 10.0
+
+[abaddon]
+	#Health for Abaddon
+	#Range: 35.0 ~ 1.7976931348623157E308
+	health = 45.0
+	#Armor value for Abaddon
+	#Range: 3.5 ~ 1.7976931348623157E308
+	armor = 3.5
+	#Damage for Abaddon
+	#Range: 5.0 ~ 1.7976931348623157E308
+	damage = 6.5
+
+[scorched_sentinel]
+	#Health for Scorched Sentinel
+	#Range: 30.0 ~ 1.7976931348623157E308
+	health = 35.0
+	#Damage for Scorched Sentinel
+	#Range: 5.0 ~ 1.7976931348623157E308
+	damage = 6.0
+
+[karakondjul]
+	#Health for Karakondjul
+	#Range: 35.0 ~ 1.7976931348623157E308
+	health = 50.0
+	#Armor for Karakondjul
+	#Range: 2.5 ~ 1.7976931348623157E308
+	armor = 5.0
+	#Armor Toughness for Karakondjul
+	#Range: 1.5 ~ 1.7976931348623157E308
+	armor_toughness = 2.5
+	#Damage for Karakondjul
+	#Range: 5.0 ~ 1.7976931348623157E308
+	damage = 5.5
+	#Knockback Resistance for Karakondjul
+	#Range: 0.2 ~ 1.7976931348623157E308
+	knockback_resistance = 0.3
+
+[lampad]
+	#Health for Amarok
+	#Range: 50.0 ~ 1.7976931348623157E308
+	health = 100.0
+	#Armor for Amarok
+	#Range: 2.0 ~ 6.0
+	armor = 4.0
+	#Damage for Amarok
+	#Range: 6.0 ~ 1.7976931348623157E308
+	damage = 8.0
+

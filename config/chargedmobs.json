@@ -1,0 +1,89 @@
+{
+  "autoGenerate": true,
+  "NaturallyCharged": true,
+  "NaturallyChargedNeedRain": true,
+  "ChargedChange": 0.05,
+  "damageMul": {},
+  "damageAdd": {
+    "minecraft:enderman": 4.0
+  },
+  "armorMul": {},
+  "armorAdd": {
+    "minecraft:illusioner": 4.0,
+    "minecraft:piglin": 4.0,
+    "minecraft:zombie": 4.0,
+    "minecraft:drowned": 4.0,
+    "minecraft:zombie_villager": 4.0,
+    "minecraft:wither": 4.0,
+    "minecraft:husk": 4.0
+  },
+  "toughnessMul": {},
+  "toughnessAdd": {},
+  "knockbackMul": {},
+  "knockbackAdd": {
+    "minecraft:ravager": 1.5
+  },
+  "knockbackResistanceMul": {},
+  "knockbackResistanceAdd": {
+    "minecraft:witch": 0.5
+  },
+  "followRangeMul": {
+    "minecraft:zombified_piglin": 0.5
+  },
+  "followRangeAdd": {
+    "minecraft:pillager": 12.0,
+    "minecraft:giant": 16.0,
+    "minecraft:vindicator": 12.0,
+    "minecraft:evoker": 12.0,
+    "minecraft:ender_dragon": 16.0
+  },
+  "healthMul": {
+    "minecraft:cave_spider": 0.5
+  },
+  "healthAdd": {
+    "minecraft:spider": 6.0,
+    "minecraft:slime": 6.0
+  },
+  "moveSpeedMul": {},
+  "moveSpeedAdd": {
+    "minecraft:skeleton": 0.1,
+    "minecraft:stray": 0.1,
+    "minecraft:bogged": 0.1
+  },
+  "flyingSpeedMul": {},
+  "flyingSpeedAdd": {},
+  "spawnReinforcementsMul": {},
+  "spawnReinforcementsAdd": {},
+  "immunityLightning": [
+    "minecraft:spider",
+    "minecraft:slime"
+  ],
+  "randomAttribute": [
+    "healthMul",
+    "followRangeMul",
+    "armorAdd",
+    "healthAdd",
+    "followRangeAdd",
+    "knockbackResistanceAdd"
+  ],
+  "banMobs": [
+    "minecraft:creeper",
+    "minecraft:guardian",
+    "minecraft:warden",
+    "minecraft:vex",
+    "minecraft:silverfish",
+    "minecraft:shulker",
+    "minecraft:wither_skeleton",
+    "minecraft:hoglin",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "minecraft:elder_guardian",
+    "minecraft:ghast",
+    "minecraft:phantom",
+    "minecraft:endermite",
+    "minecraft:creaking",
+    "minecraft:breeze",
+    "minecraft:zoglin",
+    "minecraft:piglin_brute"
+  ]
+}

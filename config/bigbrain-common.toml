@@ -15,6 +15,7 @@
 	"Enable jumping ai" = true
 	"List additional mobs that can also utilize jumping" = ["guardvillagers:guard"]
 	"Mobs that don't have the jumping ai" = ["minecraft:villager"]
+	"Jump only if mob is targeting an enemy" = false
 
 [husk]
 	"Enable burrowing attack for husk?" = true

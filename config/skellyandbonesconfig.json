@@ -1,0 +1,6 @@
+{
+  "dialogue_when_close": true,
+  "spawning_sound": true,
+  "spawning_message": true,
+  "spawn_bones_around_skelly_only_when_raining_and_night": false
+}

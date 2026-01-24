@@ -131,7 +131,12 @@
     "net.mehvahdjukaar.supplementaries.integration.forge.configured.ModConfigSelectScreen": true,
     "net.mehvahdjukaar.supplementaries.integration.forge.configured.ModConfigScreen": true,
     "org.confluence.terraentity.client.gui.config_container.TEConfigScreen": true,
-    "dev.xylonity.tooltipoverhaul.client.screen.TooltipOverhaulConfigScreen": true
+    "dev.xylonity.tooltipoverhaul.client.screen.TooltipOverhaulConfigScreen": true,
+    "com.chaosthedude.naturescompass.gui.NaturesCompassScreen": true,
+    "net.mcreator.skellyandbones.client.gui.SkellyAndBonesTradingGuiScreen": true,
+    "net.mystronics.undermod.m": true,
+    "com.lion.graveyard.gui.OssuaryScreen": true,
+    "rogo.renderingculling.gui.ConfigScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -179,6 +184,9 @@
     "net.mcreator.hostilecivilization.client.gui.RaidGuiScreen": true,
     "net.mcreator.hostilecivilization.client.gui.AlchemyGuiScreen": true,
     "net.mcreator.hostilecivilization.client.gui.ChestsOfSecretsGuiScreen": true,
-    "dev.emi.emi.screen.RecipeScreen": true
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "net.mcreator.skellyandbones.client.gui.SkellyAndBonesTradingGuiScreen": true,
+    "net.mystronics.undermod.m": true,
+    "com.lion.graveyard.gui.OssuaryScreen": true
   }
 }

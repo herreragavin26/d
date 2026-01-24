@@ -2,10 +2,10 @@
 [Client]
 	#Defines the global default fog start value
 	#Range: 0.0 ~ 1.0
-	globalfogstart = 0.6
+	globalfogstart = 0.1
 	#Defines the global default fog end value, as a percentage of render distance. At 1.0, the fog end is at render distance. At 0, there is no fog
 	#Range: 0.0 ~ 1.0
-	fogend = 1.0
+	fogend = 0.5
 	#Defines if fog will darken and get more dense when underground.
 	usecavefog = true
 	#Defines the density of fog in caves. If cave fog is active, this will be multiplied with the current fog end.
