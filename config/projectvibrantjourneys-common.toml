@@ -17,7 +17,7 @@
 	#Enable generation of seashells
 	enableSeashells = true
 	#Enable generation of fallen trees
-	enableFallenTrees = true
+	enableFallenTrees = false
 	#Enable generation of sea oats
 	enableSeaOats = true
 	#Enable generation of cattails

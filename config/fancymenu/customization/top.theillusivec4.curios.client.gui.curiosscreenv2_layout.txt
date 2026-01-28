@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = top.theillusivec4.curios.client.gui.CuriosScreenV2
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1767251594454
+  last_edited_time = 1769363011280
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7cc19584-aff0-404d-8b3f-3ccd9c7860e5-1767251495382] = [groups:][instances:]
+  [loading_requirement_container_meta:d8522494-89c4-4273-8fac-244e1e10cc7a-1769349867404] = [groups:][instances:]
 }
 
 customization {

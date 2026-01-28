@@ -1,0 +1,10 @@
+#List of village IDs and/or tags to search for as spawn targets.
+#Examples: #minecraft:village or minecraft:village_plains.
+#This is the same input that you would use for the /locate structure command
+#To find all of the village structure IDs/tags, open the game and type '/locate structure' and then scroll through the options to find structure IDs that you want. Use '/locate structure #' to find village tags.
+villageTags = ["minecraft:village_plains"]
+#If you customized the villageTags list and no spawn point could be found, minecraft's vanilla villages will be used as a fallback.
+useMinecraftVillagesAsFallback = true
+#The distance we should search from (0, 0, 0) for a village.
+villageSearchRadius = 2000
+

@@ -109,7 +109,6 @@ config_enabled = false
 # Category: updates
 # Default game rule settings for the 'updates' category.
 
-  updates.ageing_spawners = true
   updates.do_daylight_cycle = true
   updates.do_fire_tick = true
   updates.do_season_cycle = true
@@ -135,6 +134,12 @@ config_enabled = false
 # Default game rule settings for the 'misc' category.
 
   misc.command_modification_block_limit = 32768
+  misc.dynamic_blaze_rods = true
+  misc.dynamic_endstone = true
+  misc.dynamic_netherrack = true
+  misc.dynamic_obsidian = true
+  misc.dynamic_sticks = true
+  misc.dynamic_stone = true
   misc.flyingcastlestype = 1
   misc.global_sound_events = true
   misc.max_command_chain_length = 65536

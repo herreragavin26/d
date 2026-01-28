@@ -28,7 +28,7 @@
 	# If enabled, show the map button for Journey Map mod in the tabs menu.
 	"Journey Map Tab Enabled " = false
 	# If enabled, show the ftb teams button in the tabs menu.
-	"FTB Teams Tab Enabled " = true
+	"FTB Teams Tab Enabled " = false
 	# If enabled, show the diet button in the tabs menu.
 	"Diet Tab Enabled " = true
 	# If enabled, show the pufferfish's skills button in the tabs menu.

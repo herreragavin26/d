@@ -1,0 +1,13 @@
+#How much the giant should summon zombies
+#Range: > 1
+zombiesSummoned = 3
+#What should be the pourcentage of zombie replaced by Giant when spawned ?
+#Range: > 1
+zombieReplace = 5
+#The radius of the effect when the Giant give an effects to entities
+#Range: > 1
+effectRadius = 260
+#How long the player should be on fire against the Giant Husk
+#Range: > 1
+huskFireTime = 15
+

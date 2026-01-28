@@ -136,7 +136,15 @@
     "net.mcreator.skellyandbones.client.gui.SkellyAndBonesTradingGuiScreen": true,
     "net.mystronics.undermod.m": true,
     "com.lion.graveyard.gui.OssuaryScreen": true,
-    "rogo.renderingculling.gui.ConfigScreen": true
+    "rogo.renderingculling.gui.ConfigScreen": true,
+    "net.mcreator.pigletstructures.client.gui.KwikSalesmanPlainsGUIScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "com.mrcrayfish.configured.client.screen.ActiveConfirmationScreen": true,
+    "net.mcreator.pigletstructures.client.gui.IronSafeGUIScreen": true,
+    "com.stereowalker.unionlib.client.gui.screens.cosmetics.CosmeticsScreen": true,
+    "com.simibubi.create.content.schematics.table.SchematicTableScreen": true,
+    "com.stereowalker.unionlib.client.gui.screens.UnionModsScreen": true,
+    "com.stereowalker.unionlib.client.gui.screens.ModConfigurationScreen": true
   },
   "hideBackground": {
     "net.bandit.reskillable.client.screen.SkillScreen": true,
@@ -187,6 +195,10 @@
     "dev.emi.emi.screen.RecipeScreen": true,
     "net.mcreator.skellyandbones.client.gui.SkellyAndBonesTradingGuiScreen": true,
     "net.mystronics.undermod.m": true,
-    "com.lion.graveyard.gui.OssuaryScreen": true
+    "com.lion.graveyard.gui.OssuaryScreen": true,
+    "net.mcreator.pigletstructures.client.gui.KwikSalesmanPlainsGUIScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "net.mcreator.pigletstructures.client.gui.IronSafeGUIScreen": true,
+    "com.simibubi.create.content.schematics.table.SchematicTableScreen": true
   }
 }

@@ -1,0 +1,7 @@
+
+#TPS Detective Config
+[common]
+	isOn = true
+	#Send warning if detective was active more than 10 min.
+	warnIfOn = false
+

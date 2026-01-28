@@ -1,0 +1,10 @@
+
+#Bones Spawn Chance Configuration
+[skeleton]
+	#Chance (0.0 to 1.0) for a skeleton to become a Broken Skeleton upon death.
+	#1.0 = 100% chance (always spawns, vanilla Bones Update behavior)
+	#0.5 = 50% chance
+	#0.0 = never spawns (skeletons die normally)
+	#Range: 0.0 ~ 1.0
+	brokenSkeletonSpawnChance = 0.1
+

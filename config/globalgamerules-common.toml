@@ -52,6 +52,12 @@
 			"valoria:trapActivating" = true
 			disableEntityUI = false
 			meteoriteShowers = true
+			dynamicBlazeRods = true
+			dynamicEndstone = true
+			dynamicNetherrack = true
+			dynamicObsidian = true
+			dynamicSticks = true
+			dynamicStone = true
 
 		[gamerules.modded.spawning]
 			distortionLandSpawnCondition = false
@@ -136,7 +142,7 @@
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
 		disable_elytra_movement_check = false
 		#Players respawn immediately without showing the death screen.
-		do_immediate_respawn = true
+		do_immediate_respawn = false
 		#Whether players can craft only those recipes that they have unlocked.
 		do_limited_crafting = false
 		#Whether the player should take damage when drowning.

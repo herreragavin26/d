@@ -19,13 +19,13 @@ Difficulty = "HARD"
 # and entrances will have a small building or ruin on top.
 "Easy Find" = true
 # If true all have exactly one entrance.
-"Only Single Entrance" = false
+"Only Single Entrance" = true
 # If true some rooms in some dungeons will merge with caves and other open areas; 
 # technically this is done by having walls, ceiling, and less often floors not replace air blocks.
 "Allow Degeneration" = true
 #If true this will limit the amount of level 8 loot found with anything less than a true boss
 #(This includes epic, sometimes somewhat cheaty items,)
-"Nerf Epic Loot" = false
+"Nerf Epic Loot" = true
 #Modifies the value of loot, incase you think its too stingy.
 #Range: -9 ~ 9
 "Loot Bonus" = 2

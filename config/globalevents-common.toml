@@ -24,13 +24,13 @@
 	thunderstormMaxInterval = 1
 	#Chance for Zombie Horde to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
-	zombieHordeChance = 0.1
+	zombieHordeChance = 0.01
 	#Duration of Zombie Horde in minutes
 	#Range: 1 ~ 60
-	zombieHordeDuration = 1
+	zombieHordeDuration = 4
 	#Number of zombies to spawn in the horde
 	#Range: 10 ~ 200
-	zombieHordeCount = 50
+	zombieHordeCount = 10
 	#Chance for Experience Rain to occur each day (0.0 to 1.0)
 	#Range: 0.0 ~ 1.0
 	expRainChance = 0.001

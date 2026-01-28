@@ -37,7 +37,7 @@
   # The chance of triggering an Acid Rain event when it starts raining. 1.0 = 100% chance, 0.5 = 50% etc.
   # Setting this to 0.0 effectively disables acid rain.
   # <Number> Range: 0.0 ~ 1.0, Default: 0.5
-  general.acid_rain_chance = 0.1
+  general.acid_rain_chance = 0.2
 
   # Determines the interval in which acid rain damage should be dealt in seconds.
   # A value of 2 will inflict acid rain damage on players every 2 seconds.

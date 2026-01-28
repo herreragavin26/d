@@ -1,0 +1,212 @@
+ROAMERS CONFIG CHEAT SHEET
+
+**This is not the config file, any changes in this file will be erased**
+
+*allowNames*: Configures if the characters should have generated names.
+Default:true
+
+*allowBreeding*: Configures if the characters should breed.
+Default:true
+
+*babyAgeTicks*: Changes the age of baby characters in minecraft ticks.
+Non-negative numbers will not be used.
+Default:-72000
+
+*breedCooldownTicks*: Sets the age of characters in minecraft ticks after they breed.
+Negative numbers will not be used.
+Default:45000
+
+*allowEating*: Changes if characters should eat.
+Default:true
+
+*allowHunger*: Changes if characters should drain their hunger.
+Default:true
+
+*allowStarvation*: Changes if characters should die from starvation.
+Default:false
+
+*allowRegenAfterEating*: Changes if characters should regenerate their health after eating.
+Default:true
+
+*addItemsOnSpawn*: Changes if Roamers start with the default items they need.
+Default:true
+
+*dropInventoryOnDeath*: Changes if characters drop their inventory items on death.
+Default:true
+
+*allowCrafting*: Changes whether characters should craft items.
+Default:true
+
+*allowBuilding*: Changes whether characters should build houses.
+Default:true
+
+*allowTreePlanting*: Changes if roamers will replant saplings in their inventory of their
+preferred wood type.
+(Acacia Saplings for Savanna roamers, Spruce Saplings for Taiga roamers, etc.)
+Default:true
+
+*doLegacyHouses*: Sets whether roamers will build the old houses of the mod. This can be
+turned off for the roamers to build the new experimental houses.
+Default:true
+
+*allowMining*: Changes whether characters can mine blocks.
+Default:true
+
+*dropDirt*: Configures if dirt blocks drop when characters dig. This can be turned off for
+lag purposes.
+Default:true
+
+*mineBlocksInWayOfPath*: Changes if characters should mine blocks in the way of their
+targeted path. For example, mine away leaves when cutting trees, and mine tunnels
+underground.
+Default:true
+
+*mineWholeTree*: Changes if characters will chop the whole tree down from breaking the trunk.
+Default:true
+
+*treeCheckRange*: Changes the size in radius for identifying trees. This is only used to find the
+logs and leaves for the tree. Ignored if "mineWholeTree" is false.
+Default:3
+
+*blockSearchRange*: Changes the search range of characters for finding blocks
+Default:24
+
+*landClearingRange*: Changes how much land roamers will clear to build their house.
+Default:14
+
+*allowTorchPlacing*: Changes if characters can place torches when mining in the dark.
+Default:true
+
+*allowHunting*: Changes whether characters should hunt animals.
+Default:true
+
+*allowFishing*: Changes whether characters should fish.
+Default:true
+
+*allowFarming*: Changes whether characters should farm.
+Default:true
+
+*allowLandTilling*: Changes if characters should till land when farming.
+Default:true
+
+*farmingRange*: Changes the size of the land that the character should till.
+Default:3
+
+*descendantFarmingRange*: Changes the size of the land that Player Descendants should till.
+Default:3
+
+*allowChestUse*: Changes whether characters should interact with chests.
+Default:true
+
+*allowEnemyAggression*: Configures whether characters should attack enemy players.
+Default:true
+
+*allowMoods*: Changes if characters can have moods that affect behavior.
+Default:true
+
+*allowMoodParticles*: Configures if mood particles can spawn around character.
+Default:true
+
+*allowDepression*: Changes if characters can become depressed. Depression dramatically
+affects behavior and walking speed.
+Default:true
+
+*allowClaustrophobia*: Changes if confined spaces will negatively affect moods.
+Default:true
+
+*doBanditSpawning*: Configures whether bandits should spawn.
+Default:true
+
+*banditSpawnChance*: Changes how rare Bandits spawn.
+A random number is chosen in this range each tick. If the randomized number is <= 10,
+Bandits can spawn. Be careful changing this number!
+Default:550000
+
+*banditSpawnDelay*: Changes the cooldown in ticks after a group of Bandits spawn.
+This number does not spawn new Bandits when it reaches 0, just pauses the chances to spawn
+a new group while counting down.
+Default:12000
+
+*doBanditStealing*: Configures if bandits should steal items from chests.
+Default:true
+
+*friendlyRelationStatus*: Sets the number in relationships for friends.
+Friends will give food.
+Default:30
+
+*bestFriendRelationStatus*: Sets the number in relationships for best friends.
+Best Friends will give food and defend you from attacking entities.
+Default:60
+
+*enemyRelationStatus*: Sets the number in relationships for enemies.
+Default:-50
+
+*maxRelationStatus*: Sets the maximum possible status for a relationship.
+Obtaining this status in game will let you have player descendants.
+Default:100
+
+*minRelationStatus*: Sets the least possible status for a relationship.
+Default:-100
+
+*allowDescendants*: Changes if players can have descendants in the game.
+Default:true
+
+*allowDescendantChores*: Configures if player descendants can do chores.
+Default:true
+
+*doDescendantTeleporting*: Changes if descendants following their parent player.
+can teleport to them.
+Default:true
+
+*doDescendantCreativeModeFlight*: Changes if descendants can fly and resist damage
+while their parent player is in creative mode.
+Default:false
+
+*descendantRelationOnBirth*: Sets the relationship between the descendant and
+the parent player when they are born.
+Default:0
+
+*descendantForeverBaby*: Changes if descendants will always be a child no matter their age.
+Default:false
+
+*doFunkyDescendantNames*: If set to false, descendants will be born with regular roamer names.
+Default:true
+
+*allowDescendantMonsterAttacks*: Changes if monsters should attack descendants.
+Default:true
+
+*allowBanditMonsterAttacks*: Changes if monsters should attack bandits.
+Default:false
+
+*allowRoamerMonsterAttacks*: Changes if monsters should attack roamers.
+Default:false
+
+*allowAllMonsterAttacks*: Changes if monsters should attack all characters.
+If true, this will ignore the previous three values.
+Default:false
+
+*neutralMonsters*: a list of monster entities who's ai will not be affected to
+target characters.
+This will not make the entities passive to the characters, just for the mod
+to leave their ai untouched.
+Default:
+"entity.minecraft.enderman",
+"entity.minecraft.zombified_piglin",
+"entity.minecraft.piglin",
+"entity.minecraft.warden",
+"entity.minecraft.giant"
+
+*blacklistedAnimalsToHunt*: a list of animals to avoid when hunting entities for food.
+Default:
+"entity.minecraft.hoglin",
+"entity.alexsmobs.kangaroo"
+
+*doSimpleTextures*: Controls whether characters will use simple texture files rather than
+using their genetics. This can be used for making your own textures for the characters, or
+for the old look of the mod. Genetics will not be affected.
+Default:false
+
+*doPlayerClones*: Determines whether descendants should adopt the parent player's skin.
+This will not change their genetics, just rendering their texture.
+Default:false
+
